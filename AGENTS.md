@@ -33,9 +33,9 @@ phrase must be an exact piece of the reader's translation, phrases stay in
 order, and they cover all the verse's words. Two length policies are in force,
 declared per chapter by `split_policy`:
 
-- **`sense-v1`** (surahs 2 through 43): one paragraph of 45–85 words per
-  phrase, whatever the source holds.
-- **`tabari-v2`** (surah 1, and every chapter authored from now on): a
+- **`sense-v1`** (surahs 3 through 43, as first written): one paragraph of
+  45–85 words per phrase, whatever the source holds.
+- **`tabari-v2`** (surahs 1 and 2, and every chapter authored from now on): a
   beginner's summary of what Tafsīr al-Ṭabarī discusses for that piece of the
   verse, at the length that material deserves. Each phrase also names the piece
   of the verse's Arabic it explains (`ar`), `tools/pairs/digest.py` measures
@@ -45,11 +45,25 @@ declared per chapter by `split_policy`:
   so a piece he says nothing about is merged with the neighbour he discusses it
   with. Several paragraphs are allowed once an explanation runs long.
 
+Every explanation follows one house style, kept in `tools/pairs/style.py` and
+binding under both policies: plain modern English, no Arabic script, no em
+dash or en dash, no semicolon, a capital letter at the start, paragraphs
+separated by a blank line, and one voice that names no commentator,
+transmitter or companion. Under `tabari-v2` the one-voice rule is enforced by
+the gate; the `sense-v1` chapters keep the text they were written under until
+they migrate.
+
+The binding authoring rules are in `tools/pairs/RULES.md`, and the tools that
+make them executable are in `tools/pairs/authoring/`: `measure.py` reads the
+source and scores the candidate splits, `author.py` writes a batch only if it
+passes every rule, and `audit.py` reports a chapter against the curve and the
+house style.
+
 Chapters migrate one at a time and an unmigrated chapter keeps the gates it was
 written under, so `python3 tools/pairs/assemble.py --check` passes on the whole
-corpus at every commit. It checks phrase order, coverage, Arabic-span coverage
-and length under the policy in force. Surahs 1 through 43 are published; later
-chapters are not yet authored.
+corpus at every commit. It checks phrase order, coverage, Arabic-span coverage,
+the house style and length under the policy in force. Surahs 1 through 43 are
+published; later chapters are not yet authored.
 
 The handoff below is for the separate, withdrawn plain-English commentary
 pipeline in `tools/guidance/`, not for this phrase-by-phrase layer. If you are

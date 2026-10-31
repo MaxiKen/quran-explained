@@ -6,8 +6,8 @@ Two policies are in force, declared per chapter by `split_policy`:
 
 | policy | chapters | length rule | paragraphs |
 | --- | --- | --- | --- |
-| `sense-v1` | 2 to 43 | fixed 45–85 words per phrase | one |
-| `tabari-v2` | 1 (al-Fātiḥa), and new chapters | derived from Tafsīr al-Ṭabarī: floor 40 words, no ceiling | as many as the argument needs |
+| `sense-v1` | 3 to 43, as first written | fixed 45–85 words per phrase | one |
+| `tabari-v2` | 1 (al-Fātiḥa), 2 (al-Baqara), and new chapters | derived from Tafsīr al-Ṭabarī: floor 40 words, no ceiling | as many as the argument needs |
 
 Under `tabari-v2` an explanation is a beginner's summary of what Ṭabarī says about that piece of the verse, and it is as long as what he says deserves. Each phrase names the piece of the verse's Arabic it explains (`ar`), `digest.py` measures the passage against those spans, and `assemble.py` holds the result to the measured target. A phrase where Ṭabarī makes one point stays short; a phrase where he weighs two readings, three opinions and a verdict grows to fit, and is not truncated by a ceiling.
 
@@ -15,15 +15,23 @@ The splits are decided the same way. A phrase has to carry enough of Ṭabarī's
 
 Chapters migrate one at a time. A chapter that has not migrated keeps the gates it was written under, so `assemble.py --check` passes on the whole corpus at every commit.
 
+Every explanation follows one house style, in [`style.py`](style.py): plain modern English, no Arabic script, no em dash or en dash, no semicolon, a capital letter at the start, paragraphs separated by a blank line, and one voice that names no commentator, transmitter or companion. Under `tabari-v2` the one-voice rule is enforced by the gate; the older `sense-v1` chapters keep the text they were written under until they migrate.
+
 ## Workflow
 
 1. Read the source for the verse, measured against the phrases:
 
    ```sh
-   python3 tools/pairs/digest.py SURAH VERSE --full
+   python3 tools/pairs/authoring/measure.py SURAH VERSE --full
    ```
 
-2. Write explanations directly in `authored/NNN.json`.
+2. Write explanations, and let the rules check them before they are written
+   into the chapter:
+
+   ```sh
+   python3 tools/pairs/authoring/author.py DRAFT.json
+   ```
+
 3. Validate and regenerate the published data:
 
    ```sh
@@ -37,7 +45,7 @@ Chapters migrate one at a time. A chapter that has not migrated keeps the gates 
    python3 -m unittest discover -s tools/pairs/tests
    ```
 
-Automated checks verify structure, exact translation coverage and order, exact Arabic-span coverage, paragraph formatting, and that every explanation is as long as its material deserves under the policy its chapter declares.
+Automated checks verify structure, exact translation coverage and order, exact Arabic-span coverage, the house style, and that every explanation is as long as its material deserves under the policy its chapter declares.
 
 ## Reading experience
 
@@ -75,7 +83,9 @@ The example is illustrative. Complete authored chapters must include every verse
 - `digest.py SURAH [VERSE]`: what Ṭabarī discusses for each phrase of a verse, classified and measured, with the word target that follows. `--full` prints the source of each substantive paragraph, for authoring from it. `--stats SPEC` measures a range of chapters.
 - `assemble.py --check`: validate without writing generated files.
 - `assemble.py`: publish validated authored entries to `data/pairs_NNN.json`.
+- `style.py`: the house style every explanation follows, and the checks that enforce it.
 - `show.py SURAH [VERSE]`: inspect the authored/published phrase sequence.
 - `review.py SURAH VERSE`: the complete commentary for one verse before the draft.
 - `verify.py --confirm-human-review`: the full gate, automated checks plus the recorded human review.
+- `authoring/`: the authoring tools, one per step. See [`authoring/README.md`](authoring/README.md).
 - `tests/`: automated regression tests.

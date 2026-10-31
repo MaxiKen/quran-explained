@@ -11,7 +11,7 @@ publishes the data consumed by the app as `data/pairs_NNN.json`.
 
 Two authoring policies are in force, declared per chapter by `split_policy`:
 
-`sense-v1` (chapters 1-43 as first written) requires one paragraph of 45-85
+`sense-v1` (chapters 3 to 43 as first written) requires one paragraph of 45-85
 words for every phrase, whatever the source holds.
 
 `tabari-v2` derives the length from Tafsīr al-Ṭabarī instead. Each phrase also
@@ -21,6 +21,11 @@ the material deserves: a floor, a proportional target, and no ceiling. Several
 paragraphs are allowed, because a phrase carrying nine opinions cannot be
 answered in one block of 85 words. Chapters migrate one at a time; a chapter
 that has not migrated keeps its old gates.
+
+The house style every explanation follows, whatever its policy, lives in
+`style.py`: no Arabic script, no em dash or en dash, no semicolon, a capital
+letter at the start, and one voice that names no commentator, transmitter or
+companion. Under `tabari-v2` the one-voice rule is enforced here.
 """
 
 from __future__ import annotations
@@ -36,10 +41,9 @@ sys.path.insert(0, HERE)
 
 import digest  # noqa: E402
 import source  # noqa: E402
+import style  # noqa: E402
 
 AUTHORED = os.path.join(HERE, "authored")
-ARABIC = re.compile(r"[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
-DASH = re.compile("[—–]")
 LETTER_OR_NUMBER = re.compile(r"[A-Za-z0-9]")
 
 POLICY_LEGACY = "sense-v1"
@@ -51,19 +55,6 @@ LEGACY_MIN_WORDS = 45
 LEGACY_MAX_WORDS = 85
 
 
-def check_prose(text: str, where: str, problems: list[str]) -> None:
-    """The house style every explanation shares, whatever its length."""
-    if ARABIC.search(text):
-        problems.append("%s: explanation contains Arabic script" % where)
-    if DASH.search(text):
-        problems.append("%s: explanation contains an em dash or en dash" % where)
-    if ";" in text:
-        problems.append("%s: explanation contains a semicolon" % where)
-    letters = [char for char in text if char.isalpha()]
-    if not letters or not letters[0].isupper():
-        problems.append("%s: explanation should start with a capital letter" % where)
-
-
 def check_explanation(
     value: object, where: str, problems: list[str], policy: str, target: dict | None
 ) -> str:
@@ -73,16 +64,15 @@ def check_explanation(
         return ""
 
     text = value.strip()
-    check_prose(text, where, problems)
+    # The house style every explanation shares. Under tabari-v2 the one-voice
+    # rule is enforced as well: the explanation names no commentator,
+    # transmitter or companion. The older sense-v1 chapters keep the text
+    # they were written under, and are held to it when they migrate.
+    problems.extend(style.style_problems(text, where, one_voice=policy == POLICY_TABARI))
 
     if policy == POLICY_TABARI:
         # Paragraphs are allowed and expected once the material runs long.
         parts = [p.strip() for p in re.split(r"\n\s*\n", text)]
-        if any(not p for p in parts):
-            problems.append("%s: explanation has an empty paragraph" % where)
-        for number, part in enumerate(parts, 1):
-            if "\n" in part:
-                problems.append("%s: paragraph %d has a stray line break" % (where, number))
         words = len(" ".join(parts).split())
         if target is None:
             problems.append("%s: cannot measure the source for this phrase" % where)
