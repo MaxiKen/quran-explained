@@ -4140,50 +4140,37 @@
   "257": {
    "phrases": [
     {
-     "translation": "Allah is the Guardian of the believers—He brings them out of darkness and into light.",
-     "explanation": "God is the protector and guide of believers, leading them from darkness into the light of faith and understanding. The imagery describes moral and spiritual direction. Guidance is presented as divine care that helps people leave confusion and move toward truth.  This light includes guidance that clarifies values and directs conduct."
+     "translation": "Allah is the Guardian of the believers—He brings them out of darkness and into light. As for the disbelievers, their guardians are false gods who lead them out of light and into darkness.",
+     "ar": "ٱللَّهُ وَلِيُّ ٱلَّذِينَ ءَامَنُواْ يُخۡرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِۖ وَٱلَّذِينَ كَفَرُوٓاْ أَوۡلِيَآؤُهُمُ ٱلطَّٰغُوتُ يُخۡرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَٰتِۗ",
+     "explanation": "Allah is the Protector of those who believe, and the Protector means their helper and support, for He shows them mercy through His aid and support toward the good. He brings them out of the darknesses of disbelief into the light of faith, and the darknesses are an image for disbelief, since darkness keeps the eye from perceiving things and disbelief keeps the heart's sight from perceiving the truths of faith.\n\nAs for the disbelievers, their protectors are the taghut, who stand between them and faith and lead them astray, and this is their being held back from faith and deprived of good. The verse may have been sent down about those addressed in it, that is, whoever among the Christians disbelieved in Muhammad, and whoever among the idolaters believed in him but denied Jesus."
     },
     {
-     "translation": "As for the disbelievers, their guardians are false gods who lead them out of light and into darkness.",
-     "explanation": "Those who reject God follow false authorities that draw them away from truth and into confusion. The phrase contrasts divine guidance with influences that mislead. It warns that not every claimed guide leads toward wellbeing or moral clarity.  False authorities may include desires or powers treated as ultimate."
-    },
-    {
-     "translation": "It is they who will be the residents of the Fire.",
-     "explanation": "The verse warns that persistent rejection of guidance leads to punishment. This is a general statement about the fate described, not a license to judge specific individuals or coerce belief. It follows the contrast between guidance and the path of false guardians.  The outcome follows the contrast between guidance and rejection."
-    },
-    {
-     "translation": "They will be there forever",
-     "explanation": "The punishment is described as lasting for those specified. The warning underscores the seriousness of rejecting truth and the importance of choosing guidance. It should motivate reflection and sincere faith during life, when a person can still turn toward God.  The warning is intended to invite reflection before the final judgment."
+     "translation": "It is they who will be the residents of the Fire. They will be there forever",
+     "ar": "أُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+     "explanation": "These are the inhabitants of the Fire, the people of the Fire who will abide eternally therein, that is to say in the fire of Hell, and not others among the people of faith, without end and without limit, forever. They are the ones who had believed in Jesus the son of Mary and who rejected Muhammad when he came to them, and concerning them this verse was sent down.\n\nA point of language is settled at the same time. The word for the taghut is a name for a group and for a single one, and it can be made plural, which is why the verse speaks of them in the plural although the word itself is singular."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "258": {
    "phrases": [
     {
      "translation": "Are you ˹O Prophet˺ not aware of the one who argued with Abraham about his Lord because Allah had granted him kingship?",
-     "explanation": "The verse recalls a ruler who disputed with Abraham about God, emboldened by worldly authority. The ruler’s power becomes a source of arrogance rather than gratitude. The story contrasts political status with the Creator’s sovereignty and invites reflection on the limits of human power.  The dispute exposes the danger of confusing political privilege with divine authority."
+     "ar": "أَلَمۡ تَرَ إِلَى ٱلَّذِي حَآجَّ",
+     "explanation": "The question is put to the Prophet as one to be taken to heart, for it means, have you not seen, O Muhammad, with your heart? The one who argued is the one who entered into dispute, and the ground of the quarrel is given at once, namely that Allah had granted him the kingship.\n\nThe whole of the verse that follows is the account of that argument, in which Abraham called upon his Lord and was answered by the man, until the argument was settled before everyone and the one who argued could say nothing further. It is a story about the One who gives life and causes death, and about the limits of what a creature may claim."
     },
     {
-     "translation": "˹Remember˺ when Abraham said, “My Lord is the One Who has power to give life and cause death.”",
-     "explanation": "Abraham points to God’s power over life and death as evidence of divine lordship. These realities exceed the authority of any ruler. His argument shifts attention from political claims to the Creator’s ultimate control over existence.  God’s authority is demonstrated through powers no ruler can claim."
+     "translation": "˹Remember˺ when Abraham said, “My Lord is the One Who has power to give life and cause death.” He argued, “I too have the power to give life and cause death.” Abraham challenged ˹him˺, “Allah causes the sun to rise from the east. So make it rise from the west.”",
+     "ar": "إِبۡرَٰهِـۧمَ فِي رَبِّهِۦٓ أَنۡ ءَاتَىٰهُ ٱللَّهُ ٱلۡمُلۡكَ إِذۡ قَالَ إِبۡرَٰهِـۧمُ رَبِّيَ ٱلَّذِي يُحۡيِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحۡيِۦ وَأُمِيتُۖ قَالَ إِبۡرَٰهِـۧمُ فَإِنَّ ٱللَّهَ يَأۡتِي بِٱلشَّمۡسِ مِنَ ٱلۡمَشۡرِقِ فَأۡتِ بِهَا مِنَ ٱلۡمَغۡرِبِ فَبُهِتَ ٱلَّذِي",
+     "explanation": "The one who disputed with Abraham is Abraham himself, the prophet of Allah, and the phrase about his Lord means that he disputed with him about it, because Allah had granted him kingship.\n\nAbraham said, my Lord is the One who gives life and causes death, meaning that in His hand are life and death, for He gives life to whom He wills and death to whom He wishes. The man answered, I do that too, keeping alive whom he wished to kill and so not killing him, and that was his giving of life, and killing another was his causing of death.\n\nAbraham then said, Allah brings the sun from its east, so bring it from the west if you are a god, and the one who disbelieved was struck dumb, his argument cut off and void."
     },
     {
-     "translation": "He argued, “I too have the power to give life and cause death.”",
-     "explanation": "The ruler falsely equates his authority over people with God’s power over life and death. Political control is not the same as creation or ultimate sovereignty. The claim reveals arrogance and confusion about the difference between human power and divine power.  Human acts cannot equal the Creator’s power to grant life."
-    },
-    {
-     "translation": "Abraham challenged ˹him˺, “Allah causes the sun to rise from the east. So make it rise from the west.”",
-     "explanation": "Abraham gives an observable sign that the ruler cannot manipulate: the sun’s rising from the east. The challenge exposes the limits of the ruler’s authority without requiring abstract debate. Creation’s regular order points to a power beyond any human king.  The challenge appeals to a public sign rather than status."
-    },
-    {
-     "translation": "And so the disbeliever was dumbstruck.",
-     "explanation": "The ruler is silenced because he cannot answer the clear challenge. The scene shows how a simple appeal to reality can expose an inflated claim. The verse presents confidence in God’s signs as stronger than worldly status.  The ruler’s silence marks the failure of his claim."
-    },
-    {
-     "translation": "And Allah does not guide the wrongdoing people",
-     "explanation": "God does not guide those who persist in wrongdoing and arrogance. The statement explains the ruler’s failure to recognize truth, while warning against using power unjustly. Guidance requires humility and willingness to respond honestly to evidence.  Persistent injustice obstructs a person’s ability to accept guidance."
+     "translation": "And so the disbeliever was dumbstruck. And Allah does not guide the wrongdoing people",
+     "ar": "كَفَرَۗ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلظَّٰلِمِينَ",
+     "explanation": "Allah does not guide the people of disbelief to an argument by which they could refute the argument of the people of truth in disputing and debating, because the arguments of the people of falsehood are void, and so the one who argued was left without an answer before everyone.\n\nThe meaning of wrongdoing is placing a thing in a place that does not befit it, and the disbeliever placed his denial of what he denied in a place that did not befit it, and he is therefore by his deed a wrongdoer against himself, and the wrong he did came back on his own head and hurt no one but him."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "259": {
    "phrases": [
