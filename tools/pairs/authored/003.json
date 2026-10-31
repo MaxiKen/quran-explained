@@ -1403,90 +1403,62 @@
    ]
   },
   "109": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth.",
-     "explanation": "Everything in the heavens and earth belongs to Allah. He lacks nothing and needs no one’s property or obedience to complete Himself. This absolute ownership helps explain why He has no motive to wrong anyone, since injustice cannot add to His power or resources. His ownership is complete and without dependence."
-    },
-    {
-     "translation": "And to Allah ˹all˺ matters will be returned ˹for judgment˺",
-     "explanation": "All matters return to Allah for judgment and final settlement. Every deed and dispute ultimately comes under His authority. No person can escape that return or obtain an outcome through influence. Divine judgment will establish each matter with complete knowledge and justice. His verdict will conclude every unresolved affair."
+     "translation": "To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth. And to Allah ˹all˺ matters will be returned ˹for judgment˺",
+     "ar": "وَلِلَّهِ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۚ وَإِلَى ٱللَّهِ تُرۡجَعُ ٱلۡأُمُورُ",
+     "explanation": "\"To Allah alone belongs whatever is in the heavens and whatever is on the earth. And to Allah all matters will be returned for judgment.\" He punishes those who disbelieved after their belief with the mighty chastisement and rewards those who believe and remained steadfast with the eternal abode in His gardens, without wronging either group, for He has no need of wrongdoing, since the One to whom belongs all between the furthest reaches of the risings and settings has nothing deficient in His resources. \"To Allah the matters are returned\" means: to Allah returns the final outcome of the affair of all His creatures, the sincere and the corrupt, the doer of good and the doer of evil, so that He requites each according to what they deserve, without wronging any of them."
     }
    ]
   },
   "110": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "You are the best community ever raised for humanity",
-     "explanation": "The believing community is described as the best community brought forth for humanity because of the good it is meant to perform. This honour is a responsibility to benefit people, not an ethnic boast or permission to consider every member automatically righteous. The description calls the community to live up to it."
-    },
-    {
-     "translation": "—you encourage good, forbid evil, and believe in Allah.",
-     "explanation": "Its distinction is explained through encouraging good, forbidding evil, and believing in Allah. These qualities define the praise and prevent it from becoming empty communal pride. Faith must produce moral concern for others, while moral instruction must remain anchored in God’s guidance. These duties make honour inseparable from responsibility."
-    },
-    {
-     "translation": "Had the People of the Book believed, it would have been better for them.",
-     "explanation": "Faith would also have been better for the People of the Book addressed here. The invitation remains open to them, showing that their previous rejection does not place them beyond the possibility of good. Belief, rather than inherited identity, is presented as the path toward their welfare."
-    },
-    {
-     "translation": "Some of them are faithful, but most are rebellious",
-     "explanation": "The verse distinguishes faithful individuals among them from the rebellious majority described in that context. It does not treat every recipient of scripture as identical. The statement evaluates particular people by faith and conduct, not by a blanket claim about every later generation. The passage therefore rejects careless generalization."
+     "translation": "You are the best community ever raised for humanity—you encourage good, forbid evil, and believe in Allah. Had the People of the Book believed, it would have been better for them. Some of them are faithful, but most are rebellious",
+     "ar": "كُنتُمۡ خَيۡرَ أُمَّةٍ أُخۡرِجَتۡ لِلنَّاسِ تَأۡمُرُونَ بِٱلۡمَعۡرُوفِ وَتَنۡهَوۡنَ عَنِ ٱلۡمُنكَرِ وَتُؤۡمِنُونَ بِٱللَّهِۗ وَلَوۡ ءَامَنَ أَهۡلُ ٱلۡكِتَٰبِ لَكَانَ خَيۡرٗا لَّهُمۚ مِّنۡهُمُ ٱلۡمُؤۡمِنُونَ وَأَكۡثَرُهُمُ ٱلۡفَٰسِقُونَ",
+     "explanation": "\"You were the best community brought forth for humanity, commanding good, forbidding evil, and believing in Allah. If the People of the Book had believed, it would have been better for them. Some of them are believers, but most are rebellious.\"  The exegetes differed over \"you were the best community brought forth for humanity\": some said they are those who emigrated with the Messenger from Mecca to Medina, others that you are the best community when you fulfill the conditions He described, others that they were the most responsive to Islam of all communities, and some linguists said it means the best community in the preserved tablet. The most fitting is that it is said when you fulfill those conditions. \"You enjoin what is right\" means you enjoin belief in Allah and His Messenger and acting according to His laws. \"You forbid what is wrong\" means you forbid ascribing partners to Allah, denying His Messenger, and acting against what He forbade. \"You believe in Allah\" means you believe in Him and devote pure worship to Him alone.  \"If the People of the Book had believed, it would have been better for them\" means: if the people of the Torah and the Gospel, the Jews and the Christians, held the Prophet and what he brought from Allah to be true, that would be better for them in their worldly affairs and their Hereafter. \"Among them are believers\" means among the People of the Book there are believers who held the Messenger true, and \"most of them are transgressors\" means those who departed from their religion, for it belongs to the religion of the Jews to follow the Torah and hold the Prophet true, and to the Christians to follow the Gospel, and in both Books is his description and mission, and both groups deny this, and that is their transgression."
     }
    ]
   },
   "111": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "They can never inflict harm on you, except a little annoyance.",
-     "explanation": "The opponents described cannot destroy the believers’ faith or ultimate welfare. Their harmful words and denial may cause annoyance, but that limited injury is not final defeat. The assurance helps believers endure provocation without mistaking every insult for a decisive loss. Their power remains limited by God’s decree."
-    },
-    {
-     "translation": "But if they meet you in battle, they will flee and they will have no helpers",
-     "explanation": "If those opponents meet the believers in battle, the promise is that they will retreat without effective support. This belongs to the passage’s historical confrontation and is not permission to turn ordinary religious disagreement into warfare. The point is that hostile power cannot overcome Allah’s support."
+     "translation": "They can never inflict harm on you, except a little annoyance. But if they meet you in battle, they will flee and they will have no helpers",
+     "ar": "لَن يَضُرُّوكُمۡ إِلَّآ أَذٗىۖ وَإِن يُقَٰتِلُوكُمۡ يُوَلُّوكُمُ ٱلۡأَدۡبَارَ ثُمَّ لَا يُنصَرُونَ",
+     "explanation": "\"They can never inflict harm on you, except a little annoyance. But if they meet you in battle, they will flee and they will have no helpers.\" \"They will not harm you except with vexation\" means: they will not harm you, O people of faith, these transgressors among the People of the Book, through their unbelief, except that they vex you by making you hear their unbelief and their call to error. \"And if they fight you, they will turn their backs\" means: if the Jews and the Christians fight you, they will be defeated and flee. \"Then they will not be helped\" means Allah will not help them against you, for He has cast terror into their hearts and supported you with victory, a promise of victory over the unbelievers."
     }
    ]
   },
   "112": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "They will be stricken with disgrace wherever they go,",
-     "explanation": "Disgrace is pronounced upon the particular opponents whose persistent rejection and aggression the passage describes. It is a divine judgment on their conduct, not a social licence for believers to humiliate people indiscriminately. The following exception shows that legal protections still matter. Judgment follows their own persistent actions."
-    },
-    {
-     "translation": "unless they are protected by a covenant with Allah or a treaty with the people.",
-     "explanation": "Protection through a covenant with Allah or a treaty with people changes the situation and must be respected. The verse itself therefore prevents using the statement of disgrace to cancel agreements. Peaceful covenants create obligations of security rather than opportunities for arbitrary hostility. Such treaties cannot be dismissed for partisan advantage."
-    },
-    {
-     "translation": "They have invited the displeasure of Allah and have been branded with misery for rejecting Allah’s revelations and murdering ˹His˺ prophets unjustly.",
-     "explanation": "The displeasure and misery described follow grave offences, including rejecting Allah’s revelations and killing prophets unjustly. These are specific historical accusations against wrongdoers. The verse ties divine judgment to serious conduct rather than to ancestry or mere membership in a religious community. Their history supplies evidence for the rebuke."
-    },
-    {
-     "translation": "This is ˹a fair reward˺ for their disobedience and violations",
-     "explanation": "Their recompense corresponds to disobedience and repeated violation of divine limits. Calling it fair emphasizes that the judgment is earned and just. Allah does not punish people simply because others assign them a label, but for what they themselves knowingly commit. The punishment therefore fits the offence."
+     "translation": "They will be stricken with disgrace wherever they go, unless they are protected by a covenant with Allah or a treaty with the people. They have invited the displeasure of Allah and have been branded with misery for rejecting Allah’s revelations and murdering ˹His˺ prophets unjustly. This is ˹a fair reward˺ for their disobedience and violations",
+     "ar": "ضُرِبَتۡ عَلَيۡهِمُ ٱلذِّلَّةُ أَيۡنَ مَا ثُقِفُوٓاْ إِلَّا بِحَبۡلٖ مِّنَ ٱللَّهِ وَحَبۡلٖ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٖ مِّنَ ٱللَّهِ وَضُرِبَتۡ عَلَيۡهِمُ ٱلۡمَسۡكَنَةُۚ ذَٰلِكَ بِأَنَّهُمۡ كَانُواْ يَكۡفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقۡتُلُونَ ٱلۡأَنۢبِيَآءَ بِغَيۡرِ حَقّٖۚ ذَٰلِكَ بِمَا عَصَواْ وَّكَانُواْ يَعۡتَدُونَ",
+     "explanation": "\"They will be stricken with disgrace wherever they are found, unless they maintain a bond with Allah and a bond with the people. And they have drawn upon themselves Allah's displeasure and poverty. That is because they reject Allah's signs, kill the prophets without right, disobey, and transgress.\" The passage explains that humiliation has been laid upon the Jews who deny the Prophet wherever they are, except with a bond from Allah and a bond from the people, namely a covenant already granted to them, securing them. The grammarians differed over the preposition in \"except with a bond,\" and the sound view is that humiliation is imposed everywhere except the place of a protection. They returned with wrath from Allah and poverty as requital for rejecting His signs and killing the prophets without right."
     }
    ]
   },
   "113": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "Yet they are not all alike: there are some among the People of the Book who are upright,",
-     "explanation": "The People of the Book are expressly not all alike. An upright group among them stands in contrast to the wrongdoers just described. This correction is essential for reading the passage fairly, since faith and conduct distinguish people within the same broad religious community. This distinction must govern any fair reading."
-    },
-    {
-     "translation": "who recite Allah’s revelations throughout the night, prostrating ˹in prayer˺",
-     "explanation": "The upright recite Allah’s revelations during the night and prostrate in worship. Their devotion occupies private hours and shapes humble action. Night prayer demonstrates sincerity that goes beyond public religious identity, showing why they cannot be included in the preceding condemnation. Such hidden worship reveals genuine devotion."
+     "translation": "Yet they are not all alike: there are some among the People of the Book who are upright, who recite Allah’s revelations throughout the night, prostrating ˹in prayer˺",
+     "ar": "لَيۡسُواْ سَوَآءٗۗ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ أُمَّةٞ قَآئِمَةٞ يَتۡلُونَ ءَايَٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيۡلِ وَهُمۡ يَسۡجُدُونَ",
+     "explanation": "\"Not all the People of the Book are alike. There is a group among them who stand, reciting Allah's revelations in the night and prostrating.\" The passage explains that humiliation has been imposed upon the Jews wherever they are found, except with a bond from Allah and a bond from the people, that is, a covenant and safe-conduct already granted to them, and they returned with wrath from Allah and poverty was imposed upon them for rejecting His signs and killing the prophets without right. The grammarians differed over whether the exception is connected or disconnected, and the sound view is that humiliation is imposed in every place except the place of a protection from Allah and from the people."
     }
    ]
   },
   "114": {
+   "split_policy": "tabari-v2",
    "phrases": [
     {
-     "translation": "They believe in Allah and the Last Day, encourage good and forbid evil, and race with one another in doing good.",
-     "explanation": "These upright people believe in Allah and the Last Day, promote good, oppose evil, and compete in righteous works. Their faith joins sound belief with moral responsibility and active devotion. The description supplies clear qualities by which sincere individuals can be recognized. Their actions give practical content to their faith."
-    },
-    {
-     "translation": "They are ˹truly˺ among the righteous",
-     "explanation": "They are counted among the righteous because of these qualities. Righteousness is therefore not confined by inherited labels or denied to someone because of their earlier community. Allah evaluates sincere belief, worship, and good action with complete fairness. Their righteousness rests upon these faithful qualities."
+     "translation": "They believe in Allah and the Last Day, encourage good and forbid evil, and race with one another in doing good. They are ˹truly˺ among the righteous",
+     "ar": "يُؤۡمِنُونَ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِ وَيَأۡمُرُونَ بِٱلۡمَعۡرُوفِ وَيَنۡهَوۡنَ عَنِ ٱلۡمُنكَرِ وَيُسَٰرِعُونَ فِي ٱلۡخَيۡرَٰتِۖ وَأُوْلَٰٓئِكَ مِنَ ٱلصَّٰلِحِينَ",
+     "explanation": "\"They believe in Allah and the Last Day, command what is good, forbid what is evil, and race to do good deeds. It is they who are the righteous.\" The passage explains \"They are not all alike\": the believers among the People of the Book and the unbelievers among them are not equal, but differ in piety and corruption, in good and evil, and it was said only \"not all alike\" because it mentions the two groups, the believers and the transgressors among them. It is mentioned that the verses came down about a group of Jews who accepted Islam with a good Islam, among them those who believed and stood firm, and not the whole people perished, for Allah still had among them a remnant. The exegetes differed over \"an upright community\": some said it means a just one, others upright upon the Book of Allah, its obligations and limits, others obedient, and others that the People of the Book and the community of the Prophet, which is upright before Allah, are not alike in Allah's sight. The most correct is the view that \"upright\" means sincerely standing firm upon the guidance and the limits of Allah, steadfastly adhering to what He commanded and avoiding what He forbade, as in the parable of a people who boarded a ship. \"An upright community\" is in the nominative as a new sentence after \"among the People of the Book,\" and a group of grammarians erred in taking it as an exposition of \"alike,\" for omission of the second part is permitted only in expressions sufficient with one part. \"They recite the signs of Allah during the hours of the night\" means they read the Book of Allah in the hours of the night and ponder it, and \"while they prostrate\" means in prostration. The people differed over \"hours of the night,\" some saying the hours of the night, whose singular is an hour of the night. The passage thus describes a group among the People of the Book that clings to the Book of Allah, holds fast to it, and is steadfast in acting according to it and according to what their Messenger instituted, reciting His signs at night and prostrating themselves in worship of Him."
     }
    ]
   },
