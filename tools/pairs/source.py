@@ -30,5 +30,10 @@ def read_chapter(surah: int) -> dict[str, dict[str, str]]:
     for theme in themes:
         for verse in theme.get("verses", []):
             number = str(verse["ayah_no_surah"])
-            verses[number] = {"en": verse.get("ayah_en", "")}
+            verses[number] = {"en": verse.get("ayah_en", ""), "ar": verse.get("ayah_ar", "")}
     return verses
+
+
+def read_chapter_arabic(surah: int) -> dict[str, dict[str, str]]:
+    """Same verses, with both texts, for measuring the source against them."""
+    return read_chapter(surah)

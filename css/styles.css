@@ -2071,6 +2071,8 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
   max-width: 72ch; font-size: var(--english-font-size, 17px); line-height: 1.8;
   color: var(--text-primary); margin: 0;
 }
+/* A proportional explanation runs to several paragraphs; give them air. */
+.phrase-explanation + .phrase-explanation { margin-top: 0.85em; }
 .phrase-unavailable {
   font-size: 14px; line-height: 1.7; color: var(--text-faint); margin: 0;
 }
