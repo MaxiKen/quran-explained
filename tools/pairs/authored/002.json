@@ -4521,157 +4521,131 @@
    "phrases": [
     {
      "translation": "Be mindful of the Day when you will ˹all˺ be returned to Allah, then every soul will be paid in full for what it has done, and none will be wronged",
-     "explanation": "The verse reminds people of the Day they return to God, when each person receives the full consequence of their deeds without injustice. This includes financial dealings that may seem private or ordinary. Awareness of judgment encourages fairness toward debtors and honesty in every transaction."
+     "ar": "وَٱتَّقُواْ يَوۡمٗا تُرۡجَعُونَ فِيهِ إِلَى ٱللَّهِۖ ثُمَّ تُوَفَّىٰ كُلُّ نَفۡسٖ مَّا كَسَبَتۡ وَهُمۡ لَا يُظۡلَمُونَ",
+     "explanation": "Be mindful of the Day means be on your guard, O people, against the Day when you will be returned to Allah and meet Him, so that you return to Him with evil deeds that destroy you, with disgraceful deeds that disgrace you, or with ruinous deeds that bring you to ruin.\n\nIt is a day of recompense for deeds, not a day of excuse or repentance. On it every soul will be paid in full for what it has done of good and evil, no deed is left out, and they will not be wronged. How could anyone be wronged who is recompensed for evil with its equal and for good with tenfold? So let a person fear his Lord and take precautions, lest his day overtake him with his back heavy with burdens."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "282": {
    "phrases": [
     {
-     "translation": "O believers! When you contract a loan for a fixed period of time, commit it to writing. Let the scribe maintain justice between the parties.",
-     "explanation": "Believers are instructed to document deferred debts and have a scribe record them fairly. Written terms help prevent later disagreement and protect both creditor and debtor. The passage provides detailed safeguards because financial obligations can be forgotten, disputed, or abused over time.  Recording terms also protects memories and reduces future family or business disputes."
+     "translation": "O believers! When you contract a loan for a fixed period of time, commit it to writing. Let the scribe maintain justice between the parties. The scribe should not refuse to write as Allah has taught them to write. They will write what the debtor dictates, bearing Allah in mind and not defrauding the debt.",
+     "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِذَا تَدَايَنتُم بِدَيۡنٍ إِلَىٰٓ أَجَلٖ مُّسَمّٗى فَٱكۡتُبُوهُۚ وَلۡيَكۡتُب بَّيۡنَكُمۡ كَاتِبُۢ بِٱلۡعَدۡلِۚ وَلَا يَأۡبَ كَاتِبٌ أَن يَكۡتُبَ كَمَا عَلَّمَهُ ٱللَّهُۚ فَلۡيَكۡتُبۡ وَلۡيُمۡلِلِ ٱلَّذِي عَلَيۡهِ ٱلۡحَقُّ وَلۡيَتَّقِ ٱللَّهَ رَبَّهُۥ",
+     "explanation": "When you contract a debt with one another means when you buy and sell among yourselves on credit for a fixed term, that is, until a known time which you have fixed among yourselves. This may be the loan and the advance-payment purchase, and the verse was revealed concerning the latter.\n\nThen write it down means write down the debt you have contracted for a fixed term, whether it was a sale or a loan. Some said that this is an obligatory right, and others that the writing of the document was a duty that His word abrogated.\n\nAnd let a scribe write it justly between you means that a scribe should write the document with truth and fairness, without wronging the rightful one. And no scribe should refuse to write as Allah has taught him means that no scribe, when commanded, should refuse, for Allah taught him the writing of it and gave him the knowledge of it.\n\nAnd let him write, and let the one upon whom the debt rests dictate, and let him fear Allah his Lord, and let him not diminish anything of it means that the debtor should dictate what he owes and fear his Lord, so that he does not diminish the creditor's right."
     },
     {
-     "translation": "The scribe should not refuse to write as Allah has taught them to write. They will write what the debtor dictates, bearing Allah in mind and not defrauding the debt.",
-     "explanation": "The scribe should record the agreement honestly and should not refuse the task without reason. The debtor dictates the obligation, with God-consciousness and accuracy required. This assigns responsibility to the person who owes the debt and prevents the written record from understating what is due."
+     "translation": "If the debtor is incompetent, weak, or unable to dictate, let their guardian dictate for them with justice. Call upon two of your men to witness. If two men cannot be found, then one man and two women of your choice will witness—so if one of the women forgets the other may remind her. The witnesses must not refuse when they are summoned.",
+     "ar": "وَلَا يَبۡخَسۡ مِنۡهُ شَيۡـٔٗاۚ فَإِن كَانَ ٱلَّذِي عَلَيۡهِ ٱلۡحَقُّ سَفِيهًا أَوۡ ضَعِيفًا أَوۡ لَا يَسۡتَطِيعُ أَن يُمِلَّ هُوَ فَلۡيُمۡلِلۡ وَلِيُّهُۥ بِٱلۡعَدۡلِۚ وَٱسۡتَشۡهِدُواْ شَهِيدَيۡنِ مِن رِّجَالِكُمۡۖ فَإِن لَّمۡ يَكُونَا رَجُلَيۡنِ فَرَجُلٞ وَٱمۡرَأَتَانِ مِمَّن تَرۡضَوۡنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحۡدَىٰهُمَا فَتُذَكِّرَ إِحۡدَىٰهُمَا ٱلۡأُخۡرَىٰۚ وَلَا يَأۡبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُواْۚ",
+     "explanation": "And if the one upon whom the debt rests is foolish or weak or unable to dictate himself, then let his guardian dictate justly. The fool in this place is the one ignorant of what is correct in what he dictates, whether a child or an adult, a man or a woman, though what best fits the apparent sense of the verse is everyone ignorant of the place of the wrong in what he dictates.\n\nIt has been said that the fool here is the small child, but there is no basis for that, for then the words or unable to dictate would have to mean the intelligent man who cannot dictate, and the command to let the guardian dictate would lapse, since over the intelligent there is no guardianship. And let his guardian dictate justly means with the right.\n\nAnd call to witness two witnesses from your men means call to witness over your rights two witnesses, from your free Muslim men, and not from your slaves or free disbelievers. And if there are not two men, then a man and two women from those whom you accept as witnesses means let a man and two women bear witness, from the upright whose religion and virtue are accepted. The reciters differed over the wording of the last clause, some reading that if one of the two errs the other reminds her, and the correct recitation is that one of the two errs and the other reminds her.\n\nThe interpreters differed about the state in which the witnesses are forbidden to refuse when they are called, some saying that they must not refuse to answer when they are called to bear witness over the document and the rights, others that they must not refuse when called against the one against whom the summoner wishes to testify, and others that the command is one of recommendation. The most fitting is that they must not refuse to answer when they are called to bear witness over the document and the rights."
     },
     {
-     "translation": "If the debtor is incompetent, weak, or unable to dictate, let their guardian dictate for them with justice.",
-     "explanation": "If the debtor cannot express the terms, a guardian may speak on their behalf but must do so justly. The provision protects people with limited capacity or ability to communicate. It ensures that vulnerability does not become an opportunity for others to distort the debt."
-    },
-    {
-     "translation": "Call upon two of your men to witness. If two men cannot be found, then one man and two women of your choice will witness—so if one of the women forgets the other may remind her.",
-     "explanation": "The verse sets out a witness procedure for documenting the debt. It specifies witnesses and explains the role of mutual reminder in this financial testimony. The instruction belongs to this transactional context and should not be generalized into a claim about women’s worth or ability in every domain."
-    },
-    {
-     "translation": "The witnesses must not refuse when they are summoned.",
-     "explanation": "Witnesses are asked to fulfill their role when called, helping preserve an accurate record. Their participation supports justice between the parties and protects the agreement from later dispute. The verse treats truthful testimony as a communal responsibility, not merely a private favor.  Their testimony helps establish what was agreed if disagreement later arises."
-    },
-    {
-     "translation": "You must not be against writing ˹contracts˺ for a fixed period—whether the sum is small or great.",
-     "explanation": "Debts should be documented whether large or small. The effort of writing is worthwhile because even modest sums can cause disagreement. Consistent records protect trust and reduce the risk that one party will later be pressured or misremember the terms.  Written records can protect even small everyday financial dealings."
-    },
-    {
-     "translation": "This is more just ˹for you˺ in the sight of Allah, and more convenient to establish evidence and remove doubts.",
-     "explanation": "Written contracts are more equitable, provide evidence, and reduce uncertainty. The verse explains the purpose of its detailed procedure: fairness and clarity. Documentation serves both sides and is a practical means of preventing conflict rather than a sign of mistrust.  Clarity benefits both parties and supports impartial resolution."
-    },
-    {
-     "translation": "However, if you conduct an immediate transaction among yourselves, then there is no need for you to record it, but call upon witnesses when a deal is finalized.",
-     "explanation": "Immediate exchanges do not require the same written documentation, though witnesses are still recommended when completing a transaction. The rule distinguishes deferred debts from prompt dealings. It offers practical flexibility while preserving transparency and evidence where useful.  The exception avoids needless formality for immediate exchanges."
-    },
-    {
-     "translation": "Let no harm come to the scribe or witnesses. If you do, then you have gravely exceeded ˹your limits˺.",
-     "explanation": "The scribe and witnesses must not be harmed or coerced. Their role in establishing justice should not expose them to retaliation. The warning condemns intimidation and makes clear that the documentation process must protect everyone involved.  Protecting these participants is essential to a fair process."
-    },
-    {
-     "translation": "Be mindful of Allah, for Allah ˹is the One Who˺ teaches you. And Allah has ˹perfect˺ knowledge of all things",
-     "explanation": "God-consciousness should guide financial agreements because God teaches people how to act justly and knows all things. The conclusion places the detailed procedures within a spiritual framework. Honest records and fair dealings are forms of obedience, and hidden misconduct remains known to God.  Guidance in commerce is part of divine teaching and care."
+     "translation": "You must not be against writing ˹contracts˺ for a fixed period—whether the sum is small or great. This is more just ˹for you˺ in the sight of Allah, and more convenient to establish evidence and remove doubts. However, if you conduct an immediate transaction among yourselves, then there is no need for you to record it, but call upon witnesses when a deal is finalized. Let no harm come to the scribe or witnesses. If you do, then you have gravely exceeded ˹your limits˺. Be mindful of Allah, for Allah ˹is the One Who˺ teaches you. And Allah has ˹perfect˺ knowledge of all things",
+     "ar": "وَلَا تَسۡـَٔمُوٓاْ أَن تَكۡتُبُوهُ صَغِيرًا أَوۡ كَبِيرًا إِلَىٰٓ أَجَلِهِۦۚ ذَٰلِكُمۡ أَقۡسَطُ عِندَ ٱللَّهِ وَأَقۡوَمُ لِلشَّهَٰدَةِ وَأَدۡنَىٰٓ أَلَّا تَرۡتَابُوٓاْ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةٗ تُدِيرُونَهَا بَيۡنَكُمۡ فَلَيۡسَ عَلَيۡكُمۡ جُنَاحٌ أَلَّا تَكۡتُبُوهَاۗ وَأَشۡهِدُوٓاْ إِذَا تَبَايَعۡتُمۡۚ وَلَا يُضَآرَّ كَاتِبٞ وَلَا شَهِيدٞۚ وَإِن تَفۡعَلُواْ فَإِنَّهُۥ فُسُوقُۢ بِكُمۡۗ وَٱتَّقُواْ ٱللَّهَۖ وَيُعَلِّمُكُمُ ٱللَّهُۗ وَٱللَّهُ بِكُلِّ شَيۡءٍ عَلِيمٞ",
+     "explanation": "And be not too weary to write it down, small or great, up to its term means, you who supply people on credit, do not be weary of writing the small of the right or the great of it up to its term. And the phrase be not too weary means be not bored.\n\nThat is more just with Allah means that writing the document up to its term is more equitable with Allah, and more upright for the testimony means more correct for the testimony, because the document holds the wordings the parties acknowledged against themselves. And most apt that you not doubt means nearest, that you not doubt in the testimony.\n\nAnd unless it is a present trade which you conduct among yourselves, then there is no sin upon you if you do not write it down. He excepted the trade that passes from hand to hand in cash. And call witnesses when you trade with one another means call witnesses over the small and the great of what you trade among yourselves. The transmitted text breaks off there, and the closing clauses are unexplained."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "283": {
    "phrases": [
     {
      "translation": "If you are on a journey and a scribe cannot be found, then a security can be taken.",
-     "explanation": "When traveling and unable to find a scribe, the parties may use collateral as security for a debt. The provision adapts the documentation rules to practical circumstances. It protects the creditor while recognizing that written records may not always be available.  Collateral is a practical safeguard when documentation is unavailable."
+     "ar": "۞ وَإِن كُنتُمۡ عَلَىٰ سَفَرٖ وَلَمۡ تَجِدُواْ كَاتِبٗا فَرِهَٰنٞ مَّقۡبُوضَةٞۖ",
+     "explanation": "And if you are on a journey and do not find a scribe means you are on a journey where you find no scribe to write for you, and you have no means to draw up the deed of the debt. All the reciters read the scribe with the meaning that you find no one to record the deed. A group of the early scholars read it with the meaning that you had no means to draw up the deed, through the absence of ink and parchment or a scribe.\n\nThen take pledges in possession means take as security for your debts pledges which you take into possession from your debtor. The reciters also differed over the reading of this phrase, and the majority read it as the plural of a pledge. The most correct reading is that one, the well-known plural of that pattern. Those who read it differently did so, as it seems, because they met the word among horse-racing wagers and wished to avoid that sense."
     },
     {
      "translation": "If you trust one another, then ˹there is no need for a security, but˺ the debtor should honour this trust ˹by repaying the debt˺—and let them fear Allah, their Lord.",
-     "explanation": "If the parties rely on mutual trust instead of collateral, the debtor must honor the obligation and remain mindful of God. Trust is not permission to avoid repayment. The verse combines personal confidence with accountability and encourages honesty even without formal safeguards.  Trust requires the debtor to fulfill the agreed obligation."
+     "ar": "فَإِنۡ أَمِنَ بَعۡضُكُم بَعۡضٗا فَلۡيُؤَدِّ ٱلَّذِي ٱؤۡتُمِنَ أَمَٰنَتَهُۥ وَلۡيَتَّقِ ٱللَّهَ رَبَّهُۥۗ",
+     "explanation": "But if some of you trust others means if the debtor is trustworthy in the eyes of the creditor and has taken no pledge from him, then let him fear Allah his Lord regarding the debt of his companion, that he does not deny it, nor seek to evade it, for then he would expose himself to a punishment.\n\nIt has already been said that this ruling abrogates the commands of the preceding verse, and that it is not permitted to the creditor to trust the debtor when there is a possibility of a scribe, a written deed and witnessing. Yet it is permissible for a man to give a pledge for what he owes, but when they conclude a transaction with a pledge they must write it down and have it witnessed."
     },
     {
-     "translation": "And do not conceal the testimony, for whoever conceals it, their hearts are indeed sinful.",
-     "explanation": "Witnesses must not hide relevant testimony. Concealment damages justice and is described as a sin of the heart as well as an outward act. The instruction underscores that truth must be preserved when financial rights are at stake.  Withholding evidence can deprive another person of a rightful claim."
-    },
-    {
-     "translation": "And Allah ˹fully˺ knows what you do",
-     "explanation": "God knows whether parties honor their debts and whether witnesses speak truthfully. People may evade human scrutiny, but divine knowledge is complete. The reminder encourages integrity in private transactions and care for the rights of others.  Divine awareness supports truthfulness when no witnesses are present."
+     "translation": "And do not conceal the testimony, for whoever conceals it, their hearts are indeed sinful. And Allah ˹fully˺ knows what you do",
+     "ar": "وَلَا تَكۡتُمُواْ ٱلشَّهَٰدَةَۚ وَمَن يَكۡتُمۡهَا فَإِنَّهُۥٓ ءَاثِمٞ قَلۡبُهُۥۗ وَٱللَّهُ بِمَا تَعۡمَلُونَ عَلِيمٞ",
+     "explanation": "This is an address from Allah to the witnesses whom He commanded the debtor and creditor to take. He said to them: do not conceal, O witnesses, your testimony from the judges after you have testified about what you witnessed, but answer the one on whose behalf you testified when he calls you to give your testimony regarding his adversary before the judge who secures him his right. And whoever conceals the testimony corrupts his heart. The transmitted text of the exegete breaks off at this point, and the closing clause that Allah knows what you do is left without explanation in the manuscript that has come down to us."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "284": {
    "phrases": [
     {
      "translation": "To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth.",
-     "explanation": "Everything in the heavens and on earth belongs to God. This universal ownership establishes His sovereignty over creation and all human affairs. The verse grounds the following statement about accountability in the reality that people and their actions are under divine authority.  Human property and power remain temporary under this ownership."
+     "ar": "لِّلَّهِ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ",
+     "explanation": "To Allah alone belongs whatever is in the heavens and whatever is on the earth. He means by this the sovereignty over all that is in the heavens and on the earth, the small and the great, for with Him rests the governance of everything, and in His hand rests the disposal of it. Nothing of it is hidden from Him, for He is the Director, the Owner and the Disposer of it.\n\nAnd He joins this to the concealment of testimony by the witnesses, saying: do not conceal the testimony, O witnesses, for whoever conceals it corrupts his heart, but the concealment is not hidden from Me, for I am Knowing of all things, and in My hand rests the disposal of everything. So fear My punishment for your concealment of the testimony."
     },
     {
      "translation": "Whether you reveal what is in your hearts or conceal it, Allah will call you to account for it.",
-     "explanation": "God knows and holds people accountable for what they reveal or conceal in their hearts. The statement emphasizes the seriousness of intention and inner conduct. Accountability is comprehensive, though the following verse and divine mercy clarify that people are not burdened beyond capacity.  Inner intentions are included in the moral life, not ignored."
+     "ar": "وَإِن تُبۡدُواْ مَا فِيٓ أَنفُسِكُمۡ أَوۡ تُخۡفُوهُ يُحَاسِبۡكُم بِهِ ٱللَّهُۖ",
+     "explanation": "Whether you reveal what is in your hearts or conceal it, Allah will call you to account for it. The exegetes differed over the meaning of this. One view is that the verse informs His servants that He calls them to account for what their hands have earned and what they set before themselves. Another is that the verse is firmly established and not abrogated, and that the punishment for what they have not done but only contemplated shows itself in the calamities that befall.\n\nThe most correct of these is that it is firmly established and not abrogated, for an abrogation cannot occur unless a later ruling lifts the earlier one, and in the verse that follows there is no such lifting. And the reckoning does not imply punishment for everything their books record."
     },
     {
-     "translation": "He forgives whoever He wills, and punishes whoever He wills.",
-     "explanation": "God has authority to forgive and to punish, judging with full knowledge and justice. This statement should be read alongside the promise of mercy and the later assurance about capacity. It reminds believers to seek forgiveness and not presume upon judgment.  The decision is based on complete knowledge and perfect justice."
-    },
-    {
-     "translation": "And Allah is Most Capable of everything",
-     "explanation": "God has power over all things, including judgment, forgiveness, and the fulfillment of His promises. The attribute concludes the statement of accountability by affirming that divine authority cannot be resisted. It also reassures believers that God’s power supports His mercy and justice.  No force can prevent what God determines."
+     "translation": "He forgives whoever He wills, and punishes whoever He wills. And Allah is Most Capable of everything",
+     "ar": "فَيَغۡفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُۗ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٌ",
+     "explanation": "He forgives whoever He wills, and punishes whoever He wills. And Allah is Most Capable of everything means that He is powerful over the forgiving of what the heart of the believer concealed of the intention to sin, and over the punishing of the unbeliever for the doubt that his heart concealed about the oneness of Allah and the prophethood of His messengers, and over the requiting of each of them for all that is from him, and over everything else besides that. So His power covers the forgiveness and the punishment that He wills, and no soul is called to account except for what it has earned."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "285": {
    "phrases": [
     {
      "translation": "The Messenger ˹firmly˺ believes in what has been revealed to him from his Lord, and so do the believers.",
-     "explanation": "The Messenger and believers affirm the revelation from God. Their faith is presented as a confident response to divine guidance, following the previous warning about accountability. The verse portrays the community’s belief as grounded in trust in the Lord and His revealed message.  This belief supports the community’s commitment to revelation."
+     "ar": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيۡهِ مِن رَّبِّهِۦ وَٱلۡمُؤۡمِنُونَۚ",
+     "explanation": "The Messenger firmly believes in what has been revealed to him from his Lord, and so do the believers. He means that the Messenger has affirmed and acknowledged what has been revealed to him of the Book and its contents, the permitted and the forbidden, of command and prohibition, and all meanings.\n\nAnd it is said that this verse was revealed after the preceding one, because the believers were sorely afflicted by the reckoning of what their souls concealed. They complained of that to the Prophet, and he asked: will you perhaps say we hear and do not obey, as the Children of Israel said? They answered, no, we say we hear and obey. Thereupon Allah revealed that the believers likewise affirmed, with their Prophet, belief in Allah, His angels, His books and His messengers."
     },
     {
      "translation": "They ˹all˺ believe in Allah, His angels, His Books, and His messengers.",
-     "explanation": "Believers affirm God, the angels, the revealed Books, and all messengers. This comprehensive faith connects them to the history of revelation and rejects selective acceptance of prophets. The list summarizes core beliefs shared across the prophetic tradition.  The list rejects selective belief and honors all messengers."
+     "ar": "كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ",
+     "explanation": "They all believe in Allah, His angels, His Books, and His messengers. The reciters differed over the reading of it. Most of the reciters of Medina and some of the reciters of Iraq read it in the plural, meaning that the believers all believe in all the Books He sent down upon His prophets, while a group of the reciters of Kufah read it in the singular, meaning that they believe in the Quran sent down upon His Prophet.\n\nIt is related that one of the companions read it in the singular and said the singular is more comprehensive than the plural. But the plural is the better reading, because what precedes it is in the plural, as is what follows, so that the books match what precedes and follows them in form and meaning."
     },
     {
      "translation": "˹They proclaim,˺ “We make no distinction between any of His messengers.”",
-     "explanation": "Believers do not reject some messengers while accepting others. The statement affirms the truth of all prophets, while not claiming their roles or ranks were identical. It rejects sectarian selection based on preference and honors the complete chain of divine guidance.  Their distinct missions do not justify rejecting any of them."
+     "ar": "لَا نُفَرِّقُ بَيۡنَ أَحَدٖ مِّن رُّسُلِهِۦۚ",
+     "explanation": "We make no distinction between any of His messengers. He has informed the believers that they say this, and the words they say are left out because the sense of the passage makes them clear, just as they were left out in His words about the angels who enter upon them from every gate.\n\nA group of the earlier reciters read it with the ya, meaning that none of them makes a distinction between any of His messengers by believing in some of them and disbelieving in others, but rather they affirm them all and acknowledge that what they brought was from Allah. And in this they distinguish themselves from the Jews who acknowledged Moses and denied Jesus, and from the Christians who acknowledged Moses and Jesus and denied Muhammad."
     },
     {
-     "translation": "And they say, “We hear and obey.",
-     "explanation": "The believers respond to revelation with willingness to listen and obey. Faith is not only assent but a commitment to act on guidance. Their declaration presents humility before God’s instruction as the proper response to what they have heard.  Obedience follows listening and understanding the message."
-    },
-    {
-     "translation": "˹We seek˺ Your forgiveness, our Lord!",
-     "explanation": "Even while obeying, believers ask God for forgiveness, recognizing their limitations and mistakes. The prayer avoids self-righteousness and expresses dependence on divine mercy. It shows that faith and repentance accompany one another.  The prayer expresses dependence rather than a claim of perfection. The request reflects humility before divine judgment."
-    },
-    {
-     "translation": "And to You ˹alone˺ is the final return.”",
-     "explanation": "All people ultimately return to God. This conviction shapes the believers’ obedience and their request for forgiveness. The verse closes their declaration by placing earthly life within the horizon of final accountability and divine judgment.  This return gives their obedience its ultimate direction. The return is the ultimate horizon for every person."
+     "translation": "And they say, “We hear and obey. ˹We seek˺ Your forgiveness, our Lord! And to You ˹alone˺ is the final return.”",
+     "ar": "وَقَالُواْ سَمِعۡنَا وَأَطَعۡنَاۖ غُفۡرَانَكَ رَبَّنَا وَإِلَيۡكَ ٱلۡمَصِيرُ",
+     "explanation": "And they say, we hear and obey, our forgiveness, our Lord, and to You alone is the final return. If someone asks why the word for forgiveness is placed in the accusative, the answer is that it is a verbal noun and takes the place of a command, for the Arabs do this with verbal nouns and with nouns when these take the place of the imperative, so they say, thanks be to Allah, and praise be to Him, and they say, the prayer, the prayer, meaning perform the prayer.\n\nAnd it is related that when this verse was revealed to the Messenger as praise from Allah for him and his community, the angel of inspiration said to him: Allah has mentioned you and your community with goodly praise, so ask your Lord."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   },
   "286": {
    "phrases": [
     {
      "translation": "Allah does not require of any soul more than what it can afford.",
-     "explanation": "God does not burden a person beyond their capacity. This principle reassures believers after the preceding verse’s statement about accountability and clarifies that divine duties are not meant to demand the impossible. It recognizes human limits while still calling people to fulfill what they can."
+     "ar": "لَا يُكَلِّفُ ٱللَّهُ نَفۡسًا إِلَّا وُسۡعَهَاۚ",
+     "explanation": "Allah does not require of any soul more than what it can afford means that He does not burden any soul and oblige it except with what it is able to bear, for He neither constrains it nor exhausts it. And the word for capacity is derived from the expression this matter suits me, in the same way as other words of effort and abundance are derived from their own expressions, and we have already explained that earlier.\n\nSo the sense of the verse is that He does not burden a soul beyond its strength, and He does not call it to account for an intention it has, nor for a prompting that befalls it, nor for a thought that arises in its heart."
     },
     {
      "translation": "All good will be for its own benefit, and all evil will be to its own loss.",
-     "explanation": "Each person benefits from their own good deeds and bears the consequence of their wrongdoing. The verse emphasizes individual responsibility and rejects transferring moral accountability to someone else. It encourages people to choose good for their own ultimate wellbeing.  Personal accountability makes each person’s choices morally significant."
+     "ar": "لَهَا مَا كَسَبَتۡ وَعَلَيۡهَا مَا ٱكۡتَسَبَتۡۗ",
+     "explanation": "All good will be for its own benefit, and all evil will be to its own loss. The phrase for it means for the soul of which He has informed that He burdens it only according to its capacity: every soul has what it has prepared and done of good, and against every soul is what it has performed of evil. And the sense of the verse is that Allah does not burden a soul except with what it can bear, and does not exhaust it nor constrain it in its religious affair. So He does not call it to account for an intention it has, nor for a prompting that befalls it, nor for a thought that arises in its heart."
     },
     {
      "translation": "˹The believers pray,˺ “Our Lord! Do not punish us if we forget or make a mistake.",
-     "explanation": "The believers ask God not to punish them for forgetfulness or inadvertent error. The prayer recognizes human fallibility and seeks divine mercy. It does not excuse deliberate wrongdoing, but asks for compassion when a person fails unintentionally.  The prayer seeks mercy for unintentional failings, not deliberate harm."
+     "ar": "رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ",
+     "explanation": "Our Lord, do not punish us if we forget or make a mistake. This is an instruction from Allah to His believing servants showing how they should supplicate Him. Say: our Lord, do not take us to task if we forget something You imposed upon us to do but we did not do it, or if we err in performing something You forbade us to do but we did it, without thereby intending Your disobedience, but through ignorance and mistake.\n\nAnd the forgetting for which the supplication is made is the forgetting that consists of negligence and shortcoming, the omission of what he was commanded to do. It is the forgetting for which Adam was punished and driven out of Paradise. Unless the omission has the character of unbelief, for Allah does not forgive polytheism."
     },
     {
      "translation": "Our Lord! Do not place a burden on us like the one you placed on those before us.",
-     "explanation": "The believers ask not to be subjected to burdens like those borne by earlier communities. The request reflects humility and awareness of human limits. It seeks a path of obedience that is manageable and merciful, in keeping with the preceding assurance about capacity.  Believers ask for manageable duties and compassionate treatment."
+     "ar": "رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرٗا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ",
+     "explanation": "Our Lord, do not place a burden on us like the one you placed on those before us. He means by the burden the covenant, so the sense is: do not lay upon us a covenant we are not able to fulfil, as You laid it upon those before us, that is upon the Jews and Christians, who took obligations and covenants and oaths but did not fulfil them. And He taught His community how to beseech Him not to lay upon them covenants and oaths when they neglect or commit a fault.\n\nOthers said that the meaning is that He should not lay upon us sins and guilt as He laid them upon the former peoples, so that He would not turn us into apes. And the reading with a kasra means the burden."
     },
     {
      "translation": "Our Lord! Do not burden us with what we cannot bear.",
-     "explanation": "The prayer asks God to spare them from unbearable trials and obligations. It expresses dependence on divine compassion and acknowledges the limits of human strength. The request is consistent with the principle that God does not require more than a soul can afford.  The request acknowledges that human endurance has real limits."
+     "ar": "رَبَّنَا وَلَا تُحَمِّلۡنَا مَا لَا طَاقَةَ لَنَا بِهِۦۖ",
+     "explanation": "Our Lord, do not burden us with what we cannot bear means: say also, our Lord, do not obligate us with such of the obligations as we are not able to fulfil on account of the heaviness of the burden for us.\n\nAnd this is the sense given to it because it follows upon the supplication of the believers to their Lord not to be called to account if they forget or err, and not to have laid upon them the covenant as He laid it upon those before them. So joining this to the meaning of what goes before it in their supplication for relief in religion is more fitting than giving it a meaning of its own that runs apart from it."
     },
     {
-     "translation": "Pardon us, forgive us, and have mercy on us.",
-     "explanation": "The believers ask for pardon, forgiveness, and mercy, seeking both release from blame and continuing divine care. The three requests express humility and hope. They recognize that people need more than bare justice, relying on God’s generosity and compassion.  The three appeals express trust in God’s compassion."
-    },
-    {
-     "translation": "You are our ˹only˺ Guardian.",
-     "explanation": "God is their protector and supporter. The declaration expresses reliance on Him rather than worldly powers as the ultimate source of help. It grounds the final request in trust and devotion.  The declaration places ultimate reliance on God. Their trust is directed toward God alone."
-    },
-    {
-     "translation": "So grant us victory over the disbelieving people.”",
-     "explanation": "The believers ask for help against those opposing them. In the chapter’s wider context, this request concerns protection and victory amid conflict, not indiscriminate hostility. The prayer leaves the outcome to God and concludes the chapter with dependence on divine support.  The plea seeks protection within the chapter’s context of conflict and restraint."
+     "translation": "Pardon us, forgive us, and have mercy on us. You are our ˹only˺ Guardian. So grant us victory over the disbelieving people.”",
+     "ar": "وَٱعۡفُ عَنَّا وَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَآۚ أَنتَ مَوۡلَىٰنَا فَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
+     "explanation": "Pardon us, forgive us, and have mercy on us. And it is clear that they besought Him to lighten His obligations with the words do not burden us with what we cannot bear, for they followed that with pardon us.\n\nAnd have mercy upon us means: envelop us with a mercy from You that saves us from Your punishment, for no one is saved except by Your mercy, and our works do not save us if You do not treat us with mercy. And You are our Protector means You are our Protector through Your help, above whoever is hostile to You. You are the Protector of whoever obeys You and the enemy of whoever disbelieves, and we are Your party, so grant us victory over those who denied Your oneness."
     }
-   ]
+   ],
+   "split_policy": "tabari-v2"
   }
  }
 }
