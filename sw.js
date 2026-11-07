@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.16.0-2026-10-18';
+const CACHE_VERSION = 'quran-reader-v1.17.0-2026-11-07';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary

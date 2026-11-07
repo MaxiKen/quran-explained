@@ -422,7 +422,7 @@ const ReadAloud = {
     const lines = [];
     const mode = typeof getCommentaryMode === 'function' ? getCommentaryMode(surahNum) : 'full';
     if (ayah == null) {
-      if (mode === 'phrases') return null;
+      if (mode === 'simple') return null;
       const intro = getSurahIntro(tafsir);
       if (!intro) return null;
       const ch = (window.chaptersData || []).find((chapter) => chapter.number === surahNum);
@@ -446,19 +446,12 @@ const ReadAloud = {
         lang: 'en',
       });
 
-      if (mode === 'phrases') {
-        const verse = getPairsData(surahNum)?.verses?.[String(ayah)];
-        for (const phrase of (verse && Array.isArray(verse.phrases) ? verse.phrases : [])) {
-          const phraseText = `${phrase.translation}. ${phrase.explanation}`;
-          splitSpeechText(markdownToSpeechText(phraseText)).forEach((text, index) => lines.push({
-            ayah,
-            speak: text,
-            show: text,
-            label: `Verse ${ayah}`,
-            first: lines.length === 1 && index === 0,
-            lang: 'en',
-          }));
-        }
+      if (mode === 'simple') {
+        const verse = getSimpleData(surahNum)?.verses?.[String(ayah)];
+        if (verse && verse.explanation) splitSpeechText(markdownToSpeechText(verse.explanation)).forEach((text, index) => lines.push({
+          ayah, speak: text, show: text, label: `Verse ${ayah}`,
+          first: lines.length === 1 && index === 0, lang: 'ar',
+        }));
       } else {
         /* Some source entries cover a run of verses. Speak a shared passage
            only at the first verse it covers rather than repeating it. */
@@ -1001,10 +994,10 @@ const ReadAloud = {
     const verseEl = this.ayah == null ? null : document.getElementById(`commentary-verse-${this.ayah}`);
     const scope = verseEl || document.querySelector('.ebook-introduction');
     if (!scope) return;
-    const phraseMode = typeof getCommentaryMode === 'function'
-      && getCommentaryMode(this.activeSurah) === 'phrases';
-    const nodes = phraseMode
-      ? scope.querySelectorAll('.ebook-translation, .ebook-commentary .phrase-item')
+    const simpleMode = typeof getCommentaryMode === 'function'
+      && getCommentaryMode(this.activeSurah) === 'simple';
+    const nodes = simpleMode
+      ? scope.querySelectorAll('.ebook-translation, .ebook-commentary .phrase-view')
       : scope.querySelectorAll('.ebook-commentary > *, .ebook-introduction-content > *, .ebook-translation');
     const list = Array.prototype.slice.call(nodes);
     this._lineEls = this.lines.map((line) => this._matchNode(line, list));
