@@ -107,28 +107,10 @@ travels with the text and is shown in the app under the Tabari entry:
 Anyone reusing this translation should carry that notice with it, and should
 treat the Arabic as the text of record.
 
-## Phrase-by-phrase explanations
+## Tafsir as-Sa‘di (Arabic)
 
-`data/pairs_NNN.json` pairs pieces of the reader's English verse translation
-with short, original explanations. The translation pieces reuse `ayah_en`;
-the explanations are editorial material created for this reader and may add
-illustrative or contextual detail where useful. They are not excerpts from,
-or a replacement for, Tafsīr al-Ṭabarī, and are not a scholarly ruling.
-Al-Fātiḥah (Surah 1), Al-Baqarah (Surah 2), Āl ʿImrān (Surah 3),
-An-Nisāʾ (Surah 4), Al-Mā’idah (Surah 5), Al-Anʿām (Surah 6),
-Al-Aʿrāf (Surah 7), Al-Anfāl (Surah 8), At-Tawbah (Surah 9), Yūnus
-(Surah 10), Hūd (Surah 11), Yūsuf (Surah 12), Ar-Raʿd (Surah 13),
-Ibrāhīm (Surah 14), Al-Ḥijr (Surah 15), An-Naḥl (Surah 16),
-Al-Isrāʾ (Surah 17), Al-Kahf (Surah 18), Maryam (Surah 19), Ṭā-Hā
-(Surah 20), Al-Anbiyāʾ (Surah 21), Al-Ḥajj (Surah 22),
-Al-Muʾminūn (Surah 23), An-Nūr (Surah 24), Al-Furqān (Surah 25),
-Ash-Shuʿarāʾ (Surah 26), An-Naml (Surah 27), Al-Qaṣaṣ (Surah 28),
-Al-ʿAnkabūt (Surah 29), Ar-Rūm (Surah 30), Luqmān (Surah 31),
-As-Sajdah (Surah 32), Al-Aḥzāb (Surah 33), Sabaʾ (Surah 34), Fāṭir
-(Surah 35), Yā-Sīn (Surah 36), Aṣ-Ṣāffāt (Surah 37), Ṣād
-(Surah 38), Az-Zumar (Surah 39), Ghāfir (Surah 40), Fuṣṣilat
-(Surah 41), Ash-Shūrā (Surah 42), and Az-Zukhruf (Surah 43) have been
-published in this format; later surahs are not yet authored.
+Arabic verse-by-verse Tafsir as-Sa‘di data is sourced from the `tafseer_as_saadi_arabic.json` files in [muqeetiqbal2/Quran-Text-with-Translations-And-Tafsirs](https://github.com/muqeetiqbal2/Quran-Text-with-Translations-And-Tafsirs), split into `data/saadi_NNN.json` for the reader. The upstream repository does not include an explicit license file; redistribution terms should be confirmed with the source maintainer before public distribution. The Arabic text is displayed as received and is intended as study material. English translation is planned separately.
+
 
 ## Plain-English commentary (withdrawn)
 
