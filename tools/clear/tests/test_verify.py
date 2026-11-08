@@ -147,7 +147,7 @@ class Distinct(unittest.TestCase):
         # must not fail on the span the style requires word for word. The
         # surah 1 sample predates the == span convention, so this uses surah 2.
         with open(os.path.join(ROOT, 'tools', 'clear', 'samples',
-                               '002-block1.json'), encoding='utf-8') as fh:
+                               '002.json'), encoding='utf-8') as fh:
             rec = json.load(fh)
         spans = [re.search(r'==(.+?)==', b, re.S).group(1) for b in rec['blocks']]
         i = max(range(len(spans)), key=lambda k: len(spans[k].split()))
@@ -300,7 +300,7 @@ class TranslationSpan(unittest.TestCase):
 
     def test_block_file_is_checked_as_a_prefix(self):
         # only the -blockN filename may shorten coverage, and only that
-        self.assertTrue(verify.is_block('tools/clear/samples/002-block1.json'))
+        self.assertTrue(verify.is_block('tools/clear/samples/003-block2.json'))
         self.assertFalse(verify.is_block('tools/clear/samples/002.json'))
         self.assertFalse(verify.is_block('data/clear_002.json'))
 
