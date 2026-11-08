@@ -281,6 +281,12 @@ class TranslationSpan(unittest.TestCase):
         errs = verify.check_shape('t', body)
         self.assertTrue(any('semicolon' in e for e in errs), errs)
 
+    def test_block_file_is_checked_as_a_prefix(self):
+        # only the -blockN filename may shorten coverage, and only that
+        self.assertTrue(verify.is_block('tools/clear/samples/002-block1.json'))
+        self.assertFalse(verify.is_block('tools/clear/samples/002.json'))
+        self.assertFalse(verify.is_block('data/clear_002.json'))
+
     def test_span_must_match_the_translation(self):
         # the marked span is checked word for word against ayah_en
         text = 'Alif-Lãm-Mĩm'

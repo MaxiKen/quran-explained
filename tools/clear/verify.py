@@ -328,6 +328,11 @@ def verify_file(path: str, data_dir: str, verbose: bool = True,
     return (not errs), errs
 
 
+def is_block(path: str) -> bool:
+    """True for a `NNN-blockK.json` payload, a block of a longer sūrah."""
+    return re.search(r'-block\d+\.json$', path) is not None
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -349,7 +354,11 @@ def main() -> int:
 
     failed = 0
     for f in files:
-        ok, _ = verify_file(f, args.data, partial=args.partial)
+        # A file named NNN-blockK.json is a block of a longer sūrah, so it is
+        # checked as a prefix. One entry per verse is still required, as is
+        # every other rule; only the coverage end is open.
+        ok, _ = verify_file(f, args.data,
+                            partial=args.partial or is_block(f))
         if not ok:
             failed += 1
     print()

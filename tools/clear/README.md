@@ -24,7 +24,9 @@ python3 -m unittest discover -s tools/clear/tests
 
 `--partial` accepts a payload that covers verses 1..N of a long sūrah, which is
 how a chapter gets written in blocks. Every other rule still applies, and a gap
-in the prefix still fails.
+in the prefix still fails. A sample named `NNN-blockK.json` is always checked
+that way, so `verify.py` with no arguments stays green while a chapter is being
+written. A file named plainly `NNN.json` must cover the whole sūrah.
 
 | Check | STYLE.md | Enforces |
 |---|---|---|
