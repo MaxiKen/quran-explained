@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.21.0-2026-11-08';
+const CACHE_VERSION = 'quran-reader-v1.22.0-2026-11-08';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary
@@ -31,8 +31,11 @@ const CACHE_VERSION = 'quran-reader-v1.21.0-2026-11-08';
 // (v1.20.0). On the same day the verse translation in chapter_NNN.js changed
 // from The Clear Quran to Saheeh International, so every chapter_ file is
 // stale in any cache older than v1.21.0 and must be refetched rather than
-// carried. None of the withdrawn payloads — guidance, old pairings, Saʿdī —
-// are carried into the new cache.
+// carried. In v1.22.0 the Simple view went back to the Urdu source on every
+// chapter, so the clear_ payloads are carried only for the sake of the
+// chapters that prefer them, and the qutb_ payload is what the app reads.
+// None of the withdrawn payloads — guidance, old pairings, Saʿdī — are
+// carried into the new cache.
 // Data files are fetched network-first anyway; this only matters offline.
 const CARRY_FROM = {
   /* Bumped to v1.21.0: the verse translation changed, so an older chapter

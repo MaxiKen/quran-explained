@@ -352,8 +352,11 @@ const simpleLoadPromises = {};
 
 /* A chapter may also carry a written English entry per verse, in
    data/clear_NNN.json: one entry per verse, aligned to the translation in
-   data/chapter_NNN.js. Where that file exists it is the Simple view; the Urdu
-   of the source stays on disk and one load falls through to the other. */
+   data/chapter_NNN.js. Both payloads stay on disk for every chapter that has
+   them, and one load falls through to the other; this constant decides which
+   comes first. The Simple view is the Urdu source, so 'ur' is the setting;
+   'en' prefers the written entries in the two chapters that have them. */
+const SIMPLE_VIEW_PREFERS = 'ur';
 const CLEAR_SOURCE_LABEL = 'Clear teaching';
 
 function loadSimpleData(num) {
@@ -362,14 +365,16 @@ function loadSimpleData(num) {
   if (simpleLoadPromises[num]) return simpleLoadPromises[num];
 
   const pad = String(num).padStart(3, '0');
-  /* The English entries are the Simple view where a chapter has them. Asking
-     for both and preferring the English file keeps a chapter usable while the
-     entries are still being written, and means the request order cannot leave
-     an Urdu payload in place of an English one. */
-  simpleLoadPromises[num] = fetchJsonOrNull(`data/clear_${pad}.json`)
-    .then(clear => {
-      if (clear && Array.isArray(clear.blocks) && clear.blocks.length) return clear;
-      return fetchJsonOrNull(`data/qutb_${pad}.json`);
+  /* Both payloads may exist. Asking for both and keeping whichever loses out
+     on disk means either one can be preferred without re-fetching, and a
+     chapter stays usable whichever of the two is present. */
+  const urduFirst = SIMPLE_VIEW_PREFERS !== 'en';
+  const preferred = urduFirst ? `data/qutb_${pad}.json` : `data/clear_${pad}.json`;
+  const fallback = urduFirst ? `data/clear_${pad}.json` : `data/qutb_${pad}.json`;
+  simpleLoadPromises[num] = fetchJsonOrNull(preferred)
+    .then(data => {
+      if (data && Array.isArray(data.blocks) && data.blocks.length) return data;
+      return fetchJsonOrNull(fallback);
     })
     .then(data => {
       delete simpleLoadPromises[num];
@@ -1481,7 +1486,7 @@ function renderCompleteCommentary(container) {
     <article class="ebook-view">
       <header class="ebook-hero">
         <p class="ebook-eyebrow">${mode === 'simple'
-          ? escapeHtml(SIMPLE_SOURCE_LABEL) + ' · Urdu'
+          ? escapeHtml(SIMPLE_SOURCE_LABEL) + (simpleLang(ch.number) === 'en' ? ' · English' : ' · Urdu')
           : escapeHtml(getTafsirSourceLabel(tafsir))} · Reading edition</p>
         <div class="ebook-hero-title-row">
           <div>
@@ -1925,8 +1930,8 @@ function ensureCurrentSimpleData(surah) {
 const SIMPLE_SOURCE_LABEL = 'Fī Ẓilāl al-Qurʾān — Sayyid Quṭb';
 const SIMPLE_SOURCE_NOTE = 'Urdu rendering';
 
-/* What the Simple view carries, which is not the same for every chapter while
-   the English entries are being written. */
+/* What the Simple view carries. Both the Urdu source and, where one exists, a
+   written English entry are on disk; the subtitle names the one on screen. */
 function simpleSubtitle(num) {
   const data = getSimpleData(num);
   if (data && data.lang === 'en') {

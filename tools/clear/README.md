@@ -1,7 +1,10 @@
-# Clear teaching — the English Simple view
+# Clear teaching — the written English entries
 
-An English commentary layer for the Simple view: **one entry per verse**,
-written from a reading of Fī Ẓilāl al-Qurʾān, in the app's own modern English.
+An English commentary layer, **one entry per verse**, written from a reading of
+Fī Ẓilāl al-Qurʾān, in the app's own modern English. It is not on screen in the
+Simple view at present: that view shows Quṭb's Urdu on all 114 chapters (see
+[Status](#status)). The entries, the gates and the review page stay in the
+repository, and `SIMPLE_VIEW_PREFERS` in `js/app.js` brings them back.
 
 **The rules are in [`STYLE.md`](STYLE.md).** That file is the authority:
 volume, script, alignment, distinctness, house style, shape and payload layout
@@ -70,10 +73,12 @@ from what the app displays.
 | 1 | 7 | 401–439 | `data/clear_001.json` |
 | 2 | complete | 400–440 | `data/clear_002.json` |
 
-The reader prefers `data/clear_NNN.json` when a chapter has one and falls back
-to the Urdu `data/qutb_NNN.json` when it does not, so chapters ship one at a
-time. Chapter 1 is wired; the other 113 still show the Urdu, and the chapter
-head names whichever payload is on screen.
+Both payloads are on disk for chapters 1 and 2. `SIMPLE_VIEW_PREFERS` in
+`js/app.js` decides which the Simple view asks for first — `'ur'` (the shipped
+setting) puts Quṭb's Urdu on all 114 chapters, `'en'` prefers the written
+entries in the two chapters that have them. The other of the two stays loaded
+as the fallback, so either can be restored without touching the payloads, and
+the chapter head names whichever payload is on screen.
 
 ## Review
 

@@ -39,7 +39,7 @@ The authoring briefs that are binding on commentary text are: the one for
 Tafsīr al-Ṭabarī in `tools/tabari/README.md`, the payload rules in
 `tools/qutb/README.md` for the Urdu Simple view (verbatim text, verbatim
 upstream passages, no rewriting, translation or summary of the Urdu), and
-**`tools/clear/STYLE.md` for the English Simple view**.
+**`tools/clear/STYLE.md` for the written English entries**.
 
 `tools/clear/STYLE.md` is the authority for the English entries in
 `data/clear_NNN.json`, one per verse. Its first rule is a hard one: **every
@@ -48,6 +48,13 @@ verse gets 420 words of prose, band 400–440, no merges and no exceptions.**
 file, and `python3 -m unittest discover -s tools/clear/tests` proves the gates
 reject each violation. Do not commit a `data/clear_NNN.json` that has not
 passed both.
+
+These entries are **not on screen at present**. `SIMPLE_VIEW_PREFERS` in
+`js/app.js` is `'ur'`, so the Simple view shows Quṭb's Urdu on all 114
+chapters; the entries stay in the repository and `'en'` prefers them in the two
+chapters that have them. The gate rules above still bind whatever is committed
+to `data/clear_NNN.json`, and a payload that has silently gone stale against a
+change of translation is a bug whether or not it is rendered.
 
 To refresh the Simple payload from upstream:
 
