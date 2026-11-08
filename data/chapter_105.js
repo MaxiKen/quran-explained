@@ -6,14 +6,16 @@ var chapterData_105 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَٰبِ ٱلۡفِيلِ",
-        "ayah_en": "Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/105001.mp3"
+        "ayah_en": "Have you not considered, [O Muḥammad], how your Lord dealt with the companions of the elephant?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/105001.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِي تَضۡلِيلٖ",
-        "ayah_en": "Did He not frustrate their scheme",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/105002.mp3"
+        "ayah_en": "Did He not make their plan into misguidance?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/105002.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -24,20 +26,23 @@ var chapterData_105 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
-        "ayah_en": "For He sent against them flocks of birds",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/105003.mp3"
+        "ayah_en": "And He sent against them birds in flocks,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/105003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "تَرۡمِيهِم بِحِجَارَةٖ مِّن سِجِّيلٖ",
-        "ayah_en": "that pelted them with stones of baked clay",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/105004.mp3"
+        "ayah_en": "Striking them with stones of hard clay,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/105004.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "فَجَعَلَهُمۡ كَعَصۡفٖ مَّأۡكُولِۭ",
-        "ayah_en": "leaving them like chewed up straw",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/105005.mp3"
+        "ayah_en": "And He made them like eaten straw.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/105005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

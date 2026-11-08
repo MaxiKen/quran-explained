@@ -190,29 +190,40 @@ URLs are carried in `data/chapter_NNN.js`; audio is served from `everyayah.com`.
 
 ## The English translation
 
-`ayah_en` in `data/chapter_NNN.js` is **The Clear Quran®**, translated by
-Dr. Mustafa Khattab (© 2015, all rights reserved), carried complete for all
-6,236 verses. The translation is identifiable by its bracket glosses: 5,773 of
-the verses carry the `˹ … ˺` marks that are that edition's own device, and every
-one of the 114 chapters has them.
+`ayah_en` in `data/chapter_NNN.js` is the **Saheeh International** English
+translation of the Qurʾān, published by the **Noor International Center** and
+distributed through **QuranEnc.com** under the key `english_saheeh` (edition
+1.1.2). It is carried complete for all 6,236 verses of all 114 sūrahs.
 
-The translator's edition is **not** openly licensed. It is not the same work as
-the similarly named *Clear Quran* translated by Talal Itani, which is published
-under CC BY-ND 4.0 — that is a different translator and a different publisher.
-Quran.com's own help page states that it cannot extend permission to
-translations it hosts and that Khattab's must be sought from the author, and
-public translation-licensing audits list this edition among those that "cannot
-ship".
+- **Source of the text.** `data/quranenc/english_saheeh.json` from the
+  `risan/quran-json` project, which republishes the QuranEnc editions and states
+  that QuranEnc material is republished "unmodified, credit the publisher and
+  QuranEnc.com with the version number, keep up to date".
+- **What was changed.** Footnote reference markers (`[98]`) and the leading
+  verse number (`(255)`) are stripped, since the reader already numbers its
+  verses and does not display footnotes. The footnote *text* is therefore not
+  shipped. No word of the translation itself is altered, added or reordered.
+  The bracketed words and phrases inside the translation — `[All]`,
+  `[due]`, `[i.e., your forefathers]` — are part of the published text and are
+  reproduced as published.
+- **What remains open.** The translator and publisher hold the copyright in the
+  translation text. This project claims no licence over it. As with the
+  commentary sources above, the basis on which it is carried is that this reader
+  is one person's private copy, served to that person's own devices, not
+  published, sold or offered to the public. Anyone who takes this repository
+  beyond that use should settle the position with the publisher first.
 
-**The basis on which it is carried here** is narrow and should be read plainly.
-This reader is one person's private copy, served to that person's own devices.
-It is not published, distributed, sold, or offered to the public, and nothing in
-it is being monetised. The translation is reproduced unedited and its translator
-is credited here and on screen.
+The "Clear teaching" payloads quote this translation word for word inside every
+entry by design (`STYLE.md` §4), so they carry the same text and the same
+position applies to them.
 
-**Anyone who takes this repository beyond that use needs the translator's or
-publisher's permission first.** That includes any public deployment, any
-app-store distribution, any commercial use, and any redistribution of
-`data/chapter_NNN.js` or of the "Clear teaching" payloads, whose every entry
-quotes `ayah_en` word for word by design and therefore carries the same
-translation inside it.
+### Earlier translation
+
+Until 2026-11-08 `ayah_en` carried **The Clear Quran®** by Dr. Mustafa Khattab
+(© 2015, all rights reserved). It was replaced for licensing reasons: that
+edition is not openly licensed, is not the similarly named *Clear Quran* of
+Talal Itani (which is CC BY-ND 4.0), and Quran.com states that permission for it
+must be sought from the author. It is no longer present in this repository in
+any form, including inside the "Clear teaching" entries, whose spans were
+re-synchronised to the current translation and whose prose was revised wherever
+it had been written around Khattab's specific wording.

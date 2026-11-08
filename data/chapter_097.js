@@ -6,8 +6,9 @@ var chapterData_97 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةِ ٱلۡقَدۡرِ",
-        "ayah_en": "Indeed, ˹it is˺ We ˹Who˺ sent this ˹Quran˺ down on the Night of Glory",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/097001.mp3"
+        "ayah_en": "Indeed, We sent it [i.e., the Qur’ān] down during the Night of Decree.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097001.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -18,14 +19,16 @@ var chapterData_97 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ",
-        "ayah_en": "And what will make you realize what the Night of Glory is",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/097002.mp3"
+        "ayah_en": "And what can make you know what is the Night of Decree?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097002.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
-        "ayah_en": "The Night of Glory is better than a thousand months",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/097003.mp3"
+        "ayah_en": "The Night of Decree is better than a thousand months.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097003.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -36,8 +39,9 @@ var chapterData_97 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "تَنَزَّلُ ٱلۡمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرٖ",
-        "ayah_en": "That night the angels and the ˹holy˺ spirit descend, by the permission of their Lord, for every ˹decreed˺ matter",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/097004.mp3"
+        "ayah_en": "The angels and the Spirit [i.e., Gabriel] descend therein by permission of their Lord for every matter.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097004.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -48,8 +52,9 @@ var chapterData_97 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "سَلَٰمٌ هِيَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ",
-        "ayah_en": "It is all peace until the break of dawn",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/097005.mp3"
+        "ayah_en": "Peace it is until the emergence of dawn.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/097005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

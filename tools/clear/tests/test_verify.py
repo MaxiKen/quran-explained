@@ -110,7 +110,8 @@ class Script(unittest.TestCase):
         rec = load()
         e = rec['blocks'][0]
         # splice the letter in without adding a word, so only the script rule trips
-        rec['blocks'][0] = e.replace('act of beginning', 'act ' + insert + 'of beginning', 1)
+        target = first_prose_paragraph(e)
+        rec['blocks'][0] = e.replace(target, target + ' ' + insert, 1)
         self.assertIn(insert, rec['blocks'][0])
         return rec
 
@@ -119,11 +120,13 @@ class Alignment(unittest.TestCase):
     """STYLE.md 4: the app's translation is carried in the entry."""
 
     def test_missing_translation_phrase_fails(self):
-        rec = load()
-        # drop the phrase "Lord of all worlds" from verse 2's entry
-        rec['blocks'][1] = rec['blocks'][1].replace('Lord of all worlds', 'Rabb of everything')
-        ok, errs = run(rec)
-        self.assertFalse(ok)
+        # STYLE.md 4.2: every phrase of the translation must appear in the entry.
+        # An entry with no == span at all (the pre-span shape) is where this
+        # bites, since a correct span already carries the whole translation.
+        text = 'The straight path, the path of those You have blessed'
+        entry = ('## What the verse does\n\nThe road is mentioned here.\n\n'
+                 '## In short\n\n- one\n- two\n- three')
+        errs = verify.check_alignment('t', entry, text)
         self.assertTrue(any('does not carry the translation' in e for e in errs), errs)
 
     def test_phrases_split_on_dash_and_comma(self):
@@ -169,61 +172,90 @@ class Distinct(unittest.TestCase):
         self.assertFalse(any('8-word runs' in e for e in errs), errs)
 
 
+def first_prose_paragraph(entry):
+    """The first paragraph of body prose: not the span line, not a heading."""
+    for part in entry.split('\n\n'):
+        p = part.strip()
+        if not p or p.startswith('#') or p.startswith('- '):
+            continue
+        if p.startswith('=='):
+            continue
+        return p
+    raise AssertionError('no prose paragraph found')
+
+
+def with_prose(entry, fn):
+    """Apply fn to the first prose paragraph of an entry, leaving everything else."""
+    target = first_prose_paragraph(entry)
+    return entry.replace(target, fn(target), 1)
+
+
 class HouseStyle(unittest.TestCase):
-    """STYLE.md 6."""
+    """STYLE.md 6.
+
+    Each test mutates the first paragraph of body prose rather than a sentence
+    quoted from the sample, so the suite survives a change of translation or a
+    rewrite of the sample. The mutation helper asserts it actually applied, so a
+    silently missing anchor cannot turn a test into a no-op.
+    """
 
     def _mutate(self, fn):
         rec = load()
         before = rec['blocks'][0]
-        rec['blocks'][0] = fn(before)
+        rec['blocks'][0] = with_prose(before, fn)
         self.assertNotEqual(rec['blocks'][0], before, 'the mutation did not apply')
         return run(rec)
 
     def test_semicolon_fails(self):
-        ok, errs = self._mutate(lambda e: e.replace('That order is deliberate.',
-                                                    'That order is deliberate; it is chosen.'))
+        ok, errs = self._mutate(lambda p: p + ' One thing; and another.')
         self.assertFalse(ok)
         self.assertTrue(any('semicolon' in e for e in errs), errs)
 
     def test_em_dash_in_prose_fails(self):
-        ok, errs = self._mutate(lambda e: e.replace('That order is deliberate.',
-                                                    'That order is deliberate \u2014 and chosen.'))
+        ok, errs = self._mutate(lambda p: p + ' One thing \u2014 and another.')
         self.assertFalse(ok)
         self.assertTrue(any('em dash' in e for e in errs), errs)
 
-    def test_em_dash_inside_a_quotation_passes(self):
-        # the app's own translation contains an em dash; quoting it is allowed
-        ok, errs = run(load())
-        self.assertTrue(ok, errs)
-        self.assertIn('\u2014', load()['blocks'][0])
+    def test_span_may_contain_prose_illegal_punctuation(self):
+        # STYLE.md 4: the span exempts whatever translation is quoted in it,
+        # whatever punctuation that translation happens to contain.
+        rec = load()
+        rec['blocks'][0] = re.sub(r'==(.+?)==', '==\u2014 a span; with both \u2014==',
+                                  rec['blocks'][0], count=1, flags=re.S)
+        errs = verify.check_shape('1:1', rec['blocks'][0])
+        self.assertEqual(errs, [])
 
     def test_first_person_fails(self):
-        ok, errs = self._mutate(lambda e: e.replace('The reader does not launch',
-                                                    'I do not launch'))
+        ok, errs = self._mutate(lambda p: p + ' I do this.')
         self.assertFalse(ok)
         self.assertTrue(any('first person' in e for e in errs), errs)
 
     def test_naming_the_source_fails(self):
-        ok, errs = self._mutate(lambda e: e.replace('That order is deliberate.',
-                                                    'Qutb says that order is deliberate.'))
+        ok, errs = self._mutate(lambda p: p + ' Qutb says so.')
         self.assertFalse(ok)
         self.assertTrue(any('source' in e for e in errs), errs)
 
     def test_generic_heading_fails(self):
-        ok, errs = self._mutate(lambda e: e.replace('## Why it matters that the surah starts here',
-                                                    '## Explanation'))
-        self.assertFalse(ok)
+        body = ('## What the verse does\n\nprose.\n\n## Explanation\n\nmore.\n\n'
+                '## In short\n\n- one\n- two\n- three')
+        errs = verify.check_shape('t', body)
         self.assertTrue(any('generic heading' in e for e in errs), errs)
 
     def test_wrong_heading_level_fails(self):
-        ok, errs = self._mutate(lambda e: e.replace('## Why it matters that the surah starts here',
-                                                    '### Why it matters that the surah starts here'))
-        self.assertFalse(ok)
+        body = ('## What the verse does\n\nprose.\n\n### A third-level heading\n\n'
+                'more.\n\n## In short\n\n- one\n- two\n- three')
+        errs = verify.check_shape('t', body)
         self.assertTrue(any('heading level' in e for e in errs), errs)
 
+    def test_opening_heading_must_open_the_entry(self):
+        body = ('## Why this verse matters\n\nprose.\n\n## In short\n\n'
+                '- one\n- two\n- three')
+        errs = verify.check_shape('t', body)
+        self.assertTrue(any('opening' in e for e in errs), errs)
+
     def test_missing_in_short_fails(self):
-        ok, errs = self._mutate(lambda e: e.split('## In short')[0])
-        self.assertFalse(ok)
+        body = '## What the verse does\n\nprose only, no takeaways.'
+        errs = verify.check_shape('t', body)
         self.assertTrue(any('In short' in e for e in errs), errs)
 
 
@@ -318,11 +350,12 @@ class TranslationSpan(unittest.TestCase):
         self.assertFalse(verify.is_block('data/clear_002.json'))
 
     def test_span_must_match_the_translation(self):
-        # the marked span is checked word for word against ayah_en
-        text = 'Alif-Lãm-Mĩm'
-        errs = verify.check_alignment('2:1', '==Alif-Lãm-Mĩm==', text)
+        # the marked span is checked word for word against ayah_en, whatever
+        # translation the app carries
+        text = verify.load_translations(2, DATA)[0]
+        errs = verify.check_alignment('2:1', '==' + text + '==', text)
         self.assertEqual(errs, [])
-        errs = verify.check_alignment('2:1', '==Alif Lam Mim==', text)
+        errs = verify.check_alignment('2:1', '==something else entirely==', text)
         self.assertTrue(any('does not match' in e for e in errs), errs)
 
 

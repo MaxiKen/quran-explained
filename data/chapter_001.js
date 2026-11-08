@@ -6,8 +6,9 @@ var chapterData_1 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
-        "ayah_en": "In the Name of Allah—the Most Compassionate, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/001001.mp3"
+        "ayah_en": "In the name of Allāh, the Entirely Merciful, the Especially Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001001.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -18,8 +19,9 @@ var chapterData_1 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
-        "ayah_en": "All praise is for Allah—Lord of all worlds",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/001002.mp3"
+        "ayah_en": "[All] praise is [due] to Allāh, Lord of the worlds -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001002.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -30,14 +32,16 @@ var chapterData_1 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
-        "ayah_en": "the Most Compassionate, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/001003.mp3"
+        "ayah_en": "The Entirely Merciful, the Especially Merciful,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "مَٰلِكِ يَوۡمِ ٱلدِّينِ",
-        "ayah_en": "Master of the Day of Judgment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/001004.mp3"
+        "ayah_en": "Sovereign of the Day of Recompense.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001004.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -48,8 +52,9 @@ var chapterData_1 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ",
-        "ayah_en": "You ˹alone˺ we worship and You ˹alone˺ we ask for help",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/001005.mp3"
+        "ayah_en": "It is You we worship and You we ask for help.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -60,8 +65,9 @@ var chapterData_1 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ",
-        "ayah_en": "Guide us along the Straight Path",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/001006.mp3"
+        "ayah_en": "Guide us to the straight path -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001006.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -72,8 +78,9 @@ var chapterData_1 = [
       {
         "ayah_no_surah": 7,
         "ayah_ar": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ",
-        "ayah_en": "the Path of those You have blessed—not those You are displeased with, or those who are astray",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/001007.mp3"
+        "ayah_en": "The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/001007.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

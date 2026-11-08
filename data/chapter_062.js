@@ -6,26 +6,30 @@ var chapterData_62 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "يُسَبِّحُ لِلَّهِ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِ ٱلۡمَلِكِ ٱلۡقُدُّوسِ ٱلۡعَزِيزِ ٱلۡحَكِيمِ",
-        "ayah_en": "Whatever is in the heavens and whatever is on the earth ˹constantly˺ glorifies Allah—the King, the Most Holy, the Almighty, the All-Wise",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062001.mp3"
+        "ayah_en": "Whatever is in the heavens and whatever is on the earth is exalting Allāh, the Sovereign, the Pure, the Exalted in Might, the Wise.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062001.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "هُوَ ٱلَّذِي بَعَثَ فِي ٱلۡأُمِّيِّـۧنَ رَسُولٗا مِّنۡهُمۡ يَتۡلُواْ عَلَيۡهِمۡ ءَايَٰتِهِۦ وَيُزَكِّيهِمۡ وَيُعَلِّمُهُمُ ٱلۡكِتَٰبَ وَٱلۡحِكۡمَةَ وَإِن كَانُواْ مِن قَبۡلُ لَفِي ضَلَٰلٖ مُّبِينٖ",
-        "ayah_en": "He is the One Who raised for the illiterate ˹people˺ a messenger from among themselves—reciting to them His revelations, purifying them, and teaching them the Book and wisdom, for indeed they had previously been clearly astray—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062002.mp3"
+        "ayah_en": "It is He who has sent among the unlettered [Arabs] a Messenger from themselves reciting to them His verses and purifying them and teaching them the Book [i.e., the Qur’ān] and wisdom [i.e., the sunnah] - although they were before in clear error -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062002.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَءَاخَرِينَ مِنۡهُمۡ لَمَّا يَلۡحَقُواْ بِهِمۡۚ وَهُوَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ",
-        "ayah_en": "along with others of them who have not yet joined them ˹in faith˺. For He is the Almighty, All-Wise",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062003.mp3"
+        "ayah_en": "And [to] others of them who have not yet joined them. And He is the Exalted in Might, the Wise.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "ذَٰلِكَ فَضۡلُ ٱللَّهِ يُؤۡتِيهِ مَن يَشَآءُۚ وَٱللَّهُ ذُو ٱلۡفَضۡلِ ٱلۡعَظِيمِ",
-        "ayah_en": "This is the favour of Allah. He grants it to whoever He wills. And Allah is the Lord of infinite bounty",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062004.mp3"
+        "ayah_en": "That is the bounty of Allāh, which He gives to whom He wills, and Allāh is the possessor of great bounty.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062004.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -36,8 +40,9 @@ var chapterData_62 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "مَثَلُ ٱلَّذِينَ حُمِّلُواْ ٱلتَّوۡرَىٰةَ ثُمَّ لَمۡ يَحۡمِلُوهَا كَمَثَلِ ٱلۡحِمَارِ يَحۡمِلُ أَسۡفَارَۢاۚ بِئۡسَ مَثَلُ ٱلۡقَوۡمِ ٱلَّذِينَ كَذَّبُواْ بِـَٔايَٰتِ ٱللَّهِۚ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلظَّٰلِمِينَ",
-        "ayah_en": "The example of those who were entrusted with ˹observing˺ the Torah but failed to do so, is that of a donkey carrying books. How evil is the example of those who reject Allah’s signs! For Allah does not guide the wrongdoing people",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062005.mp3"
+        "ayah_en": "The example of those who were entrusted with the Torah and then did not take it on is like that of a donkey who carries volumes [of books]. Wretched is the example of the people who deny the signs of Allāh. And Allāh does not guide the wrongdoing people.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -48,20 +53,23 @@ var chapterData_62 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "قُلۡ يَٰٓأَيُّهَا ٱلَّذِينَ هَادُوٓاْ إِن زَعَمۡتُمۡ أَنَّكُمۡ أَوۡلِيَآءُ لِلَّهِ مِن دُونِ ٱلنَّاسِ فَتَمَنَّوُاْ ٱلۡمَوۡتَ إِن كُنتُمۡ صَٰدِقِينَ",
-        "ayah_en": "Say, ˹O Prophet,˺ “O Jews! If you claim to be Allah’s chosen ˹people˺ out of all humanity, then wish for death, if what you say is true.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062006.mp3"
+        "ayah_en": "Say, \"O you who are Jews, if you claim that you are allies of Allāh, excluding the [other] people, then wish for death, if you should be truthful.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062006.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَلَا يَتَمَنَّوۡنَهُۥٓ أَبَدَۢا بِمَا قَدَّمَتۡ أَيۡدِيهِمۡۚ وَٱللَّهُ عَلِيمُۢ بِٱلظَّٰلِمِينَ",
-        "ayah_en": "But they will never wish for that because of what their hands have done. And Allah has ˹perfect˺ knowledge of the wrongdoers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062007.mp3"
+        "ayah_en": "But they will not wish for it, ever, because of what their hands have put forth. And Allāh is Knowing of the wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062007.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "قُلۡ إِنَّ ٱلۡمَوۡتَ ٱلَّذِي تَفِرُّونَ مِنۡهُ فَإِنَّهُۥ مُلَٰقِيكُمۡۖ ثُمَّ تُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلۡغَيۡبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمۡ تَعۡمَلُونَ",
-        "ayah_en": "Say, “The death you are running away from will inevitably come to you. Then you will be returned to the Knower of the seen and unseen, and He will inform you of what you used to do.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062008.mp3"
+        "ayah_en": "Say, \"Indeed, the death from which you flee - indeed, it will meet you. Then you will be returned to the Knower of the unseen and the witnessed, and He will inform you about what you used to do.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062008.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -72,14 +80,16 @@ var chapterData_62 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِذَا نُودِيَ لِلصَّلَوٰةِ مِن يَوۡمِ ٱلۡجُمُعَةِ فَٱسۡعَوۡاْ إِلَىٰ ذِكۡرِ ٱللَّهِ وَذَرُواْ ٱلۡبَيۡعَۚ ذَٰلِكُمۡ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
-        "ayah_en": "O believers! When the call to prayer is made on Friday, then proceed ˹diligently˺ to the remembrance of Allah and leave off ˹your˺ business. That is best for you, if only you knew",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062009.mp3"
+        "ayah_en": "O you who have believed, when [the adhān] is called for the prayer on the day of Jumuʿah [Friday], then proceed to the remembrance of Allāh and leave trade. That is better for you, if you only knew.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062009.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُواْ فِي ٱلۡأَرۡضِ وَٱبۡتَغُواْ مِن فَضۡلِ ٱللَّهِ وَٱذۡكُرُواْ ٱللَّهَ كَثِيرٗا لَّعَلَّكُمۡ تُفۡلِحُونَ",
-        "ayah_en": "Once the prayer is over, disperse throughout the land and seek the bounty of Allah. And remember Allah often so you may be successful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062010.mp3"
+        "ayah_en": "And when the prayer has been concluded, disperse within the land and seek from the bounty of Allāh, and remember Allāh often that you may succeed.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062010.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -90,8 +100,9 @@ var chapterData_62 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَإِذَا رَأَوۡاْ تِجَٰرَةً أَوۡ لَهۡوًا ٱنفَضُّوٓاْ إِلَيۡهَا وَتَرَكُوكَ قَآئِمٗاۚ قُلۡ مَا عِندَ ٱللَّهِ خَيۡرٞ مِّنَ ٱللَّهۡوِ وَمِنَ ٱلتِّجَٰرَةِۚ وَٱللَّهُ خَيۡرُ ٱلرَّٰزِقِينَ",
-        "ayah_en": "When they saw the fanfare along with the caravan, they ˹almost all˺ flocked to it, leaving you ˹O Prophet˺ standing ˹on the pulpit˺. Say, “What is with Allah is far better than amusement and merchandise. And Allah is the Best Provider.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/062011.mp3"
+        "ayah_en": "But [on one occasion] when they saw a transaction or a diversion, [O Muḥammad], they rushed to it and left you standing. Say, \"What is with Allāh is better than diversion and than a transaction, and Allāh is the best of providers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/062011.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

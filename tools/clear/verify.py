@@ -25,6 +25,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 
 # ---- STYLE.md 2 : volume -------------------------------------------------
 WORD_TARGET = 420
@@ -102,7 +103,17 @@ def unquoted(text: str) -> str:
 
 
 def fold(s: str) -> list[str]:
-    s = s.lower()
+    """Lowercase, strip Latin diacritics, and split into comparable words.
+
+    The diacritic strip is load-bearing. Saheeh International transliterates
+    heavily - Allah, Muhammad, Ibrahim, Musa, Pharaoh all carry macrons, dots
+    or breves - and a naive `[a-z0-9']+` split cuts "Allah" into "all" and "h",
+    so an entry that quotes the translation verbatim fails its own alignment
+    check. Decomposing to NFD and dropping the combining marks folds every
+    transliteration onto the plain ASCII it was built from.
+    """
+    s = unicodedata.normalize('NFD', s.lower())
+    s = ''.join(c for c in s if not unicodedata.combining(c))
     for a, b in (('ʿ', ''), ('ʾ', ''), ('˹', '['), ('˺', ']')):
         s = s.replace(a, b)
     return re.findall(r"[a-z0-9']+", s)

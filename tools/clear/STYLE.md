@@ -122,7 +122,7 @@ from `data/chapter_NNN.js`), word for word, and explains that wording. The
 reader must be able to see which English words are being explained.
 
 1. The translation is quoted in the entry, at least once, inside a marked
-   span: `==In the Name of Allah—the Most Compassionate== is where the surah
+   span: `==In the name of Allāh, the Entirely Merciful== is where the surah
    opens.` The `==` markers separate the translation speaking from the writer
    speaking. They are required because some translations contain an em dash or
    a semicolon of their own, and nested reported speech that quotation marks
@@ -168,8 +168,8 @@ These are the app's rules, and they are enforced.
 
 | Rule | Detail |
 |---|---|
-| No em dash | `—` is banned in prose. It is permitted **only inside the marked translation span** (§4), which may itself contain one: `==In the Name of Allah—the Most Compassionate==`. |
-| No semicolon | `;` is banned in prose. It is permitted only inside the marked translation span, some of which contain one: `==We are definitely with you; we were only mocking.==` |
+| No em dash | `—` is banned in prose. It is permitted **only inside the marked translation span** (§4), which may itself contain one, though this translation uses `-` where others use a dash: `==This is the Book about which there is no doubt, a guidance for those conscious of Allāh -==`. |
+| No semicolon | `;` is banned in prose. It is permitted only inside the marked translation span, some of which contain one: `==And seek help through patience and prayer; and indeed, it is difficult except for the humbly submissive==` |
 | No first person singular | "I", "me", "my", "mine" are banned in prose. They are allowed inside a quotation. Say "the reader", "a person", "one". |
 | No citation | The entry speaks in one voice. It does not name Quṭb, the tafsīr, Ṭabarī, or "the commentary", and does not say "scholars note" or "the sources say". See §9 for how to handle a view that belongs to him. |
 | No generic headings | `Commentary`, `Explanation`, `Notes`, `Overview`, `Summary`, `Details`, `Introduction`, `Conclusion` are banned as headings. A heading says what its section is about. |
