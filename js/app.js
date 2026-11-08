@@ -350,37 +350,42 @@ const loadedSimple = {};
 const missingSimple = {};
 const simpleLoadPromises = {};
 
+/* A chapter may also carry a written English entry per verse, in
+   data/clear_NNN.json: one entry per verse, aligned to the translation in
+   data/chapter_NNN.js. Where that file exists it is the Simple view; the Urdu
+   of the source stays on disk and one load falls through to the other. */
+const CLEAR_SOURCE_LABEL = 'Clear teaching';
+
 function loadSimpleData(num) {
   if (loadedSimple[num]) return Promise.resolve(loadedSimple[num]);
   if (missingSimple[num]) return Promise.resolve(null);
   if (simpleLoadPromises[num]) return simpleLoadPromises[num];
 
   const pad = String(num).padStart(3, '0');
-  const url = `data/qutb_${pad}.json`;
-
-  simpleLoadPromises[num] = fetch(url, { cache: 'no-store' })
-    .then(res => {
-      if (res.status === 404) throw new Error('not written');
-      if (!res.ok) throw new Error(`HTTP ${res.status} loading ${url}`);
-      return res.json();
-    })
+  simpleLoadPromises[num] = fetchJsonOrNull(`data/clear_${pad}.json`)
+    .then(clear => (clear ? clear : fetchJsonOrNull(`data/qutb_${pad}.json`)))
     .then(data => {
-      loadedSimple[num] = data;
       delete simpleLoadPromises[num];
-      return data;
+      if (data) { loadedSimple[num] = data; return data; }
+      missingSimple[num] = true;
+      return null;
     })
     .catch(err => {
       delete simpleLoadPromises[num];
-      /* A surah that has not been written yet simply has no file. */
-      if (err && err.message === 'not written') {
-        missingSimple[num] = true;
-      } else {
-        console.error(`Failed to load simple explanations for Surah ${num}:`, err);
-      }
+      console.error(`Failed to load simple explanations for Surah ${num}:`, err);
       return null;
     });
 
   return simpleLoadPromises[num];
+}
+
+/* A payload file that may not exist yet: 404 is an answer, not an error. */
+function fetchJsonOrNull(url) {
+  return fetch(url, { cache: 'no-store' }).then(res => {
+    if (res.status === 404) return null;
+    if (!res.ok) throw new Error(`HTTP ${res.status} loading ${url}`);
+    return res.json();
+  });
 }
 
 function getSimpleData(num) {
@@ -1361,10 +1366,19 @@ function formatReadingTime(minutes) {
   return hours < 48 ? `About ${hours} h` : `About ${Math.round(hours / 24)} days`;
 }
 
-function readingTimeLabel(minutes, mode) {
+function readingTimeLabel(minutes, mode, lang) {
   const base = formatReadingTime(minutes);
   if (!base) return 'Length pending';
-  return mode === 'simple' ? `${base} of Urdu` : `${base} read`;
+  if (mode !== 'simple') return `${base} read`;
+  /* The Simple view is Urdu for most chapters and English where the entries
+     have been written, so the label follows the payload, not the mode. */
+  return lang === 'en' ? `${base} read` : `${base} of Urdu`;
+}
+
+/* The language of whatever the Simple view currently holds. */
+function simpleLang(num) {
+  const data = getSimpleData(num);
+  return (data && data.lang) || 'ur';
 }
 
 function getCommentaryReadingMinutes(data, tafsir, mode, surahNum) {
@@ -1445,7 +1459,8 @@ function renderCompleteCommentary(container) {
 
   const mode = getCommentaryMode(ch.number);
   const readingMinutes = getCommentaryReadingMinutes(data, tafsir, mode, ch.number);
-  const readingMinutesLabel = readingTimeLabel(readingMinutes, mode);
+  const readingMinutesLabel = readingTimeLabel(readingMinutes, mode,
+    mode === 'simple' ? simpleLang(ch.number) : null);
   const intro = getSurahIntro(tafsir);
   const chapterVerses = getChapterVerses(data);
   const speechSupported = ReadAloud.isSupported();
@@ -1469,7 +1484,7 @@ function renderCompleteCommentary(container) {
           <span class="ebook-number" aria-label="Surah ${ch.number}">${ch.number}</span>
         </div>
         <p class="ebook-subtitle">${escapeHtml(ch.meaning)} · ${mode === 'simple'
-          ? 'Fī Ẓilāl al-Qurʾān in Urdu — Quṭb\'s own discussion of each passage, in the original Urdu.'
+          ? simpleSubtitle(ch.number)
           : escapeHtml(TAFSIR_SOURCE_FULL) + ', verse by verse.'}</p>
         <div class="ebook-meta" aria-label="Reading details"><span>${ch.verses} verses</span><span aria-hidden="true">·</span><span id="commentaryReadTime">${readingMinutesLabel}</span><span aria-hidden="true">·</span><span>${escapeHtml(ch.type)}</span>${reading ? '<span aria-hidden="true">·</span><span class="ebook-meta-live">read aloud ready</span>' : ''}</div>
       </header>
@@ -1864,13 +1879,28 @@ function updateCommentaryReadTime(surah, mode) {
   if (!el || !AppState.currentSurahData) return;
   const minutes = getCommentaryReadingMinutes(
     AppState.currentSurahData, loadedTafsir[surah] || {}, mode, surah);
-  el.textContent = readingTimeLabel(minutes, mode);
+  el.textContent = readingTimeLabel(minutes, mode,
+    mode === 'simple' ? simpleLang(surah) : null);
+}
+
+/* The chapter head names the source, and which source it is depends on the
+   payload. Rebuild that one line when the payload arrives rather than
+   re-rendering the whole chapter the reader may already be scrolling. */
+function updateCommentarySubtitle(surah) {
+  const el = document.querySelector('.ebook-subtitle');
+  const ch = chaptersData.find(c => c.number === surah);
+  if (!el || !ch || getCommentaryMode(surah) !== 'simple') return;
+  const full = el.textContent || '';
+  const dot = full.indexOf(' · ');
+  const head = dot >= 0 ? full.slice(0, dot + 3) : `${ch.meaning} · `;
+  el.textContent = head + simpleSubtitle(surah);
 }
 
 function ensureCurrentSimpleData(surah) {
   if (!surah || getSimpleData(surah) || missingSimple[surah]) return;
   loadSimpleData(surah).then(data => {
     if (currentCommentarySurah() !== surah) return;
+    updateCommentarySubtitle(surah);
     if ((data && getCommentaryMode(surah) === 'simple') || missingSimple[surah]) {
       refreshCurrentCommentary();
     }
@@ -1878,13 +1908,26 @@ function ensureCurrentSimpleData(surah) {
 }
 
 /* ================================================
-   SIMPLE VIEW — FĪ ẒILĀL AL-QURʾĀN (URDU)
-   One discussion per run of verses. Quṭb writes a single continuous piece for
-   a run (2:1-5 is one discussion), so the payload stores each passage once and
-   maps the verses it covers onto it.
+   SIMPLE VIEW — CLEAR TEACHING, OR THE URDU SOURCE
+   A chapter may carry written English entries (data/clear_NNN.json, one per
+   verse, aligned to the translation). Where it does not, the Simple view is
+   the Urdu source: Quṭb writes one continuous piece for a run of verses
+   (2:1-5 is a single discussion), so that payload stores each passage once
+   and maps the verses it covers onto it.
 ================================================ */
 const SIMPLE_SOURCE_LABEL = 'Fī Ẓilāl al-Qurʾān — Sayyid Quṭb';
 const SIMPLE_SOURCE_NOTE = 'Urdu rendering';
+
+/* What the Simple view carries, which is not the same for every chapter while
+   the English entries are being written. */
+function simpleSubtitle(num) {
+  const data = getSimpleData(num);
+  if (data && data.lang === 'en') {
+    return 'Clear teaching written from Fī Ẓilāl al-Qurʾān, verse by verse.';
+  }
+  if (!data) return 'Clear teaching, verse by verse.';   /* not fetched yet */
+  return 'Fī Ẓilāl al-Qurʾān in Urdu — Quṭb\'s own discussion of each passage, in the original Urdu.';
+}
 
 /* The passage a verse belongs to, with the range of verses it covers. */
 function getSimpleBlock(ayahNum, simpleData) {

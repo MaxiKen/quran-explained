@@ -56,10 +56,11 @@ straight out of `data/chapter_NNN.js`, so it cannot drift from the app.
 
 ## Status
 
-| Surah | Entries | Gate |
-|---|---|---|
-| 1 | 7 | ok |
+| Surah | Entries | Gate | Shipped |
+|---|---|---|---|
+| 1 | 7 | ok | `data/clear_001.json` |
 
-Nothing is wired into the reader. `work/clear/001.json` is a sample for
-judging the voice, and the reader already renders an `en` payload (left to
-right, headings and lists) if one is placed beside the Urdu.
+The reader prefers `data/clear_NNN.json` when a chapter has one and falls back
+to the Urdu `data/qutb_NNN.json` when it does not, so chapters can ship one at
+a time. Chapter 1 is the only one wired so far; every other chapter still
+shows the Urdu. The chapter head names whichever payload is on screen.
