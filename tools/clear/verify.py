@@ -163,6 +163,20 @@ def check_shape(tag: str, entry: str) -> list[str]:
 
     if OTHER_MARKUP.search(entry):
         errs.append(f'{tag}: markup other than ##, **, * and - ')
+    # The renderer splits an entry on blank lines and nothing else, so a
+    # heading or the first bullet of a list that trails a line of prose on a
+    # single newline is never parsed: '## In short' is then printed as literal
+    # text inside a paragraph. Only a bullet directly after a bullet is fine.
+    lines = entry.split('\n')
+    for i, line in enumerate(lines):
+        if i == 0 or not lines[i - 1].strip():
+            continue
+        glued = line.startswith('## ') or (
+            line.startswith('- ') and not lines[i - 1].startswith('- '))
+        if glued:
+            errs.append(f'{tag}: {line[:2]!r} needs a blank line before it, '
+                        f'or it renders as literal text inside a paragraph')
+            break
     if not re.search(r'^##\s+In short\s*$', entry, re.M | re.I):
         errs.append(f'{tag}: no "## In short" section')
     else:
@@ -257,6 +271,11 @@ def check_payload_shape(rec: dict) -> list[str]:
         errs.append('no source label')
     if not rec.get('basedOn'):
         errs.append('no basedOn line')
+    # STYLE.md 10: the source's caveat is stated once per chapter. The Urdu
+    # payload carries one, so an English payload that replaces it must too.
+    if not (rec.get('notice') or '').strip():
+        errs.append('no notice: the chapter-level caveat from STYLE.md 10 is '
+                    'missing, so the source is credited without it')
     return errs
 
 

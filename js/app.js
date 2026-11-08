@@ -1978,9 +1978,14 @@ function simpleLinkedVerses(block) {
 /* One passage as its own paragraphs. Blank-line separated paragraphs are
    separate <p>s, exactly as the source breaks them. */
 /* A simple-English entry is Markdown-lite: `## heading`, `**bold**`, `*term*`,
-   and `- ` bullets. Nothing else is generated, so nothing else is accepted. */
+   `- ` bullets, and the `==…==` span that quotes the verse's own translation.
+   Nothing else is generated, so nothing else is accepted. The span is set as a
+   quotation so the reader can see which words are the translation's and which
+   are the commentary's: the entry is written about that wording, so the two
+   have to be told apart on screen. */
 function renderEnglishParagraph(part) {
   const inline = (str) => escapeHtml(str)
+    .replace(/==([^=]+?)==/g, '<q>$1</q>')
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>');
   if (/^##\s+/.test(part)) {

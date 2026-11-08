@@ -36,6 +36,7 @@ written. A file named plainly `NNN.json` must cover the whole sūrah.
 | `distinct` | §5 | no 8-word run shared between siblings |
 | `shape` | §6, §7 | dash, semicolon, first person, citation, headings, `In short` |
 | `coverage` | §2.3 | one entry per verse, never merged |
+| `payload` | §10, §12 | `source`, `basedOn`, and the chapter `notice` |
 
 A violation is a **failure**, not a warning.
 

@@ -238,6 +238,7 @@ python3 tools/clear/verify.py --file data/clear_002.json
 | `distinct` | §5 | ≥5% shingle overlap between siblings |
 | `shape` | §6, §7 | em dash, semicolon, first person, citation, bad heading, missing `In short`, other markup |
 | `coverage` | §2.3 | wrong number of entries for the sūrah's verses |
+| `payload` | §10, §12 | missing `lang`/`dir`, `source`, `basedOn`, or the chapter `notice` |
 
 The gate reads the translation from `data/chapter_NNN.js` so it can never drift
 from what the app displays, and it counts words the way §2.2 defines so that
@@ -292,7 +293,10 @@ The payload carries `source: "Clear teaching"` and a `basedOn` line naming Fī
 name the source (§6). The upstream caveat recorded in `ATTRIBUTION.md` — that
 the edition was withdrawn from upstream's default distribution after
 objections about the author's ʿaqīdah — is stated once per chapter, not per
-entry.
+entry: the payload's `notice` field, rendered once above the chapter. A chapter
+served in English must still carry it, because replacing the Urdu payload for
+that chapter would otherwise drop the caveat the Urdu had. The gate fails a
+payload with no `notice`.
 
 ---
 
@@ -300,8 +304,8 @@ entry.
 
 1. Read the sūrah's source passages in `data/qutb_NNN.json` alongside
    `data/chapter_NNN.js` for the translations.
-2. Write one entry per verse, in order, to `work/clear/NNN.json` in the payload
-   shape (§12).
+2. Write one entry per verse, in order, to `work/clear/NNN.txt`, one
+   `<<<S:V>>>` marker per verse, and let `build.py` assemble the payload (§12).
 3. Run `python3 tools/clear/verify.py --dir work/clear`. Fix every failure.
    The word count will fail first, on almost every entry; that is normal and it
    is the point of the rule.
@@ -322,6 +326,7 @@ entry.
   "dir": "ltr",
   "source": "Clear teaching",
   "basedOn": "Fī Ẓilāl al-Qurʾān — Sayyid Quṭb (1906-1966), read from the Urdu rendering",
+  "notice": "<the chapter-level caveat from §10>",
   "blocks": ["## <entry for verse 1>", "..."],
   "ranges": ["1:1", "1:2", "..."],
   "verses": {"1": 0, "2": 1, "..."}

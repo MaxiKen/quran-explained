@@ -37,6 +37,15 @@ MARKER = re.compile(r'^<<<(\d{1,3}):(\d{1,3})>>>\s*$', re.M)
 BASED_ON = ('Fī Ẓilāl al-Qurʾān — Sayyid Quṭb (1906-1966), '
             'read from the Urdu rendering')
 
+# STYLE.md 10: the upstream caveat is stated once per chapter, not per entry.
+# The Urdu payload carries it in `notice`; switching a chapter to the English
+# payload must not lose it, so the same statement travels with this one.
+NOTICE = ('Fī Ẓilāl al-Qurʾān is Sayyid Quṭb\u2019s work, first published '
+          '1952\u20131966, read here from an Urdu rendering. The entries below '
+          'are written from a reading of it as study material. They are not a '
+          'translation of the Qur\u02bean and not a substitute for a qualified '
+          'teacher, and the positions they report are the author\u2019s own.')
+
 
 def parse(text: str, surah: int) -> list[tuple[int, str]]:
     """[(verse, entry), ...] in file order, validating markers as it goes."""
@@ -81,6 +90,7 @@ def assemble(surah: int, entries: list[tuple[int, str]], *, partial: bool) -> di
         'dir': 'ltr',
         'source': 'Clear teaching',
         'basedOn': BASED_ON,
+        'notice': NOTICE,
         'blocks': [b for _, b in entries],
         'ranges': [f'{surah}:{v}' for v, _ in entries],
         'verses': {str(v): i for i, (v, _) in enumerate(entries)},

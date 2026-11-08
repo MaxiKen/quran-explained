@@ -2098,6 +2098,10 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
   color: var(--accent); margin: 22px 0 10px;
 }
 .simple-heading:first-of-type { margin-top: 14px; }
+/* The verse's own translation, quoted inside an entry with `==…==`. It keeps
+   the app's quote marks and the accent colour, so a reader can see at a glance
+   which words are the verse and which are the commentary on it. */
+.simple-view:not(.tafsir-rtl) q { color: var(--accent); font-style: italic; quotes: '\201C' '\201D'; }
 .simple-list { margin: 0 0 14px; padding-left: 20px; }
 .simple-list li { margin: 0 0 8px; line-height: 1.65; }
 .simple-list li:last-child { margin-bottom: 0; }

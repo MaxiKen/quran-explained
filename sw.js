@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.19.0-2026-11-08';
+const CACHE_VERSION = 'quran-reader-v1.20.0-2026-11-08';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary
@@ -25,18 +25,24 @@ const CACHE_VERSION = 'quran-reader-v1.19.0-2026-11-08';
 // on the same day. On 2026-10-18 the old phrase pairings were cleared and
 // replaced with a new, simpler format. On 2026-11-08 the Simple view's
 // data/saadi_NNN.json (Tafsīr as-Saʿdī, Arabic) was replaced with
-// data/qutb_NNN.json (Fī Ẓilāl al-Qurʾān, Urdu). None of the withdrawn
-// payloads — guidance, old pairings, Saʿdī — are carried into the new cache.
+// data/qutb_NNN.json (Fī Ẓilāl al-Qurʾān, Urdu). On the same day the Simple
+// view gained written English entries in data/clear_NNN.json, which is a new
+// payload rather than a replacement, so it carries from its first release
+// (v1.20.0). None of the withdrawn payloads — guidance, old pairings, Saʿdī —
+// are carried into the new cache.
 // Data files are fetched network-first anyway; this only matters offline.
 const CARRY_FROM = {
   'chapter_': 'quran-reader-v0',
   'tafsir_': 'quran-reader-v1.11.0',
   /* The Simple view's payload. Nothing older than this release carries it. */
-  'qutb_': 'quran-reader-v1.18.0'
+  'qutb_': 'quran-reader-v1.18.0',
+  /* The English entries of the Simple view (data/clear_NNN.json), added in
+     v1.20.0, so nothing older than that release has one to carry. */
+  'clear_': 'quran-reader-v1.20.0'
 };
 
 function carriesPayload(cacheName, url) {
-  const m = /\/data\/(chapter_|tafsir_|qutb_)/.exec(url);
+  const m = /\/data\/(chapter_|tafsir_|qutb_|clear_)/.exec(url);
   if (!m) return false;
   return cacheName.startsWith('quran-reader-v') && cacheName >= CARRY_FROM[m[1]];
 }
