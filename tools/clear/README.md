@@ -1,66 +1,67 @@
-# Clear-teaching commentary (work in progress)
+# Clear teaching — the English Simple view
 
-An English commentary layer for the Simple view: one entry per verse, written
-from a reading of Fī Ẓilāl al-Qurʾān, in the app's own modern English.
+An English commentary layer for the Simple view: **one entry per verse**,
+written from a reading of Fī Ẓilāl al-Qurʾān, in the app's own modern English.
 
-**Mode: clear teaching.** The entry explains what the verse says to a reader
-with no Arabic and no background. It is informed by Quṭb, and where it reports
-his reading it says so, but it is not a translation of him and does not claim
-to carry everything he says. When Quṭb and the entry diverge, that is a
-decision, not an accident.
+**The rules are in [`STYLE.md`](STYLE.md).** That file is the authority:
+volume, script, alignment, distinctness, house style, shape and payload layout
+are specified there and enforced by `verify.py`.
 
-## What an entry must be
+## The one rule to know before writing
 
-- **One entry per verse.** 6,236 in total, no verse skipped, no two verses
-  sharing an entry. Distinctness is checked mechanically.
-- **Aligned to the app's translation.** Each entry quotes the app's own
-  `ayah_en` word for word, in order, so the reader can see which words are
-  being explained.
-- **Latin script only.** No Arabic or Urdu letters. The one exception is the
-  salawat sign ﷺ. Arabic terms appear transliterated and italicised, with the
-  meaning given at first use: *al-hamd* (praise).
-- **No citation.** The entry speaks in one voice. It does not say "Qutb
-  says", "the tafsir says", "scholars note". If a reading belongs to Quṭb it
-  is stated as a reading, not attributed by name.
-- **House style.** No em dash. No semicolon. No first person singular. No
-  generic headings (Commentary, Explanation, Notes). Headings are `##`.
+**Every verse gets 420 words of prose, band 400–440.** Not an average, not a
+target. A thin verse gets more thought, not fewer words. `verify.py` fails the
+file on any entry outside the band.
 
-## Shape
+## Run the gates
 
 ```
-## <what the verse does>        a section heading in sentence case
-prose
-## <a question a reader would ask>
-prose
-## In short
-- bullet
-- bullet
+python3 tools/clear/verify.py                    # the tracked samples
+python3 tools/clear/verify.py --dir work/clear   # work in progress
+python3 tools/clear/verify.py --file data/clear_001.json
+python3 -m unittest discover -s tools/clear/tests
 ```
 
-Sections are optional, the opening and In short are not. An entry runs as long
-as the verse needs and no longer. A one-line verse gets a short entry.
+| Check | STYLE.md | Enforces |
+|---|---|---|
+| `words` | §2 | 420 words per verse, band 400–440 |
+| `script` | §3 | Latin only; ﷺ the sole exception |
+| `aligned` | §4 | every phrase of the app's `ayah_en` appears |
+| `distinct` | §5 | no 8-word run shared between siblings |
+| `shape` | §6, §7 | dash, semicolon, first person, citation, headings, `In short` |
+| `coverage` | §2.3 | one entry per verse, never merged |
 
-## The four gates
+A violation is a **failure**, not a warning.
 
-```
-python3 tools/clear/verify.py --dir work/clear
-```
+The gate reads the translation out of `data/chapter_NNN.js`, so it cannot drift
+from what the app displays.
 
-- `script`     no Arabic-block letters except ﷺ
-- `distinct`   no run of 8 words shared between sibling verses
-- `aligned`    every phrase of the app's translation appears in the entry
-- `shape`      heading levels, dash, semicolon, citation, first person
+## Writing one sūrah
 
-A violation is a failure, not a warning. The gate reads the translation
-straight out of `data/chapter_NNN.js`, so it cannot drift from the app.
+1. Read the source passages in `data/qutb_NNN.json` beside the translations in
+   `data/chapter_NNN.json` (`chapter_NNN.js`).
+2. Write one entry per verse to `work/clear/NNN.json`, in the payload shape at
+   STYLE.md §12.
+3. Run the gate. The word count fails first on almost every entry; that is
+   normal and it is the point of the rule.
+4. Copy the passing file to `data/clear_NNN.json` and
+   `tools/clear/samples/NNN.json`, re-run the gate, commit.
+5. Confirm the chapter renders left to right in the app and the chapter head
+   names clear teaching.
 
 ## Status
 
-| Surah | Entries | Gate | Shipped |
+| Surah | Entries | Words | Shipped |
 |---|---|---|---|
-| 1 | 7 | ok | `data/clear_001.json` |
+| 1 | 7 | 401–439 | `data/clear_001.json` |
 
 The reader prefers `data/clear_NNN.json` when a chapter has one and falls back
-to the Urdu `data/qutb_NNN.json` when it does not, so chapters can ship one at
-a time. Chapter 1 is the only one wired so far; every other chapter still
-shows the Urdu. The chapter head names whichever payload is on screen.
+to the Urdu `data/qutb_NNN.json` when it does not, so chapters ship one at a
+time. Chapter 1 is wired; the other 113 still show the Urdu, and the chapter
+head names whichever payload is on screen.
+
+## Review
+
+`preview.html` is a standalone page showing, per verse, the Arabic, the app's
+translation, the entry, and the Urdu it was written from. Open it from the
+repo root or through the dev server.

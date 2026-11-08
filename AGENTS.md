@@ -35,10 +35,19 @@ That layer is **not wired into the reader any more** — no `data/pairs_*.json`
 is shipped and the switch no longer offers it — and it is kept for the record
 only. Do not treat its rules as binding on the current views.
 
-The only authoring brief that is binding on commentary text now is the one for
-Tafsīr al-Ṭabarī in `tools/tabari/README.md`, and the payload rules in
-`tools/qutb/README.md` for the Simple view (verbatim text, verbatim upstream
-passages, no rewriting, translation or summary of the Urdu).
+The authoring briefs that are binding on commentary text are: the one for
+Tafsīr al-Ṭabarī in `tools/tabari/README.md`, the payload rules in
+`tools/qutb/README.md` for the Urdu Simple view (verbatim text, verbatim
+upstream passages, no rewriting, translation or summary of the Urdu), and
+**`tools/clear/STYLE.md` for the English Simple view**.
+
+`tools/clear/STYLE.md` is the authority for the English entries in
+`data/clear_NNN.json`, one per verse. Its first rule is a hard one: **every
+verse gets 420 words of prose, band 400–440, no merges and no exceptions.**
+`python3 tools/clear/verify.py` fails a payload that breaks any rule in the
+file, and `python3 -m unittest discover -s tools/clear/tests` proves the gates
+reject each violation. Do not commit a `data/clear_NNN.json` that has not
+passed both.
 
 To refresh the Simple payload from upstream:
 
