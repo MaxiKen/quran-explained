@@ -154,7 +154,11 @@ tolerance 5%).
 - Do not pad a thin verse by restating its neighbour.
 
 The gate compares every pair of siblings on word shingles and fails above 5%
-of the shorter entry's shingles.
+of the shorter entry's shingles. The `==` translation span is excluded from the
+comparison, because §4 requires it word for word and two verses the app
+translates near-identically (2:134 and 2:141 are the same sentence) would
+otherwise fail through no choice of the writer's. The span is still checked
+against the translation by §4.
 
 ---
 

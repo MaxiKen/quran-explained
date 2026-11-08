@@ -9,6 +9,7 @@ Run:
 """
 import copy
 import json
+import re
 import os
 import sys
 import unittest
@@ -140,6 +141,22 @@ class Distinct(unittest.TestCase):
         ok, errs = run(rec)
         self.assertFalse(ok)
         self.assertTrue(any('8-word runs' in e for e in errs), errs)
+
+    def test_mandated_span_does_not_count_as_recycled(self):
+        # two verses whose translations are the same sentence (2:134, 2:141)
+        # must not fail on the span the style requires word for word. The
+        # surah 1 sample predates the == span convention, so this uses surah 2.
+        with open(os.path.join(ROOT, 'tools', 'clear', 'samples',
+                               '002-block1.json'), encoding='utf-8') as fh:
+            rec = json.load(fh)
+        spans = [re.search(r'==(.+?)==', b, re.S).group(1) for b in rec['blocks']]
+        i = max(range(len(spans)), key=lambda k: len(spans[k].split()))
+        j = 0 if i else 1
+        self.assertGreater(len(spans[i].split()), 40, 'need a long span to test with')
+        rec['blocks'][j] = re.sub(r'==(.+?)==', '==' + spans[i] + '==',
+                                  rec['blocks'][j], count=1, flags=re.S)
+        errs = [e for e in run(rec)[1] if '8-word runs' in e]
+        self.assertFalse(errs, errs)
 
     def test_one_shared_sentence_passes(self):
         # a single 8-word run is below the 5% tolerance on a 420-word entry

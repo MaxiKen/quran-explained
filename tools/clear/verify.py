@@ -261,8 +261,16 @@ def check_payload_shape(rec: dict) -> list[str]:
 
 
 def check_distinct(rec: dict, entries: dict[int, str]) -> list[str]:
+    """STYLE.md 5, applied to the writer's own prose only.
+
+    The == translation span == is mandated word for word by STYLE.md 4, so two
+    verses the app happens to translate near-identically (2:134 and 2:141 are
+    the same sentence) would otherwise fail through no choice of the writer's.
+    The span is already validated against the translation by check_alignment.
+    """
     errs = []
-    sh = {v: shingles(fold(e), SHINGLE) for v, e in entries.items()}
+    sh = {v: shingles(fold(VERSE_SPAN.sub(' ', e)), SHINGLE)
+          for v, e in entries.items()}
     for a, b in itertools.combinations(sorted(entries), 2):
         if not sh[a] or not sh[b]:
             continue
