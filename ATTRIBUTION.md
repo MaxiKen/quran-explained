@@ -185,6 +185,34 @@ those three licence texts should be added under `fonts/` before release.
 
 ## Verse text and recitation
 
-Verse text (`ayah_ar`) is the KFGQPC Unicode Uthmanic script. English
-translations (`ayah_en`) and per-verse audio URLs are carried in
-`data/chapter_NNN.js`; audio is served from `everyayah.com`.
+Verse text (`ayah_ar`) is the KFGQPC Unicode Uthmanic script. Per-verse audio
+URLs are carried in `data/chapter_NNN.js`; audio is served from `everyayah.com`.
+
+## The English translation
+
+`ayah_en` in `data/chapter_NNN.js` is **The Clear Quran®**, translated by
+Dr. Mustafa Khattab (© 2015, all rights reserved), carried complete for all
+6,236 verses. The translation is identifiable by its bracket glosses: 5,773 of
+the verses carry the `˹ … ˺` marks that are that edition's own device, and every
+one of the 114 chapters has them.
+
+The translator's edition is **not** openly licensed. It is not the same work as
+the similarly named *Clear Quran* translated by Talal Itani, which is published
+under CC BY-ND 4.0 — that is a different translator and a different publisher.
+Quran.com's own help page states that it cannot extend permission to
+translations it hosts and that Khattab's must be sought from the author, and
+public translation-licensing audits list this edition among those that "cannot
+ship".
+
+**The basis on which it is carried here** is narrow and should be read plainly.
+This reader is one person's private copy, served to that person's own devices.
+It is not published, distributed, sold, or offered to the public, and nothing in
+it is being monetised. The translation is reproduced unedited and its translator
+is credited here and on screen.
+
+**Anyone who takes this repository beyond that use needs the translator's or
+publisher's permission first.** That includes any public deployment, any
+app-store distribution, any commercial use, and any redistribution of
+`data/chapter_NNN.js` or of the "Clear teaching" payloads, whose every entry
+quotes `ayah_en` word for word by design and therefore carries the same
+translation inside it.
