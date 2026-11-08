@@ -188,7 +188,7 @@ familiar English in brackets on first mention: "Mūsā (Moses)", "ʿĪsā (Jesus
 Every entry has this shape, in this order.
 
 ```
-## <what the verse does>
+## What the verse does
 prose
 
 ## <a heading naming what this section is about>
@@ -203,9 +203,11 @@ prose
 - takeaway
 ```
 
-- **An opening section**, headed, that gives the reader the verse: what it
-  says, who speaks to whom, where it stands, and why it matters. A reader who
-  stops after the opening must already have the verse.
+- **An opening section**, always headed `## What the verse does` (the gate
+  checks the literal heading, so every chapter opens the same way), that gives
+  the reader the verse: what it says, who speaks to whom, where it stands, and
+  why it matters. A reader who stops after the opening must already have the
+  verse.
 - **As many middle sections as the verse needs** to reach 420 words. Each
   heading names its subject and is either a question a reader would ask or the
   part of the verse under discussion. Typical: why it was revealed, the story

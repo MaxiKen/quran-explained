@@ -11,7 +11,7 @@ is the source of truth while a sūrah is being written; the JSON is generated.
 Draft format — one entry per verse, opened by a marker line:
 
     <<<2:1>>>
-    ## What this verse does
+    ## What the verse does
 
     prose...
 

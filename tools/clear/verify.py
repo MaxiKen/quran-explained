@@ -184,6 +184,10 @@ def check_shape(tag: str, entry: str) -> list[str]:
         n = len(re.findall(r'^\s*-\s+', tail, re.M))
         if not 3 <= n <= 5:
             errs.append(f'{tag}: In short has {n} bullets, expected 3-5')
+    heads = [h.strip() for h in re.findall(r'^##\s+(.+)$', entry, re.M)]
+    if heads and not heads[0].lower().startswith('what the verse does'):
+        errs.append(f'{tag}: first heading is {heads[0]!r}, expected the '
+                    f'opening "## What the verse does" section')
     headings = re.findall(r'^##\s+', entry, re.M)
     if len(headings) < 2:
         errs.append(f'{tag}: only {len(headings)} heading(s); an opening '

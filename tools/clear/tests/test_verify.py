@@ -296,12 +296,12 @@ class TranslationSpan(unittest.TestCase):
         self.assertTrue(any('blank line' in e for e in errs), errs)
 
     def test_bullet_list_may_run_on_without_blank_lines(self):
-        body = ('## A heading\n\nprose.\n\n## In short\n\n'
+        body = ('## What the verse does\n\nprose.\n\n## In short\n\n'
                 '- one\n- two\n- three')
         self.assertEqual(verify.check_shape('t', body), [])
 
     def test_semicolon_inside_the_span_passes(self):
-        body = ('## A heading\n\n==We are definitely with you; we were only '
+        body = ('## What the verse does\n\n==We are definitely with you; we were only '
                 'mocking.== The verse reports two rooms.\n\n## In short\n\n'
                 '- one\n- two\n- three')
         self.assertEqual(verify.check_shape('t', body), [])
@@ -341,6 +341,14 @@ class PayloadShape(unittest.TestCase):
         rec['dir'] = 'rtl'
         ok, errs = run(rec)
         self.assertFalse(ok)
+
+    def test_opening_heading_must_open_the_entry(self):
+        # the two shipped payloads drifted apart once ("What this verse does");
+        # the opening section is fixed so a reader always meets the same shape
+        body = ('## Why this verse matters\n\nprose.\n\n## In short\n\n'
+                '- one\n- two\n- three')
+        errs = verify.check_shape('t', body)
+        self.assertTrue(any('opening' in e for e in errs), errs)
 
     def test_missing_notice_fails(self):
         # STYLE.md 10: the caveat travels with the chapter
