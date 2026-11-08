@@ -87,6 +87,25 @@ def assemble(surah: int, entries: list[tuple[int, str]], *, partial: bool) -> di
     }
 
 
+def sync_spans(entries, translations):
+    """Rewrite each `==span==` from the app's own `ayah_en`.
+
+    The translation contains curly quotes and nested speech that are easy to
+    mistype and impossible to eyeball. The gate compares the span to `ayah_en`
+    word for word, so the safe thing is to take the span from the data rather
+    than from the draft. This reports what it changed.
+    """
+    import re
+    changed = 0
+    for i, entry in enumerate(entries):
+        text = translations[i]
+        new, n = re.subn(r'==(.+?)==', lambda m: '==' + text + '==', entry, count=1, flags=re.S)
+        if n and new != entry:
+            entries[i] = new
+            changed += 1
+    return changed
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -95,12 +114,24 @@ def main() -> int:
     ap.add_argument('--to', dest='dst', help='write NNN.json here instead of stdout')
     ap.add_argument('--partial', action='store_true',
                     help='the draft covers verses 1..N only')
+    ap.add_argument('--data', default='data', help='where chapter_NNN.js lives')
+    ap.add_argument('--no-sync', action='store_true',
+                    help='leave the == translation spans exactly as drafted')
     args = ap.parse_args()
 
     with open(args.src, encoding='utf-8') as fh:
         text = fh.read()
     entries = parse(text, args.surah)
     payload = assemble(args.surah, entries, partial=args.partial)
+
+    if not args.no_sync:
+        # the span must equal ayah_en, so take it from the data rather than the
+        # draft: curly quotes and nested speech are easy to mistype
+        from verify import load_translations
+        tr = load_translations(args.surah, args.data)[:len(entries)]
+        changed = sync_spans(payload['blocks'], tr)
+        if changed:
+            print(f'synced {changed} translation span(s) from chapter_{args.surah:03d}.js')
 
     if args.dst:
         path = os.path.join(args.dst, f'clear_{args.surah:03d}.json')
