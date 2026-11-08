@@ -64,6 +64,17 @@ OTHER_MARKUP = re.compile(
     re.M)
 QUOTED = re.compile(r'"[^"]*"')
 
+# The app's translations contain nested speech, and some contain a semicolon or
+# an em dash of their own. Rather than parse nesting (which the same delimiter
+# cannot express), the writer marks the passage that quotes the translation:
+#
+#     ==In the Name of Allah—the Most Compassionate== is where the surah opens.
+#
+# Everything between == ... == is the translation speaking, and the house rules
+# do not apply inside it. Ordinary quotations of a phrase still use " ... " and
+# are subject to the rules as usual.
+VERSE_SPAN = re.compile(r'==(.+?)==', re.S)
+
 IN_SHORT = re.compile(r'^##\s+In short\s*$', re.M | re.I)
 
 
@@ -82,8 +93,12 @@ def words(text: str) -> int:
 
 
 def unquoted(text: str) -> str:
-    """Prose with quotations removed, for rules a quotation may pass (§6)."""
-    return QUOTED.sub('""', text)
+    """The writer's own prose (§6).
+
+    Removes the marked translation span and any plain quotation, so that a
+    style rule only judges what the writer actually wrote.
+    """
+    return QUOTED.sub('""', VERSE_SPAN.sub('""', text))
 
 
 def fold(s: str) -> list[str]:
@@ -128,8 +143,8 @@ def check_shape(tag: str, entry: str) -> list[str]:
     if EMDASH in body:
         line = next((l for l in body.split('\n') if EMDASH in l), '')
         errs.append(f'{tag}: em dash outside a quotation: {line[:80]!r}')
-    if SEMI in entry:
-        line = next(l for l in entry.split('\n') if SEMI in l)
+    if SEMI in body:
+        line = next(l for l in body.split('\n') if SEMI in l)
         errs.append(f'{tag}: semicolon: {line[:80]!r}')
     m = FIRST_PERSON.search(body)
     if m:
@@ -173,6 +188,10 @@ def check_script(tag: str, entry: str) -> list[str]:
 
 def check_alignment(tag: str, entry: str, translation: str) -> list[str]:
     body = set(fold(entry))
+    # the marked span, if present, must be the translation itself
+    for span in VERSE_SPAN.findall(entry):
+        if fold(span) != fold(translation.replace('\u02f9', '').replace('\u02fa', '')):
+            return [f'{tag}: the == span does not match the app translation word for word']
     missing = [p for p in translation_phrases(translation)
                if not all(w in body for w in fold(p))]
     if missing:
@@ -191,11 +210,18 @@ def check_words(tag: str, entry: str) -> tuple[list[str], int]:
     return [], n
 
 
-def check_coverage(rec: dict, n_verses: int) -> list[str]:
+def check_coverage(rec: dict, n_verses: int, partial: bool = False) -> list[str]:
+    """One entry per verse (STYLE.md 2.3).
+
+    With partial=True the payload may cover verses 1..N only, which is how a
+    long sūrah is written in blocks. The prefix must still be unbroken and every
+    other rule still applies."""
     errs = []
     blocks = rec.get('blocks') or []
-    if len(blocks) != n_verses:
+    if not partial and len(blocks) != n_verses:
         errs.append(f'{rec.get("surah")}: {len(blocks)} entries for {n_verses} verses')
+    if partial and len(blocks) > n_verses:
+        errs.append(f'{rec.get("surah")}: {len(blocks)} entries, more than the {n_verses} verses')
     ranges = rec.get('ranges') or []
     if len(ranges) != len(blocks):
         errs.append(f'{rec.get("surah")}: {len(ranges)} ranges for {len(blocks)} entries')
@@ -204,7 +230,8 @@ def check_coverage(rec: dict, n_verses: int) -> list[str]:
         errs.append(f'{rec.get("surah")}: {len(verses)} verse mappings for {len(blocks)} entries')
     # one block per verse, in order, no shared block
     seen = set()
-    for v in range(1, n_verses + 1):
+    written = len(blocks)
+    for v in range(1, (written if partial else n_verses) + 1):
         idx = verses.get(str(v))
         if idx is None:
             errs.append(f'{rec.get("surah")}:{v}: no entry')
@@ -246,7 +273,8 @@ def check_distinct(rec: dict, entries: dict[int, str]) -> list[str]:
     return errs
 
 
-def verify_file(path: str, data_dir: str, verbose: bool = True) -> tuple[bool, list[str]]:
+def verify_file(path: str, data_dir: str, verbose: bool = True,
+                partial: bool = False) -> tuple[bool, list[str]]:
     with open(path, encoding='utf-8') as fh:
         rec = json.load(fh)
     surah = rec.get('surah')
@@ -259,7 +287,12 @@ def verify_file(path: str, data_dir: str, verbose: bool = True) -> tuple[bool, l
         errs.append(f'cannot read the translation for surah {surah}: {exc}')
         return False, errs
 
-    errs += check_coverage(rec, len(translations))
+    errs += check_coverage(rec, len(translations), partial=partial)
+    if partial and verbose:
+        done = len(rec.get('blocks') or [])
+        if done < len(translations):
+            print(f'      partial: {done} of {len(translations)} verses '
+                  f'written ({done / len(translations) * 100:.0f}%)')
     entries = {v + 1: b for v, b in enumerate(rec.get('blocks') or [])}
 
     counts = {}
@@ -302,6 +335,8 @@ def main() -> int:
                     help='directory of NNN.json payloads (default: tracked samples)')
     ap.add_argument('--file', help='a single payload to check')
     ap.add_argument('--data', default='data', help='where chapter_NNN.js lives')
+    ap.add_argument('--partial', action='store_true',
+                    help='accept a payload covering verses 1..N only (work in progress)')
     args = ap.parse_args()
 
     if args.file:
@@ -314,7 +349,7 @@ def main() -> int:
 
     failed = 0
     for f in files:
-        ok, _ = verify_file(f, args.data)
+        ok, _ = verify_file(f, args.data, partial=args.partial)
         if not ok:
             failed += 1
     print()

@@ -121,8 +121,14 @@ Every entry carries the app's own translation of its verse (`ayah_en`, read
 from `data/chapter_NNN.js`), word for word, and explains that wording. The
 reader must be able to see which English words are being explained.
 
-1. The translation is quoted in the entry, in double quotation marks, at least
-   once.
+1. The translation is quoted in the entry, at least once, inside a marked
+   span: `==In the Name of Allah—the Most Compassionate== is where the surah
+   opens.` The `==` markers separate the translation speaking from the writer
+   speaking. They are required because some translations contain an em dash or
+   a semicolon of their own, and nested reported speech that quotation marks
+   alone cannot delimit. Everything inside `== … ==` is exempt from §6's
+   punctuation rules. The span must reproduce `ayah_en` word for word, which
+   the gate checks.
 2. Each substantive phrase of the translation is taken up and explained. The
    gate splits the translation on dashes and commas and requires every piece
    of two words or more to appear in the entry (§8, `aligned`).
@@ -158,8 +164,8 @@ These are the app's rules, and they are enforced.
 
 | Rule | Detail |
 |---|---|
-| No em dash | `—` is banned in prose. It is permitted **only inside a quotation of the app's translation**, which itself contains one ("In the Name of Allah—the Most Compassionate"). The gate strips quoted spans before checking. |
-| No semicolon | `;` is banned outright. Use a full stop, or a comma, or start a new sentence. |
+| No em dash | `—` is banned in prose. It is permitted **only inside the marked translation span** (§4), which may itself contain one: `==In the Name of Allah—the Most Compassionate==`. |
+| No semicolon | `;` is banned in prose. It is permitted only inside the marked translation span, some of which contain one: `==We are definitely with you; we were only mocking.==` |
 | No first person singular | "I", "me", "my", "mine" are banned in prose. They are allowed inside a quotation. Say "the reader", "a person", "one". |
 | No citation | The entry speaks in one voice. It does not name Quṭb, the tafsīr, Ṭabarī, or "the commentary", and does not say "scholars note" or "the sources say". See §9 for how to handle a view that belongs to him. |
 | No generic headings | `Commentary`, `Explanation`, `Notes`, `Overview`, `Summary`, `Details`, `Introduction`, `Conclusion` are banned as headings. A heading says what its section is about. |

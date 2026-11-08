@@ -28,6 +28,15 @@ def load():
         return json.load(fh)
 
 
+def prefix(n):
+    """A payload covering verses 1..n only, the shape build.py --partial emits."""
+    rec = load()
+    rec['blocks'] = rec['blocks'][:n]
+    rec['ranges'] = rec['ranges'][:n]
+    rec['verses'] = {k: v for k, v in rec['verses'].items() if v < n}
+    return rec
+
+
 def run(rec, name='t.json'):
     """Write a payload to a temp file and verify it, returning the errors."""
     path = os.path.join(HERE, name)
@@ -223,6 +232,62 @@ class Coverage(unittest.TestCase):
         ok, errs = run(rec)
         self.assertFalse(ok)
         self.assertTrue(any('range says' in e for e in errs), errs)
+
+    def test_partial_accepts_a_prefix(self):
+        # a block of a long surah may cover verses 1..N only
+        ok, errs = verify.verify_file(self._write(prefix(4)), DATA,
+                                      verbose=False, partial=True)
+        self.assertTrue(ok, errs)
+
+    def test_partial_still_demands_a_prefix(self):
+        # dropping a middle verse leaves a gap, even in partial mode
+        rec = prefix(4)
+        rec['blocks'].pop(2)
+        rec['ranges'].pop(2)
+        rec['verses'] = {str(int(k) if int(k) < 3 else int(k) + 1): v
+                         for k, v in rec['verses'].items()}
+        ok, errs = verify.verify_file(self._write(rec), DATA, verbose=False,
+                                      partial=True)
+        self.assertFalse(ok)
+
+    def test_partial_does_not_relax_any_other_rule(self):
+        # a short entry still fails, even in partial mode
+        rec = prefix(4)
+        rec['blocks'][0] = rec['blocks'][0].rsplit('## In short', 1)[0]
+        ok, errs = verify.verify_file(self._write(rec), DATA, verbose=False,
+                                      partial=True)
+        self.assertFalse(ok)
+        self.assertTrue(any('under the 400-word floor' in e for e in errs), errs)
+
+    def _write(self, rec):
+        path = os.path.join(HERE, 'partial.json')
+        with open(path, 'w', encoding='utf-8') as fh:
+            json.dump(rec, fh, ensure_ascii=False)
+        self.addCleanup(os.remove, path)
+        return path
+
+
+class TranslationSpan(unittest.TestCase):
+    """STYLE.md 4-6: the == span is the translation, and may break prose rules."""
+
+    def test_semicolon_inside_the_span_passes(self):
+        body = ('## A heading\n\n==We are definitely with you; we were only '
+                'mocking.== The verse reports two rooms.\n\n## In short\n\n'
+                '- one\n- two\n- three')
+        self.assertEqual(verify.check_shape('t', body), [])
+
+    def test_semicolon_outside_the_span_still_fails(self):
+        body = '## A heading\n\nThis is prose; and a semicolon.\n\n## In short\n\n- one'
+        errs = verify.check_shape('t', body)
+        self.assertTrue(any('semicolon' in e for e in errs), errs)
+
+    def test_span_must_match_the_translation(self):
+        # the marked span is checked word for word against ayah_en
+        text = 'Alif-Lãm-Mĩm'
+        errs = verify.check_alignment('2:1', '==Alif-Lãm-Mĩm==', text)
+        self.assertEqual(errs, [])
+        errs = verify.check_alignment('2:1', '==Alif Lam Mim==', text)
+        self.assertTrue(any('does not match' in e for e in errs), errs)
 
 
 class PayloadShape(unittest.TestCase):

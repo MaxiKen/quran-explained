@@ -16,11 +16,15 @@ file on any entry outside the band.
 ## Run the gates
 
 ```
-python3 tools/clear/verify.py                    # the tracked samples
-python3 tools/clear/verify.py --dir work/clear   # work in progress
+python3 tools/clear/verify.py                    # the shipped payloads
+python3 tools/clear/verify.py --dir work/clear --partial   # work in progress
 python3 tools/clear/verify.py --file data/clear_001.json
 python3 -m unittest discover -s tools/clear/tests
 ```
+
+`--partial` accepts a payload that covers verses 1..N of a long sūrah, which is
+how a chapter gets written in blocks. Every other rule still applies, and a gap
+in the prefix still fails.
 
 | Check | STYLE.md | Enforces |
 |---|---|---|
@@ -40,8 +44,15 @@ from what the app displays.
 
 1. Read the source passages in `data/qutb_NNN.json` beside the translations in
    `data/chapter_NNN.json` (`chapter_NNN.js`).
-2. Write one entry per verse to `work/clear/NNN.json`, in the payload shape at
-   STYLE.md §12.
+2. Write one entry per verse to `work/clear/NNN.txt`, using `<<<S:V>>>` markers
+   and the body of each entry below its marker (see `work/clear/002.txt`). The
+   translation of the verse goes inside `== … ==`; STYLE.md §4 explains why.
+   Assemble it with:
+
+   ```
+   python3 tools/clear/build.py --surah NNN --from work/clear/NNN.txt \
+       --to work/clear --partial
+   ```
 3. Run the gate. The word count fails first on almost every entry; that is
    normal and it is the point of the rule.
 4. Copy the passing file to `data/clear_NNN.json` and
@@ -54,6 +65,7 @@ from what the app displays.
 | Surah | Entries | Words | Shipped |
 |---|---|---|---|
 | 1 | 7 | 401–439 | `data/clear_001.json` |
+| 2 | 14 of 286 | 404–440 | in progress, `tools/clear/samples/002-block1.json` |
 
 The reader prefers `data/clear_NNN.json` when a chapter has one and falls back
 to the Urdu `data/qutb_NNN.json` when it does not, so chapters ship one at a
