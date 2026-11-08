@@ -1927,8 +1927,27 @@ function simpleLinkedVerses(block) {
 
 /* One passage as its own paragraphs. Blank-line separated paragraphs are
    separate <p>s, exactly as the source breaks them. */
+/* A simple-English entry is Markdown-lite: `## heading`, `**bold**`, `*term*`,
+   and `- ` bullets. Nothing else is generated, so nothing else is accepted. */
+function renderEnglishParagraph(part) {
+  const inline = (str) => escapeHtml(str)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>');
+  if (/^##\s+/.test(part)) {
+    return `<h3 class="simple-heading">${inline(part.replace(/^##\s+/, ''))}</h3>`;
+  }
+  if (/^-\s+/.test(part)) {
+    const items = part.split(/\n/).filter(l => /^-\s+/.test(l.trim()))
+      .map(l => `<li>${inline(l.replace(/^\s*-\s+/, ''))}</li>`).join('');
+    return `<ul class="simple-list">${items}</ul>`;
+  }
+  return `<p>${inline(part)}</p>`;
+}
+
 function simpleParagraphs(text) {
-  return String(text || '').split(/\n\s*\n/).map(part => part.trim()).filter(Boolean);
+  /* A bullet list is one paragraph even though it spans several lines. */
+  const raw = String(text || '').split(/\n\s*\n/).map(part => part.trim()).filter(Boolean);
+  return raw;
 }
 
 function renderSimpleExplanation(ayahNum, simpleData, options) {
@@ -1952,6 +1971,14 @@ function renderSimpleExplanation(ayahNum, simpleData, options) {
   const range = block.range
     ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(block.range)}</p>`
     : '';
+
+  /* An English entry is laid out left to right, whatever the Urdu view does. */
+  if ((data.lang || 'ur') === 'en') {
+    const bodyEn = simpleParagraphs(block.text)
+      .map(part => renderEnglishParagraph(part)).join('');
+    return `<section class="phrase-view simple-view" dir="ltr" lang="en" aria-label="Simple explanation">`
+      + `${range}${head}${bodyEn}</section>`;
+  }
 
   /* In the reading view the run's passage belongs to its first verse; later
      verses of the run point back to it instead of repeating the paragraphs. */

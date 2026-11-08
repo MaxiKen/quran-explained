@@ -2089,6 +2089,18 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
    own face and are not stretched by the Nastaliq leading. */
 .simple-view .ar-inline { font-family: 'Noto Nastaliq Urdu', serif; }
 .simple-view:not(.tafsir-rtl) { font-family: 'Inter', sans-serif; }
+/* A simple-English entry: a heading per section, and the takeaways at the end
+   as a list rather than a run of paragraphs. */
+.simple-view:not(.tafsir-rtl) p { margin: 0 0 14px; }
+.simple-view:not(.tafsir-rtl) p:last-child { margin-bottom: 0; }
+.simple-heading {
+  font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--accent); margin: 22px 0 10px;
+}
+.simple-heading:first-of-type { margin-top: 14px; }
+.simple-list { margin: 0 0 14px; padding-left: 20px; }
+.simple-list li { margin: 0 0 8px; line-height: 1.65; }
+.simple-list li:last-child { margin-bottom: 0; }
 .phrase-continues {
   color: var(--text-faint); font-size: 13.5px; line-height: 1.7; margin: 0;
 }
