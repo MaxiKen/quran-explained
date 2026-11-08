@@ -6,50 +6,58 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "حمٓ",
-        "ayah_en": "Ḥâ-Mĩm",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044001.mp3"
+        "ayah_en": "Ḥā, Meem.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044001.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَٱلۡكِتَٰبِ ٱلۡمُبِينِ",
-        "ayah_en": "By the clear Book",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044002.mp3"
+        "ayah_en": "By the clear Book,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044002.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةٖ مُّبَٰرَكَةٍۚ إِنَّا كُنَّا مُنذِرِينَ",
-        "ayah_en": "Indeed, We sent it down on a blessed night, for We always warn ˹against evil˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044003.mp3"
+        "ayah_en": "Indeed, We sent it down during a blessed night. Indeed, We were to warn [mankind].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "فِيهَا يُفۡرَقُ كُلُّ أَمۡرٍ حَكِيمٍ",
-        "ayah_en": "On that night every matter of wisdom is ordained",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044004.mp3"
+        "ayah_en": "Therein [i.e., on that night] is made distinct every precise matter -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044004.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "أَمۡرٗا مِّنۡ عِندِنَآۚ إِنَّا كُنَّا مُرۡسِلِينَ",
-        "ayah_en": "by a command from Us, for We have always sent ˹messengers˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044005.mp3"
+        "ayah_en": "[Every] matter [proceeding] from Us. Indeed, We were to send [a messenger]",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044005.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "رَحۡمَةٗ مِّن رَّبِّكَۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
-        "ayah_en": "as a mercy from your Lord. He ˹alone˺ is truly the All-Hearing, All-Knowing—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044006.mp3"
+        "ayah_en": "As mercy from your Lord. Indeed, He is the Hearing, the Knowing,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044006.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "رَبِّ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَمَا بَيۡنَهُمَآۖ إِن كُنتُم مُّوقِنِينَ",
-        "ayah_en": "the Lord of the heavens and the earth and everything in between, if only you had sure faith",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044007.mp3"
+        "ayah_en": "Lord of the heavens and the earth and that between them, if you would be certain.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044007.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "لَآ إِلَٰهَ إِلَّا هُوَ يُحۡيِۦ وَيُمِيتُۖ رَبُّكُمۡ وَرَبُّ ءَابَآئِكُمُ ٱلۡأَوَّلِينَ",
-        "ayah_en": "There is no god ˹worthy of worship˺ except Him. He ˹alone˺ gives life and causes death. ˹He is˺ your Lord, and the Lord of your forefathers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044008.mp3"
+        "ayah_en": "There is no deity except Him; He gives life and causes death. [He is] your Lord and the Lord of your first forefathers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044008.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -60,50 +68,58 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "بَلۡ هُمۡ فِي شَكّٖ يَلۡعَبُونَ",
-        "ayah_en": "In fact, they are in doubt, amusing themselves",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044009.mp3"
+        "ayah_en": "But they are in doubt, amusing themselves.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044009.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فَٱرۡتَقِبۡ يَوۡمَ تَأۡتِي ٱلسَّمَآءُ بِدُخَانٖ مُّبِينٖ",
-        "ayah_en": "Wait then ˹O Prophet˺ for the day ˹when˺ the sky will be veiled in haze, clearly visible",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044010.mp3"
+        "ayah_en": "Then watch for the Day when the sky will bring a visible smoke",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044010.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "يَغۡشَى ٱلنَّاسَۖ هَٰذَا عَذَابٌ أَلِيمٞ",
-        "ayah_en": "overwhelming the people. ˹They will cry,˺ “This is a painful torment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044011.mp3"
+        "ayah_en": "Covering the people; this is a painful torment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044011.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "رَّبَّنَا ٱكۡشِفۡ عَنَّا ٱلۡعَذَابَ إِنَّا مُؤۡمِنُونَ",
-        "ayah_en": "Our Lord! Remove ˹this˺ torment from us, ˹and˺ we will certainly believe.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044012.mp3"
+        "ayah_en": "[They will say], \"Our Lord, remove from us the torment; indeed, we are believers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044012.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "أَنَّىٰ لَهُمُ ٱلذِّكۡرَىٰ وَقَدۡ جَآءَهُمۡ رَسُولٞ مُّبِينٞ",
-        "ayah_en": "How can they be reminded when a messenger has already come to them, making things clear",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044013.mp3"
+        "ayah_en": "How will there be for them a reminder [at that time]? And there had come to them a clear Messenger.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044013.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "ثُمَّ تَوَلَّوۡاْ عَنۡهُ وَقَالُواْ مُعَلَّمٞ مَّجۡنُونٌ",
-        "ayah_en": "then they turned away from him, saying, “A madman, taught by others!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044014.mp3"
+        "ayah_en": "Then they turned away from him and said, \"[He was] taught [and is] a madman.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044014.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "إِنَّا كَاشِفُواْ ٱلۡعَذَابِ قَلِيلًاۚ إِنَّكُمۡ عَآئِدُونَ",
-        "ayah_en": "Indeed, We will remove ˹that˺ torment for a while, and you ˹Meccans˺ will return ˹to disbelief˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044015.mp3"
+        "ayah_en": "Indeed, We will remove the torment for a little. Indeed, you [disbelievers] will return [to disbelief].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044015.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "يَوۡمَ نَبۡطِشُ ٱلۡبَطۡشَةَ ٱلۡكُبۡرَىٰٓ إِنَّا مُنتَقِمُونَ",
-        "ayah_en": "˹Then˺ on the Day We will deal ˹you˺ the fiercest blow, We will surely inflict punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044016.mp3"
+        "ayah_en": "The Day We will strike with the greatest assault, indeed, We will take retribution.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044016.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -114,38 +130,44 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "۞ وَلَقَدۡ فَتَنَّا قَبۡلَهُمۡ قَوۡمَ فِرۡعَوۡنَ وَجَآءَهُمۡ رَسُولٞ كَرِيمٌ",
-        "ayah_en": "Indeed, before them We tested Pharaoh’s people: a noble messenger came to them",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044017.mp3"
+        "ayah_en": "And We had already tried before them the people of Pharaoh, and there came to them a noble messenger [i.e., Moses],",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044017.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "أَنۡ أَدُّوٓاْ إِلَيَّ عِبَادَ ٱللَّهِۖ إِنِّي لَكُمۡ رَسُولٌ أَمِينٞ",
-        "ayah_en": "˹proclaiming,˺ “Hand over the servants of Allah to me. I am truly a trustworthy messenger to you",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044018.mp3"
+        "ayah_en": "[Saying], \"Render to me the servants of Allāh. Indeed, I am to you a trustworthy messenger,\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044018.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَأَن لَّا تَعۡلُواْ عَلَى ٱللَّهِۖ إِنِّيٓ ءَاتِيكُم بِسُلۡطَٰنٖ مُّبِينٖ",
-        "ayah_en": "And do not be arrogant with Allah. I have certainly come to you with a compelling proof",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044019.mp3"
+        "ayah_en": "And [saying], \"Be not haughty with Allāh. Indeed, I have come to you with clear evidence.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044019.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَإِنِّي عُذۡتُ بِرَبِّي وَرَبِّكُمۡ أَن تَرۡجُمُونِ",
-        "ayah_en": "And indeed, I seek refuge with my Lord and your Lord so you do not stone me ˹to death˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044020.mp3"
+        "ayah_en": "And indeed, I have sought refuge in my Lord and your Lord, lest you stone me.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044020.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 21,
         "ayah_ar": "وَإِن لَّمۡ تُؤۡمِنُواْ لِي فَٱعۡتَزِلُونِ",
-        "ayah_en": "˹But˺ if you do not believe me, then let me be.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044021.mp3"
+        "ayah_en": "But if you do not believe me, then leave me alone.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044021.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "فَدَعَا رَبَّهُۥٓ أَنَّ هَٰٓؤُلَآءِ قَوۡمٞ مُّجۡرِمُونَ",
-        "ayah_en": "Ultimately, he cried out to his Lord, “These are a wicked people!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044022.mp3"
+        "ayah_en": "And [finally] he called to his Lord that these were a criminal people.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044022.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -156,44 +178,51 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 23,
         "ayah_ar": "فَأَسۡرِ بِعِبَادِي لَيۡلًا إِنَّكُم مُّتَّبَعُونَ",
-        "ayah_en": "˹Allah responded,˺ “Leave with My servants at night, for you will surely be pursued",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044023.mp3"
+        "ayah_en": "[Allāh said], \"Then set out with My servants by night. Indeed, you are to be pursued.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044023.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "وَٱتۡرُكِ ٱلۡبَحۡرَ رَهۡوًاۖ إِنَّهُمۡ جُندٞ مُّغۡرَقُونَ",
-        "ayah_en": "And leave the sea parted, for they are certainly an army bound to drown.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044024.mp3"
+        "ayah_en": "And leave the sea in stillness. Indeed, they are an army to be drowned.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044024.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "كَمۡ تَرَكُواْ مِن جَنَّٰتٖ وَعُيُونٖ",
-        "ayah_en": "˹Imagine˺ how many gardens and springs the tyrants left behind",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044025.mp3"
+        "ayah_en": "How much they left behind of gardens and springs",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044025.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "وَزُرُوعٖ وَمَقَامٖ كَرِيمٖ",
-        "ayah_en": "as well as ˹various˺ crops and splendid residences",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044026.mp3"
+        "ayah_en": "And crops and noble sites",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044026.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "وَنَعۡمَةٖ كَانُواْ فِيهَا فَٰكِهِينَ",
-        "ayah_en": "and luxuries which they fully enjoyed",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044027.mp3"
+        "ayah_en": "And comfort wherein they were amused.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044027.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "كَذَٰلِكَۖ وَأَوۡرَثۡنَٰهَا قَوۡمًا ءَاخَرِينَ",
-        "ayah_en": "So it was. And We awarded it ˹all˺ to another people",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044028.mp3"
+        "ayah_en": "Thus. And We caused to inherit it another people.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044028.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "فَمَا بَكَتۡ عَلَيۡهِمُ ٱلسَّمَآءُ وَٱلۡأَرۡضُ وَمَا كَانُواْ مُنظَرِينَ",
-        "ayah_en": "Neither heaven nor earth wept over them, nor was their fate delayed",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044029.mp3"
+        "ayah_en": "And the heaven and earth wept not for them, nor were they reprieved.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044029.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -204,26 +233,30 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 30,
         "ayah_ar": "وَلَقَدۡ نَجَّيۡنَا بَنِيٓ إِسۡرَٰٓءِيلَ مِنَ ٱلۡعَذَابِ ٱلۡمُهِينِ",
-        "ayah_en": "And We certainly delivered the Children of Israel from the humiliating torment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044030.mp3"
+        "ayah_en": "And We certainly saved the Children of Israel from the humiliating torment -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044030.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "مِن فِرۡعَوۡنَۚ إِنَّهُۥ كَانَ عَالِيٗا مِّنَ ٱلۡمُسۡرِفِينَ",
-        "ayah_en": "of Pharaoh. He was truly a tyrant, a transgressor",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044031.mp3"
+        "ayah_en": "From Pharaoh. Indeed, he was a haughty one among the transgressors.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044031.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "وَلَقَدِ ٱخۡتَرۡنَٰهُمۡ عَلَىٰ عِلۡمٍ عَلَى ٱلۡعَٰلَمِينَ",
-        "ayah_en": "And indeed, We chose the Israelites knowingly above the others",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044032.mp3"
+        "ayah_en": "And We certainly chose them by knowledge over [all] the worlds.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044032.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "وَءَاتَيۡنَٰهُم مِّنَ ٱلۡأٓيَٰتِ مَا فِيهِ بَلَٰٓؤٞاْ مُّبِينٌ",
-        "ayah_en": "And We showed them signs in which there was a clear test",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044033.mp3"
+        "ayah_en": "And We gave them of signs that in which there was a clear trial.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044033.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -234,26 +267,30 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 34,
         "ayah_ar": "إِنَّ هَٰٓؤُلَآءِ لَيَقُولُونَ",
-        "ayah_en": "Indeed, these ˹Meccans˺ say",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044034.mp3"
+        "ayah_en": "Indeed, these [disbelievers] are saying,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044034.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 35,
         "ayah_ar": "إِنۡ هِيَ إِلَّا مَوۡتَتُنَا ٱلۡأُولَىٰ وَمَا نَحۡنُ بِمُنشَرِينَ",
-        "ayah_en": "“There is nothing beyond our first death, and we will never be resurrected",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044035.mp3"
+        "ayah_en": "\"There is not but our first death, and we will not be resurrected.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044035.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "فَأۡتُواْ بِـَٔابَآئِنَآ إِن كُنتُمۡ صَٰدِقِينَ",
-        "ayah_en": "Bring ˹back˺ our forefathers, if what you say is true.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044036.mp3"
+        "ayah_en": "Then bring [back] our forefathers, if you should be truthful.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044036.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "أَهُمۡ خَيۡرٌ أَمۡ قَوۡمُ تُبَّعٖ وَٱلَّذِينَ مِن قَبۡلِهِمۡ أَهۡلَكۡنَٰهُمۡۚ إِنَّهُمۡ كَانُواْ مُجۡرِمِينَ",
-        "ayah_en": "Are they superior to the people of Tubba’ and those before them? We destroyed them ˹all˺, ˹for˺ they were truly wicked",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044037.mp3"
+        "ayah_en": "Are they better or the people of Tubbaʿ and those before them? We destroyed them, [for] indeed, they were criminals.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044037.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -264,32 +301,37 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 38,
         "ayah_ar": "وَمَا خَلَقۡنَا ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ وَمَا بَيۡنَهُمَا لَٰعِبِينَ",
-        "ayah_en": "We did not create the heavens and the earth and everything in between for sport",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044038.mp3"
+        "ayah_en": "And We did not create the heavens and earth and that between them in play.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044038.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "مَا خَلَقۡنَٰهُمَآ إِلَّا بِٱلۡحَقِّ وَلَٰكِنَّ أَكۡثَرَهُمۡ لَا يَعۡلَمُونَ",
-        "ayah_en": "We only created them for a purpose, but most of these ˹pagans˺ do not know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044039.mp3"
+        "ayah_en": "We did not create them except in truth, but most of them do not know.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044039.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 40,
         "ayah_ar": "إِنَّ يَوۡمَ ٱلۡفَصۡلِ مِيقَٰتُهُمۡ أَجۡمَعِينَ",
-        "ayah_en": "Surely the Day of ˹Final˺ Decision is the time appointed for all—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044040.mp3"
+        "ayah_en": "Indeed, the Day of Judgement is the appointed time for them all -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044040.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 41,
         "ayah_ar": "يَوۡمَ لَا يُغۡنِي مَوۡلًى عَن مَّوۡلٗى شَيۡـٔٗا وَلَا هُمۡ يُنصَرُونَ",
-        "ayah_en": "the Day no kith or kin will be of benefit to another whatsoever, nor will they be helped",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044041.mp3"
+        "ayah_en": "The Day when no relation will avail a relation at all, nor will they be helped -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044041.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "إِلَّا مَن رَّحِمَ ٱللَّهُۚ إِنَّهُۥ هُوَ ٱلۡعَزِيزُ ٱلرَّحِيمُ",
-        "ayah_en": "except those shown mercy by Allah. He is truly the Almighty, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044042.mp3"
+        "ayah_en": "Except those [believers] on whom Allāh has mercy. Indeed, He is the Exalted in Might, the Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044042.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -300,50 +342,58 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 43,
         "ayah_ar": "إِنَّ شَجَرَتَ ٱلزَّقُّومِ",
-        "ayah_en": "Surely ˹the fruit of˺ the tree of Zaqqûm",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044043.mp3"
+        "ayah_en": "Indeed, the tree of zaqqūm",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044043.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 44,
         "ayah_ar": "طَعَامُ ٱلۡأَثِيمِ",
-        "ayah_en": "will be the food of the evildoer",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044044.mp3"
+        "ayah_en": "Is food for the sinful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044044.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 45,
         "ayah_ar": "كَٱلۡمُهۡلِ يَغۡلِي فِي ٱلۡبُطُونِ",
-        "ayah_en": "Like molten metal, it will boil in the bellies",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044045.mp3"
+        "ayah_en": "Like murky oil, it boils within bellies",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044045.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 46,
         "ayah_ar": "كَغَلۡيِ ٱلۡحَمِيمِ",
-        "ayah_en": "like the boiling of hot water",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044046.mp3"
+        "ayah_en": "Like the boiling of scalding water.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044046.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 47,
         "ayah_ar": "خُذُوهُ فَٱعۡتِلُوهُ إِلَىٰ سَوَآءِ ٱلۡجَحِيمِ",
-        "ayah_en": "˹It will be said,˺ “Seize them and drag them into the depths of the Hellfire",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044047.mp3"
+        "ayah_en": "[It will be commanded], \"Seize him and drag him into the midst of the Hellfire,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044047.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 48,
         "ayah_ar": "ثُمَّ صُبُّواْ فَوۡقَ رَأۡسِهِۦ مِنۡ عَذَابِ ٱلۡحَمِيمِ",
-        "ayah_en": "Then pour over their heads the torment of boiling water.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044048.mp3"
+        "ayah_en": "Then pour over his head from the torment of scalding water.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044048.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 49,
         "ayah_ar": "ذُقۡ إِنَّكَ أَنتَ ٱلۡعَزِيزُ ٱلۡكَرِيمُ",
-        "ayah_en": "˹The wicked will be told,˺ “Taste this. You mighty, noble one",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044049.mp3"
+        "ayah_en": "[It will be said], \"Taste! Indeed, you are the honored, the noble!",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044049.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 50,
         "ayah_ar": "إِنَّ هَٰذَا مَا كُنتُم بِهِۦ تَمۡتَرُونَ",
-        "ayah_en": "This is truly what you ˹all˺ used to doubt.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044050.mp3"
+        "ayah_en": "Indeed, this is what you used to dispute.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044050.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -354,44 +404,51 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 51,
         "ayah_ar": "إِنَّ ٱلۡمُتَّقِينَ فِي مَقَامٍ أَمِينٖ",
-        "ayah_en": "Indeed, the righteous will be in a secure place",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044051.mp3"
+        "ayah_en": "Indeed, the righteous will be in a secure place:",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044051.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 52,
         "ayah_ar": "فِي جَنَّٰتٖ وَعُيُونٖ",
-        "ayah_en": "amid Gardens and springs",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044052.mp3"
+        "ayah_en": "Within gardens and springs,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044052.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 53,
         "ayah_ar": "يَلۡبَسُونَ مِن سُندُسٖ وَإِسۡتَبۡرَقٖ مُّتَقَٰبِلِينَ",
-        "ayah_en": "dressed in fine silk and rich brocade, facing one another",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044053.mp3"
+        "ayah_en": "Wearing [garments of] fine silk and brocade, facing each other.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044053.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 54,
         "ayah_ar": "كَذَٰلِكَ وَزَوَّجۡنَٰهُم بِحُورٍ عِينٖ",
-        "ayah_en": "So it will be. And We will pair them to maidens with gorgeous eyes",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044054.mp3"
+        "ayah_en": "Thus. And We will marry them to fair women with large, [beautiful] eyes.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044054.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 55,
         "ayah_ar": "يَدۡعُونَ فِيهَا بِكُلِّ فَٰكِهَةٍ ءَامِنِينَ",
-        "ayah_en": "There they will call for every fruit in serenity",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044055.mp3"
+        "ayah_en": "They will call therein for every [kind of] fruit - safe and secure.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044055.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 56,
         "ayah_ar": "لَا يَذُوقُونَ فِيهَا ٱلۡمَوۡتَ إِلَّا ٱلۡمَوۡتَةَ ٱلۡأُولَىٰۖ وَوَقَىٰهُمۡ عَذَابَ ٱلۡجَحِيمِ",
-        "ayah_en": "There they will never taste death, beyond the first death. And He will protect them from the punishment of the Hellfire—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044056.mp3"
+        "ayah_en": "They will not taste death therein except the first death, and He will have protected them from the punishment of Hellfire",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044056.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 57,
         "ayah_ar": "فَضۡلٗا مِّن رَّبِّكَۚ ذَٰلِكَ هُوَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ",
-        "ayah_en": "as ˹an act of˺ grace from your Lord. That is ˹truly˺ the ultimate triumph",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044057.mp3"
+        "ayah_en": "As bounty from your Lord. That is what is the great attainment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044057.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -402,14 +459,16 @@ var chapterData_44 = [
       {
         "ayah_no_surah": 58,
         "ayah_ar": "فَإِنَّمَا يَسَّرۡنَٰهُ بِلِسَانِكَ لَعَلَّهُمۡ يَتَذَكَّرُونَ",
-        "ayah_en": "Indeed, We have made this ˹Quran˺ easy in your own language ˹O Prophet˺ so perhaps they will be mindful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044058.mp3"
+        "ayah_en": "And indeed, We have eased it [i.e., the Qur’ān] in your tongue that they might be reminded.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044058.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 59,
         "ayah_ar": "فَٱرۡتَقِبۡ إِنَّهُم مُّرۡتَقِبُونَ",
-        "ayah_en": "Wait then! They too are certainly waiting",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/044059.mp3"
+        "ayah_en": "So watch, [O Muḥammad]; indeed, they are watching [for your end].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/044059.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

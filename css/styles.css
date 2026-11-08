@@ -49,6 +49,26 @@
   font-display: swap;
 }
 
+/* Noto Nastaliq Urdu — the Urdu face for the Simple commentary (SIL Open Font
+   License, see ../fonts/OFL-NotoNastaliqUrdu.txt). Urdu is not Arabic prose:
+   Naskh shapes it legibly but reads as Arabic, while Nastaliq is the script
+   Urdu is actually set in. Bundled locally like every other face, so the
+   commentary still renders with no network access. */
+@font-face {
+  font-family: 'Noto Nastaliq Urdu';
+  src: url('../fonts/NotoNastaliqUrdu-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Nastaliq Urdu';
+  src: url('../fonts/NotoNastaliqUrdu-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Inter (variable font, weights 100–900) — UI font (SIL Open Font License) */
 @font-face {
   font-family: 'Inter';
@@ -970,9 +990,9 @@ body {
 .modal-loading-state { padding: 12px 0; }
 
 /* ================================================
-   TAFSĪR AS-SAʿDĪ — Arabic commentary
-   The payload is the Arabic original, so every commentary surface is laid out
-   right-to-left in a prose face and given the taller leading Arabic needs.
+   RIGHT-TO-LEFT COMMENTARY — prose in the Arabic script
+   Every commentary surface that carries Arabic-script prose is laid out
+   right-to-left in a face with the taller leading that script needs.
 ================================================ */
 .tafsir-text { margin: 0; }
 .tafsir-text.tafsir-rtl {
@@ -997,8 +1017,8 @@ body {
 .tafsir-rtl strong { font-weight: 700; }
 .tafsir-rtl em { font-style: normal; }
 
-/* as-Saʿdī writes the words he is explaining between braces: {قُلۡ}. The braces
-   become this inline quotation treatment (see parseInline). */
+/* Commentators write the words they are explaining between braces: {قُلۡ}.
+   The braces become this inline quotation treatment (see parseInline). */
 .quran-quote {
   font-family: 'Noto Naskh Arabic', 'Amiri Quran', 'KFGQPC Hafs', serif;
   color: var(--accent);
@@ -2043,6 +2063,67 @@ body.ra-focus .ebook-verse:not(.tts-active), body.ra-focus .ebook-introduction {
 .commentary-switch-btn.is-active { background: var(--accent); color: #fff; }
 .commentary-switch-btn:disabled { cursor: not-allowed; opacity: 0.45; }
 .commentary-switch-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ================================================
+   SIMPLE VIEW — FĪ ẒILĀL AL-QURʾĀN (URDU)
+   Urdu set in Nastaliq, which stacks letters vertically: it needs far more
+   leading than Naskh and must not be squeezed by the Latin body metrics.
+================================================ */
+.simple-view { margin: 0; }
+.simple-label { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 0 0 10px; }
+.simple-label-note {
+  color: var(--text-faint); font-size: 11px; font-weight: 600;
+  text-transform: none; letter-spacing: 0.01em;
+}
+.simple-view.tafsir-rtl {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', 'Amiri', serif;
+  font-size: max(19px, calc(var(--english-font-size, 17px) + 2px));
+  line-height: 2.5;
+  text-align: right;
+  color: var(--text-secondary);
+}
+.simple-view.tafsir-rtl p { margin: 0 0 18px; }
+.simple-view.tafsir-rtl p:last-child { margin-bottom: 0; }
+.simple-view.tafsir-rtl .tafsir-range { align-self: flex-start; line-height: 1.6; margin-bottom: 12px; }
+/* Latin runs inside the Urdu (an English word, a transliteration) keep their
+   own face and are not stretched by the Nastaliq leading. */
+.simple-view .ar-inline { font-family: 'Noto Nastaliq Urdu', serif; }
+.simple-view:not(.tafsir-rtl) { font-family: 'Inter', sans-serif; }
+/* A simple-English entry: a heading per section, and the takeaways at the end
+   as a list rather than a run of paragraphs. */
+.simple-view:not(.tafsir-rtl) p { margin: 0 0 14px; }
+.simple-view:not(.tafsir-rtl) p:last-child { margin-bottom: 0; }
+.simple-heading {
+  font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--accent); margin: 22px 0 10px;
+}
+.simple-heading:first-of-type { margin-top: 14px; }
+/* The verse's own translation, quoted inside an entry with `==…==`. It keeps
+   the app's quote marks and the accent colour, so a reader can see at a glance
+   which words are the verse and which are the commentary on it. */
+.simple-view:not(.tafsir-rtl) q { color: var(--accent); font-style: italic; quotes: '\201C' '\201D'; }
+.simple-list { margin: 0 0 14px; padding-left: 20px; }
+.simple-list li { margin: 0 0 8px; line-height: 1.65; }
+.simple-list li:last-child { margin-bottom: 0; }
+.phrase-continues {
+  color: var(--text-faint); font-size: 13.5px; line-height: 1.7; margin: 0;
+}
+/* The source's own standing caveat, once under the passage rather than on
+   every one of the run's verses. */
+.simple-notice {
+  direction: ltr; text-align: left;
+  margin: 12px 0 0; padding: 10px 13px;
+  border-left: 2.5px solid var(--accent-border);
+  border-radius: 0 8px 8px 0;
+  background: var(--accent-bg-light);
+  color: var(--text-faint); font-size: 12px; line-height: 1.65;
+}
+.phrase-continues-link {
+  appearance: none; border: 0; background: none; cursor: pointer; padding: 0;
+  color: var(--accent); font: inherit; font-weight: 700; text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.phrase-continues-link:hover { color: var(--accent-light, var(--accent)); }
 
 /* ================================================
    PHRASE-BY-PHRASE READING

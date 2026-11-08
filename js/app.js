@@ -341,11 +341,23 @@ const tafsirLoadPromises = {};
 /* The tafsir payload for a surah: Tafsīr al-Ṭabarī in English, with the
    Arabic original underneath it, imported from tafseerquran.com by
    tools/tabari/ into data/tafsir_NNN.json. One file, one source. */
-/* Simple explanations: one short paragraph paired with each exact
-   piece of the reader's English verse translation. */
+/* The Simple view: Fī Ẓilāl al-Qurʾān by Sayyid Quṭb in Urdu, one discussion
+   per run of verses. Imported from spa5k/tafsir_api by tools/qutb/ into
+   data/qutb_NNN.json — the same passage upstream repeats for every verse it
+   covers is stored once and addressed by `verses[n]` -> index into `blocks`,
+   with `ranges[i]` naming the verses block i covers. */
 const loadedSimple = {};
 const missingSimple = {};
 const simpleLoadPromises = {};
+
+/* A chapter may also carry a written English entry per verse, in
+   data/clear_NNN.json: one entry per verse, aligned to the translation in
+   data/chapter_NNN.js. Both payloads stay on disk for every chapter that has
+   them, and one load falls through to the other; this constant decides which
+   comes first. The Simple view is the Urdu source, so 'ur' is the setting;
+   'en' prefers the written entries in the two chapters that have them. */
+const SIMPLE_VIEW_PREFERS = 'ur';
+const CLEAR_SOURCE_LABEL = 'Clear teaching';
 
 function loadSimpleData(num) {
   if (loadedSimple[num]) return Promise.resolve(loadedSimple[num]);
@@ -353,31 +365,39 @@ function loadSimpleData(num) {
   if (simpleLoadPromises[num]) return simpleLoadPromises[num];
 
   const pad = String(num).padStart(3, '0');
-  const url = `data/saadi_${pad}.json`;
-
-  simpleLoadPromises[num] = fetch(url, { cache: 'no-store' })
-    .then(res => {
-      if (res.status === 404) throw new Error('not written');
-      if (!res.ok) throw new Error(`HTTP ${res.status} loading ${url}`);
-      return res.json();
+  /* Both payloads may exist. Asking for both and keeping whichever loses out
+     on disk means either one can be preferred without re-fetching, and a
+     chapter stays usable whichever of the two is present. */
+  const urduFirst = SIMPLE_VIEW_PREFERS !== 'en';
+  const preferred = urduFirst ? `data/qutb_${pad}.json` : `data/clear_${pad}.json`;
+  const fallback = urduFirst ? `data/clear_${pad}.json` : `data/qutb_${pad}.json`;
+  simpleLoadPromises[num] = fetchJsonOrNull(preferred)
+    .then(data => {
+      if (data && Array.isArray(data.blocks) && data.blocks.length) return data;
+      return fetchJsonOrNull(fallback);
     })
     .then(data => {
-      loadedSimple[num] = data;
       delete simpleLoadPromises[num];
-      return data;
+      if (data) { loadedSimple[num] = data; return data; }
+      missingSimple[num] = true;
+      return null;
     })
     .catch(err => {
       delete simpleLoadPromises[num];
-      /* A surah that has not been written yet simply has no file. */
-      if (err && err.message === 'not written') {
-        missingSimple[num] = true;
-      } else {
-        console.error(`Failed to load simple explanations for Surah ${num}:`, err);
-      }
+      console.error(`Failed to load simple explanations for Surah ${num}:`, err);
       return null;
     });
 
   return simpleLoadPromises[num];
+}
+
+/* A payload file that may not exist yet: 404 is an answer, not an error. */
+function fetchJsonOrNull(url) {
+  return fetch(url, { cache: 'no-store' }).then(res => {
+    if (res.status === 404) return null;
+    if (!res.ok) throw new Error(`HTTP ${res.status} loading ${url}`);
+    return res.json();
+  });
 }
 
 function getSimpleData(num) {
@@ -399,7 +419,7 @@ function loadTafsirData(num) {
     .then(data => {
       loadedTafsir[num] = data;
       delete tafsirLoadPromises[num];
-      /* The small simple explanation file loads alongside the tafsir. */
+      /* The Simple view file loads alongside the tafsir. */
       loadSimpleData(num);
       return data;
     })
@@ -1348,28 +1368,72 @@ function getChapterVerses(data) {
   return data.flatMap(theme => theme.verses || []).sort((a, b) => a.ayah_no_surah - b.ayah_no_surah);
 }
 
-function getCommentaryReadingMinutes(data, tafsir) {
+/* A surah's commentary can run to days of reading, so a raw minute count is
+   not a useful label. Under an hour it stays in minutes; past that it is
+   given in hours. */
+function formatReadingTime(minutes) {
+  if (!minutes) return '';
+  if (minutes < 60) return `About ${minutes} min`;
+  const hours = Math.round(minutes / 60);
+  return hours < 48 ? `About ${hours} h` : `About ${Math.round(hours / 24)} days`;
+}
+
+function readingTimeLabel(minutes, mode, lang) {
+  const base = formatReadingTime(minutes);
+  if (!base) return 'Length pending';
+  if (mode !== 'simple') return `${base} read`;
+  /* The Simple view is Urdu for most chapters and English where the entries
+     have been written, so the label follows the payload, not the mode. */
+  return lang === 'en' ? `${base} read` : `${base} of Urdu`;
+}
+
+/* The language of whatever the Simple view currently holds. */
+function simpleLang(num) {
+  const data = getSimpleData(num);
+  return (data && data.lang) || 'ur';
+}
+
+function getCommentaryReadingMinutes(data, tafsir, mode, surahNum) {
   /* A commentary can cover a run of verses, so the same text comes back for
      every verse it covers. Count each distinct block once — summing every
      verse would multiply the reading time several times over. */
   const seen = new Set();
   const parts = [];
-  const intro = getSurahIntro(tafsir);
-  if (intro) parts.push(intro);
-  for (const verse of getChapterVerses(data)) {
-    const entries = tafsir && tafsir.sets
-      ? getVerseCommentaryAll(tafsir, verse.ayah_no_surah)
-      : [{ text: getVerseCommentary(tafsir, verse.ayah_no_surah) }];
-    for (const e of entries) {
-      const text = e && e.text;
+  const surah = Number(surahNum || (typeof AppState !== 'undefined' ? AppState.currentSurah : 0));
+  const simple = mode === 'simple' && surah && typeof getSimpleData === 'function'
+    ? getSimpleData(surah)
+    : null;
+
+  if (simple) {
+    for (const text of simple.blocks || []) {
       if (!text || seen.has(text)) continue;
       seen.add(text);
       parts.push(text);
     }
+  } else {
+    const intro = getSurahIntro(tafsir);
+    if (intro) parts.push(intro);
+    for (const verse of getChapterVerses(data)) {
+      const entries = tafsir && tafsir.sets
+        ? getVerseCommentaryAll(tafsir, verse.ayah_no_surah)
+        : [{ text: getVerseCommentary(tafsir, verse.ayah_no_surah) }];
+      for (const e of entries) {
+        const text = e && e.text;
+        if (!text || seen.has(text)) continue;
+        seen.add(text);
+        parts.push(text);
+      }
+    }
   }
+
+  /* In the Simple view the payload may not have arrived when the page is
+     first built; return null so the header says "pending" rather than
+     reporting the other view's length. */
+  if (mode === 'simple' && !simple) return null;
   const joined = parts.join(' ');
   const words = joined.trim() ? joined.trim().split(/\s+/).length : 0;
-  return Math.max(1, Math.ceil(words / (getTafsirLang(tafsir) === 'ar' ? 200 : 220)));
+  const perMinute = simple ? 150 : (getTafsirLang(tafsir) === 'ar' ? 200 : 220);
+  return Math.max(1, Math.ceil(words / perMinute));
 }
 
 function scrollToCommentaryVerse(ayahNum) {
@@ -1405,12 +1469,14 @@ function renderCompleteCommentary(container) {
     return;
   }
 
-  const readingMinutes = getCommentaryReadingMinutes(data, tafsir);
+  const mode = getCommentaryMode(ch.number);
+  const readingMinutes = getCommentaryReadingMinutes(data, tafsir, mode, ch.number);
+  const readingMinutesLabel = readingTimeLabel(readingMinutes, mode,
+    mode === 'simple' ? simpleLang(ch.number) : null);
   const intro = getSurahIntro(tafsir);
   const chapterVerses = getChapterVerses(data);
   const speechSupported = ReadAloud.isSupported();
   const reading = ReadAloud.hasSession && ReadAloud.activeSurah === ch.number;
-  const mode = getCommentaryMode(ch.number);
   const readingLabel = !speechSupported ? 'Read aloud unavailable'
     : reading && ReadAloud.isSpeaking ? 'Reading aloud…'
     : reading ? (ReadAloud.ayah == null ? 'Resume introduction' : `Resume verse ${ReadAloud.ayah}`)
@@ -1419,7 +1485,9 @@ function renderCompleteCommentary(container) {
   let html = `
     <article class="ebook-view">
       <header class="ebook-hero">
-        <p class="ebook-eyebrow">${escapeHtml(getTafsirSourceLabel(tafsir))} · Reading edition</p>
+        <p class="ebook-eyebrow">${mode === 'simple'
+          ? escapeHtml(SIMPLE_SOURCE_LABEL) + (simpleLang(ch.number) === 'en' ? ' · English' : ' · Urdu')
+          : escapeHtml(getTafsirSourceLabel(tafsir))} · Reading edition</p>
         <div class="ebook-hero-title-row">
           <div>
             <h1>${escapeHtml(ch.name_en)}</h1>
@@ -1427,8 +1495,10 @@ function renderCompleteCommentary(container) {
           </div>
           <span class="ebook-number" aria-label="Surah ${ch.number}">${ch.number}</span>
         </div>
-        <p class="ebook-subtitle">${escapeHtml(ch.meaning)} · ${escapeHtml(TAFSIR_SOURCE_FULL)} — verse by verse, in the original Arabic.</p>
-        <div class="ebook-meta" aria-label="Reading details"><span>${ch.verses} verses</span><span aria-hidden="true">·</span><span>About ${readingMinutes} min read</span><span aria-hidden="true">·</span><span>${escapeHtml(ch.type)}</span>${reading ? '<span aria-hidden="true">·</span><span class="ebook-meta-live">read aloud ready</span>' : ''}</div>
+        <p class="ebook-subtitle">${escapeHtml(ch.meaning)} · ${mode === 'simple'
+          ? simpleSubtitle(ch.number)
+          : escapeHtml(TAFSIR_SOURCE_FULL) + ', verse by verse.'}</p>
+        <div class="ebook-meta" aria-label="Reading details"><span>${ch.verses} verses</span><span aria-hidden="true">·</span><span id="commentaryReadTime">${readingMinutesLabel}</span><span aria-hidden="true">·</span><span>${escapeHtml(ch.type)}</span>${reading ? '<span aria-hidden="true">·</span><span class="ebook-meta-live">read aloud ready</span>' : ''}</div>
       </header>
 
       ${renderResumeChip()}
@@ -1461,6 +1531,7 @@ function renderCompleteCommentary(container) {
 
       ${!speechSupported ? '<p class="device-speech-note">Read aloud is unavailable because this browser has not exposed its built-in speech feature. The full text stays readable.</p>' : ''}
 
+      ${mode === 'simple' ? simpleNoticeHtml(getSimpleData(ch.number)) : ''}
       ${intro ? `<section class="ebook-introduction" id="commentary-intro"${mode === 'simple' ? ' hidden' : ''}><p class="ebook-section-label">Surah introduction</p><div class="ebook-introduction-content">${renderCommentaryHtml(tafsir, intro, null, { mode, surahNum: ch.number })}</div></section>` : ''}
       <div class="ebook-content">`;
 
@@ -1479,7 +1550,9 @@ function renderCompleteCommentary(container) {
           </span>
         </header>
         <p class="ebook-translation">${escapeHtml(getVerseEnglish(verse))}</p>
-        <div class="ebook-commentary">${commentary ? renderCommentaryHtml(tafsir, commentary, verse.ayah_no_surah, { mode, pairs: getSimpleData(ch.number), surahNum: ch.number }) : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
+        <div class="ebook-commentary">${commentary || (mode === 'simple' && getSimpleBlock(verse.ayah_no_surah, getSimpleData(ch.number)))
+          ? renderCommentaryHtml(tafsir, commentary, verse.ayah_no_surah, { mode, collapseRun: true, simpleData: getSimpleData(ch.number), surahNum: ch.number })
+          : '<p class="modal-p">Detailed commentary is coming soon, in sha Allah.</p>'}</div>
       </article>`;
     }
     html += `</section>`;
@@ -1586,15 +1659,15 @@ function getVerseCommentaryAll(tafsir, ayahNum) {
   return out;
 }
 
-/* Commentary source metadata — the current payload is Tafsīr as-Saʿdī, which is
-   Arabic and therefore has to be laid out right-to-left in an Arabic face. */
+/* Commentary source metadata — the full payload is Tafsīr al-Ṭabarī in English,
+   the simple one is Urdu, so the language decides which way the text runs. */
 function getTafsirLang(tafsir) {
   return tafsir && tafsir.lang ? tafsir.lang : 'en';
 }
 
 function getTafsirDir(tafsir) {
   if (tafsir && tafsir.dir) return tafsir.dir === 'rtl' ? 'rtl' : 'ltr';
-  return getTafsirLang(tafsir) === 'ar' ? 'rtl' : 'ltr';
+  return ['ar', 'ur', 'fa', 'ps'].includes(getTafsirLang(tafsir)) ? 'rtl' : 'ltr';
 }
 
 function getTafsirSourceLabel(tafsir) {
@@ -1737,7 +1810,7 @@ function switchCommentaryMode(mode, surahNum) {
       body.innerHTML = renderCommentaryHtml(tafsir, text, ModalState.ayah, {
         showSwitch: true,
         mode,
-        pairs: getSimpleData(surah),
+        simpleData: getSimpleData(surah),
         surahNum: surah,
       });
       afterModalBodyRender();
@@ -1753,19 +1826,22 @@ function switchCommentaryMode(mode, surahNum) {
       if (!ayah) return;
       const holder = el.querySelector('.ebook-commentary');
       const text = getVerseCommentary(loadedTafsir[surah], ayah);
-      if (holder && text) {
+      /* In Simple mode the payload decides what is on screen, not the tafsir. */
+      if (holder && (text || (mode === 'simple' && getSimpleBlock(ayah, getSimpleData(surah))))) {
         holder.innerHTML = renderCommentaryHtml(loadedTafsir[surah], text, ayah, {
           mode,
-          pairs: getSimpleData(surah),
+          collapseRun: true,
+          simpleData: getSimpleData(surah),
         });
       }
     });
     updateCommentaryModeControl(surah, mode);
+    updateCommentaryReadTime(surah, mode);
     if (ReadAloud.hasSession) ReadAloud.onCommentaryModeChanged(surah);
   }
 }
 
-/* Refresh the current view once the chapter's Saadi file arrives. */
+/* Refresh the current view once the chapter's Simple payload arrives. */
 function refreshCurrentCommentary() {
   const surah = currentCommentarySurah();
   if (!surah) return;
@@ -1779,7 +1855,7 @@ function refreshCurrentCommentary() {
       body.innerHTML = renderCommentaryHtml(tafsir, text, ModalState.ayah, {
         showSwitch: true,
         mode,
-        pairs: getSimpleData(surah),
+        simpleData: getSimpleData(surah),
         surahNum: surah,
       });
       afterModalBodyRender();
@@ -1795,21 +1871,48 @@ function refreshCurrentCommentary() {
     if (!ayah) return;
     const holder = el.querySelector('.ebook-commentary');
     const text = getVerseCommentary(tafsir, ayah);
-    if (holder && text) {
+    if (holder && (text || (mode === 'simple' && getSimpleBlock(ayah, getSimpleData(surah))))) {
       holder.innerHTML = renderCommentaryHtml(tafsir, text, ayah, {
         mode,
-        pairs: getSimpleData(surah),
+        collapseRun: true,
+        simpleData: getSimpleData(surah),
       });
     }
   });
   updateCommentaryModeControl(surah, mode);
+  updateCommentaryReadTime(surah, mode);
   if (ReadAloud.hasSession) ReadAloud.onCommentaryModeChanged(surah);
+}
+
+/* The header's reading time depends on which view is showing, and the Simple
+   payload may have been the thing that just arrived. */
+function updateCommentaryReadTime(surah, mode) {
+  const el = document.getElementById('commentaryReadTime');
+  if (!el || !AppState.currentSurahData) return;
+  const minutes = getCommentaryReadingMinutes(
+    AppState.currentSurahData, loadedTafsir[surah] || {}, mode, surah);
+  el.textContent = readingTimeLabel(minutes, mode,
+    mode === 'simple' ? simpleLang(surah) : null);
+}
+
+/* The chapter head names the source, and which source it is depends on the
+   payload. Rebuild that one line when the payload arrives rather than
+   re-rendering the whole chapter the reader may already be scrolling. */
+function updateCommentarySubtitle(surah) {
+  const el = document.querySelector('.ebook-subtitle');
+  const ch = chaptersData.find(c => c.number === surah);
+  if (!el || !ch || getCommentaryMode(surah) !== 'simple') return;
+  const full = el.textContent || '';
+  const dot = full.indexOf(' · ');
+  const head = dot >= 0 ? full.slice(0, dot + 3) : `${ch.meaning} · `;
+  el.textContent = head + simpleSubtitle(surah);
 }
 
 function ensureCurrentSimpleData(surah) {
   if (!surah || getSimpleData(surah) || missingSimple[surah]) return;
   loadSimpleData(surah).then(data => {
     if (currentCommentarySurah() !== surah) return;
+    updateCommentarySubtitle(surah);
     if ((data && getCommentaryMode(surah) === 'simple') || missingSimple[surah]) {
       refreshCurrentCommentary();
     }
@@ -1817,30 +1920,143 @@ function ensureCurrentSimpleData(surah) {
 }
 
 /* ================================================
-   SIMPLE EXPLANATION
-   Each translation piece has its own explanatory paragraph.
+   SIMPLE VIEW — CLEAR TEACHING, OR THE URDU SOURCE
+   A chapter may carry written English entries (data/clear_NNN.json, one per
+   verse, aligned to the translation). Where it does not, the Simple view is
+   the Urdu source: Quṭb writes one continuous piece for a run of verses
+   (2:1-5 is a single discussion), so that payload stores each passage once
+   and maps the verses it covers onto it.
 ================================================ */
-/* One explanation as a run of paragraphs. Chapters authored under the
-   proportional rule break a long explanation at its own points, so blank-line
-   separated paragraphs are rendered as separate <p>s. Older chapters carry a
-   single paragraph and render exactly as before. */
-function explanationParagraphs(explanation) {
-  const text = typeof explanation === 'string' ? explanation : '';
-  const parts = text.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
-  if (!parts.length) return '<p class="phrase-explanation"></p>';
-  return parts.map((part) => `<p class="phrase-explanation">${escapeHtml(part)}</p>`).join('');
+const SIMPLE_SOURCE_LABEL = 'Fī Ẓilāl al-Qurʾān — Sayyid Quṭb';
+const SIMPLE_SOURCE_NOTE = 'Urdu rendering';
+
+/* What the Simple view carries. Both the Urdu source and, where one exists, a
+   written English entry are on disk; the subtitle names the one on screen. */
+function simpleSubtitle(num) {
+  const data = getSimpleData(num);
+  if (data && data.lang === 'en') {
+    return 'Clear teaching written from Fī Ẓilāl al-Qurʾān, verse by verse.';
+  }
+  if (!data) return 'Clear teaching, verse by verse.';   /* not fetched yet */
+  return 'Fī Ẓilāl al-Qurʾān in Urdu — Quṭb\'s own discussion of each passage, in the original Urdu.';
 }
 
-function renderSimpleExplanation(ayahNum, simpleData) {
-  const verse = simpleData && simpleData.verses ? simpleData.verses[String(ayahNum)] : null;
-  const explanation = verse && verse.explanation;
-  if (!explanation) {
-    return '<p class="phrase-unavailable">The simple explanation is not available for this verse yet.</p>';
+/* The passage a verse belongs to, with the range of verses it covers. */
+function getSimpleBlock(ayahNum, simpleData) {
+  if (!simpleData || !Array.isArray(simpleData.blocks)) return null;
+  const idx = simpleData.verses ? simpleData.verses[String(ayahNum)] : null;
+  if (typeof idx !== 'number' || !simpleData.blocks[idx]) return null;
+  return {
+    text: simpleData.blocks[idx],
+    range: Array.isArray(simpleData.ranges) ? (simpleData.ranges[idx] || '') : '',
+    index: idx,
+  };
+}
+
+/* A run of verses is commented on as one passage: the reader shows it at the
+   first verse of the run and says where it continues for the rest, rather than
+   printing the same paragraphs again for every verse. */
+function simpleRunStartsAt(ayahNum, simpleData) {
+  const block = getSimpleBlock(ayahNum, simpleData);
+  if (!block || !block.range) return true;
+  const start = parseInt(String(block.range).split('-')[0].split(':').pop(), 10);
+  return !Number.isFinite(start) || start === Number(ayahNum);
+}
+
+function simpleRunStartVerse(block) {
+  if (!block || !block.range) return null;
+  const start = parseInt(String(block.range).split('-')[0].split(':').pop(), 10);
+  return Number.isFinite(start) ? start : null;
+}
+
+/* The source's own standing caveat, once at the head of the chapter. */
+function simpleNoticeHtml(simpleData) {
+  if (!simpleData || !simpleData.notice) return '';
+  return `<p class="simple-notice" dir="ltr" lang="en">${escapeHtml(simpleData.notice)}</p>`;
+}
+
+function simpleLinkedVerses(block) {
+  const label = block && block.range ? String(block.range) : '';
+  return label && label.includes('-') ? label.split(':').pop().replace('-', '–') : '';
+}
+
+/* One passage as its own paragraphs. Blank-line separated paragraphs are
+   separate <p>s, exactly as the source breaks them. */
+/* A simple-English entry is Markdown-lite: `## heading`, `**bold**`, `*term*`,
+   `- ` bullets, and the `==…==` span that quotes the verse's own translation.
+   Nothing else is generated, so nothing else is accepted. The span is set as a
+   quotation so the reader can see which words are the translation's and which
+   are the commentary's: the entry is written about that wording, so the two
+   have to be told apart on screen. */
+function renderEnglishParagraph(part) {
+  const inline = (str) => escapeHtml(str)
+    .replace(/==([^=]+?)==/g, '<q>$1</q>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>');
+  if (/^##\s+/.test(part)) {
+    return `<h3 class="simple-heading">${inline(part.replace(/^##\s+/, ''))}</h3>`;
   }
-  const paragraphs = explanation.split(/\\n\\s*\\n/).map(part => part.trim()).filter(Boolean);
-  const body = paragraphs.map(part => `<p>${escapeHtml(part)}</p>`).join('');
-  return `<section class="phrase-view tafsir-rtl" dir="rtl" lang="ar" aria-label="Simple explanation">`
-    + `<p class="ebook-section-label">Tafsir as-Sa’di</p>${body}</section>`;
+  if (/^-\s+/.test(part)) {
+    const items = part.split(/\n/).filter(l => /^-\s+/.test(l.trim()))
+      .map(l => `<li>${inline(l.replace(/^\s*-\s+/, ''))}</li>`).join('');
+    return `<ul class="simple-list">${items}</ul>`;
+  }
+  return `<p>${inline(part)}</p>`;
+}
+
+function simpleParagraphs(text) {
+  /* A bullet list is one paragraph even though it spans several lines. */
+  const raw = String(text || '').split(/\n\s*\n/).map(part => part.trim()).filter(Boolean);
+  return raw;
+}
+
+function renderSimpleExplanation(ayahNum, simpleData, options) {
+  const opts = options || {};
+  const block = getSimpleBlock(ayahNum, simpleData);
+  if (!block) {
+    /* The payload is complete for every chapter, so an empty slot means the
+       file has not arrived yet, or a chapter is missing from the build. */
+    const surah = Number(opts.surahNum || AppState.currentSurah || 0);
+    if (surah && !simpleData && !missingSimple[surah]) {
+      return '<p class="phrase-unavailable">Loading the simple explanation…</p>';
+    }
+    return '<p class="phrase-unavailable">The simple explanation is not available for this verse.</p>';
+  }
+
+  const data = simpleData || {};
+  const label = data.source ? escapeHtml(data.source) : escapeHtml(SIMPLE_SOURCE_LABEL);
+  const note = data.lang === 'ur' ? SIMPLE_SOURCE_NOTE : '';
+  const head = `<p class="ebook-section-label simple-label">${label}${note
+    ? `<span class="simple-label-note">${escapeHtml(note)}</span>` : ''}</p>`;
+  const range = block.range
+    ? `<p class="tafsir-range" dir="ltr" lang="en">${escapeHtml(block.range)}</p>`
+    : '';
+
+  /* An English entry is laid out left to right, whatever the Urdu view does. */
+  if ((data.lang || 'ur') === 'en') {
+    const bodyEn = simpleParagraphs(block.text)
+      .map(part => renderEnglishParagraph(part)).join('');
+    return `<section class="phrase-view simple-view" dir="ltr" lang="en" aria-label="Simple explanation">`
+      + `${range}${head}${bodyEn}</section>`;
+  }
+
+  /* In the reading view the run's passage belongs to its first verse; later
+     verses of the run point back to it instead of repeating the paragraphs. */
+  if (opts.collapseRun && !simpleRunStartsAt(ayahNum, simpleData)) {
+    const start = simpleRunStartVerse(block);
+    const linked = simpleLinkedVerses(block);
+    return `<section class="phrase-view simple-view" aria-label="Simple explanation">`
+      + `${head}`
+      + `<p class="phrase-continues">Verses ${escapeHtml(linked)} are explained together. `
+      + `<button type="button" class="phrase-continues-link" `
+      + `onclick="scrollToCommentaryVerse(${Number(start) || 1})">Read that passage</button></p>`
+      + `</section>`;
+  }
+
+  const body = simpleParagraphs(block.text)
+    .map(part => `<p>${escapeHtml(part)}</p>`).join('');
+  return `<section class="phrase-view simple-view tafsir-rtl" dir="rtl" lang="${escapeHtml(data.lang || 'ur')}" aria-label="Simple explanation">`
+    + `${range}${head}${body}</section>`;
 }
 
 function renderTafsirSources(entries) {
@@ -1856,7 +2072,11 @@ function renderCommentaryHtml(tafsir, text, ayahNum, options) {
     ? commentaryModeSwitch(opts.surahNum || currentCommentarySurah(), mode)
     : '';
   if (ayahNum != null && mode === 'simple') {
-    return switcher + renderSimpleExplanation(ayahNum, opts.simpleData || opts.pairs);
+    const notice = opts.showSwitch ? simpleNoticeHtml(opts.simpleData) : '';
+    return switcher + notice + renderSimpleExplanation(ayahNum, opts.simpleData, {
+      collapseRun: !!opts.collapseRun,
+      surahNum: opts.surahNum || currentCommentarySurah(),
+    });
   }
   if (ayahNum != null && tafsir && tafsir.sets) {
     const entries = getVerseCommentaryAll(tafsir, ayahNum);
@@ -2483,8 +2703,8 @@ const AudioPlayer = {
 function markdownToSpeechText(markdown) {
   return String(markdown || '')
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    /* braces are as-Saʿdī's markers around the Quranic words he is explaining;
-       the words are spoken, the brackets are not */
+    /* braces are a commentator's markers around the Quranic words being
+       explained; the words are spoken, the brackets are not */
     .replace(/[`*_#>{}]/g, '')
     .replace(/\n+/g, ' ')
     .replace(/\s+/g, ' ')
@@ -2492,10 +2712,11 @@ function markdownToSpeechText(markdown) {
 }
 
 function splitSpeechText(text, maxLength = 220) {
-  /* Arabic sentence and clause boundaries are included: as-Saʿdī ends
-     questions with ؟ and separates long clauses with ؛. Neither character
-     occurs in the English text, so English chunking is unchanged. */
-  const sentences = String(text || '').match(/[^.!?؟؛]+[.!?؟؛]+|[^.!?؟؛]+$/g) || [];
+  /* The commentary's own sentence marks are included: Urdu ends a sentence
+     with ۔ and separates clauses with ، and ؛, and both Urdu and Arabic mark
+     questions with ؟. None of these occur in the English text, so English
+     chunking is unchanged. */
+  const sentences = String(text || '').match(/[^.!?؟؛۔،]+[.!?؟؛۔،]+|[^.!?؟؛۔،]+$/g) || [];
   const chunks = [];
   let current = '';
   const pushCurrent = () => { if (current.trim()) chunks.push(current.trim()); current = ''; };
@@ -2524,10 +2745,18 @@ function splitSpeechText(text, maxLength = 220) {
 /* ================================================
    17. OFFLINE STORAGE & DOWNLOAD MANAGER
 ================================================ */
-const CHAPTER_SIZES_KB = {"1":53,"2":2376,"3":1367,"4":1324,"5":924,"6":1088,"7":1750,"8":566,"9":870,"10":691,"11":798,"12":823,"13":290,"14":325,"15":616,"16":919,"17":804,"18":715,"19":644,"20":1086,"21":804,"22":678,"23":746,"24":485,"25":518,"26":1435,"27":602,"28":568,"29":550,"30":458,"31":224,"32":196,"33":476,"34":365,"35":298,"36":556,"37":1744,"38":569,"39":545,"40":616,"41":377,"42":359,"43":575,"44":421,"45":236,"46":232,"47":252,"48":193,"49":119,"50":286,"51":382,"52":319,"53":420,"54":314,"55":478,"56":613,"57":206,"58":180,"59":196,"60":99,"61":95,"62":72,"63":81,"64":117,"65":84,"66":82,"67":199,"68":328,"69":392,"70":328,"71":190,"72":189,"73":138,"74":377,"75":240,"76":192,"77":317,"78":272,"79":329,"80":261,"81":175,"82":122,"83":236,"84":160,"85":131,"86":98,"87":110,"88":149,"89":169,"90":144,"91":111,"92":181,"93":86,"94":64,"95":51,"96":124,"97":35,"98":57,"99":54,"100":83,"101":73,"102":54,"103":24,"104":57,"105":32,"106":27,"107":42,"108":21,"109":39,"110":30,"111":44,"112":38,"113":43,"114":50};
+const CHAPTER_SIZES_KB = {"1":495,"2":14093,"3":5643,"4":6495,"5":4911,"6":4236,"7":3935,"8":2060,"9":3315,"10":1270,"11":1837,"12":1869,"13":977,"14":947,"15":696,"16":1193,"17":1730,"18":1307,"19":823,"20":1012,"21":1041,"22":995,"23":643,"24":1181,"25":780,"26":792,"27":770,"28":1107,"29":577,"30":510,"31":351,"32":301,"33":1215,"34":582,"35":466,"36":512,"37":858,"38":724,"39":676,"40":636,"41":508,"42":558,"43":663,"44":330,"45":249,"46":488,"47":408,"48":540,"49":379,"50":392,"51":403,"52":259,"53":492,"54":340,"55":504,"56":499,"57":369,"58":317,"59":348,"60":296,"61":157,"62":135,"63":159,"64":111,"65":265,"66":184,"67":213,"68":376,"69":257,"70":231,"71":141,"72":298,"73":198,"74":370,"75":267,"76":265,"77":172,"78":243,"79":246,"80":191,"81":263,"82":97,"83":237,"84":146,"85":138,"86":102,"87":144,"88":100,"89":246,"90":158,"91":102,"92":118,"93":45,"94":49,"95":105,"96":154,"97":42,"98":66,"99":91,"100":80,"101":24,"102":55,"103":68,"104":97,"105":85,"106":45,"107":87,"108":95,"109":59,"110":47,"111":59,"112":63,"113":53,"114":32};
 
 const OfflineManager = {
-  CACHE_NAME: 'quran-reader-v2.2.0',
+  /* One downloaded chapter is data/tafsir_NNN.json + data/qutb_NNN.json +
+     data/chapter_NNN.js. Bump this whenever that set changes, so that an
+     upgraded install does not go on calling a chapter "saved" on the strength
+     of files the new release no longer reads. The service worker clears every
+     cache but its own on activation; the bump just makes the change land at
+     once instead of whenever the worker happens to update.
+     2026-11-08: the Simple view's payload moved from data/saadi_NNN.json to
+     data/qutb_NNN.json. */
+  CACHE_NAME: 'quran-reader-v2.3.0',
   cachedChapters: new Set(),
   isDownloadingAll: false,
   shouldCancelDownloadAll: false,
@@ -2618,6 +2847,7 @@ const OfflineManager = {
     }
     const pad = String(num).padStart(3, '0');
     const tafsirUrl = `data/tafsir_${pad}.json`;
+    const simpleUrl = `data/qutb_${pad}.json`;
     const chapterUrl = `data/chapter_${pad}.js`;
 
     const rowBtn = document.getElementById(`dlBtn_${num}`);
@@ -2627,16 +2857,22 @@ const OfflineManager = {
     }
 
     try {
-      const [tRes, cRes] = await Promise.all([
+      const [tRes, sRes, cRes] = await Promise.all([
         fetch(tafsirUrl),
+        fetch(simpleUrl),
         fetch(chapterUrl)
       ]);
       if (!tRes.ok || !cRes.ok) throw new Error('Fetch failed');
 
-      await Promise.all([
+      /* The Simple view is part of what a chapter means for this reader; a
+         missing Simple file leaves the chapter usable rather than failing the
+         download, since only the full commentary would be offline. */
+      const puts = [
         cache.put(tafsirUrl, tRes),
         cache.put(chapterUrl, cRes)
-      ]);
+      ];
+      if (sRes && sRes.ok) puts.push(cache.put(simpleUrl, sRes));
+      await Promise.all(puts);
 
       this.cachedChapters.add(num);
       this.updateHeaderBadge();
@@ -2665,6 +2901,7 @@ const OfflineManager = {
     try {
       await Promise.all([
         cache.delete(`data/tafsir_${pad}.json`),
+        cache.delete(`data/qutb_${pad}.json`),
         cache.delete(`data/chapter_${pad}.js`)
       ]);
       this.cachedChapters.delete(num);
@@ -2788,7 +3025,8 @@ const OfflineManager = {
     try {
       const keys = await cache.keys();
       for (const req of keys) {
-        if (req.url.includes('/data/tafsir_') || req.url.includes('/data/chapter_')) {
+        if (req.url.includes('/data/tafsir_') || req.url.includes('/data/qutb_')
+            || req.url.includes('/data/chapter_')) {
           await cache.delete(req);
         }
       }
@@ -2978,11 +3216,15 @@ function showExplanation(surahNum, ayahNum) {
 
   const cached = loadedTafsir[surahNum];
   const explanation = getVerseCommentary(cached, ayahNum);
-  if (explanation) {
+  const mode = getCommentaryMode(surahNum);
+  /* Each view stands on its own payload: in Simple mode a verse has content
+     even when the full tafsir says nothing about it. */
+  const hasSimple = mode === 'simple' && !!getSimpleBlock(ayahNum, getSimpleData(surahNum));
+  if (explanation || hasSimple) {
     document.getElementById('modalBody').innerHTML = renderCommentaryHtml(cached, explanation, ayahNum, {
       showSwitch: true,
-      mode: getCommentaryMode(surahNum),
-      pairs: getSimpleData(surahNum),
+      mode,
+      simpleData: getSimpleData(surahNum),
       surahNum,
     });
     afterModalBodyRender();
@@ -2993,11 +3235,13 @@ function showExplanation(surahNum, ayahNum) {
       .then((tafsir) => {
         if (ModalState.surah !== surahNum || ModalState.ayah !== ayahNum) return;
         const text = getVerseCommentary(tafsir, ayahNum);
-        document.getElementById('modalBody').innerHTML = text
+        const simpleReady = getCommentaryMode(surahNum) === 'simple'
+          && !!getSimpleBlock(ayahNum, getSimpleData(surahNum));
+        document.getElementById('modalBody').innerHTML = text || simpleReady
           ? renderCommentaryHtml(tafsir, text, ayahNum, {
             showSwitch: true,
             mode: getCommentaryMode(surahNum),
-            pairs: getSimpleData(surahNum),
+            simpleData: getSimpleData(surahNum),
             surahNum,
           })
           : '<p class="modal-p">Detailed commentary coming soon, in sha Allah.</p>';

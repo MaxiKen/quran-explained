@@ -107,9 +107,37 @@ travels with the text and is shown in the app under the Tabari entry:
 Anyone reusing this translation should carry that notice with it, and should
 treat the Arabic as the text of record.
 
-## Tafsir as-Sa‘di (Arabic)
+## Fī Ẓilāl al-Qurʾān (Urdu) — the Simple view
 
-Arabic verse-by-verse Tafsir as-Sa‘di data is sourced from the `tafseer_as_saadi_arabic.json` files in [muqeetiqbal2/Quran-Text-with-Translations-And-Tafsirs](https://github.com/muqeetiqbal2/Quran-Text-with-Translations-And-Tafsirs), split into `data/saadi_NNN.json` for the reader. The upstream repository does not include an explicit license file; redistribution terms should be confirmed with the source maintainer before public distribution. The Arabic text is displayed as received and is intended as study material. English translation is planned separately.
+The reader's **Simple** view is Fī Ẓilāl al-Qurʾān (In the Shade of the
+Qurʾān) by Sayyid Quṭb (1906–1966), in an Urdu rendering. The text is imported
+from the `tafsir-fe-zalul-quran-syed-qatab` edition in
+[spa5k/tafsir_api](https://github.com/spa5k/tafsir_api) into
+`data/qutb_NNN.json` by `tools/qutb/` — one passage per run of verses, not the
+upstream file's copy per verse.
+
+- **Licence.** The `tafsir_api` repository is MIT licensed, which covers its
+  own code and packaging. The underlying work is not the repository's to
+  license: Fī Ẓilāl al-Qurʾān was published by Sayyid Quṭb between 1952 and
+  1966, and its Urdu rendering is a separate translation of the Arabic. The
+  copyright in the tafsīr text and in the Urdu translation rests with their
+  respective rights holders; this project claims no licence over either and
+  carries the text on the basis on which the upstream distribution offers it.
+  Anyone republishing this data beyond its present use should settle the
+  position with the rights holders first.
+- **Status of the content.** The text is Quṭb's own and is presented exactly as
+  the source carries it: it is not a translation of the Qurʾān, not this
+  project's creed, and not a substitute for a qualified teacher. The same
+  upstream project records that this edition was withdrawn from its default
+  distribution after users raised objections about the author's ʿaqīdah
+  ([spa5k/tafsir_api#25](https://github.com/spa5k/tafsir_api/issues/25)); the
+  reader shows the source's own text with a notice on the page rather than
+  editing it, so a reader can weigh what a scholar of that school wrote in its
+  own words.
+
+`data/saadi_NNN.json` — Tafsīr as-Saʿdī in Arabic, which held the Simple view
+until 2026-11-08 — has been removed from the repository, together with the
+`tools/saadi/` English-generation brief that was written for it.
 
 
 ## Plain-English commentary (withdrawn)
@@ -142,19 +170,60 @@ the attribution of the underlying tafsīr texts above with it.
 | `fonts/hafs.18.woff2`, `fonts/hafs.18.ttf` | KFGQPC Uthmanic Script HAFS v18 | King Fahd Glorious Qurʾān Printing Complex | no |
 | `fonts/AmiriQuran-Regular.ttf` | Amiri Qurʾan | SIL Open Font License | no |
 | `fonts/NotoNaskhArabic-Regular.woff2`, `fonts/NotoNaskhArabic-Bold.woff2` | Noto Naskh Arabic | SIL Open Font License 1.1 | **yes** — `fonts/OFL-NotoNaskhArabic.txt` |
+| `fonts/NotoNastaliqUrdu-Regular.woff2`, `fonts/NotoNastaliqUrdu-SemiBold.woff2` | Noto Nastaliq Urdu | SIL Open Font License 1.1 | **yes** — `fonts/OFL-NotoNastaliqUrdu.txt` |
 | `fonts/Inter-Variable.ttf` | Inter | SIL Open Font License | no |
 
-Only the Noto Naskh Arabic licence text is currently present in the repository;
-it was added with the font. The licence attributions for Amiri Qurʾan and Inter
-are the ones already recorded in `css/styles.css` where those faces are
-declared, and the HAFS attribution is the one recorded there for that face —
-none of the three has its licence text bundled here. The SIL Open Font License
-asks that the licence travel with the font, so if this reader is distributed
-rather than served, those three licence texts should be added under `fonts/`
-before release.
+The Noto Naskh Arabic and Noto Nastaliq Urdu licence texts are present in the
+repository; each was added with its font. Noto Nastaliq Urdu is used for the
+Urdu of the Simple view, and its licence text is `fonts/OFL-NotoNastaliqUrdu.txt`.
+The licence attributions for Amiri Qurʾan and Inter are the ones already
+recorded in `css/styles.css` where those faces are declared, and the HAFS
+attribution is the one recorded there for that face — none of the three has its
+licence text bundled here. The SIL Open Font License asks that the licence
+travel with the font, so if this reader is distributed rather than served,
+those three licence texts should be added under `fonts/` before release.
 
 ## Verse text and recitation
 
-Verse text (`ayah_ar`) is the KFGQPC Unicode Uthmanic script. English
-translations (`ayah_en`) and per-verse audio URLs are carried in
-`data/chapter_NNN.js`; audio is served from `everyayah.com`.
+Verse text (`ayah_ar`) is the KFGQPC Unicode Uthmanic script. Per-verse audio
+URLs are carried in `data/chapter_NNN.js`; audio is served from `everyayah.com`.
+
+## The English translation
+
+`ayah_en` in `data/chapter_NNN.js` is the **Saheeh International** English
+translation of the Qurʾān, published by the **Noor International Center** and
+distributed through **QuranEnc.com** under the key `english_saheeh` (edition
+1.1.2). It is carried complete for all 6,236 verses of all 114 sūrahs.
+
+- **Source of the text.** `data/quranenc/english_saheeh.json` from the
+  `risan/quran-json` project, which republishes the QuranEnc editions and states
+  that QuranEnc material is republished "unmodified, credit the publisher and
+  QuranEnc.com with the version number, keep up to date".
+- **What was changed.** Footnote reference markers (`[98]`) and the leading
+  verse number (`(255)`) are stripped, since the reader already numbers its
+  verses and does not display footnotes. The footnote *text* is therefore not
+  shipped. No word of the translation itself is altered, added or reordered.
+  The bracketed words and phrases inside the translation — `[All]`,
+  `[due]`, `[i.e., your forefathers]` — are part of the published text and are
+  reproduced as published.
+- **What remains open.** The translator and publisher hold the copyright in the
+  translation text. This project claims no licence over it. As with the
+  commentary sources above, the basis on which it is carried is that this reader
+  is one person's private copy, served to that person's own devices, not
+  published, sold or offered to the public. Anyone who takes this repository
+  beyond that use should settle the position with the publisher first.
+
+The "Clear teaching" payloads quote this translation word for word inside every
+entry by design (`STYLE.md` §4), so they carry the same text and the same
+position applies to them.
+
+### Earlier translation
+
+Until 2026-11-08 `ayah_en` carried **The Clear Quran®** by Dr. Mustafa Khattab
+(© 2015, all rights reserved). It was replaced for licensing reasons: that
+edition is not openly licensed, is not the similarly named *Clear Quran* of
+Talal Itani (which is CC BY-ND 4.0), and Quran.com states that permission for it
+must be sought from the author. It is no longer present in this repository in
+any form, including inside the "Clear teaching" entries, whose spans were
+re-synchronised to the current translation and whose prose was revised wherever
+it had been written around Khattab's specific wording.

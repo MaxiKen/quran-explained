@@ -7,31 +7,36 @@ var chapterData_89 = [
         "ayah_no_surah": 1,
         "ayah_ar": "وَٱلۡفَجۡرِ",
         "ayah_en": "By the dawn",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089001.mp3"
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089001.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "وَلَيَالٍ عَشۡرٖ",
-        "ayah_en": "and the ten nights",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089002.mp3"
+        "ayah_en": "And [by] ten nights",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089002.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَٱلشَّفۡعِ وَٱلۡوَتۡرِ",
-        "ayah_en": "and the even and the odd",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089003.mp3"
+        "ayah_en": "And [by] the even [number] and the odd",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَٱلَّيۡلِ إِذَا يَسۡرِ",
-        "ayah_en": "and the night when it passes",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089004.mp3"
+        "ayah_en": "And [by] the night when it passes,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089004.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "هَلۡ فِي ذَٰلِكَ قَسَمٞ لِّذِي حِجۡرٍ",
-        "ayah_en": "Is all this ˹not˺ a sufficient oath for those who have sense",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089005.mp3"
+        "ayah_en": "Is there [not] in [all] that an oath [sufficient] for one of perception?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -42,32 +47,37 @@ var chapterData_89 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِعَادٍ",
-        "ayah_en": "Did you not see how your Lord dealt with ’Ȃd—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089006.mp3"
+        "ayah_en": "Have you not considered how your Lord dealt with ʿAad -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089006.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "إِرَمَ ذَاتِ ٱلۡعِمَادِ",
-        "ayah_en": "˹the people˺ of Iram—with ˹their˺ great stature",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089007.mp3"
+        "ayah_en": "[With] Iram - who had lofty pillars,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089007.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ٱلَّتِي لَمۡ يُخۡلَقۡ مِثۡلُهَا فِي ٱلۡبِلَٰدِ",
-        "ayah_en": "unmatched in any other land",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089008.mp3"
+        "ayah_en": "The likes of whom had never been created in the land?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089008.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَثَمُودَ ٱلَّذِينَ جَابُواْ ٱلصَّخۡرَ بِٱلۡوَادِ",
-        "ayah_en": "and Thamûd who carved ˹their homes into˺ the rocks in the ˹Stone˺ Valley",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089009.mp3"
+        "ayah_en": "And [with] Thamūd, who carved out the rocks in the valley?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089009.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "وَفِرۡعَوۡنَ ذِي ٱلۡأَوۡتَادِ",
-        "ayah_en": "and the Pharaoh of mighty structures",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089010.mp3"
+        "ayah_en": "And [with] Pharaoh, owner of the stakes?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089010.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -78,26 +88,30 @@ var chapterData_89 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "ٱلَّذِينَ طَغَوۡاْ فِي ٱلۡبِلَٰدِ",
-        "ayah_en": "They all transgressed throughout the land",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089011.mp3"
+        "ayah_en": "[All of] whom oppressed within the lands",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089011.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "فَأَكۡثَرُواْ فِيهَا ٱلۡفَسَادَ",
-        "ayah_en": "spreading much corruption there",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089012.mp3"
+        "ayah_en": "And increased therein the corruption.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089012.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "فَصَبَّ عَلَيۡهِمۡ رَبُّكَ سَوۡطَ عَذَابٍ",
-        "ayah_en": "So your Lord unleashed on them a scourge of punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089013.mp3"
+        "ayah_en": "So your Lord poured upon them a scourge of punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089013.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "إِنَّ رَبَّكَ لَبِٱلۡمِرۡصَادِ",
-        "ayah_en": "˹For˺ your Lord is truly vigilant",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089014.mp3"
+        "ayah_en": "Indeed, your Lord is in observation.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089014.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -108,14 +122,16 @@ var chapterData_89 = [
       {
         "ayah_no_surah": 15,
         "ayah_ar": "فَأَمَّا ٱلۡإِنسَٰنُ إِذَا مَا ٱبۡتَلَىٰهُ رَبُّهُۥ فَأَكۡرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّيٓ أَكۡرَمَنِ",
-        "ayah_en": "Now, whenever a human being is tested by their Lord through ˹His˺ generosity and blessings, they boast, “My Lord has ˹deservedly˺ honoured me!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089015.mp3"
+        "ayah_en": "And as for man, when his Lord tries him and [thus] is generous to him and favors him, he says, \"My Lord has honored me.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089015.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "وَأَمَّآ إِذَا مَا ٱبۡتَلَىٰهُ فَقَدَرَ عَلَيۡهِ رِزۡقَهُۥ فَيَقُولُ رَبِّيٓ أَهَٰنَنِ",
-        "ayah_en": "But when He tests them by limiting their provision, they protest, “My Lord has ˹undeservedly˺ humiliated me!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089016.mp3"
+        "ayah_en": "But when He tries him and restricts his provision, he says, \"My Lord has humiliated me.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089016.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -126,26 +142,30 @@ var chapterData_89 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "كـَلَّاۖ بَل لَّا تُكۡرِمُونَ ٱلۡيَتِيمَ",
-        "ayah_en": "Absolutely not! In fact, you are not ˹even˺ gracious to the orphan",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089017.mp3"
+        "ayah_en": "No! But you do not honor the orphan",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089017.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
-        "ayah_en": "nor do you urge one another to feed the poor",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089018.mp3"
+        "ayah_en": "And you do not encourage one another to feed the poor.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089018.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "وَتَأۡكُلُونَ ٱلتُّرَاثَ أَكۡلٗا لَّمّٗا",
-        "ayah_en": "And you devour ˹others’˺ inheritance greedily",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089019.mp3"
+        "ayah_en": "And you consume inheritance, devouring [it] altogether,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089019.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "وَتُحِبُّونَ ٱلۡمَالَ حُبّٗا جَمّٗا",
-        "ayah_en": "and love wealth fervently",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089020.mp3"
+        "ayah_en": "And you love wealth with immense love.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089020.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -156,38 +176,44 @@ var chapterData_89 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "كـَلَّآۖ إِذَا دُكَّتِ ٱلۡأَرۡضُ دَكّٗا دَكّٗا",
-        "ayah_en": "Enough! When the earth is entirely crushed over and over",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089021.mp3"
+        "ayah_en": "No! When the earth has been leveled - pounded and crushed",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089021.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "وَجَآءَ رَبُّكَ وَٱلۡمَلَكُ صَفّٗا صَفّٗا",
-        "ayah_en": "and your Lord comes ˹to judge˺ with angels, rank upon rank",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089022.mp3"
+        "ayah_en": "And your Lord has come and the angels, rank upon rank,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089022.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 23,
         "ayah_ar": "وَجِاْيٓءَ يَوۡمَئِذِۭ بِجَهَنَّمَۚ يَوۡمَئِذٖ يَتَذَكَّرُ ٱلۡإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكۡرَىٰ",
-        "ayah_en": "and Hell is brought forth on that Day—this is when every ˹disbelieving˺ person will remember ˹their own sins˺. But what is the use of remembering then",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089023.mp3"
+        "ayah_en": "And brought [within view], that Day, is Hell - that Day, man will remember, but how [i.e., what good] to him will be the remembrance?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089023.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "يَقُولُ يَٰلَيۡتَنِي قَدَّمۡتُ لِحَيَاتِي",
-        "ayah_en": "They will cry, “I wish I had sent forth ˹something good˺ for my ˹true˺ life.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089024.mp3"
+        "ayah_en": "He will say, \"Oh, I wish I had sent ahead [some good] for my life.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089024.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 25,
         "ayah_ar": "فَيَوۡمَئِذٖ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٞ",
-        "ayah_en": "On that Day He will punish ˹them˺ severely, like no other",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089025.mp3"
+        "ayah_en": "So on that Day, none will punish [as severely] as His punishment,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089025.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 26,
         "ayah_ar": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٞ",
-        "ayah_en": "and bind ˹them˺ tightly, like no other",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089026.mp3"
+        "ayah_en": "And none will bind [as severely] as His binding [of the evildoers].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089026.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -198,26 +224,30 @@ var chapterData_89 = [
       {
         "ayah_no_surah": 27,
         "ayah_ar": "يَٰٓأَيَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَئِنَّةُ",
-        "ayah_en": "˹Allah will say to the righteous,˺ “O tranquil soul",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089027.mp3"
+        "ayah_en": "[To the righteous it will be said], \"O reassured soul,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089027.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 28,
         "ayah_ar": "ٱرۡجِعِيٓ إِلَىٰ رَبِّكِ رَاضِيَةٗ مَّرۡضِيَّةٗ",
-        "ayah_en": "Return to your Lord, well pleased ˹with Him˺ and well pleasing ˹to Him˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089028.mp3"
+        "ayah_en": "Return to your Lord, well-pleased and pleasing [to Him],",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089028.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "فَٱدۡخُلِي فِي عِبَٰدِي",
-        "ayah_en": "So join My servants",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089029.mp3"
+        "ayah_en": "And enter among My [righteous] servants",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089029.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 30,
         "ayah_ar": "وَٱدۡخُلِي جَنَّتِي",
-        "ayah_en": "and enter My Paradise.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/089030.mp3"
+        "ayah_en": "And enter My Paradise.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/089030.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

@@ -6,8 +6,9 @@ var chapterData_108 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
-        "ayah_en": "Indeed, We have granted you ˹O Prophet˺ abundant goodness",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/108001.mp3"
+        "ayah_en": "Indeed, We have granted you, [O Muḥammad], al-Kawthar.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/108001.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -18,8 +19,9 @@ var chapterData_108 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
-        "ayah_en": "So pray and sacrifice to your Lord ˹alone˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/108002.mp3"
+        "ayah_en": "So pray to your Lord and offer sacrifice [to Him alone].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/108002.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -30,8 +32,9 @@ var chapterData_108 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
-        "ayah_en": "Only the one who hates you is truly cut off ˹from any goodness˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/108003.mp3"
+        "ayah_en": "Indeed, your enemy is the one cut off.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/108003.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

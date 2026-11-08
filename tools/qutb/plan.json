@@ -1,0 +1,5 @@
+{
+  "_comment": "Surahs the Simple-view importer writes. Edit and push to run the import; the GitHub Actions workflow imports on push to tools/qutb/** and commits the result to the branch it ran on. Set run=false to keep a push from starting a fetch. 'all' covers every surah the reader carries.",
+  "run": false,
+  "surahs": "all"
+}

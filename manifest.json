@@ -1,7 +1,7 @@
 {
-  "name": "Quran Explained - phrase by phrase",
+  "name": "Quran Explained - with commentary",
   "short_name": "Quran Explained",
-  "description": "A modern, interactive Quran reader with clear phrase-by-phrase explanations, bookmarks, reading history, and beautiful themes.",
+  "description": "A modern, interactive Quran reader with two commentary views: Fi Zilal al-Quran by Sayyid Qutb in Urdu, and Tafsir al-Tabari in English. Includes bookmarks, reading history, and beautiful themes.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

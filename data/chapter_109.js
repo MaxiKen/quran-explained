@@ -6,38 +6,44 @@ var chapterData_109 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "قُلۡ يَٰٓأَيُّهَا ٱلۡكَٰفِرُونَ",
-        "ayah_en": "Say, ˹O Prophet,˺ “O you disbelievers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/109001.mp3"
+        "ayah_en": "Say, \"O disbelievers,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/109001.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ",
-        "ayah_en": "I do not worship what you worship",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/109002.mp3"
+        "ayah_en": "I do not worship what you worship.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/109002.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
-        "ayah_en": "nor do you worship what I worship",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/109003.mp3"
+        "ayah_en": "Nor are you worshippers of what I worship.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/109003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ",
-        "ayah_en": "I will never worship what you worship",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/109004.mp3"
+        "ayah_en": "Nor will I be a worshipper of what you worship.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/109004.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
-        "ayah_en": "nor will you ever worship what I worship",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/109005.mp3"
+        "ayah_en": "Nor will you be worshippers of what I worship.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/109005.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 6,
         "ayah_ar": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
-        "ayah_en": "You have your way, and I have my Way.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/109006.mp3"
+        "ayah_en": "For you is your religion, and for me is my religion.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/109006.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

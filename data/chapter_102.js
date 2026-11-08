@@ -6,14 +6,16 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
-        "ayah_en": "Competition for more ˹gains˺ diverts you ˹from Allah˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102001.mp3"
+        "ayah_en": "Competition in [worldly] increase diverts you",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102001.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
-        "ayah_en": "until you end up in ˹your˺ graves",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102002.mp3"
+        "ayah_en": "Until you visit the graveyards.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102002.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -24,14 +26,16 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "كـَلَّا سَوۡفَ تَعۡلَمُونَ",
-        "ayah_en": "But no! You will soon come to know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102003.mp3"
+        "ayah_en": "No! You are going to know.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "ثُمَّ كـَلَّا سَوۡفَ تَعۡلَمُونَ",
-        "ayah_en": "Again, no! You will soon come to know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102004.mp3"
+        "ayah_en": "Then, no! You are going to know.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102004.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -42,8 +46,9 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 5,
         "ayah_ar": "كـَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ",
-        "ayah_en": "Indeed, if you were to know ˹your fate˺ with certainty, ˹you would have acted differently˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102005.mp3"
+        "ayah_en": "No! If you only knew with knowledge of certainty...",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -54,14 +59,16 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "لَتَرَوُنَّ ٱلۡجَحِيمَ",
-        "ayah_en": "˹But˺ you will surely see the Hellfire",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102006.mp3"
+        "ayah_en": "You will surely see the Hellfire.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102006.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "ثُمَّ لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ",
-        "ayah_en": "Again, you will surely see it with the eye of certainty",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102007.mp3"
+        "ayah_en": "Then you will surely see it with the eye of certainty.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102007.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -72,8 +79,9 @@ var chapterData_102 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ",
-        "ayah_en": "Then, on that Day, you will definitely be questioned about ˹your worldly˺ pleasures",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/102008.mp3"
+        "ayah_en": "Then you will surely be asked that Day about pleasure.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/102008.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

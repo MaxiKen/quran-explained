@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.17.0-2026-11-07';
+const CACHE_VERSION = 'quran-reader-v1.22.0-2026-11-08';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary
@@ -23,16 +23,34 @@ const CACHE_VERSION = 'quran-reader-v1.17.0-2026-11-07';
 // underneath (v1.11.0) — a different payload, not an addition. The
 // data/guidance_NNN.json files (the plain-English commentary) were withdrawn
 // on the same day. On 2026-10-18 the old phrase pairings were cleared and
-// replaced with a new, simpler format. Neither withdrawn guidance nor old
-// pairings are carried into the new cache. Data files are fetched
-// network-first anyway; this only matters for offline reading.
+// replaced with a new, simpler format. On 2026-11-08 the Simple view's
+// data/saadi_NNN.json (Tafsīr as-Saʿdī, Arabic) was replaced with
+// data/qutb_NNN.json (Fī Ẓilāl al-Qurʾān, Urdu). On the same day the Simple
+// view gained written English entries in data/clear_NNN.json, which is a new
+// payload rather than a replacement, so it carries from its first release
+// (v1.20.0). On the same day the verse translation in chapter_NNN.js changed
+// from The Clear Quran to Saheeh International, so every chapter_ file is
+// stale in any cache older than v1.21.0 and must be refetched rather than
+// carried. In v1.22.0 the Simple view went back to the Urdu source on every
+// chapter, so the clear_ payloads are carried only for the sake of the
+// chapters that prefer them, and the qutb_ payload is what the app reads.
+// None of the withdrawn payloads — guidance, old pairings, Saʿdī — are
+// carried into the new cache.
+// Data files are fetched network-first anyway; this only matters offline.
 const CARRY_FROM = {
-  'chapter_': 'quran-reader-v0',
-  'tafsir_': 'quran-reader-v1.11.0'
+  /* Bumped to v1.21.0: the verse translation changed, so an older chapter
+     payload is not just stale but wrong. */
+  'chapter_': 'quran-reader-v1.21.0',
+  'tafsir_': 'quran-reader-v1.11.0',
+  /* The Simple view's payload. Nothing older than this release carries it. */
+  'qutb_': 'quran-reader-v1.18.0',
+  /* The English entries of the Simple view (data/clear_NNN.json), added in
+     v1.20.0, so nothing older than that release has one to carry. */
+  'clear_': 'quran-reader-v1.20.0'
 };
 
 function carriesPayload(cacheName, url) {
-  const m = /\/data\/(chapter_|tafsir_)/.exec(url);
+  const m = /\/data\/(chapter_|tafsir_|qutb_|clear_)/.exec(url);
   if (!m) return false;
   return cacheName.startsWith('quran-reader-v') && cacheName >= CARRY_FROM[m[1]];
 }
@@ -55,6 +73,8 @@ const CORE_ASSETS = [
   './fonts/AmiriQuran-Regular.ttf',
   './fonts/NotoNaskhArabic-Regular.woff2',
   './fonts/NotoNaskhArabic-Bold.woff2',
+  './fonts/NotoNastaliqUrdu-Regular.woff2',
+  './fonts/NotoNastaliqUrdu-SemiBold.woff2',
   './fonts/Inter-Variable.ttf'
 ];
 
@@ -177,52 +197,53 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  /* THE SHELL FOLLOWS THE SERVER. app.js, the stylesheet and index.html were
+     cache-first, so a release that changed the code was invisible to every
+     browser that already held the old shell: the old worker kept serving the
+     old app.js, and the new payload was never requested. A cached copy of code
+     is as indistinguishable from a withdrawn one as a cached payload is, so
+     the same network-first rule applies. The cache remains the offline
+     fallback, which is all it has to be. */
   event.respondWith(
-    caches.match(event.request)
-      .then((cached) => {
-        if (cached) return cached;
-
-        return fetch(event.request)
-          .then((resp) => {
-            if (resp && resp.status === 200) {
-              const clone = resp.clone();
-              caches.open(CACHE_VERSION).then((c) => c.put(event.request, clone));
-            }
-            return resp;
-          })
-          .catch(() => {
-            if (event.request.mode === 'navigate') {
-              return caches.match('./index.html').then((cachedPage) => {
-                if (cachedPage) return cachedPage;
-
-                return new Response(
-                  `<!DOCTYPE html>
-                  <html>
-                  <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-                    <title>Offline</title>
-                    <style>
-                      body{font-family:sans-serif;background:#0a0f1a;color:#f1f5f9;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;text-align:center;padding:20px}
-                      h1{color:#5eead4;font-size:24px}
-                      p{color:#94a3b8;line-height:1.6}
-                      button{background:#0d9488;color:#fff;border:none;padding:12px 32px;border-radius:12px;font-size:16px;cursor:pointer;font-weight:600}
-                    </style>
-                  </head>
-                  <body>
-                    <div>
-                      <div style="font-size:64px;margin-bottom:20px">📖</div>
-                      <h1>You're Offline</h1>
-                      <p>Check your connection and try again.</p>
-                      <button onclick="location.reload()">Try Again</button>
-                    </div>
-                  </body>
-                  </html>`,
-                  { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
-                );
-              });
-            }
-          });
+    fetch(event.request)
+      .then((resp) => {
+        if (resp && resp.status === 200) {
+          const clone = resp.clone();
+          caches.open(CACHE_VERSION).then((c) => c.put(event.request, clone));
+        }
+        return resp;
       })
+      .catch(() => caches.match(event.request).then((cached) => {
+        if (cached) return cached;
+        if (event.request.mode !== 'navigate') return Response.error();
+        return caches.match('./index.html').then((cachedPage) => {
+          if (cachedPage) return cachedPage;
+          return new Response(
+            `<!DOCTYPE html>
+            <html>
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width,initial-scale=1.0">
+              <title>Offline</title>
+              <style>
+                body{font-family:sans-serif;background:#0a0f1a;color:#f1f5f9;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;text-align:center;padding:20px}
+                h1{color:#5eead4;font-size:24px}
+                p{color:#94a3b8;line-height:1.6}
+                button{background:#0d9488;color:#fff;border:none;padding:12px 32px;border-radius:12px;font-size:16px;cursor:pointer;font-weight:600}
+              </style>
+            </head>
+            <body>
+              <div>
+                <div style="font-size:64px;margin-bottom:20px">📖</div>
+                <h1>You're Offline</h1>
+                <p>Check your connection and try again.</p>
+                <button onclick="location.reload()">Try Again</button>
+              </div>
+            </body>
+            </html>`,
+            { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
+          );
+        });
+      }))
   );
 });

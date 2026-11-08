@@ -1,0 +1,90 @@
+name: Simple view import (Fī Ẓilāl al-Qurʾān)
+
+# Imports the Simple view's payload — Fī Ẓilāl al-Qurʾān by Sayyid Quṭb in
+# Urdu — from spa5k/tafsir_api into data/qutb_NNN.json: one block per distinct
+# passage, with the verses each block covers recorded, instead of the
+# upstream copy-per-verse. The importer (tools/qutb/) needs only git access to
+# GitHub, which a runner has.
+#
+# The surahs to import are listed in tools/qutb/plan.json. Edit that file and
+# push to run the import; the workflow commits the result to the branch it ran
+# on.
+
+on:
+  push:
+    paths:
+      - 'tools/qutb/**'
+      - '.github/workflows/qutb-import.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: qutb-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check selection
+        id: plan
+        run: |
+          run_flag=$(python3 -c "import json;print(json.load(open('tools/qutb/plan.json')).get('run', True))")
+          only=$(python3 -c "import json;print(json.load(open('tools/qutb/plan.json')).get('surahs','all'))")
+          echo "run=$run_flag" >> "$GITHUB_OUTPUT"
+          echo "only=$only" >> "$GITHUB_OUTPUT"
+          if [ "$run_flag" != "True" ]; then
+            echo "plan.json has run=false — nothing to import this time"
+          fi
+
+      - name: Fetch the source (sparse clone)
+        if: steps.plan.outputs.run == 'True'
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse \
+            https://github.com/spa5k/tafsir_api.git work/qutb/src
+          cd work/qutb/src
+          git sparse-checkout set tafsir/tafsir-fe-zalul-quran-syed-qatab
+
+      - name: Import
+        if: steps.plan.outputs.run == 'True'
+        run: |
+          python3 tools/qutb/importer.py \
+            --src work/qutb/src/tafsir/tafsir-fe-zalul-quran-syed-qatab \
+            --out data \
+            --only "${{ steps.plan.outputs.only }}"
+
+      - name: Verify
+        if: steps.plan.outputs.run == 'True'
+        run: python3 tools/qutb/verify.py --data data
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tools/qutb/tests
+
+      - name: Commit and push
+        if: steps.plan.outputs.run == 'True'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/qutb_*.json
+          if git diff --cached --quiet; then
+            echo "nothing to commit"; exit 0
+          fi
+          git commit -m "qutb: import Fī Ẓilāl al-Qurʾān (Urdu) for the Simple view"
+          for i in 1 2 3 4 5; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then exit 0; fi
+            echo "push rejected, rebasing (attempt $i)"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}" || { git rebase --abort; exit 1; }
+          done
+          exit 1

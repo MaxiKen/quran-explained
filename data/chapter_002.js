@@ -6,14 +6,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "الٓمٓ",
-        "ayah_en": "Alif-Lãm-Mĩm",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002001.mp3"
+        "ayah_en": "Alif, Lām, Meem.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002001.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 2,
         "ayah_ar": "ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ",
-        "ayah_en": "This is the Book! There is no doubt about it—a guide for those mindful ˹of Allah˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002002.mp3"
+        "ayah_en": "This is the Book about which there is no doubt, a guidance for those conscious of Allāh -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002002.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -24,20 +26,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 3,
         "ayah_ar": "ٱلَّذِينَ يُؤۡمِنُونَ بِٱلۡغَيۡبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقۡنَٰهُمۡ يُنفِقُونَ",
-        "ayah_en": "who believe in the unseen, establish prayer, and donate from what We have provided for them",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002003.mp3"
+        "ayah_en": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002003.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 4,
         "ayah_ar": "وَٱلَّذِينَ يُؤۡمِنُونَ بِمَآ أُنزِلَ إِلَيۡكَ وَمَآ أُنزِلَ مِن قَبۡلِكَ وَبِٱلۡأٓخِرَةِ هُمۡ يُوقِنُونَ",
-        "ayah_en": "and who believe in what has been revealed to you ˹O Prophet˺ and what was revealed before you, and have sure faith in the Hereafter",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002004.mp3"
+        "ayah_en": "And who believe in what has been revealed to you, [O Muḥammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002004.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "أُوْلَٰٓئِكَ عَلَىٰ هُدٗى مِّن رَّبِّهِمۡۖ وَأُوْلَٰٓئِكَ هُمُ ٱلۡمُفۡلِحُونَ",
-        "ayah_en": "It is they who are ˹truly˺ guided by their Lord, and it is they who will be successful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002005.mp3"
+        "ayah_en": "Those are upon [right] guidance from their Lord, and it is those who are the successful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -48,14 +53,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "إِنَّ ٱلَّذِينَ كَفَرُواْ سَوَآءٌ عَلَيۡهِمۡ ءَأَنذَرۡتَهُمۡ أَمۡ لَمۡ تُنذِرۡهُمۡ لَا يُؤۡمِنُونَ",
-        "ayah_en": "As for those who persist in disbelief, it is the same whether you warn them or not—they will never believe",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002006.mp3"
+        "ayah_en": "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002006.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمۡ وَعَلَىٰ سَمۡعِهِمۡۖ وَعَلَىٰٓ أَبۡصَٰرِهِمۡ غِشَٰوَةٞۖ وَلَهُمۡ عَذَابٌ عَظِيمٞ",
-        "ayah_en": "Allah has sealed their hearts and their hearing, and their sight is covered. They will suffer a tremendous punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002007.mp3"
+        "ayah_en": "Allāh has set a seal upon their hearts and upon their hearing, and over their vision is a veil. And for them is a great punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002007.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -66,56 +73,65 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 8,
         "ayah_ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلۡيَوۡمِ ٱلۡأٓخِرِ وَمَا هُم بِمُؤۡمِنِينَ",
-        "ayah_en": "And there are some who say, “We believe in Allah and the Last Day,” yet they are not ˹true˺ believers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002008.mp3"
+        "ayah_en": "And of the people are some who say, \"We believe in Allāh and the Last Day,\" but they are not believers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002008.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 9,
         "ayah_ar": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُواْ وَمَا يَخۡدَعُونَ إِلَّآ أَنفُسَهُمۡ وَمَا يَشۡعُرُونَ",
-        "ayah_en": "They seek to deceive Allah and the believers, yet they only deceive themselves, but they fail to perceive it",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002009.mp3"
+        "ayah_en": "They [think to] deceive Allāh and those who believe, but they deceive not except themselves and perceive [it] not.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002009.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "فِي قُلُوبِهِم مَّرَضٞ فَزَادَهُمُ ٱللَّهُ مَرَضٗاۖ وَلَهُمۡ عَذَابٌ أَلِيمُۢ بِمَا كَانُواْ يَكۡذِبُونَ",
-        "ayah_en": "There is sickness in their hearts, and Allah ˹only˺ lets their sickness increase. They will suffer a painful punishment for their lies",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002010.mp3"
+        "ayah_en": "In their hearts is disease, so Allāh has increased their disease; and for them is a painful punishment because they [habitually] used to lie.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002010.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 11,
         "ayah_ar": "وَإِذَا قِيلَ لَهُمۡ لَا تُفۡسِدُواْ فِي ٱلۡأَرۡضِ قَالُوٓاْ إِنَّمَا نَحۡنُ مُصۡلِحُونَ",
-        "ayah_en": "When they are told, “Do not spread corruption in the land,” they reply, “We are only peace-makers!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002011.mp3"
+        "ayah_en": "And when it is said to them, \"Do not cause corruption on the earth,\" they say, \"We are but reformers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002011.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "أَلَآ إِنَّهُمۡ هُمُ ٱلۡمُفۡسِدُونَ وَلَٰكِن لَّا يَشۡعُرُونَ",
-        "ayah_en": "Indeed, it is they who are the corruptors, but they fail to perceive it",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002012.mp3"
+        "ayah_en": "Unquestionably, it is they who are the corrupters, but they perceive [it] not.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002012.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 13,
         "ayah_ar": "وَإِذَا قِيلَ لَهُمۡ ءَامِنُواْ كَمَآ ءَامَنَ ٱلنَّاسُ قَالُوٓاْ أَنُؤۡمِنُ كَمَآ ءَامَنَ ٱلسُّفَهَآءُۗ أَلَآ إِنَّهُمۡ هُمُ ٱلسُّفَهَآءُ وَلَٰكِن لَّا يَعۡلَمُونَ",
-        "ayah_en": "And when they are told, “Believe as others believe,” they reply, “Will we believe as the fools believe?” Indeed, it is they who are fools, but they do not know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002013.mp3"
+        "ayah_en": "And when it is said to them, \"Believe as the people have believed,\" they say, \"Should we believe as the foolish have believed?\" Unquestionably, it is they who are the foolish, but they know [it] not.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002013.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 14,
         "ayah_ar": "وَإِذَا لَقُواْ ٱلَّذِينَ ءَامَنُواْ قَالُوٓاْ ءَامَنَّا وَإِذَا خَلَوۡاْ إِلَىٰ شَيَٰطِينِهِمۡ قَالُوٓاْ إِنَّا مَعَكُمۡ إِنَّمَا نَحۡنُ مُسۡتَهۡزِءُونَ",
-        "ayah_en": "When they meet the believers they say, “We believe.” But when alone with their evil associates they say, “We are definitely with you; we were only mocking.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002014.mp3"
+        "ayah_en": "And when they meet those who believe, they say, \"We believe\"; but when they are alone with their evil ones, they say, \"Indeed, we are with you; we were only mockers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002014.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "ٱللَّهُ يَسۡتَهۡزِئُ بِهِمۡ وَيَمُدُّهُمۡ فِي طُغۡيَٰنِهِمۡ يَعۡمَهُونَ",
-        "ayah_en": "Allah will throw their mockery back at them, leaving them to continue wandering blindly in their defiance",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002015.mp3"
+        "ayah_en": "[But] Allāh mocks them and prolongs them in their transgression [while] they wander blindly.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002015.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "أُوْلَٰٓئِكَ ٱلَّذِينَ ٱشۡتَرَوُاْ ٱلضَّلَٰلَةَ بِٱلۡهُدَىٰ فَمَا رَبِحَت تِّجَٰرَتُهُمۡ وَمَا كَانُواْ مُهۡتَدِينَ",
-        "ayah_en": "They are the ones who trade guidance for misguidance. But this trade is profitless, and they are not ˹rightly˺ guided",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002016.mp3"
+        "ayah_en": "Those are the ones who have purchased error [in exchange] for guidance, so their transaction has brought no profit, nor were they guided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002016.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -126,26 +142,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 17,
         "ayah_ar": "مَثَلُهُمۡ كَمَثَلِ ٱلَّذِي ٱسۡتَوۡقَدَ نَارٗا فَلَمَّآ أَضَآءَتۡ مَا حَوۡلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمۡ وَتَرَكَهُمۡ فِي ظُلُمَٰتٖ لَّا يُبۡصِرُونَ",
-        "ayah_en": "Their example is that of someone who kindles a fire, but when it lights up all around them, Allah takes away their light, leaving them in complete darkness—unable to see",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002017.mp3"
+        "ayah_en": "Their example is that of one who kindled a fire, but when it illuminated what was around him, Allāh took away their light and left them in darkness [so] they could not see.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002017.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "صُمُّۢ بُكۡمٌ عُمۡيٞ فَهُمۡ لَا يَرۡجِعُونَ",
-        "ayah_en": "They are ˹wilfully˺ deaf, dumb, and blind, so they will never return ˹to the Right Path˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002018.mp3"
+        "ayah_en": "Deaf, dumb and blind - so they will not return [to the right path].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002018.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 19,
         "ayah_ar": "أَوۡ كَصَيِّبٖ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٞ وَرَعۡدٞ وَبَرۡقٞ يَجۡعَلُونَ أَصَٰبِعَهُمۡ فِيٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلۡمَوۡتِۚ وَٱللَّهُ مُحِيطُۢ بِٱلۡكَٰفِرِينَ",
-        "ayah_en": "Or ˹those caught in˺ a rainstorm from the sky with darkness, thunder, and lightning. They press their fingers into their ears at the sound of every thunder-clap for fear of death. And Allah encompasses the disbelievers ˹by His might˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002019.mp3"
+        "ayah_en": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allāh is encompassing of the disbelievers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002019.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 20,
         "ayah_ar": "يَكَادُ ٱلۡبَرۡقُ يَخۡطَفُ أَبۡصَٰرَهُمۡۖ كُلَّمَآ أَضَآءَ لَهُم مَّشَوۡاْ فِيهِ وَإِذَآ أَظۡلَمَ عَلَيۡهِمۡ قَامُواْۚ وَلَوۡ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمۡعِهِمۡ وَأَبۡصَٰرِهِمۡۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
-        "ayah_en": "It is as if the lightning were about to snatch away their sight. Whenever lightning strikes, they walk in its light, but when darkness covers them, they stand still. Had Allah willed, He could have taken away their hearing and sight. Surely Allah is Most Capable of everything",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002020.mp3"
+        "ayah_en": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allāh had willed, He could have taken away their hearing and their sight. Indeed, Allāh is over all things competent.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002020.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -156,14 +176,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 21,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعۡبُدُواْ رَبَّكُمُ ٱلَّذِي خَلَقَكُمۡ وَٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
-        "ayah_en": "O humanity! Worship your Lord, Who created you and those before you, so that you may become mindful ˹of Him˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002021.mp3"
+        "ayah_en": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002021.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 22,
         "ayah_ar": "ٱلَّذِي جَعَلَ لَكُمُ ٱلۡأَرۡضَ فِرَٰشٗا وَٱلسَّمَآءَ بِنَآءٗ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَخۡرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزۡقٗا لَّكُمۡۖ فَلَا تَجۡعَلُواْ لِلَّهِ أَندَادٗا وَأَنتُمۡ تَعۡلَمُونَ",
-        "ayah_en": "˹He is the One˺ Who has made the earth a place of settlement for you and the sky a canopy; and sends down rain from the sky, causing fruits to grow as a provision for you. So do not knowingly set up equals to Allah ˹in worship˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002022.mp3"
+        "ayah_en": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allāh equals while you know [that there is nothing similar to Him].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002022.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -174,14 +196,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 23,
         "ayah_ar": "وَإِن كُنتُمۡ فِي رَيۡبٖ مِّمَّا نَزَّلۡنَا عَلَىٰ عَبۡدِنَا فَأۡتُواْ بِسُورَةٖ مِّن مِّثۡلِهِۦ وَٱدۡعُواْ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمۡ صَٰدِقِينَ",
-        "ayah_en": "And if you are in doubt about what We have revealed to Our servant, then produce a sûrah like it and call your helpers other than Allah, if what you say is true",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002023.mp3"
+        "ayah_en": "And if you are in doubt about what We have sent down [i.e., the Qur’ān] upon Our Servant [i.e., Prophet Muḥammad (ﷺ)], then produce a sūrah the like thereof and call upon your witnesses [i.e., supporters] other than Allāh, if you should be truthful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002023.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 24,
         "ayah_ar": "فَإِن لَّمۡ تَفۡعَلُواْ وَلَن تَفۡعَلُواْ فَٱتَّقُواْ ٱلنَّارَ ٱلَّتِي وَقُودُهَا ٱلنَّاسُ وَٱلۡحِجَارَةُۖ أُعِدَّتۡ لِلۡكَٰفِرِينَ",
-        "ayah_en": "But if you are unable to do so—and you will never be able to do so—then fear the Fire fuelled with people and stones, which is prepared for the disbelievers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002024.mp3"
+        "ayah_en": "But if you do not - and you will never be able to - then fear the Fire, whose fuel is people and stones, prepared for the disbelievers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002024.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -192,8 +216,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 25,
         "ayah_ar": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمۡ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۖ كُلَّمَا رُزِقُواْ مِنۡهَا مِن ثَمَرَةٖ رِّزۡقٗا قَالُواْ هَٰذَا ٱلَّذِي رُزِقۡنَا مِن قَبۡلُۖ وَأُتُواْ بِهِۦ مُتَشَٰبِهٗاۖ وَلَهُمۡ فِيهَآ أَزۡوَٰجٞ مُّطَهَّرَةٞۖ وَهُمۡ فِيهَا خَٰلِدُونَ",
-        "ayah_en": "Give good news ˹O Prophet˺ to those who believe and do good that they will have Gardens under which rivers flow. Whenever provided with fruit, they will say, “This is what we were given before,” for they will be served fruit that looks similar ˹but tastes different˺. They will have pure spouses, and they will be there forever",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002025.mp3"
+        "ayah_en": "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, \"This is what we were provided with before.\" And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002025.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -204,14 +229,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 26,
         "ayah_ar": "۞ إِنَّ ٱللَّهَ لَا يَسۡتَحۡيِۦٓ أَن يَضۡرِبَ مَثَلٗا مَّا بَعُوضَةٗ فَمَا فَوۡقَهَاۚ فَأَمَّا ٱلَّذِينَ ءَامَنُواْ فَيَعۡلَمُونَ أَنَّهُ ٱلۡحَقُّ مِن رَّبِّهِمۡۖ وَأَمَّا ٱلَّذِينَ كَفَرُواْ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلٗاۘ يُضِلُّ بِهِۦ كَثِيرٗا وَيَهۡدِي بِهِۦ كَثِيرٗاۚ وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلۡفَٰسِقِينَ",
-        "ayah_en": "Surely Allah does not shy away from using the parable of a mosquito or what is even smaller. As for the believers, they know that it is the truth from their Lord. And as for the disbelievers, they argue, “What does Allah mean by such a parable?” Through this ˹test˺, He leaves many to stray, and guides many. And He leaves none to stray except the rebellious—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002026.mp3"
+        "ayah_en": "Indeed, Allāh is not timid to present an example - that of a mosquito or what is smaller than it. And those who have believed know that it is the truth from their Lord. But as for those who disbelieve, they say, \"What did Allāh intend by this as an example?\" He misleads many thereby and guides many thereby. And He misleads not except the defiantly disobedient,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002026.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 27,
         "ayah_ar": "ٱلَّذِينَ يَنقُضُونَ عَهۡدَ ٱللَّهِ مِنۢ بَعۡدِ مِيثَٰقِهِۦ وَيَقۡطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفۡسِدُونَ فِي ٱلۡأَرۡضِۚ أُوْلَٰٓئِكَ هُمُ ٱلۡخَٰسِرُونَ",
-        "ayah_en": "those who violate Allah’s covenant after it has been affirmed, break whatever ˹ties˺ Allah has ordered to be maintained, and spread corruption in the land. It is they who are the ˹true˺ losers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002027.mp3"
+        "ayah_en": "Who break the covenant of Allāh after contracting it and sever that which Allāh has ordered to be joined and cause corruption on earth. It is those who are the losers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002027.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -222,14 +249,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 28,
         "ayah_ar": "كَيۡفَ تَكۡفُرُونَ بِٱللَّهِ وَكُنتُمۡ أَمۡوَٰتٗا فَأَحۡيَٰكُمۡۖ ثُمَّ يُمِيتُكُمۡ ثُمَّ يُحۡيِيكُمۡ ثُمَّ إِلَيۡهِ تُرۡجَعُونَ",
-        "ayah_en": "How can you deny Allah? You were lifeless and He gave you life, then He will cause you to die and again bring you to life, and then to Him you will ˹all˺ be returned",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002028.mp3"
+        "ayah_en": "How can you disbelieve in Allāh when you were lifeless and He brought you to life; then He will cause you to die, then He will bring you [back] to life, and then to Him you will be returned.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002028.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 29,
         "ayah_ar": "هُوَ ٱلَّذِي خَلَقَ لَكُم مَّا فِي ٱلۡأَرۡضِ جَمِيعٗا ثُمَّ ٱسۡتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ سَبۡعَ سَمَٰوَٰتٖۚ وَهُوَ بِكُلِّ شَيۡءٍ عَلِيمٞ",
-        "ayah_en": "He is the One Who created everything in the earth for you. Then He turned towards the heaven, forming it into seven heavens. And He has ˹perfect˺ knowledge of all things",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002029.mp3"
+        "ayah_en": "It is He who created for you all of that which is on the earth. Then He directed Himself to the heaven, [His being above all creation], and made them seven heavens, and He is Knowing of all things.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002029.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -240,32 +269,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 30,
         "ayah_ar": "وَإِذۡ قَالَ رَبُّكَ لِلۡمَلَٰٓئِكَةِ إِنِّي جَاعِلٞ فِي ٱلۡأَرۡضِ خَلِيفَةٗۖ قَالُوٓاْ أَتَجۡعَلُ فِيهَا مَن يُفۡسِدُ فِيهَا وَيَسۡفِكُ ٱلدِّمَآءَ وَنَحۡنُ نُسَبِّحُ بِحَمۡدِكَ وَنُقَدِّسُ لَكَۖ قَالَ إِنِّيٓ أَعۡلَمُ مَا لَا تَعۡلَمُونَ",
-        "ayah_en": "˹Remember˺ when your Lord said to the angels, “I am going to place a successive ˹human˺ authority on earth.” They asked ˹Allah˺, “Will You place in it someone who will spread corruption there and shed blood while we glorify Your praises and proclaim Your holiness?” Allah responded, “I know what you do not know.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002030.mp3"
+        "ayah_en": "And [mention, O Muḥammad], when your Lord said to the angels, \"Indeed, I will make upon the earth a successive authority.\" They said, \"Will You place upon it one who causes corruption therein and sheds blood, while we exalt You with praise and declare Your perfection?\" He [Allāh] said, \"Indeed, I know that which you do not know.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002030.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 31,
         "ayah_ar": "وَعَلَّمَ ءَادَمَ ٱلۡأَسۡمَآءَ كُلَّهَا ثُمَّ عَرَضَهُمۡ عَلَى ٱلۡمَلَٰٓئِكَةِ فَقَالَ أَنۢبِـُٔونِي بِأَسۡمَآءِ هَٰٓؤُلَآءِ إِن كُنتُمۡ صَٰدِقِينَ",
-        "ayah_en": "He taught Adam the names of all things, then He presented them to the angels and said, “Tell Me the names of these, if what you say is true?”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002031.mp3"
+        "ayah_en": "And He taught Adam the names - all of them. Then He showed them to the angels and said, \"Inform Me of the names of these, if you are truthful.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002031.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 32,
         "ayah_ar": "قَالُواْ سُبۡحَٰنَكَ لَا عِلۡمَ لَنَآ إِلَّا مَا عَلَّمۡتَنَآۖ إِنَّكَ أَنتَ ٱلۡعَلِيمُ ٱلۡحَكِيمُ",
-        "ayah_en": "They replied, “Glory be to You! We have no knowledge except what You have taught us. You are truly the All-Knowing, All-Wise.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002032.mp3"
+        "ayah_en": "They said, \"Exalted are You; we have no knowledge except what You have taught us. Indeed, it is You who is the Knowing, the Wise.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002032.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 33,
         "ayah_ar": "قَالَ يَٰٓـَٔادَمُ أَنۢبِئۡهُم بِأَسۡمَآئِهِمۡۖ فَلَمَّآ أَنۢبَأَهُم بِأَسۡمَآئِهِمۡ قَالَ أَلَمۡ أَقُل لَّكُمۡ إِنِّيٓ أَعۡلَمُ غَيۡبَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَأَعۡلَمُ مَا تُبۡدُونَ وَمَا كُنتُمۡ تَكۡتُمُونَ",
-        "ayah_en": "Allah said, “O Adam! Inform them of their names.” Then when Adam did, Allah said, “Did I not tell you that I know the secrets of the heavens and the earth, and I know what you reveal and what you conceal?”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002033.mp3"
+        "ayah_en": "He said, \"O Adam, inform them of their names.\" And when he had informed them of their names, He said, \"Did I not tell you that I know the unseen [aspects] of the heavens and the earth? And I know what you reveal and what you have concealed.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002033.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 34,
         "ayah_ar": "وَإِذۡ قُلۡنَا لِلۡمَلَٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ أَبَىٰ وَٱسۡتَكۡبَرَ وَكَانَ مِنَ ٱلۡكَٰفِرِينَ",
-        "ayah_en": "And ˹remember˺ when We said to the angels, “Prostrate before Adam,” so they all did—but not Iblîs, who refused and acted arrogantly, becoming unfaithful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002034.mp3"
+        "ayah_en": "And [mention] when We said to the angels, \"Prostrate before Adam\"; so they prostrated, except for Iblees. He refused and was arrogant and became of the disbelievers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002034.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -276,32 +310,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 35,
         "ayah_ar": "وَقُلۡنَا يَٰٓـَٔادَمُ ٱسۡكُنۡ أَنتَ وَزَوۡجُكَ ٱلۡجَنَّةَ وَكُلَا مِنۡهَا رَغَدًا حَيۡثُ شِئۡتُمَا وَلَا تَقۡرَبَا هَٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
-        "ayah_en": "We cautioned, “O Adam! Live with your wife in Paradise and eat as freely as you please, but do not approach this tree, or else you will be wrongdoers.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002035.mp3"
+        "ayah_en": "And We said, \"O Adam, dwell, you and your wife, in Paradise and eat therefrom in [ease and] abundance from wherever you will. But do not approach this tree, lest you be among the wrongdoers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002035.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 36,
         "ayah_ar": "فَأَزَلَّهُمَا ٱلشَّيۡطَٰنُ عَنۡهَا فَأَخۡرَجَهُمَا مِمَّا كَانَا فِيهِۖ وَقُلۡنَا ٱهۡبِطُواْ بَعۡضُكُمۡ لِبَعۡضٍ عَدُوّٞۖ وَلَكُمۡ فِي ٱلۡأَرۡضِ مُسۡتَقَرّٞ وَمَتَٰعٌ إِلَىٰ حِينٖ",
-        "ayah_en": "But Satan deceived them—leading to their fall from the ˹blissful˺ state they were in, and We said, “Descend from the heavens ˹to the earth˺ as enemies to each other. You will find in the earth a residence and provision for your appointed stay.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002036.mp3"
+        "ayah_en": "But Satan caused them to slip out of it and removed them from that [condition] in which they had been. And We said, \"Go down, [all of you], as enemies to one another, and you will have upon the earth a place of settlement and provision for a time.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002036.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 37,
         "ayah_ar": "فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٖ فَتَابَ عَلَيۡهِۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
-        "ayah_en": "Then Adam was inspired with words ˹of prayer˺ by his Lord, so He accepted his repentance. Surely He is the Accepter of Repentance, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002037.mp3"
+        "ayah_en": "Then Adam received from his Lord [some] words, and He accepted his repentance. Indeed, it is He who is the Accepting of Repentance, the Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002037.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 38,
         "ayah_ar": "قُلۡنَا ٱهۡبِطُواْ مِنۡهَا جَمِيعٗاۖ فَإِمَّا يَأۡتِيَنَّكُم مِّنِّي هُدٗى فَمَن تَبِعَ هُدَايَ فَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
-        "ayah_en": "We said, “Descend all of you! Then when guidance comes to you from Me, whoever follows it, there will be no fear for them, nor will they grieve",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002038.mp3"
+        "ayah_en": "We said, \"Go down from it, all of you. And when guidance comes to you from Me, whoever follows My guidance - there will be no fear concerning them, nor will they grieve.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002038.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 39,
         "ayah_ar": "وَٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِـَٔايَٰتِنَآ أُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
-        "ayah_en": "But those who disbelieve and deny Our signs will be the residents of the Fire. They will be there forever.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002039.mp3"
+        "ayah_en": "And those who disbelieve and deny Our signs - those will be companions of the Fire; they will abide therein eternally.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002039.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -312,26 +351,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 40,
         "ayah_ar": "يَٰبَنِيٓ إِسۡرَٰٓءِيلَ ٱذۡكُرُواْ نِعۡمَتِيَ ٱلَّتِيٓ أَنۡعَمۡتُ عَلَيۡكُمۡ وَأَوۡفُواْ بِعَهۡدِيٓ أُوفِ بِعَهۡدِكُمۡ وَإِيَّٰيَ فَٱرۡهَبُونِ",
-        "ayah_en": "O children of Israel! Remember My favours upon you. Fulfil your covenant and I will fulfil Mine, and stand in awe of Me ˹alone˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002040.mp3"
+        "ayah_en": "O Children of Israel, remember My favor which I have bestowed upon you and fulfill My covenant [upon you] that I will fulfill your covenant [from Me], and be afraid of [only] Me.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002040.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 41,
         "ayah_ar": "وَءَامِنُواْ بِمَآ أَنزَلۡتُ مُصَدِّقٗا لِّمَا مَعَكُمۡ وَلَا تَكُونُوٓاْ أَوَّلَ كَافِرِۭ بِهِۦۖ وَلَا تَشۡتَرُواْ بِـَٔايَٰتِي ثَمَنٗا قَلِيلٗا وَإِيَّٰيَ فَٱتَّقُونِ",
-        "ayah_en": "Believe in My revelations which confirm your Scriptures. Do not be the first to deny them or trade them for a fleeting gain. And be mindful of Me",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002041.mp3"
+        "ayah_en": "And believe in what I have sent down confirming that which is [already] with you, and be not the first to disbelieve in it. And do not exchange My signs for a small price, and fear [only] Me.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002041.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 42,
         "ayah_ar": "وَلَا تَلۡبِسُواْ ٱلۡحَقَّ بِٱلۡبَٰطِلِ وَتَكۡتُمُواْ ٱلۡحَقَّ وَأَنتُمۡ تَعۡلَمُونَ",
-        "ayah_en": "Do not mix truth with falsehood or hide the truth knowingly",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002042.mp3"
+        "ayah_en": "And do not mix the truth with falsehood or conceal the truth while you know [it].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002042.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 43,
         "ayah_ar": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَٱرۡكَعُواْ مَعَ ٱلرَّٰكِعِينَ",
-        "ayah_en": "Establish prayer, pay alms-tax, and bow down with those who bow down",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002043.mp3"
+        "ayah_en": "And establish prayer and give zakāh and bow with those who bow [in worship and obedience].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002043.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -342,20 +385,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 44,
         "ayah_ar": "۞ أَتَأۡمُرُونَ ٱلنَّاسَ بِٱلۡبِرِّ وَتَنسَوۡنَ أَنفُسَكُمۡ وَأَنتُمۡ تَتۡلُونَ ٱلۡكِتَٰبَۚ أَفَلَا تَعۡقِلُونَ",
-        "ayah_en": "Do you preach righteousness and fail to practice it yourselves, although you read the Scripture? Do you not understand",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002044.mp3"
+        "ayah_en": "Do you order righteousness of the people and forget yourselves while you recite the Scripture? Then will you not reason?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002044.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 45,
         "ayah_ar": "وَٱسۡتَعِينُواْ بِٱلصَّبۡرِ وَٱلصَّلَوٰةِۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلۡخَٰشِعِينَ",
-        "ayah_en": "And seek help through patience and prayer. Indeed, it is a burden except for the humble—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002045.mp3"
+        "ayah_en": "And seek help through patience and prayer; and indeed, it is difficult except for the humbly submissive [to Allāh]",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002045.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 46,
         "ayah_ar": "ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُواْ رَبِّهِمۡ وَأَنَّهُمۡ إِلَيۡهِ رَٰجِعُونَ",
-        "ayah_en": "those who are certain that they will meet their Lord and to Him they will return",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002046.mp3"
+        "ayah_en": "Who are certain that they will meet their Lord and that they will return to Him.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002046.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -366,14 +412,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 47,
         "ayah_ar": "يَٰبَنِيٓ إِسۡرَٰٓءِيلَ ٱذۡكُرُواْ نِعۡمَتِيَ ٱلَّتِيٓ أَنۡعَمۡتُ عَلَيۡكُمۡ وَأَنِّي فَضَّلۡتُكُمۡ عَلَى ٱلۡعَٰلَمِينَ",
-        "ayah_en": "O Children of Israel! Remember ˹all˺ the favours I granted you and how I honoured you above the others",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002047.mp3"
+        "ayah_en": "O Children of Israel, remember My favor that I have bestowed upon you and that I preferred you over the worlds [i.e., peoples].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002047.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 48,
         "ayah_ar": "وَٱتَّقُواْ يَوۡمٗا لَّا تَجۡزِي نَفۡسٌ عَن نَّفۡسٖ شَيۡـٔٗا وَلَا يُقۡبَلُ مِنۡهَا شَفَٰعَةٞ وَلَا يُؤۡخَذُ مِنۡهَا عَدۡلٞ وَلَا هُمۡ يُنصَرُونَ",
-        "ayah_en": "Guard yourselves against the Day on which no soul will be of help to another. No intercession will be accepted, no ransom taken, and no help will be given",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002048.mp3"
+        "ayah_en": "And fear a Day when no soul will suffice for another soul at all, nor will intercession be accepted from it, nor will compensation be taken from it, nor will they be aided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002048.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -384,14 +432,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 49,
         "ayah_ar": "وَإِذۡ نَجَّيۡنَٰكُم مِّنۡ ءَالِ فِرۡعَوۡنَ يَسُومُونَكُمۡ سُوٓءَ ٱلۡعَذَابِ يُذَبِّحُونَ أَبۡنَآءَكُمۡ وَيَسۡتَحۡيُونَ نِسَآءَكُمۡۚ وَفِي ذَٰلِكُم بَلَآءٞ مِّن رَّبِّكُمۡ عَظِيمٞ",
-        "ayah_en": "˹Remember˺ how We delivered you from the people of Pharaoh, who afflicted you with dreadful torment, slaughtering your sons and keeping your women. That was a severe test from your Lord",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002049.mp3"
+        "ayah_en": "And [recall] when We saved you [i.e., your forefathers] from the people of Pharaoh, who afflicted you with the worst torment, slaughtering your [newborn] sons and keeping your females alive. And in that was a great trial from your Lord.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002049.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 50,
         "ayah_ar": "وَإِذۡ فَرَقۡنَا بِكُمُ ٱلۡبَحۡرَ فَأَنجَيۡنَٰكُمۡ وَأَغۡرَقۡنَآ ءَالَ فِرۡعَوۡنَ وَأَنتُمۡ تَنظُرُونَ",
-        "ayah_en": "And ˹remember˺ when We parted the sea, rescued you, and drowned Pharaoh’s people before your very eyes",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002050.mp3"
+        "ayah_en": "And [recall] when We parted the sea for you and saved you and drowned the people of Pharaoh while you were looking on.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002050.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -402,14 +452,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 51,
         "ayah_ar": "وَإِذۡ وَٰعَدۡنَا مُوسَىٰٓ أَرۡبَعِينَ لَيۡلَةٗ ثُمَّ ٱتَّخَذۡتُمُ ٱلۡعِجۡلَ مِنۢ بَعۡدِهِۦ وَأَنتُمۡ ظَٰلِمُونَ",
-        "ayah_en": "And ˹remember˺ when We appointed forty nights for Moses, then you worshipped the calf in his absence, acting wrongfully",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002051.mp3"
+        "ayah_en": "And [recall] when We made an appointment with Moses for forty nights. Then you took [for worship] the calf after him [i.e., his departure], while you were wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002051.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 52,
         "ayah_ar": "ثُمَّ عَفَوۡنَا عَنكُم مِّنۢ بَعۡدِ ذَٰلِكَ لَعَلَّكُمۡ تَشۡكُرُونَ",
-        "ayah_en": "Even then We ˹still˺ forgave you so perhaps you would be grateful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002052.mp3"
+        "ayah_en": "Then We forgave you after that so perhaps you would be grateful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002052.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -420,14 +472,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 53,
         "ayah_ar": "وَإِذۡ ءَاتَيۡنَا مُوسَى ٱلۡكِتَٰبَ وَٱلۡفُرۡقَانَ لَعَلَّكُمۡ تَهۡتَدُونَ",
-        "ayah_en": "And ˹remember˺ when We gave Moses the Scripture—the standard ˹to distinguish between right and wrong˺ that perhaps you would be ˹rightly˺ guided",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002053.mp3"
+        "ayah_en": "And [recall] when We gave Moses the Scripture and criterion that perhaps you would be guided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002053.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 54,
         "ayah_ar": "وَإِذۡ قَالَ مُوسَىٰ لِقَوۡمِهِۦ يَٰقَوۡمِ إِنَّكُمۡ ظَلَمۡتُمۡ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلۡعِجۡلَ فَتُوبُوٓاْ إِلَىٰ بَارِئِكُمۡ فَٱقۡتُلُوٓاْ أَنفُسَكُمۡ ذَٰلِكُمۡ خَيۡرٞ لَّكُمۡ عِندَ بَارِئِكُمۡ فَتَابَ عَلَيۡكُمۡۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
-        "ayah_en": "And ˹remember˺ when Moses said to his people, “O my people! Surely you have wronged yourselves by worshipping the calf, so turn in repentance to your Creator and execute ˹the calf-worshippers among˺ yourselves. That is best for you in the sight of your Creator.” Then He accepted your repentance. Surely He is the Accepter of Repentance, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002054.mp3"
+        "ayah_en": "And [recall] when Moses said to his people, \"O my people, indeed you have wronged yourselves by your taking of the calf [for worship]. So repent to your Creator and kill yourselves [i.e., the guilty among you]. That is best for [all of] you in the sight of your Creator.\" Then He accepted your repentance; indeed, He is the Accepting of Repentance, the Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002054.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -438,14 +492,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 55,
         "ayah_ar": "وَإِذۡ قُلۡتُمۡ يَٰمُوسَىٰ لَن نُّؤۡمِنَ لَكَ حَتَّىٰ نَرَى ٱللَّهَ جَهۡرَةٗ فَأَخَذَتۡكُمُ ٱلصَّٰعِقَةُ وَأَنتُمۡ تَنظُرُونَ",
-        "ayah_en": "And ˹remember˺ when you said, “O Moses! We will never believe you until we see Allah with our own eyes,” so a thunderbolt struck you while you were looking on",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002055.mp3"
+        "ayah_en": "And [recall] when you said, \"O Moses, we will never believe you until we see Allāh outright\"; so the thunderbolt took you while you were looking on.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002055.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 56,
         "ayah_ar": "ثُمَّ بَعَثۡنَٰكُم مِّنۢ بَعۡدِ مَوۡتِكُمۡ لَعَلَّكُمۡ تَشۡكُرُونَ",
-        "ayah_en": "Then We brought you back to life after your death, so that perhaps you would be grateful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002056.mp3"
+        "ayah_en": "Then We revived you after your death that perhaps you would be grateful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002056.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -456,26 +512,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 57,
         "ayah_ar": "وَظَلَّلۡنَا عَلَيۡكُمُ ٱلۡغَمَامَ وَأَنزَلۡنَا عَلَيۡكُمُ ٱلۡمَنَّ وَٱلسَّلۡوَىٰۖ كُلُواْ مِن طَيِّبَٰتِ مَا رَزَقۡنَٰكُمۡۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓاْ أَنفُسَهُمۡ يَظۡلِمُونَ",
-        "ayah_en": "And ˹remember when˺ We shaded you with clouds and sent down to you manna and quails, ˹saying˺, “Eat from the good things We have provided for you.” The evildoers ˹certainly˺ did not wrong Us, but wronged themselves",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002057.mp3"
+        "ayah_en": "And We shaded you with clouds and sent down to you manna and quails, [saying], \"Eat from the good things with which We have provided you.\" And they wronged Us not - but they were [only] wronging themselves.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002057.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 58,
         "ayah_ar": "وَإِذۡ قُلۡنَا ٱدۡخُلُواْ هَٰذِهِ ٱلۡقَرۡيَةَ فَكُلُواْ مِنۡهَا حَيۡثُ شِئۡتُمۡ رَغَدٗا وَٱدۡخُلُواْ ٱلۡبَابَ سُجَّدٗا وَقُولُواْ حِطَّةٞ نَّغۡفِرۡ لَكُمۡ خَطَٰيَٰكُمۡۚ وَسَنَزِيدُ ٱلۡمُحۡسِنِينَ",
-        "ayah_en": "And ˹remember˺ when We said, “Enter this city and eat freely from wherever you please; enter the gate with humility, saying, ‘Absolve us.’ We will forgive your sins and multiply the reward for the good-doers.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002058.mp3"
+        "ayah_en": "And [recall] when We said, \"Enter this city [i.e., Jerusalem] and eat from it wherever you will in [ease and] abundance, and enter the gate bowing humbly and say, 'Relieve us of our burdens [i.e., sins].' We will [then] forgive your sins for you, and We will increase the doers of good [in goodness and reward].\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002058.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 59,
         "ayah_ar": "فَبَدَّلَ ٱلَّذِينَ ظَلَمُواْ قَوۡلًا غَيۡرَ ٱلَّذِي قِيلَ لَهُمۡ فَأَنزَلۡنَا عَلَى ٱلَّذِينَ ظَلَمُواْ رِجۡزٗا مِّنَ ٱلسَّمَآءِ بِمَا كَانُواْ يَفۡسُقُونَ",
-        "ayah_en": "But the wrongdoers changed the words they were commanded to say. So We sent down a punishment from the heavens upon them for their rebelliousness",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002059.mp3"
+        "ayah_en": "But those who wronged changed [those words] to a statement other than that which had been said to them, so We sent down upon those who wronged a punishment [i.e., plague] from the sky because they were defiantly disobeying.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002059.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 60,
         "ayah_ar": "۞ وَإِذِ ٱسۡتَسۡقَىٰ مُوسَىٰ لِقَوۡمِهِۦ فَقُلۡنَا ٱضۡرِب بِّعَصَاكَ ٱلۡحَجَرَۖ فَٱنفَجَرَتۡ مِنۡهُ ٱثۡنَتَا عَشۡرَةَ عَيۡنٗاۖ قَدۡ عَلِمَ كُلُّ أُنَاسٖ مَّشۡرَبَهُمۡۖ كُلُواْ وَٱشۡرَبُواْ مِن رِّزۡقِ ٱللَّهِ وَلَا تَعۡثَوۡاْ فِي ٱلۡأَرۡضِ مُفۡسِدِينَ",
-        "ayah_en": "And ˹remember˺ when Moses prayed for water for his people, We said, “Strike the rock with your staff.” Then twelve springs gushed out, ˹and˺ each tribe knew its drinking place. ˹We then said,˺ “Eat and drink of Allah’s provisions, and do not go about spreading corruption in the land.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002060.mp3"
+        "ayah_en": "And [recall] when Moses prayed for water for his people, so We said, \"Strike with your staff the stone.\" And there gushed forth from it twelve springs, and every people [i.e., tribe] knew its watering place. \"Eat and drink from the provision of Allāh, and do not commit abuse on the earth, spreading corruption.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002060.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -486,8 +546,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 61,
         "ayah_ar": "وَإِذۡ قُلۡتُمۡ يَٰمُوسَىٰ لَن نَّصۡبِرَ عَلَىٰ طَعَامٖ وَٰحِدٖ فَٱدۡعُ لَنَا رَبَّكَ يُخۡرِجۡ لَنَا مِمَّا تُنۢبِتُ ٱلۡأَرۡضُ مِنۢ بَقۡلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَاۖ قَالَ أَتَسۡتَبۡدِلُونَ ٱلَّذِي هُوَ أَدۡنَىٰ بِٱلَّذِي هُوَ خَيۡرٌۚ ٱهۡبِطُواْ مِصۡرٗا فَإِنَّ لَكُم مَّا سَأَلۡتُمۡۗ وَضُرِبَتۡ عَلَيۡهِمُ ٱلذِّلَّةُ وَٱلۡمَسۡكَنَةُ وَبَآءُو بِغَضَبٖ مِّنَ ٱللَّهِۚ ذَٰلِكَ بِأَنَّهُمۡ كَانُواْ يَكۡفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقۡتُلُونَ ٱلنَّبِيِّـۧنَ بِغَيۡرِ ٱلۡحَقِّۚ ذَٰلِكَ بِمَا عَصَواْ وَّكَانُواْ يَعۡتَدُونَ",
-        "ayah_en": "And ˹remember˺ when you said, “O Moses! We cannot endure the same meal ˹every day˺. So ˹just˺ call upon your Lord on our behalf, He will bring forth for us some of what the earth produces of herbs, cucumbers, garlic, lentils, and onions.” Moses scolded ˹them˺, “Do you exchange what is better for what is worse? ˹You can˺ go down to any village and you will find what you have asked for.” They were stricken with disgrace and misery, and they invited the displeasure of Allah for rejecting Allah’s signs and unjustly killing the prophets. This is ˹a fair reward˺ for their disobedience and violations",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002061.mp3"
+        "ayah_en": "And [recall] when you said, \"O Moses, we can never endure one [kind of] food. So call upon your Lord to bring forth for us from the earth its green herbs and its cucumbers and its garlic and its lentils and its onions.\" [Moses] said, \"Would you exchange what is better for what is less? Go into [any] settlement and indeed, you will have what you have asked.\" And they were covered with humiliation and poverty and returned with anger from Allāh [upon them]. That was because they [repeatedly] disbelieved in the signs of Allāh and killed the prophets without right. That was because they disobeyed and were [habitually] transgressing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002061.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -498,8 +559,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 62,
         "ayah_ar": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَٱلَّذِينَ هَادُواْ وَٱلنَّصَٰرَىٰ وَٱلصَّٰبِـِٔينَ مَنۡ ءَامَنَ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِ وَعَمِلَ صَٰلِحٗا فَلَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
-        "ayah_en": "Indeed, the believers, Jews, Christians, and Sabians—whoever ˹truly˺ believes in Allah and the Last Day and does good will have their reward with their Lord. And there will be no fear for them, nor will they grieve",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002062.mp3"
+        "ayah_en": "Indeed, those who believed and those who were Jews or Christians or Sabeans [before Prophet Muḥammad (ﷺ)] - those [among them] who believed in Allāh and the Last Day and did righteousness - will have their reward with their Lord, and no fear will there be concerning them, nor will they grieve.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002062.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -510,14 +572,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 63,
         "ayah_ar": "وَإِذۡ أَخَذۡنَا مِيثَٰقَكُمۡ وَرَفَعۡنَا فَوۡقَكُمُ ٱلطُّورَ خُذُواْ مَآ ءَاتَيۡنَٰكُم بِقُوَّةٖ وَٱذۡكُرُواْ مَا فِيهِ لَعَلَّكُمۡ تَتَّقُونَ",
-        "ayah_en": "And ˹remember˺ when We took a covenant from you and raised the mountain above you ˹saying˺, “Hold firmly to that ˹Scripture˺ which We have given you and observe its teachings so perhaps you will become mindful ˹of Allah˺.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002063.mp3"
+        "ayah_en": "And [recall] when We took your covenant, [O Children of Israel, to abide by the Torah] and We raised over you the mount, [saying], \"Take what We have given you with determination and remember what is in it that perhaps you may become righteous.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002063.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 64,
         "ayah_ar": "ثُمَّ تَوَلَّيۡتُم مِّنۢ بَعۡدِ ذَٰلِكَۖ فَلَوۡلَا فَضۡلُ ٱللَّهِ عَلَيۡكُمۡ وَرَحۡمَتُهُۥ لَكُنتُم مِّنَ ٱلۡخَٰسِرِينَ",
-        "ayah_en": "Yet you turned away afterwards. Had it not been for Allah’s grace and mercy upon you, you would have certainly been of the losers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002064.mp3"
+        "ayah_en": "Then you turned away after that. And if not for the favor of Allāh upon you and His mercy, you would have been among the losers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002064.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -528,14 +592,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 65,
         "ayah_ar": "وَلَقَدۡ عَلِمۡتُمُ ٱلَّذِينَ ٱعۡتَدَوۡاْ مِنكُمۡ فِي ٱلسَّبۡتِ فَقُلۡنَا لَهُمۡ كُونُواْ قِرَدَةً خَٰسِـِٔينَ",
-        "ayah_en": "You are already aware of those of you who broke the Sabbath. We said to them, “Be disgraced apes!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002065.mp3"
+        "ayah_en": "And you had already known about those who transgressed among you concerning the sabbath, and We said to them, \"Be apes, despised.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002065.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 66,
         "ayah_ar": "فَجَعَلۡنَٰهَا نَكَٰلٗا لِّمَا بَيۡنَ يَدَيۡهَا وَمَا خَلۡفَهَا وَمَوۡعِظَةٗ لِّلۡمُتَّقِينَ",
-        "ayah_en": "So We made their fate an example to present and future generations, and a lesson to the God-fearing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002066.mp3"
+        "ayah_en": "And We made it a deterrent punishment for those who were present and those who succeeded [them] and a lesson for those who fear Allāh.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002066.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -546,50 +612,58 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 67,
         "ayah_ar": "وَإِذۡ قَالَ مُوسَىٰ لِقَوۡمِهِۦٓ إِنَّ ٱللَّهَ يَأۡمُرُكُمۡ أَن تَذۡبَحُواْ بَقَرَةٗۖ قَالُوٓاْ أَتَتَّخِذُنَا هُزُوٗاۖ قَالَ أَعُوذُ بِٱللَّهِ أَنۡ أَكُونَ مِنَ ٱلۡجَٰهِلِينَ",
-        "ayah_en": "And ˹remember˺ when Moses said to his people, “Allah commands you to sacrifice a cow.” They replied, “Are you mocking us?” Moses responded, “I seek refuge in Allah from acting foolishly!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002067.mp3"
+        "ayah_en": "And [recall] when Moses said to his people, \"Indeed, Allāh commands you to slaughter a cow.\" They said, \"Do you take us in ridicule?\" He said, \"I seek refuge in Allāh from being among the ignorant.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002067.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 68,
         "ayah_ar": "قَالُواْ ٱدۡعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِيَۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٞ لَّا فَارِضٞ وَلَا بِكۡرٌ عَوَانُۢ بَيۡنَ ذَٰلِكَۖ فَٱفۡعَلُواْ مَا تُؤۡمَرُونَ",
-        "ayah_en": "They said, “Call upon your Lord to clarify for us what type ˹of cow˺ it should be!” He replied, “Allah says, ‘The cow should neither be old nor young but in between. So do as you are commanded!’”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002068.mp3"
+        "ayah_en": "They said, \"Call upon your Lord to make clear to us what it is.\" [Moses] said, \"[Allāh] says, 'It is a cow which is neither old nor virgin, but median between that,' so do what you are commanded.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002068.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 69,
         "ayah_ar": "قَالُواْ ٱدۡعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوۡنُهَاۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٞ صَفۡرَآءُ فَاقِعٞ لَّوۡنُهَا تَسُرُّ ٱلنَّٰظِرِينَ",
-        "ayah_en": "They said, “Call upon your Lord to specify for us its colour.” He replied, “Allah says, ‘It should be a bright yellow cow—pleasant to see.’”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002069.mp3"
+        "ayah_en": "They said, \"Call upon your Lord to show us what is her color.\" He said, \"He says, 'It is a yellow cow, bright in color - pleasing to the observers.'\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002069.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 70,
         "ayah_ar": "قَالُواْ ٱدۡعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِيَ إِنَّ ٱلۡبَقَرَ تَشَٰبَهَ عَلَيۡنَا وَإِنَّآ إِن شَآءَ ٱللَّهُ لَمُهۡتَدُونَ",
-        "ayah_en": "Again they said, “Call upon your Lord so that He may make clear to us which cow, for all cows look the same to us. Then, Allah willing, we will be guided ˹to the right one˺.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002070.mp3"
+        "ayah_en": "They said, \"Call upon your Lord to make clear to us what it is. Indeed, [all] cows look alike to us. And indeed we, if Allāh wills, will be guided.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002070.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 71,
         "ayah_ar": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٞ لَّا ذَلُولٞ تُثِيرُ ٱلۡأَرۡضَ وَلَا تَسۡقِي ٱلۡحَرۡثَ مُسَلَّمَةٞ لَّا شِيَةَ فِيهَاۚ قَالُواْ ٱلۡـَٰٔنَ جِئۡتَ بِٱلۡحَقِّۚ فَذَبَحُوهَا وَمَا كَادُواْ يَفۡعَلُونَ",
-        "ayah_en": "He replied, “Allah says, ‘It should have been used neither to till the soil nor water the fields; wholesome and without blemish.’” They said, “Now you have come with the truth.” Yet they still slaughtered it hesitantly",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002071.mp3"
+        "ayah_en": "He said, \"He says, 'It is a cow neither trained to plow the earth nor to irrigate the field, one free from fault with no spot upon her.'\" They said, \"Now you have come with the truth.\" So they slaughtered her, but they could hardly do it.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002071.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 72,
         "ayah_ar": "وَإِذۡ قَتَلۡتُمۡ نَفۡسٗا فَٱدَّٰرَٰءۡتُمۡ فِيهَاۖ وَٱللَّهُ مُخۡرِجٞ مَّا كُنتُمۡ تَكۡتُمُونَ",
-        "ayah_en": "˹This is˺ when a man was killed and you disputed who the killer was, but Allah revealed what you concealed",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002072.mp3"
+        "ayah_en": "And [recall] when you slew a man and disputed over it, but Allāh was to bring out that which you were concealing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002072.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 73,
         "ayah_ar": "فَقُلۡنَا ٱضۡرِبُوهُ بِبَعۡضِهَاۚ كَذَٰلِكَ يُحۡيِ ٱللَّهُ ٱلۡمَوۡتَىٰ وَيُرِيكُمۡ ءَايَٰتِهِۦ لَعَلَّكُمۡ تَعۡقِلُونَ",
-        "ayah_en": "So We instructed, “Strike the dead body with a piece of the cow.” This is how ˹easily˺ Allah brings the dead to life, showing you His signs so that you may understand",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002073.mp3"
+        "ayah_en": "So We said, \"Strike him [i.e., the slain man] with part of it.\" Thus does Allāh bring the dead to life, and He shows you His signs that you might reason.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002073.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 74,
         "ayah_ar": "ثُمَّ قَسَتۡ قُلُوبُكُم مِّنۢ بَعۡدِ ذَٰلِكَ فَهِيَ كَٱلۡحِجَارَةِ أَوۡ أَشَدُّ قَسۡوَةٗۚ وَإِنَّ مِنَ ٱلۡحِجَارَةِ لَمَا يَتَفَجَّرُ مِنۡهُ ٱلۡأَنۡهَٰرُۚ وَإِنَّ مِنۡهَا لَمَا يَشَّقَّقُ فَيَخۡرُجُ مِنۡهُ ٱلۡمَآءُۚ وَإِنَّ مِنۡهَا لَمَا يَهۡبِطُ مِنۡ خَشۡيَةِ ٱللَّهِۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعۡمَلُونَ",
-        "ayah_en": "Even then your hearts became hardened like a rock or even harder, for some rocks gush rivers; others split, spilling water; while others are humbled in awe of Allah. And Allah is never unaware of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002074.mp3"
+        "ayah_en": "Then your hearts became hardened after that, being like stones or even harder. For indeed, there are stones from which rivers burst forth, and there are some of them that split open and water comes out, and there are some of them that fall down for fear of Allāh. And Allāh is not unaware of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002074.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -600,32 +674,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 75,
         "ayah_ar": "۞ أَفَتَطۡمَعُونَ أَن يُؤۡمِنُواْ لَكُمۡ وَقَدۡ كَانَ فَرِيقٞ مِّنۡهُمۡ يَسۡمَعُونَ كَلَٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعۡدِ مَا عَقَلُوهُ وَهُمۡ يَعۡلَمُونَ",
-        "ayah_en": "Do you ˹believers still˺ expect them to be true to you, though a group of them would hear the word of Allah then knowingly corrupt it after understanding it",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002075.mp3"
+        "ayah_en": "Do you covet [the hope, O believers], that they would believe for you while a party of them used to hear the words of Allāh and then distort it [i.e., the Torah] after they had understood it while they were knowing?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002075.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 76,
         "ayah_ar": "وَإِذَا لَقُواْ ٱلَّذِينَ ءَامَنُواْ قَالُوٓاْ ءَامَنَّا وَإِذَا خَلَا بَعۡضُهُمۡ إِلَىٰ بَعۡضٖ قَالُوٓاْ أَتُحَدِّثُونَهُم بِمَا فَتَحَ ٱللَّهُ عَلَيۡكُمۡ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمۡۚ أَفَلَا تَعۡقِلُونَ",
-        "ayah_en": "When they meet the believers they say, “We believe.” But in private they say ˹to each other˺, “Will you disclose to the believers the knowledge Allah has revealed to you, so that they may use it against you before your Lord? Do you not understand?”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002076.mp3"
+        "ayah_en": "And when they meet those who believe, they say, \"We have believed\"; but when they are alone with one another, they say, \"Do you talk to them about what Allāh has revealed to you so they can argue with you about it before your Lord?\" Then will you not reason?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002076.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 77,
         "ayah_ar": "أَوَلَا يَعۡلَمُونَ أَنَّ ٱللَّهَ يَعۡلَمُ مَا يُسِرُّونَ وَمَا يُعۡلِنُونَ",
-        "ayah_en": "Do they not know that Allah is aware of what they conceal and what they reveal",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002077.mp3"
+        "ayah_en": "But do they not know that Allāh knows what they conceal and what they declare?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002077.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 78,
         "ayah_ar": "وَمِنۡهُمۡ أُمِّيُّونَ لَا يَعۡلَمُونَ ٱلۡكِتَٰبَ إِلَّآ أَمَانِيَّ وَإِنۡ هُمۡ إِلَّا يَظُنُّونَ",
-        "ayah_en": "And among them are the illiterate who know nothing about the Scripture except lies, and ˹so˺ they ˹wishfully˺ speculate",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002078.mp3"
+        "ayah_en": "And among them are unlettered ones who do not know the Scripture except [indulgement in] wishful thinking, but they are only assuming.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002078.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 79,
         "ayah_ar": "فَوَيۡلٞ لِّلَّذِينَ يَكۡتُبُونَ ٱلۡكِتَٰبَ بِأَيۡدِيهِمۡ ثُمَّ يَقُولُونَ هَٰذَا مِنۡ عِندِ ٱللَّهِ لِيَشۡتَرُواْ بِهِۦ ثَمَنٗا قَلِيلٗاۖ فَوَيۡلٞ لَّهُم مِّمَّا كَتَبَتۡ أَيۡدِيهِمۡ وَوَيۡلٞ لَّهُم مِّمَّا يَكۡسِبُونَ",
-        "ayah_en": "So woe to those who distort the Scripture with their own hands then say, “This is from Allah”—seeking a fleeting gain! So woe to them for what their hands have written, and woe to them for what they have earned",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002079.mp3"
+        "ayah_en": "So woe to those who write the \"scripture\" with their own hands, then say, \"This is from Allāh,\" in order to exchange it for a small price. Woe to them for what their hands have written and woe to them for what they earn.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002079.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -636,20 +715,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 80,
         "ayah_ar": "وَقَالُواْ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامٗا مَّعۡدُودَةٗۚ قُلۡ أَتَّخَذۡتُمۡ عِندَ ٱللَّهِ عَهۡدٗا فَلَن يُخۡلِفَ ٱللَّهُ عَهۡدَهُۥٓۖ أَمۡ تَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ",
-        "ayah_en": "˹Some of˺ the Jews claim, “The Fire will not touch us except for a number of days.” Say, ˹O Prophet,˺ “Have you taken a pledge from Allah—for Allah never breaks His word—or are you ˹just˺ saying about Allah what you do not know?”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002080.mp3"
+        "ayah_en": "And they say, \"Never will the Fire touch us, except for [a few] numbered days.\" Say, \"Have you taken a covenant with Allāh? For Allāh will never break His covenant. Or do you say about Allāh that which you do not know?\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002080.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 81,
         "ayah_ar": "بَلَىٰۚ مَن كَسَبَ سَيِّئَةٗ وَأَحَٰطَتۡ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
-        "ayah_en": "But no! Those who commit evil and are engrossed in sin will be the residents of the Fire. They will be there forever",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002081.mp3"
+        "ayah_en": "Yes, [on the contrary], whoever earns evil and his sin has encompassed him - those are the companions of the Fire; they will abide therein eternally.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002081.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 82,
         "ayah_ar": "وَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ أُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلۡجَنَّةِۖ هُمۡ فِيهَا خَٰلِدُونَ",
-        "ayah_en": "And those who believe and do good will be the residents of Paradise. They will be there forever",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002082.mp3"
+        "ayah_en": "But they who believe and do righteous deeds - those are the companions of Paradise; they will abide therein eternally.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002082.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -660,26 +742,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 83,
         "ayah_ar": "وَإِذۡ أَخَذۡنَا مِيثَٰقَ بَنِيٓ إِسۡرَٰٓءِيلَ لَا تَعۡبُدُونَ إِلَّا ٱللَّهَ وَبِٱلۡوَٰلِدَيۡنِ إِحۡسَانٗا وَذِي ٱلۡقُرۡبَىٰ وَٱلۡيَتَٰمَىٰ وَٱلۡمَسَٰكِينِ وَقُولُواْ لِلنَّاسِ حُسۡنٗا وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيۡتُمۡ إِلَّا قَلِيلٗا مِّنكُمۡ وَأَنتُم مُّعۡرِضُونَ",
-        "ayah_en": "And ˹remember˺ when We took a covenant from the children of Israel ˹stating˺, “Worship none but Allah; be kind to parents, relatives, orphans and the needy; speak kindly to people; establish prayer; and pay alms-tax.” But you ˹Israelites˺ turned away—except for a few of you—and were indifferent",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002083.mp3"
+        "ayah_en": "And [recall] when We took the covenant from the Children of Israel, [enjoining upon them], \"Do not worship except Allāh; and to parents do good and to relatives, orphans, and the needy. And speak to people good [words] and establish prayer and give zakāh.\" Then you turned away, except a few of you, and you were refusing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002083.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 84,
         "ayah_ar": "وَإِذۡ أَخَذۡنَا مِيثَٰقَكُمۡ لَا تَسۡفِكُونَ دِمَآءَكُمۡ وَلَا تُخۡرِجُونَ أَنفُسَكُم مِّن دِيَٰرِكُمۡ ثُمَّ أَقۡرَرۡتُمۡ وَأَنتُمۡ تَشۡهَدُونَ",
-        "ayah_en": "And ˹remember˺ when We took your covenant that you would neither shed each other’s blood nor expel each other from their homes, you gave your pledge and bore witness",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002084.mp3"
+        "ayah_en": "And [recall] when We took your covenant, [saying], \"Do not shed your [i.e., each other's] blood or evict one another from your homes.\" Then you acknowledged [this] while you were witnessing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002084.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 85,
         "ayah_ar": "ثُمَّ أَنتُمۡ هَٰٓؤُلَآءِ تَقۡتُلُونَ أَنفُسَكُمۡ وَتُخۡرِجُونَ فَرِيقٗا مِّنكُم مِّن دِيَٰرِهِمۡ تَظَٰهَرُونَ عَلَيۡهِم بِٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِ وَإِن يَأۡتُوكُمۡ أُسَٰرَىٰ تُفَٰدُوهُمۡ وَهُوَ مُحَرَّمٌ عَلَيۡكُمۡ إِخۡرَاجُهُمۡۚ أَفَتُؤۡمِنُونَ بِبَعۡضِ ٱلۡكِتَٰبِ وَتَكۡفُرُونَ بِبَعۡضٖۚ فَمَا جَزَآءُ مَن يَفۡعَلُ ذَٰلِكَ مِنكُمۡ إِلَّا خِزۡيٞ فِي ٱلۡحَيَوٰةِ ٱلدُّنۡيَاۖ وَيَوۡمَ ٱلۡقِيَٰمَةِ يُرَدُّونَ إِلَىٰٓ أَشَدِّ ٱلۡعَذَابِۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعۡمَلُونَ",
-        "ayah_en": "But here you are, killing each other and expelling some of your people from their homes, aiding one another in sin and aggression; and when those ˹expelled˺ come to you as captives, you still ransom them—though expelling them was unlawful for you. Do you believe in some of the Scripture and reject the rest? Is there any reward for those who do so among you other than disgrace in this worldly life and being subjected to the harshest punishment on the Day of Judgment? For Allah is never unaware of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002085.mp3"
+        "ayah_en": "Then, you are those [same ones who are] killing one another and evicting a party of your people from their homes, cooperating against them in sin and aggression. And if they come to you as captives, you ransom them, although their eviction was forbidden to you. So do you believe in part of the Scripture and disbelieve in part? Then what is the recompense for those who do that among you except disgrace in worldly life; and on the Day of Resurrection they will be sent back to the severest of punishment. And Allāh is not unaware of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002085.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 86,
         "ayah_ar": "أُوْلَٰٓئِكَ ٱلَّذِينَ ٱشۡتَرَوُاْ ٱلۡحَيَوٰةَ ٱلدُّنۡيَا بِٱلۡأٓخِرَةِۖ فَلَا يُخَفَّفُ عَنۡهُمُ ٱلۡعَذَابُ وَلَا هُمۡ يُنصَرُونَ",
-        "ayah_en": "These are the ones who trade the Hereafter for the life of this world. So their punishment will not be reduced, nor will they be helped",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002086.mp3"
+        "ayah_en": "Those are the ones who have bought the life of this world [in exchange] for the Hereafter, so the punishment will not be lightened for them, nor will they be aided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002086.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -690,14 +776,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 87,
         "ayah_ar": "وَلَقَدۡ ءَاتَيۡنَا مُوسَى ٱلۡكِتَٰبَ وَقَفَّيۡنَا مِنۢ بَعۡدِهِۦ بِٱلرُّسُلِۖ وَءَاتَيۡنَا عِيسَى ٱبۡنَ مَرۡيَمَ ٱلۡبَيِّنَٰتِ وَأَيَّدۡنَٰهُ بِرُوحِ ٱلۡقُدُسِۗ أَفَكُلَّمَا جَآءَكُمۡ رَسُولُۢ بِمَا لَا تَهۡوَىٰٓ أَنفُسُكُمُ ٱسۡتَكۡبَرۡتُمۡ فَفَرِيقٗا كَذَّبۡتُمۡ وَفَرِيقٗا تَقۡتُلُونَ",
-        "ayah_en": "Indeed, We gave Moses the Book and sent after him successive messengers. And We gave Jesus, son of Mary, clear proofs and supported him with the holy spirit. Why is it that every time a messenger comes to you ˹Israelites˺ with something you do not like, you become arrogant, rejecting some and killing others",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002087.mp3"
+        "ayah_en": "And We did certainly give Moses the Scripture [i.e., the Torah] and followed up after him with messengers. And We gave Jesus, the son of Mary, clear proofs and supported him with the Pure Spirit [i.e., the angel Gabriel]. But is it [not] that every time a messenger came to you, [O Children of Israel], with what your souls did not desire, you were arrogant? And a party [of messengers] you denied and another party you killed.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002087.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 88,
         "ayah_ar": "وَقَالُواْ قُلُوبُنَا غُلۡفُۢۚ بَل لَّعَنَهُمُ ٱللَّهُ بِكُفۡرِهِمۡ فَقَلِيلٗا مَّا يُؤۡمِنُونَ",
-        "ayah_en": "They say, “Our hearts are unreceptive!” In fact, Allah has condemned them for their disbelief. They have but little faith",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002088.mp3"
+        "ayah_en": "And they said, \"Our hearts are wrapped.\" But, [in fact], Allāh has cursed them for their disbelief, so little is it that they believe.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002088.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -708,14 +796,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 89,
         "ayah_ar": "وَلَمَّا جَآءَهُمۡ كِتَٰبٞ مِّنۡ عِندِ ٱللَّهِ مُصَدِّقٞ لِّمَا مَعَهُمۡ وَكَانُواْ مِن قَبۡلُ يَسۡتَفۡتِحُونَ عَلَى ٱلَّذِينَ كَفَرُواْ فَلَمَّا جَآءَهُم مَّا عَرَفُواْ كَفَرُواْ بِهِۦۚ فَلَعۡنَةُ ٱللَّهِ عَلَى ٱلۡكَٰفِرِينَ",
-        "ayah_en": "Although they used to pray for victory ˹by means of the Prophet˺ over the polytheists, when there came to them a Book from Allah which they recognized, confirming the Scripture they had ˹in their hands˺, they rejected it. So may Allah’s condemnation be upon the disbelievers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002089.mp3"
+        "ayah_en": "And when there came to them a Book [i.e., the Qur’ān] from Allāh confirming that which was with them - although before they used to pray for victory against those who disbelieved - but [then] when there came to them that which they recognized, they disbelieved in it; so the curse of Allāh will be upon the disbelievers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002089.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 90,
         "ayah_ar": "بِئۡسَمَا ٱشۡتَرَوۡاْ بِهِۦٓ أَنفُسَهُمۡ أَن يَكۡفُرُواْ بِمَآ أَنزَلَ ٱللَّهُ بَغۡيًا أَن يُنَزِّلَ ٱللَّهُ مِن فَضۡلِهِۦ عَلَىٰ مَن يَشَآءُ مِنۡ عِبَادِهِۦۖ فَبَآءُو بِغَضَبٍ عَلَىٰ غَضَبٖۚ وَلِلۡكَٰفِرِينَ عَذَابٞ مُّهِينٞ",
-        "ayah_en": "Miserable is the price they have sold their souls for—denying Allah’s revelation and resenting Allah for granting His grace to whoever He wills of His servants! They have earned wrath upon wrath. And such disbelievers will suffer a humiliating punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002090.mp3"
+        "ayah_en": "How wretched is that for which they sold themselves - that they would disbelieve in what Allāh has revealed through [their] outrage that Allāh would send down His favor upon whom He wills from among His servants. So they returned having [earned] wrath upon wrath. And for the disbelievers is a humiliating punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002090.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -726,8 +816,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 91,
         "ayah_ar": "وَإِذَا قِيلَ لَهُمۡ ءَامِنُواْ بِمَآ أَنزَلَ ٱللَّهُ قَالُواْ نُؤۡمِنُ بِمَآ أُنزِلَ عَلَيۡنَا وَيَكۡفُرُونَ بِمَا وَرَآءَهُۥ وَهُوَ ٱلۡحَقُّ مُصَدِّقٗا لِّمَا مَعَهُمۡۗ قُلۡ فَلِمَ تَقۡتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبۡلُ إِن كُنتُم مُّؤۡمِنِينَ",
-        "ayah_en": "When it is said to them: “Believe in what Allah has revealed,” they reply, “We only believe in what was sent down to us,” and they deny what came afterwards, though it is the truth confirming their own Scriptures! Ask ˹them, O Prophet˺, “Why then did you kill Allah’s prophets before, if you are ˹truly˺ believers?”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002091.mp3"
+        "ayah_en": "And when it is said to them, \"Believe in what Allāh has revealed,\" they say, \"We believe [only] in what was revealed to us.\" And they disbelieve in what came after it, while it is the truth confirming that which is with them. Say, \"Then why did you kill the prophets of Allāh before, if you are [indeed] believers?\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002091.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -738,14 +829,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 92,
         "ayah_ar": "۞ وَلَقَدۡ جَآءَكُم مُّوسَىٰ بِٱلۡبَيِّنَٰتِ ثُمَّ ٱتَّخَذۡتُمُ ٱلۡعِجۡلَ مِنۢ بَعۡدِهِۦ وَأَنتُمۡ ظَٰلِمُونَ",
-        "ayah_en": "Indeed, Moses came to you with clear proofs, then you worshipped the calf in his absence, acting wrongfully",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002092.mp3"
+        "ayah_en": "And Moses had certainly brought you clear proofs. Then you took the calf [in worship] after that, while you were wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002092.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 93,
         "ayah_ar": "وَإِذۡ أَخَذۡنَا مِيثَٰقَكُمۡ وَرَفَعۡنَا فَوۡقَكُمُ ٱلطُّورَ خُذُواْ مَآ ءَاتَيۡنَٰكُم بِقُوَّةٖ وَٱسۡمَعُواْۖ قَالُواْ سَمِعۡنَا وَعَصَيۡنَا وَأُشۡرِبُواْ فِي قُلُوبِهِمُ ٱلۡعِجۡلَ بِكُفۡرِهِمۡۚ قُلۡ بِئۡسَمَا يَأۡمُرُكُم بِهِۦٓ إِيمَٰنُكُمۡ إِن كُنتُم مُّؤۡمِنِينَ",
-        "ayah_en": "And when We took your covenant and raised the mountain above you ˹saying˺, “Hold firmly to that ˹Scripture˺ which We have given you and obey,” they answered, “We hear and disobey.” The love of the calf was rooted in their hearts because of their disbelief. Say, ˹O Prophet,˺ “How evil is what your ˹so-called˺ belief prompts you to do, if you ˹actually˺ believe ˹in the Torah˺!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002093.mp3"
+        "ayah_en": "And [recall] when We took your covenant and raised over you the mount, [saying], \"Take what We have given you with determination and listen.\" They said [instead], \"We hear and disobey.\" And their hearts absorbed [the worship of] the calf because of their disbelief. Say, \"How wretched is that which your faith enjoins upon you, if you should be believers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002093.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -756,20 +849,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 94,
         "ayah_ar": "قُلۡ إِن كَانَتۡ لَكُمُ ٱلدَّارُ ٱلۡأٓخِرَةُ عِندَ ٱللَّهِ خَالِصَةٗ مِّن دُونِ ٱلنَّاسِ فَتَمَنَّوُاْ ٱلۡمَوۡتَ إِن كُنتُمۡ صَٰدِقِينَ",
-        "ayah_en": "Say, ˹O Prophet,˺ “If the ˹eternal˺ Home of the Hereafter with Allah is exclusively for you ˹Israelites˺ out of all humanity, then wish for death if what you say is true!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002094.mp3"
+        "ayah_en": "Say, [O Muḥammad], \"If the home of the Hereafter with Allāh is for you alone and not the [other] people, then wish for death, if you should be truthful.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002094.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 95,
         "ayah_ar": "وَلَن يَتَمَنَّوۡهُ أَبَدَۢا بِمَا قَدَّمَتۡ أَيۡدِيهِمۡۚ وَٱللَّهُ عَلِيمُۢ بِٱلظَّٰلِمِينَ",
-        "ayah_en": "But they will never wish for that because of what their hands have done. And Allah has ˹perfect˺ knowledge of the wrongdoers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002095.mp3"
+        "ayah_en": "But never will they wish for it, ever, because of what their hands have put forth. And Allāh is Knowing of the wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002095.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 96,
         "ayah_ar": "وَلَتَجِدَنَّهُمۡ أَحۡرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٖ وَمِنَ ٱلَّذِينَ أَشۡرَكُواْۚ يَوَدُّ أَحَدُهُمۡ لَوۡ يُعَمَّرُ أَلۡفَ سَنَةٖ وَمَا هُوَ بِمُزَحۡزِحِهِۦ مِنَ ٱلۡعَذَابِ أَن يُعَمَّرَۗ وَٱللَّهُ بَصِيرُۢ بِمَا يَعۡمَلُونَ",
-        "ayah_en": "You will surely find them clinging to life more eagerly than any other people, even more than polytheists. Each one of them wishes to live a thousand years. But even if they were to live that long, it would not save them from the punishment. And Allah is All-Seeing of what they do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002096.mp3"
+        "ayah_en": "And you will surely find them the most greedy of people for life - [even] more than those who associate others with Allāh. One of them wishes that he could be granted life a thousand years, but it would not remove him in the least from the [coming] punishment that he should be granted life. And Allāh is Seeing of what they do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002096.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -780,32 +876,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 97,
         "ayah_ar": "قُلۡ مَن كَانَ عَدُوّٗا لِّـجِبۡرِيلَ فَإِنَّهُۥ نَزَّلَهُۥ عَلَىٰ قَلۡبِكَ بِإِذۡنِ ٱللَّهِ مُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ وَهُدٗى وَبُشۡرَىٰ لِلۡمُؤۡمِنِينَ",
-        "ayah_en": "Say, ˹O Prophet,˺ “Whoever is an enemy of Gabriel should know that he revealed this ˹Quran˺ to your heart by Allah’s Will, confirming what came before it—a guide and good news for the believers.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002097.mp3"
+        "ayah_en": "Say, \"Whoever is an enemy to Gabriel - it is [none but] he who has brought it [i.e., the Qur’ān] down upon your heart, [O Muḥammad], by permission of Allāh, confirming that which was before it and as guidance and good tidings for the believers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002097.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 98,
         "ayah_ar": "مَن كَانَ عَدُوّٗا لِّلَّهِ وَمَلَٰٓئِكَتِهِۦ وَرُسُلِهِۦ وَجِبۡرِيلَ وَمِيكَىٰلَ فَإِنَّ ٱللَّهَ عَدُوّٞ لِّلۡكَٰفِرِينَ",
-        "ayah_en": "Whoever is an enemy of Allah, His angels, His messengers, Gabriel, and Michael, then ˹let them know that˺ Allah is certainly the enemy of the disbelievers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002098.mp3"
+        "ayah_en": "Whoever is an enemy to Allāh and His angels and His messengers and Gabriel and Michael - then indeed, Allāh is an enemy to the disbelievers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002098.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 99,
         "ayah_ar": "وَلَقَدۡ أَنزَلۡنَآ إِلَيۡكَ ءَايَٰتِۭ بَيِّنَٰتٖۖ وَمَا يَكۡفُرُ بِهَآ إِلَّا ٱلۡفَٰسِقُونَ",
-        "ayah_en": "Indeed, We have sent down to you ˹O Prophet˺ clear revelations. ˹But˺ none will deny them except the rebellious",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002099.mp3"
+        "ayah_en": "And We have certainly revealed to you verses [which are] clear proofs, and no one would deny them except the defiantly disobedient.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002099.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 100,
         "ayah_ar": "أَوَكُلَّمَا عَٰهَدُواْ عَهۡدٗا نَّبَذَهُۥ فَرِيقٞ مِّنۡهُمۚ بَلۡ أَكۡثَرُهُمۡ لَا يُؤۡمِنُونَ",
-        "ayah_en": "Why is it that every time they make a covenant, a group of them casts it aside? In fact, most of them do not believe",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002100.mp3"
+        "ayah_en": "Is it not [true] that every time they took a covenant a party of them threw it away? But, [in fact], most of them do not believe.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002100.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 101,
         "ayah_ar": "وَلَمَّا جَآءَهُمۡ رَسُولٞ مِّنۡ عِندِ ٱللَّهِ مُصَدِّقٞ لِّمَا مَعَهُمۡ نَبَذَ فَرِيقٞ مِّنَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ كِتَٰبَ ٱللَّهِ وَرَآءَ ظُهُورِهِمۡ كَأَنَّهُمۡ لَا يَعۡلَمُونَ",
-        "ayah_en": "Now, when a messenger from Allah has come to them—confirming their own Scriptures—some of the People of the Book cast the Book of Allah behind their backs as if they did not know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002101.mp3"
+        "ayah_en": "And when a messenger from Allāh came to them confirming that which was with them, a party of those who had been given the Scripture threw the Scripture of Allāh [i.e., the Torah] behind their backs as if they did not know [what it contained].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002101.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -816,14 +917,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 102,
         "ayah_ar": "وَٱتَّبَعُواْ مَا تَتۡلُواْ ٱلشَّيَٰطِينُ عَلَىٰ مُلۡكِ سُلَيۡمَٰنَۖ وَمَا كَفَرَ سُلَيۡمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُواْ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحۡرَ وَمَآ أُنزِلَ عَلَى ٱلۡمَلَكَيۡنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَۚ وَمَا يُعَلِّمَانِ مِنۡ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحۡنُ فِتۡنَةٞ فَلَا تَكۡفُرۡۖ فَيَتَعَلَّمُونَ مِنۡهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيۡنَ ٱلۡمَرۡءِ وَزَوۡجِهِۦۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنۡ أَحَدٍ إِلَّا بِإِذۡنِ ٱللَّهِۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمۡ وَلَا يَنفَعُهُمۡۚ وَلَقَدۡ عَلِمُواْ لَمَنِ ٱشۡتَرَىٰهُ مَا لَهُۥ فِي ٱلۡأٓخِرَةِ مِنۡ خَلَٰقٖۚ وَلَبِئۡسَ مَا شَرَوۡاْ بِهِۦٓ أَنفُسَهُمۡۚ لَوۡ كَانُواْ يَعۡلَمُونَ",
-        "ayah_en": "They ˹instead˺ followed the magic promoted by the devils during the reign of Solomon. Never did Solomon disbelieve, rather the devils disbelieved. They taught magic to the people, along with what had been revealed to the two angels, Hârût and Mârût, in Babylon. The two angels never taught anyone without saying, “We are only a test ˹for you˺, so do not abandon ˹your˺ faith.” Yet people learned ˹magic˺ that caused a rift ˹even˺ between husband and wife; although their magic could not harm anyone except by Allah’s Will. They learned what harmed them and did not benefit them—although they already knew that whoever buys into magic would have no share in the Hereafter. Miserable indeed was the price for which they sold their souls, if only they knew",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002102.mp3"
+        "ayah_en": "And they followed [instead] what the devils had recited during the reign of Solomon. It was not Solomon who disbelieved, but the devils disbelieved, teaching people magic and that which was revealed to the two angels at Babylon, Hārūt and Mārūt. But they [i.e., the two angels] do not teach anyone unless they say, \"We are a trial, so do not disbelieve [by practicing magic].\" And [yet] they learn from them that by which they cause separation between a man and his wife. But they do not harm anyone through it except by permission of Allāh. And they [i.e., people] learn what harms them and does not benefit them. But they [i.e., the Children of Israel] certainly knew that whoever purchased it [i.e., magic] would not have in the Hereafter any share. And wretched is that for which they sold themselves, if they only knew.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002102.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 103,
         "ayah_ar": "وَلَوۡ أَنَّهُمۡ ءَامَنُواْ وَٱتَّقَوۡاْ لَمَثُوبَةٞ مِّنۡ عِندِ ٱللَّهِ خَيۡرٞۚ لَّوۡ كَانُواْ يَعۡلَمُونَ",
-        "ayah_en": "If only they were faithful and mindful ˹of Allah˺, there would have been a better reward from Allah, if only they knew",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002103.mp3"
+        "ayah_en": "And if they had believed and feared Allāh, then the reward from Allāh would have been [far] better, if they only knew.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002103.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -834,14 +937,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 104,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَقُولُواْ رَٰعِنَا وَقُولُواْ ٱنظُرۡنَا وَٱسۡمَعُواْۗ وَلِلۡكَٰفِرِينَ عَذَابٌ أَلِيمٞ",
-        "ayah_en": "O believers! Do not say, “Râ’ina.” [Herd us!] But say, “Unẓurna,” [Tend to us!] and listen ˹attentively˺. And the disbelievers will suffer a painful punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002104.mp3"
+        "ayah_en": "O you who have believed, say not [to Allāh's Messenger], \"Rāʿinā\" but say, \"Unẓurnā\" and listen. And for the disbelievers is a painful punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002104.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 105,
         "ayah_ar": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَلَا ٱلۡمُشۡرِكِينَ أَن يُنَزَّلَ عَلَيۡكُم مِّنۡ خَيۡرٖ مِّن رَّبِّكُمۡۚ وَٱللَّهُ يَخۡتَصُّ بِرَحۡمَتِهِۦ مَن يَشَآءُۚ وَٱللَّهُ ذُو ٱلۡفَضۡلِ ٱلۡعَظِيمِ",
-        "ayah_en": "The disbelievers from the People of the Book and the polytheists would not want you to receive any blessing from your Lord, but Allah selects whoever He wills for His mercy. And Allah is the Lord of infinite bounty",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002105.mp3"
+        "ayah_en": "Neither those who disbelieve from the People of the Scripture [i.e., the Jews and Christians] nor the polytheists wish that any good should be sent down to you from your Lord. But Allāh selects for His mercy whom He wills, and Allāh is the possessor of great bounty.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002105.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -852,20 +957,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 106,
         "ayah_ar": "۞ مَا نَنسَخۡ مِنۡ ءَايَةٍ أَوۡ نُنسِهَا نَأۡتِ بِخَيۡرٖ مِّنۡهَآ أَوۡ مِثۡلِهَآۗ أَلَمۡ تَعۡلَمۡ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٌ",
-        "ayah_en": "If We ever abrogate a verse or cause it to be forgotten, We replace it with a better or similar one. Do you not know that Allah is Most Capable of everything",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002106.mp3"
+        "ayah_en": "We do not abrogate a verse or cause it to be forgotten except that We bring forth [one] better than it or similar to it. Do you not know that Allāh is over all things competent?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002106.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 107,
         "ayah_ar": "أَلَمۡ تَعۡلَمۡ أَنَّ ٱللَّهَ لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۗ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِيّٖ وَلَا نَصِيرٍ",
-        "ayah_en": "Do you not know that the kingdom of the heavens and the earth belongs ˹only˺ to Allah, and you have no guardian or helper besides Allah",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002107.mp3"
+        "ayah_en": "Do you not know that to Allāh belongs the dominion of the heavens and the earth and [that] you have not besides Allāh any protector or any helper?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002107.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 108,
         "ayah_ar": "أَمۡ تُرِيدُونَ أَن تَسۡـَٔلُواْ رَسُولَكُمۡ كَمَا سُئِلَ مُوسَىٰ مِن قَبۡلُۗ وَمَن يَتَبَدَّلِ ٱلۡكُفۡرَ بِٱلۡإِيمَٰنِ فَقَدۡ ضَلَّ سَوَآءَ ٱلسَّبِيلِ",
-        "ayah_en": "Or do you ˹believers˺ intend to ask of your Messenger as Moses was asked before? But whoever trades belief for disbelief has truly strayed from the Right Way",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002108.mp3"
+        "ayah_en": "Or do you intend to ask your Messenger as Moses was asked before? And whoever exchanges faith for disbelief has certainly strayed from the soundness of the way.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002108.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -876,14 +984,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 109,
         "ayah_ar": "وَدَّ كَثِيرٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يَرُدُّونَكُم مِّنۢ بَعۡدِ إِيمَٰنِكُمۡ كُفَّارًا حَسَدٗا مِّنۡ عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمُ ٱلۡحَقُّۖ فَٱعۡفُواْ وَٱصۡفَحُواْ حَتَّىٰ يَأۡتِيَ ٱللَّهُ بِأَمۡرِهِۦٓۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
-        "ayah_en": "Many among the People of the Book wish they could turn you ˹believers˺ back to disbelief because of their envy, after the truth has been made clear to them. Pardon and bear with them until Allah delivers His decision. Surely Allah is Most Capable of everything",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002109.mp3"
+        "ayah_en": "Many of the People of the Scripture wish they could turn you back to disbelief after you have believed, out of envy from themselves [even] after the truth has become clear to them. So pardon and overlook until Allāh delivers His command. Indeed, Allāh is over all things competent.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002109.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 110,
         "ayah_ar": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَۚ وَمَا تُقَدِّمُواْ لِأَنفُسِكُم مِّنۡ خَيۡرٖ تَجِدُوهُ عِندَ ٱللَّهِۗ إِنَّ ٱللَّهَ بِمَا تَعۡمَلُونَ بَصِيرٞ",
-        "ayah_en": "Establish prayer, and pay alms-tax. Whatever good you send forth for yourselves, you will ˹certainly˺ find ˹its reward˺ with Allah. Surely Allah is All-Seeing of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002110.mp3"
+        "ayah_en": "And establish prayer and give zakāh, and whatever good you put forward for yourselves - you will find it with Allāh. Indeed Allāh, of what you do, is Seeing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002110.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -894,20 +1004,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 111,
         "ayah_ar": "وَقَالُواْ لَن يَدۡخُلَ ٱلۡجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوۡ نَصَٰرَىٰۗ تِلۡكَ أَمَانِيُّهُمۡۗ قُلۡ هَاتُواْ بُرۡهَٰنَكُمۡ إِن كُنتُمۡ صَٰدِقِينَ",
-        "ayah_en": "The Jews and Christians each claim that none will enter Paradise except those of their own faith. These are their desires. Reply, ˹O Prophet,˺ “Show ˹me˺ your proof if what you say is true.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002111.mp3"
+        "ayah_en": "And they say, \"None will enter Paradise except one who is a Jew or a Christian.\" That is [merely] their wishful thinking. Say, \"Produce your proof, if you should be truthful.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002111.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 112,
         "ayah_ar": "بَلَىٰۚ مَنۡ أَسۡلَمَ وَجۡهَهُۥ لِلَّهِ وَهُوَ مُحۡسِنٞ فَلَهُۥٓ أَجۡرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
-        "ayah_en": "But no! Whoever submits themselves to Allah and does good will have their reward with their Lord. And there will be no fear for them, nor will they grieve",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002112.mp3"
+        "ayah_en": "Yes, [on the contrary], whoever submits his face [i.e., self] in Islām to Allāh while being a doer of good will have his reward with his Lord. And no fear will there be concerning them, nor will they grieve.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002112.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 113,
         "ayah_ar": "وَقَالَتِ ٱلۡيَهُودُ لَيۡسَتِ ٱلنَّصَٰرَىٰ عَلَىٰ شَيۡءٖ وَقَالَتِ ٱلنَّصَٰرَىٰ لَيۡسَتِ ٱلۡيَهُودُ عَلَىٰ شَيۡءٖ وَهُمۡ يَتۡلُونَ ٱلۡكِتَٰبَۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ لَا يَعۡلَمُونَ مِثۡلَ قَوۡلِهِمۡۚ فَٱللَّهُ يَحۡكُمُ بَيۡنَهُمۡ يَوۡمَ ٱلۡقِيَٰمَةِ فِيمَا كَانُواْ فِيهِ يَخۡتَلِفُونَ",
-        "ayah_en": "The Jews say, “The Christians have nothing to stand on” and the Christians say, “The Jews have nothing to stand on,” although both recite the Scriptures. And those ˹pagans˺ who have no knowledge say the same ˹about people of faith˺. Surely Allah will judge between them on the Day of Judgment regarding their dispute",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002113.mp3"
+        "ayah_en": "The Jews say, \"The Christians have nothing [true] to stand on,\" and the Christians say, \"The Jews have nothing to stand on,\" although they [both] recite the Scripture. Thus do those who know not [i.e., the polytheists] speak the same as their words. But Allāh will judge between them on the Day of Resurrection concerning that over which they used to differ.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002113.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -918,14 +1031,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 114,
         "ayah_ar": "وَمَنۡ أَظۡلَمُ مِمَّن مَّنَعَ مَسَٰجِدَ ٱللَّهِ أَن يُذۡكَرَ فِيهَا ٱسۡمُهُۥ وَسَعَىٰ فِي خَرَابِهَآۚ أُوْلَٰٓئِكَ مَا كَانَ لَهُمۡ أَن يَدۡخُلُوهَآ إِلَّا خَآئِفِينَۚ لَهُمۡ فِي ٱلدُّنۡيَا خِزۡيٞ وَلَهُمۡ فِي ٱلۡأٓخِرَةِ عَذَابٌ عَظِيمٞ",
-        "ayah_en": "Who does more wrong than those who prevent Allah’s Name from being mentioned in His places of worship and strive to destroy them? Such people have no right to enter these places except with fear. For them is disgrace in this world, and they will suffer a tremendous punishment in the Hereafter",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002114.mp3"
+        "ayah_en": "And who are more unjust than those who prevent the name of Allāh from being mentioned [i.e., praised] in His mosques and strive toward their destruction. It is not for them to enter them except in fear. For them in this world is disgrace, and they will have in the Hereafter a great punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002114.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 115,
         "ayah_ar": "وَلِلَّهِ ٱلۡمَشۡرِقُ وَٱلۡمَغۡرِبُۚ فَأَيۡنَمَا تُوَلُّواْ فَثَمَّ وَجۡهُ ٱللَّهِۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٞ",
-        "ayah_en": "To Allah belong the east and the west, so wherever you turn you are facing ˹towards˺ Allah. Surely Allah is All-Encompassing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002115.mp3"
+        "ayah_en": "And to Allāh belongs the east and the west. So wherever you [might] turn, there is the Face of Allāh. Indeed, Allāh is all-Encompassing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002115.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -936,14 +1051,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 116,
         "ayah_ar": "وَقَالُواْ ٱتَّخَذَ ٱللَّهُ وَلَدٗاۗ سُبۡحَٰنَهُۥۖ بَل لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۖ كُلّٞ لَّهُۥ قَٰنِتُونَ",
-        "ayah_en": "They say, “Allah has offspring.” Glory be to Him! In fact, to Him belongs whatever is in the heavens and the earth—all are subject to His Will",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002116.mp3"
+        "ayah_en": "They say, \"Allāh has taken a son.\" Exalted is He! Rather, to Him belongs whatever is in the heavens and the earth. All are devoutly obedient to Him,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002116.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 117,
         "ayah_ar": "بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۖ وَإِذَا قَضَىٰٓ أَمۡرٗا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
-        "ayah_en": "˹He is˺ the Originator of the heavens and the earth! When He decrees a matter, He simply tells it, “Be!” And it is",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002117.mp3"
+        "ayah_en": "Originator of the heavens and the earth. When He decrees a matter, He only says to it, \"Be,\" and it is.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002117.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -954,26 +1071,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 118,
         "ayah_ar": "وَقَالَ ٱلَّذِينَ لَا يَعۡلَمُونَ لَوۡلَا يُكَلِّمُنَا ٱللَّهُ أَوۡ تَأۡتِينَآ ءَايَةٞۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبۡلِهِم مِّثۡلَ قَوۡلِهِمۡۘ تَشَٰبَهَتۡ قُلُوبُهُمۡۗ قَدۡ بَيَّنَّا ٱلۡأٓيَٰتِ لِقَوۡمٖ يُوقِنُونَ",
-        "ayah_en": "Those who have no knowledge say, “If only Allah would speak to us or a sign would come to us!” The same was said by those who came before. Their hearts are all alike. Indeed, We have made the signs clear for people of sure faith",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002118.mp3"
+        "ayah_en": "Those who do not know say, \"Why does Allāh not speak to us or there come to us a sign?\" Thus spoke those before them like their words. Their hearts resemble each other. We have shown clearly the signs to a people who are certain [in faith].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002118.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 119,
         "ayah_ar": "إِنَّآ أَرۡسَلۡنَٰكَ بِٱلۡحَقِّ بَشِيرٗا وَنَذِيرٗاۖ وَلَا تُسۡـَٔلُ عَنۡ أَصۡحَٰبِ ٱلۡجَحِيمِ",
-        "ayah_en": "We have surely sent you with the truth ˹O Prophet˺ as a deliverer of good news and a warner. And you will not be accountable for the residents of the Hellfire",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002119.mp3"
+        "ayah_en": "Indeed, We have sent you, [O Muḥammad], with the truth as a bringer of good tidings and a warner, and you will not be asked about the companions of Hellfire.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002119.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 120,
         "ayah_ar": "وَلَن تَرۡضَىٰ عَنكَ ٱلۡيَهُودُ وَلَا ٱلنَّصَٰرَىٰ حَتَّىٰ تَتَّبِعَ مِلَّتَهُمۡۗ قُلۡ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلۡهُدَىٰۗ وَلَئِنِ ٱتَّبَعۡتَ أَهۡوَآءَهُم بَعۡدَ ٱلَّذِي جَآءَكَ مِنَ ٱلۡعِلۡمِ مَا لَكَ مِنَ ٱللَّهِ مِن وَلِيّٖ وَلَا نَصِيرٍ",
-        "ayah_en": "Never will the Jews or Christians be pleased with you, until you follow their faith. Say, “Allah’s guidance is the only ˹true˺ guidance.” And if you were to follow their desires after ˹all˺ the knowledge that has come to you, there would be none to protect or help you against Allah",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002120.mp3"
+        "ayah_en": "And never will the Jews and the Christians approve of you until you follow their religion. Say, \"Indeed, the guidance of Allāh is the [only] guidance.\" If you were to follow their desires after what has come to you of knowledge, you would have against Allāh no protector or helper.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002120.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 121,
         "ayah_ar": "ٱلَّذِينَ ءَاتَيۡنَٰهُمُ ٱلۡكِتَٰبَ يَتۡلُونَهُۥ حَقَّ تِلَاوَتِهِۦٓ أُوْلَٰٓئِكَ يُؤۡمِنُونَ بِهِۦۗ وَمَن يَكۡفُرۡ بِهِۦ فَأُوْلَٰٓئِكَ هُمُ ٱلۡخَٰسِرُونَ",
-        "ayah_en": "Those We have given the Book follow it as it should be followed. It is they who ˹truly˺ believe in it. As for those who reject it, it is they who are the losers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002121.mp3"
+        "ayah_en": "Those to whom We have given the Book recite it with its true recital. They [are the ones who] believe in it. And whoever disbelieves in it - it is they who are the losers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002121.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -984,14 +1105,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 122,
         "ayah_ar": "يَٰبَنِيٓ إِسۡرَٰٓءِيلَ ٱذۡكُرُواْ نِعۡمَتِيَ ٱلَّتِيٓ أَنۡعَمۡتُ عَلَيۡكُمۡ وَأَنِّي فَضَّلۡتُكُمۡ عَلَى ٱلۡعَٰلَمِينَ",
-        "ayah_en": "O Children of Israel! Remember My favours upon you and how I honoured you above the others",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002122.mp3"
+        "ayah_en": "O Children of Israel, remember My favor which I have bestowed upon you and that I preferred you over the worlds.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002122.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 123,
         "ayah_ar": "وَٱتَّقُواْ يَوۡمٗا لَّا تَجۡزِي نَفۡسٌ عَن نَّفۡسٖ شَيۡـٔٗا وَلَا يُقۡبَلُ مِنۡهَا عَدۡلٞ وَلَا تَنفَعُهَا شَفَٰعَةٞ وَلَا هُمۡ يُنصَرُونَ",
-        "ayah_en": "And guard yourselves against the Day when no soul will be of any help to another. No ransom will be taken, no intercession accepted, and no help will be given",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002123.mp3"
+        "ayah_en": "And fear a Day when no soul will suffice for another soul at all, and no compensation will be accepted from it, nor will any intercession benefit it, nor will they be aided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002123.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1002,8 +1125,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 124,
         "ayah_ar": "۞ وَإِذِ ٱبۡتَلَىٰٓ إِبۡرَٰهِـۧمَ رَبُّهُۥ بِكَلِمَٰتٖ فَأَتَمَّهُنَّۖ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامٗاۖ قَالَ وَمِن ذُرِّيَّتِيۖ قَالَ لَا يَنَالُ عَهۡدِي ٱلظَّٰلِمِينَ",
-        "ayah_en": "˹Remember˺ when Abraham was tested by his Lord with ˹certain˺ commandments, which he fulfilled. Allah said, “I will certainly make you into a role model for the people.” Abraham asked, “What about my offspring?” Allah replied, “My covenant is not extended to the wrongdoers.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002124.mp3"
+        "ayah_en": "And [mention, O Muḥammad], when Abraham was tried by his Lord with words [i.e., commands] and he fulfilled them. [Allāh] said, \"Indeed, I will make you a leader for the people.\" [Abraham] said, \"And of my descendants?\" [Allāh] said, \"My covenant does not include the wrongdoers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002124.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1014,8 +1138,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 125,
         "ayah_ar": "وَإِذۡ جَعَلۡنَا ٱلۡبَيۡتَ مَثَابَةٗ لِّلنَّاسِ وَأَمۡنٗا وَٱتَّخِذُواْ مِن مَّقَامِ إِبۡرَٰهِـۧمَ مُصَلّٗىۖ وَعَهِدۡنَآ إِلَىٰٓ إِبۡرَٰهِـۧمَ وَإِسۡمَٰعِيلَ أَن طَهِّرَا بَيۡتِيَ لِلطَّآئِفِينَ وَٱلۡعَٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
-        "ayah_en": "And ˹remember˺ when We made the Sacred House a centre and a sanctuary for the people ˹saying˺, “˹You may˺ take the standing-place of Abraham as a site of prayer.” And We entrusted Abraham and Ishmael to purify My House for those who circle it, who meditate in it, and who bow and prostrate themselves ˹in prayer˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002125.mp3"
+        "ayah_en": "And [mention] when We made the House [i.e., the Kaʿbah] a place of return for the people and [a place of] security. And take, [O believers], from the standing place of Abraham a place of prayer. And We charged Abraham and Ishmael, [saying], \"Purify My House for those who perform ṭawāf and those who are staying [there] for worship and those who bow and prostrate [in prayer].\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002125.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1026,26 +1151,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 126,
         "ayah_ar": "وَإِذۡ قَالَ إِبۡرَٰهِـۧمُ رَبِّ ٱجۡعَلۡ هَٰذَا بَلَدًا ءَامِنٗا وَٱرۡزُقۡ أَهۡلَهُۥ مِنَ ٱلثَّمَرَٰتِ مَنۡ ءَامَنَ مِنۡهُم بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِۚ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلٗا ثُمَّ أَضۡطَرُّهُۥٓ إِلَىٰ عَذَابِ ٱلنَّارِۖ وَبِئۡسَ ٱلۡمَصِيرُ",
-        "ayah_en": "And ˹remember˺ when Abraham said, “My Lord, make this city ˹of Mecca˺ secure and provide fruits to its people—those among them who believe in Allah and the Last Day.” He answered, “As for those who disbelieve, I will let them enjoy themselves for a little while, then I will condemn them to the torment of the Fire. What an evil destination!”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002126.mp3"
+        "ayah_en": "And [mention] when Abraham said, \"My Lord, make this a secure city and provide its people with fruits - whoever of them believes in Allāh and the Last Day.\" [Allāh] said, \"And whoever disbelieves - I will grant him enjoyment for a little; then I will force him to the punishment of the Fire, and wretched is the destination.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002126.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 127,
         "ayah_ar": "وَإِذۡ يَرۡفَعُ إِبۡرَٰهِـۧمُ ٱلۡقَوَاعِدَ مِنَ ٱلۡبَيۡتِ وَإِسۡمَٰعِيلُ رَبَّنَا تَقَبَّلۡ مِنَّآۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
-        "ayah_en": "And ˹remember˺ when Abraham raised the foundation of the House with Ishmael, ˹both praying,˺ “Our Lord! Accept ˹this˺ from us. You are indeed the All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002127.mp3"
+        "ayah_en": "And [mention] when Abraham was raising the foundations of the House and [with him] Ishmael, [saying], \"Our Lord, accept [this] from us. Indeed, You are the Hearing, the Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002127.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 128,
         "ayah_ar": "رَبَّنَا وَٱجۡعَلۡنَا مُسۡلِمَيۡنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةٗ مُّسۡلِمَةٗ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبۡ عَلَيۡنَآۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
-        "ayah_en": "Our Lord! Make us both ˹fully˺ submit to You and from our descendants a nation that will submit to you. Show us our rituals, and turn to us in grace. You are truly the Accepter of Repentance, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002128.mp3"
+        "ayah_en": "Our Lord, and make us Muslims [in submission] to You and from our descendants a Muslim nation [in submission] to You. And show us our rites [of worship] and accept our repentance. Indeed, You are the Accepting of Repentance, the Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002128.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 129,
         "ayah_ar": "رَبَّنَا وَٱبۡعَثۡ فِيهِمۡ رَسُولٗا مِّنۡهُمۡ يَتۡلُواْ عَلَيۡهِمۡ ءَايَٰتِكَ وَيُعَلِّمُهُمُ ٱلۡكِتَٰبَ وَٱلۡحِكۡمَةَ وَيُزَكِّيهِمۡۖ إِنَّكَ أَنتَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ",
-        "ayah_en": "Our Lord! Raise from among them a messenger who will recite to them Your revelations, teach them the Book and wisdom, and purify them. Indeed, You ˹alone˺ are the Almighty, All-Wise.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002129.mp3"
+        "ayah_en": "Our Lord, and send among them a messenger from themselves who will recite to them Your verses and teach them the Book and wisdom and purify them. Indeed, You are the Exalted in Might, the Wise.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002129.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1056,32 +1185,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 130,
         "ayah_ar": "وَمَن يَرۡغَبُ عَن مِّلَّةِ إِبۡرَٰهِـۧمَ إِلَّا مَن سَفِهَ نَفۡسَهُۥۚ وَلَقَدِ ٱصۡطَفَيۡنَٰهُ فِي ٱلدُّنۡيَاۖ وَإِنَّهُۥ فِي ٱلۡأٓخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ",
-        "ayah_en": "And who would reject the faith of Abraham except a fool! We certainly chose him in this life, and in the Hereafter he will surely be among the righteous",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002130.mp3"
+        "ayah_en": "And who would be averse to the religion of Abraham except one who makes a fool of himself. And We had chosen him in this world, and indeed he, in the Hereafter, will be among the righteous.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002130.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 131,
         "ayah_ar": "إِذۡ قَالَ لَهُۥ رَبُّهُۥٓ أَسۡلِمۡۖ قَالَ أَسۡلَمۡتُ لِرَبِّ ٱلۡعَٰلَمِينَ",
-        "ayah_en": "When his Lord ordered him, “Submit ˹to My Will˺,” he responded, “I submit to the Lord of all worlds.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002131.mp3"
+        "ayah_en": "When his Lord said to him, \"Submit,\" he said, \"I have submitted [in Islām] to the Lord of the worlds.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002131.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 132,
         "ayah_ar": "وَوَصَّىٰ بِهَآ إِبۡرَٰهِـۧمُ بَنِيهِ وَيَعۡقُوبُ يَٰبَنِيَّ إِنَّ ٱللَّهَ ٱصۡطَفَىٰ لَكُمُ ٱلدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسۡلِمُونَ",
-        "ayah_en": "This was the advice of Abraham—as well as Jacob—to his children, ˹saying˺, “Indeed, Allah has chosen for you this faith; so do not die except in ˹a state of full˺ submission.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002132.mp3"
+        "ayah_en": "And Abraham instructed his sons [to do the same] and [so did] Jacob, [saying], \"O my sons, indeed Allāh has chosen for you this religion, so do not die except while you are Muslims.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002132.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 133,
         "ayah_ar": "أَمۡ كُنتُمۡ شُهَدَآءَ إِذۡ حَضَرَ يَعۡقُوبَ ٱلۡمَوۡتُ إِذۡ قَالَ لِبَنِيهِ مَا تَعۡبُدُونَ مِنۢ بَعۡدِيۖ قَالُواْ نَعۡبُدُ إِلَٰهَكَ وَإِلَٰهَ ءَابَآئِكَ إِبۡرَٰهِـۧمَ وَإِسۡمَٰعِيلَ وَإِسۡحَٰقَ إِلَٰهٗا وَٰحِدٗا وَنَحۡنُ لَهُۥ مُسۡلِمُونَ",
-        "ayah_en": "Or did you witness when death came to Jacob? He asked his children, “Who will you worship after my passing?” They replied, “We will ˹continue to˺ worship your God, the God of your forefathers—Abraham, Ishmael, and Isaac—the One God. And to Him we ˹all˺ submit.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002133.mp3"
+        "ayah_en": "Or were you witnesses when death approached Jacob, when he said to his sons, \"What will you worship after me?\" They said, \"We will worship your God and the God of your fathers, Abraham and Ishmael and Isaac - one God. And we are Muslims [in submission] to Him.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002133.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 134,
         "ayah_ar": "تِلۡكَ أُمَّةٞ قَدۡ خَلَتۡۖ لَهَا مَا كَسَبَتۡ وَلَكُم مَّا كَسَبۡتُمۡۖ وَلَا تُسۡـَٔلُونَ عَمَّا كَانُواْ يَعۡمَلُونَ",
-        "ayah_en": "That was a community that had already gone before. For them is what they earned and for you is what you have earned. And you will not be accountable for what they have done",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002134.mp3"
+        "ayah_en": "That was a nation which has passed on. It will have [the consequence of] what it earned, and you will have what you have earned. And you will not be asked about what they used to do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002134.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1092,20 +1226,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 135,
         "ayah_ar": "وَقَالُواْ كُونُواْ هُودًا أَوۡ نَصَٰرَىٰ تَهۡتَدُواْۗ قُلۡ بَلۡ مِلَّةَ إِبۡرَٰهِـۧمَ حَنِيفٗاۖ وَمَا كَانَ مِنَ ٱلۡمُشۡرِكِينَ",
-        "ayah_en": "The Jews and Christians each say, “Follow our faith to be ˹rightly˺ guided.” Say, ˹O Prophet,˺ “No! We follow the faith of Abraham, the upright—who was not a polytheist.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002135.mp3"
+        "ayah_en": "They say, \"Be Jews or Christians [so] you will be guided.\" Say, \"Rather, [we follow] the religion of Abraham, inclining toward truth, and he was not of the polytheists.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002135.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 136,
         "ayah_ar": "قُولُوٓاْ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيۡنَا وَمَآ أُنزِلَ إِلَىٰٓ إِبۡرَٰهِـۧمَ وَإِسۡمَٰعِيلَ وَإِسۡحَٰقَ وَيَعۡقُوبَ وَٱلۡأَسۡبَاطِ وَمَآ أُوتِيَ مُوسَىٰ وَعِيسَىٰ وَمَآ أُوتِيَ ٱلنَّبِيُّونَ مِن رَّبِّهِمۡ لَا نُفَرِّقُ بَيۡنَ أَحَدٖ مِّنۡهُمۡ وَنَحۡنُ لَهُۥ مُسۡلِمُونَ",
-        "ayah_en": "Say, ˹O believers,˺ “We believe in Allah and what has been revealed to us; and what was revealed to Abraham, Ishmael, Isaac, Jacob, and his descendants; and what was given to Moses, Jesus, and other prophets from their Lord. We make no distinction between any of them. And to Allah we all submit.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002136.mp3"
+        "ayah_en": "Say, [O believers], \"We have believed in Allāh and what has been revealed to us and what has been revealed to Abraham and Ishmael and Isaac and Jacob and the Descendants [al-Asbāṭ] and what was given to Moses and Jesus and what was given to the prophets from their Lord. We make no distinction between any of them, and we are Muslims [in submission] to Him.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002136.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 137,
         "ayah_ar": "فَإِنۡ ءَامَنُواْ بِمِثۡلِ مَآ ءَامَنتُم بِهِۦ فَقَدِ ٱهۡتَدَواْۖ وَّإِن تَوَلَّوۡاْ فَإِنَّمَا هُمۡ فِي شِقَاقٖۖ فَسَيَكۡفِيكَهُمُ ٱللَّهُۚ وَهُوَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
-        "ayah_en": "So if they believe in what you believe, then they will indeed be ˹rightly˺ guided. But if they turn away, they are simply opposed ˹to the truth˺. But Allah will spare you their evil. For He is the All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002137.mp3"
+        "ayah_en": "So if they believe in the same as you believe in, then they have been [rightly] guided; but if they turn away, they are only in dissension, and Allāh will be sufficient for you against them. And He is the Hearing, the Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002137.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1116,26 +1253,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 138,
         "ayah_ar": "صِبۡغَةَ ٱللَّهِ وَمَنۡ أَحۡسَنُ مِنَ ٱللَّهِ صِبۡغَةٗۖ وَنَحۡنُ لَهُۥ عَٰبِدُونَ",
-        "ayah_en": "This is the ˹natural˺ Way of Allah. And who is better than Allah in ordaining a way? And we worship ˹none but˺ Him",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002138.mp3"
+        "ayah_en": "[And say, \"Ours is] the religion of Allāh. And who is better than Allāh in [ordaining] religion? And we are worshippers of Him.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002138.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 139,
         "ayah_ar": "قُلۡ أَتُحَآجُّونَنَا فِي ٱللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمۡ وَلَنَآ أَعۡمَٰلُنَا وَلَكُمۡ أَعۡمَٰلُكُمۡ وَنَحۡنُ لَهُۥ مُخۡلِصُونَ",
-        "ayah_en": "Say, “Would you dispute with us about Allah, while He is our Lord and your Lord? We are accountable for our deeds and you for yours. And we are devoted to Him ˹alone˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002139.mp3"
+        "ayah_en": "Say, [O Muḥammad], \"Do you argue with us about Allāh while He is our Lord and your Lord? For us are our deeds, and for you are your deeds. And we are sincere [in deed and intention] to Him.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002139.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 140,
         "ayah_ar": "أَمۡ تَقُولُونَ إِنَّ إِبۡرَٰهِـۧمَ وَإِسۡمَٰعِيلَ وَإِسۡحَٰقَ وَيَعۡقُوبَ وَٱلۡأَسۡبَاطَ كَانُواْ هُودًا أَوۡ نَصَٰرَىٰۗ قُلۡ ءَأَنتُمۡ أَعۡلَمُ أَمِ ٱللَّهُۗ وَمَنۡ أَظۡلَمُ مِمَّن كَتَمَ شَهَٰدَةً عِندَهُۥ مِنَ ٱللَّهِۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعۡمَلُونَ",
-        "ayah_en": "Do you claim that Abraham, Ishmael, Isaac, Jacob, and his descendants were all Jews or Christians?” Say, “Who is more knowledgeable: you or Allah?” Who does more wrong than those who hide the testimony they received from Allah? And Allah is never unaware of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002140.mp3"
+        "ayah_en": "Or do you say that Abraham and Ishmael and Isaac and Jacob and the Descendants were Jews or Christians? Say, \"Are you more knowing or is Allāh?\" And who is more unjust than one who conceals a testimony he has from Allāh? And Allāh is not unaware of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002140.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 141,
         "ayah_ar": "تِلۡكَ أُمَّةٞ قَدۡ خَلَتۡۖ لَهَا مَا كَسَبَتۡ وَلَكُم مَّا كَسَبۡتُمۡۖ وَلَا تُسۡـَٔلُونَ عَمَّا كَانُواْ يَعۡمَلُونَ",
-        "ayah_en": "That was a community that had already gone before. For them is what they earned and for you is what you have earned. And you will not be accountable for what they have done",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002141.mp3"
+        "ayah_en": "That is a nation which has passed on. It will have [the consequence of] what it earned, and you will have what you have earned. And you will not be asked about what they used to do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002141.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1146,26 +1287,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 142,
         "ayah_ar": "۞ سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمۡ عَن قِبۡلَتِهِمُ ٱلَّتِي كَانُواْ عَلَيۡهَاۚ قُل لِّلَّهِ ٱلۡمَشۡرِقُ وَٱلۡمَغۡرِبُۚ يَهۡدِي مَن يَشَآءُ إِلَىٰ صِرَٰطٖ مُّسۡتَقِيمٖ",
-        "ayah_en": "The foolish among the people will ask, “Why did they turn away from the direction of prayer they used to face?” Say, ˹O Prophet,˺ “The east and west belong ˹only˺ to Allah. He guides whoever He wills to the Straight Path.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002142.mp3"
+        "ayah_en": "The foolish among the people will say, \"What has turned them away from their qiblah, which they used to face?\" Say, \"To Allāh belongs the east and the west. He guides whom He wills to a straight path.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002142.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 143,
         "ayah_ar": "وَكَذَٰلِكَ جَعَلۡنَٰكُمۡ أُمَّةٗ وَسَطٗا لِّتَكُونُواْ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيۡكُمۡ شَهِيدٗاۗ وَمَا جَعَلۡنَا ٱلۡقِبۡلَةَ ٱلَّتِي كُنتَ عَلَيۡهَآ إِلَّا لِنَعۡلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيۡهِۚ وَإِن كَانَتۡ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمۡۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٞ رَّحِيمٞ",
-        "ayah_en": "And so We have made you ˹believers˺ an upright community so that you may be witnesses over humanity and that the Messenger may be a witness over you. We assigned your former direction of prayer only to distinguish those who would remain faithful to the Messenger from those who would lose faith. It was certainly a difficult test except for those ˹rightly˺ guided by Allah. And Allah would never discount your ˹previous acts of˺ faith. Surely Allah is Ever Gracious and Most Merciful to humanity",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002143.mp3"
+        "ayah_en": "And thus We have made you a median [i.e., just] community that you will be witnesses over the people and the Messenger will be a witness over you. And We did not make the qiblah which you used to face except that We might make evident who would follow the Messenger from who would turn back on his heels. And indeed, it is difficult except for those whom Allāh has guided. And never would Allāh have caused you to lose your faith [i.e., your previous prayers]. Indeed Allāh is, to the people, Kind and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002143.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 144,
         "ayah_ar": "قَدۡ نَرَىٰ تَقَلُّبَ وَجۡهِكَ فِي ٱلسَّمَآءِۖ فَلَنُوَلِّيَنَّكَ قِبۡلَةٗ تَرۡضَىٰهَاۚ فَوَلِّ وَجۡهَكَ شَطۡرَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَحَيۡثُ مَا كُنتُمۡ فَوَلُّواْ وُجُوهَكُمۡ شَطۡرَهُۥۗ وَإِنَّ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ لَيَعۡلَمُونَ أَنَّهُ ٱلۡحَقُّ مِن رَّبِّهِمۡۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا يَعۡمَلُونَ",
-        "ayah_en": "Indeed, We see you ˹O Prophet˺ turning your face towards heaven. Now We will make you turn towards a direction ˹of prayer˺ that will please you. So turn your face towards the Sacred Mosque ˹in Mecca˺—wherever you are, turn your faces towards it. Those who were given the Scripture certainly know this to be the truth from their Lord. And Allah is never unaware of what they do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002144.mp3"
+        "ayah_en": "We have certainly seen the turning of your face, [O Muḥammad], toward the heaven, and We will surely turn you to a qiblah with which you will be pleased. So turn your face [i.e., yourself] toward al-Masjid al-Ḥarām. And wherever you [believers] are, turn your faces [i.e., yourselves] toward it [in prayer]. Indeed, those who have been given the Scripture [i.e., the Jews and the Christians] well know that it is the truth from their Lord. And Allāh is not unaware of what they do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002144.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 145,
         "ayah_ar": "وَلَئِنۡ أَتَيۡتَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ بِكُلِّ ءَايَةٖ مَّا تَبِعُواْ قِبۡلَتَكَۚ وَمَآ أَنتَ بِتَابِعٖ قِبۡلَتَهُمۡۚ وَمَا بَعۡضُهُم بِتَابِعٖ قِبۡلَةَ بَعۡضٖۚ وَلَئِنِ ٱتَّبَعۡتَ أَهۡوَآءَهُم مِّنۢ بَعۡدِ مَا جَآءَكَ مِنَ ٱلۡعِلۡمِ إِنَّكَ إِذٗا لَّمِنَ ٱلظَّٰلِمِينَ",
-        "ayah_en": "Even if you were to bring every proof to the People of the Book, they would not accept your direction ˹of prayer˺, nor would you accept theirs; nor would any of them accept the direction ˹of prayer˺ of another. And if you were to follow their desires after ˹all˺ the knowledge that has come to you, then you would certainly be one of the wrongdoers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002145.mp3"
+        "ayah_en": "And if you brought to those who were given the Scripture every sign, they would not follow your qiblah. Nor will you be a follower of their qiblah. Nor would they be followers of one another's qiblah. So if you were to follow their desires after what has come to you of knowledge, indeed, you would then be among the wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002145.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1176,32 +1321,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 146,
         "ayah_ar": "ٱلَّذِينَ ءَاتَيۡنَٰهُمُ ٱلۡكِتَٰبَ يَعۡرِفُونَهُۥ كَمَا يَعۡرِفُونَ أَبۡنَآءَهُمۡۖ وَإِنَّ فَرِيقٗا مِّنۡهُمۡ لَيَكۡتُمُونَ ٱلۡحَقَّ وَهُمۡ يَعۡلَمُونَ",
-        "ayah_en": "Those We have given the Scripture recognize this ˹Prophet˺ as they recognize their own children. Yet a group of them hides the truth knowingly",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002146.mp3"
+        "ayah_en": "Those to whom We gave the Scripture know him [i.e., Prophet Muḥammad (ﷺ)] as they know their own sons. But indeed, a party of them conceal the truth while they know [it].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002146.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 147,
         "ayah_ar": "ٱلۡحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ ٱلۡمُمۡتَرِينَ",
-        "ayah_en": "˹This is˺ the truth from your Lord, so do not ever be one of those who doubt",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002147.mp3"
+        "ayah_en": "The truth is from your Lord, so never be among the doubters.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002147.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 148,
         "ayah_ar": "وَلِكُلّٖ وِجۡهَةٌ هُوَ مُوَلِّيهَاۖ فَٱسۡتَبِقُواْ ٱلۡخَيۡرَٰتِۚ أَيۡنَ مَا تَكُونُواْ يَأۡتِ بِكُمُ ٱللَّهُ جَمِيعًاۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
-        "ayah_en": "Everyone turns to their own direction ˹of prayer˺. So compete with one another in doing good. Wherever you are, Allah will bring you all together ˹for judgment˺. Surely Allah is Most Capable of everything",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002148.mp3"
+        "ayah_en": "For each [religious following] is a [prayer] direction toward which it faces. So race to [all that is] good. Wherever you may be, Allāh will bring you forth [for judgement] all together. Indeed, Allāh is over all things competent.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002148.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 149,
         "ayah_ar": "وَمِنۡ حَيۡثُ خَرَجۡتَ فَوَلِّ وَجۡهَكَ شَطۡرَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۖ وَإِنَّهُۥ لَلۡحَقُّ مِن رَّبِّكَۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعۡمَلُونَ",
-        "ayah_en": "Wherever you are ˹O Prophet˺, turn your face towards the Sacred Mosque. This is certainly the truth from your Lord. And Allah is never unaware of what you ˹all˺ do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002149.mp3"
+        "ayah_en": "So from wherever you go out [for prayer, O Muḥammad], turn your face toward al-Masjid al-Ḥarām, and indeed, it is the truth from your Lord. And Allāh is not unaware of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002149.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 150,
         "ayah_ar": "وَمِنۡ حَيۡثُ خَرَجۡتَ فَوَلِّ وَجۡهَكَ شَطۡرَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَحَيۡثُ مَا كُنتُمۡ فَوَلُّواْ وُجُوهَكُمۡ شَطۡرَهُۥ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيۡكُمۡ حُجَّةٌ إِلَّا ٱلَّذِينَ ظَلَمُواْ مِنۡهُمۡ فَلَا تَخۡشَوۡهُمۡ وَٱخۡشَوۡنِي وَلِأُتِمَّ نِعۡمَتِي عَلَيۡكُمۡ وَلَعَلَّكُمۡ تَهۡتَدُونَ",
-        "ayah_en": "Wherever you are ˹O Prophet˺, turn your face towards the Sacred Mosque. And wherever you ˹believers˺ are, face towards it, so that people will have no argument against you, except the wrongdoers among them. Do not fear them; fear Me, so that I may ˹continue to˺ perfect My favour upon you and so you may be ˹rightly˺ guided",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002150.mp3"
+        "ayah_en": "And from wherever you go out [for prayer], turn your face toward al-Masjid al-Ḥarām. And wherever you [believers] may be, turn your faces toward it in order that the people will not have any argument against you, except for those of them who commit wrong; so fear them not but fear Me. And [it is] so I may complete My favor upon you and that you may be guided,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002150.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1212,14 +1362,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 151,
         "ayah_ar": "كَمَآ أَرۡسَلۡنَا فِيكُمۡ رَسُولٗا مِّنكُمۡ يَتۡلُواْ عَلَيۡكُمۡ ءَايَٰتِنَا وَيُزَكِّيكُمۡ وَيُعَلِّمُكُمُ ٱلۡكِتَٰبَ وَٱلۡحِكۡمَةَ وَيُعَلِّمُكُم مَّا لَمۡ تَكُونُواْ تَعۡلَمُونَ",
-        "ayah_en": "Since We have sent you a messenger from among yourselves—reciting to you Our revelations, purifying you, teaching you the Book and wisdom, and teaching you what you never knew—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002151.mp3"
+        "ayah_en": "Just as We have sent among you a messenger from yourselves reciting to you Our verses and purifying you and teaching you the Book and wisdom and teaching you that which you did not know.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002151.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 152,
         "ayah_ar": "فَٱذۡكُرُونِيٓ أَذۡكُرۡكُمۡ وَٱشۡكُرُواْ لِي وَلَا تَكۡفُرُونِ",
-        "ayah_en": "remember Me; I will remember you. And thank Me, and never be ungrateful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002152.mp3"
+        "ayah_en": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002152.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1230,32 +1382,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 153,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱسۡتَعِينُواْ بِٱلصَّبۡرِ وَٱلصَّلَوٰةِۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
-        "ayah_en": "O believers! Seek comfort in patience and prayer. Allah is truly with those who are patient",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002153.mp3"
+        "ayah_en": "O you who have believed, seek help through patience and prayer. Indeed, Allāh is with the patient.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002153.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 154,
         "ayah_ar": "وَلَا تَقُولُواْ لِمَن يُقۡتَلُ فِي سَبِيلِ ٱللَّهِ أَمۡوَٰتُۢۚ بَلۡ أَحۡيَآءٞ وَلَٰكِن لَّا تَشۡعُرُونَ",
-        "ayah_en": "Never say that those martyred in the cause of Allah are dead—in fact, they are alive! But you do not perceive it",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002154.mp3"
+        "ayah_en": "And do not say about those who are killed in the way of Allāh, \"They are dead.\" Rather, they are alive, but you perceive [it] not.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002154.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 155,
         "ayah_ar": "وَلَنَبۡلُوَنَّكُم بِشَيۡءٖ مِّنَ ٱلۡخَوۡفِ وَٱلۡجُوعِ وَنَقۡصٖ مِّنَ ٱلۡأَمۡوَٰلِ وَٱلۡأَنفُسِ وَٱلثَّمَرَٰتِۗ وَبَشِّرِ ٱلصَّٰبِرِينَ",
-        "ayah_en": "We will certainly test you with a touch of fear and famine and loss of property, life, and crops. Give good news to those who patiently endure—",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002155.mp3"
+        "ayah_en": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002155.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 156,
         "ayah_ar": "ٱلَّذِينَ إِذَآ أَصَٰبَتۡهُم مُّصِيبَةٞ قَالُوٓاْ إِنَّا لِلَّهِ وَإِنَّآ إِلَيۡهِ رَٰجِعُونَ",
-        "ayah_en": "who, when faced with a disaster, say, “Surely to Allah we belong and to Him we will ˹all˺ return.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002156.mp3"
+        "ayah_en": "Who, when disaster strikes them, say, \"Indeed we belong to Allāh, and indeed to Him we will return.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002156.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 157,
         "ayah_ar": "أُوْلَٰٓئِكَ عَلَيۡهِمۡ صَلَوَٰتٞ مِّن رَّبِّهِمۡ وَرَحۡمَةٞۖ وَأُوْلَٰٓئِكَ هُمُ ٱلۡمُهۡتَدُونَ",
-        "ayah_en": "They are the ones who will receive Allah’s blessings and mercy. And it is they who are ˹rightly˺ guided",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002157.mp3"
+        "ayah_en": "Those are the ones upon whom are blessings from their Lord and mercy. And it is those who are the [rightly] guided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002157.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1266,8 +1423,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 158,
         "ayah_ar": "۞ إِنَّ ٱلصَّفَا وَٱلۡمَرۡوَةَ مِن شَعَآئِرِ ٱللَّهِۖ فَمَنۡ حَجَّ ٱلۡبَيۡتَ أَوِ ٱعۡتَمَرَ فَلَا جُنَاحَ عَلَيۡهِ أَن يَطَّوَّفَ بِهِمَاۚ وَمَن تَطَوَّعَ خَيۡرٗا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ",
-        "ayah_en": "Indeed, ˹the hills of˺ Ṣafa and Marwah are among the symbols of Allah. So whoever performs the pilgrimage or minor pilgrimage, let them walk between ˹the two hills˺. And whoever does good willingly, Allah is truly Appreciative, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002158.mp3"
+        "ayah_en": "Indeed, aṣ-Ṣafā and al-Marwah are among the symbols of Allāh. So whoever makes ḥajj [pilgrimage] to the House or performs ʿumrah - there is no blame upon him for walking between them. And whoever volunteers good - then indeed, Allāh is Appreciative and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002158.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1278,26 +1436,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 159,
         "ayah_ar": "إِنَّ ٱلَّذِينَ يَكۡتُمُونَ مَآ أَنزَلۡنَا مِنَ ٱلۡبَيِّنَٰتِ وَٱلۡهُدَىٰ مِنۢ بَعۡدِ مَا بَيَّنَّٰهُ لِلنَّاسِ فِي ٱلۡكِتَٰبِ أُوْلَٰٓئِكَ يَلۡعَنُهُمُ ٱللَّهُ وَيَلۡعَنُهُمُ ٱللَّٰعِنُونَ",
-        "ayah_en": "Those who hide the clear proofs and guidance that We have revealed—after We made it clear for humanity in the Book—will be condemned by Allah and ˹all˺ those who condemn",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002159.mp3"
+        "ayah_en": "Indeed, those who conceal what We sent down of clear proofs and guidance after We made it clear for the people in the Scripture - those are cursed by Allāh and cursed by those who curse,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002159.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 160,
         "ayah_ar": "إِلَّا ٱلَّذِينَ تَابُواْ وَأَصۡلَحُواْ وَبَيَّنُواْ فَأُوْلَٰٓئِكَ أَتُوبُ عَلَيۡهِمۡ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ",
-        "ayah_en": "As for those who repent, mend their ways, and let the truth be known, they are the ones to whom I will turn ˹in forgiveness˺, for I am the Accepter of Repentance, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002160.mp3"
+        "ayah_en": "Except for those who repent and correct themselves and make evident [what they concealed]. Those - I will accept their repentance, and I am the Accepting of Repentance, the Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002160.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 161,
         "ayah_ar": "إِنَّ ٱلَّذِينَ كَفَرُواْ وَمَاتُواْ وَهُمۡ كُفَّارٌ أُوْلَٰٓئِكَ عَلَيۡهِمۡ لَعۡنَةُ ٱللَّهِ وَٱلۡمَلَٰٓئِكَةِ وَٱلنَّاسِ أَجۡمَعِينَ",
-        "ayah_en": "Surely those who disbelieve and die as disbelievers are condemned by Allah, the angels, and all of humanity",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002161.mp3"
+        "ayah_en": "Indeed, those who disbelieve and die while they are disbelievers - upon them will be the curse of Allāh and of the angels and the people, all together,",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002161.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 162,
         "ayah_ar": "خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنۡهُمُ ٱلۡعَذَابُ وَلَا هُمۡ يُنظَرُونَ",
-        "ayah_en": "They will be in Hell forever. Their punishment will not be lightened, nor will they be delayed ˹from it˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002162.mp3"
+        "ayah_en": "Abiding eternally therein. The punishment will not be lightened for them, nor will they be reprieved.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002162.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1308,14 +1470,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 163,
         "ayah_ar": "وَإِلَٰهُكُمۡ إِلَٰهٞ وَٰحِدٞۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحۡمَٰنُ ٱلرَّحِيمُ",
-        "ayah_en": "Your God is ˹only˺ One God. There is no god ˹worthy of worship˺ except Him—the Most Compassionate, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002163.mp3"
+        "ayah_en": "And your god is one God. There is no deity [worthy of worship] except Him, the Entirely Merciful, the Especially Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002163.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 164,
         "ayah_ar": "إِنَّ فِي خَلۡقِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَٱخۡتِلَٰفِ ٱلَّيۡلِ وَٱلنَّهَارِ وَٱلۡفُلۡكِ ٱلَّتِي تَجۡرِي فِي ٱلۡبَحۡرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٖ فَأَحۡيَا بِهِ ٱلۡأَرۡضَ بَعۡدَ مَوۡتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٖ وَتَصۡرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلۡمُسَخَّرِ بَيۡنَ ٱلسَّمَآءِ وَٱلۡأَرۡضِ لَأٓيَٰتٖ لِّقَوۡمٖ يَعۡقِلُونَ",
-        "ayah_en": "Indeed, in the creation of the heavens and the earth; the alternation of the day and the night; the ships that sail the sea for the benefit of humanity; the rain sent down by Allah from the skies, reviving the earth after its death; the scattering of all kinds of creatures throughout; the shifting of the winds; and the clouds drifting between the heavens and the earth—˹in all of this˺ are surely signs for people of understanding",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002164.mp3"
+        "ayah_en": "Indeed, in the creation of the heavens and the earth, and the alternation of the night and the day, and the [great] ships which sail through the sea with that which benefits people, and what Allāh has sent down from the heavens of rain, giving life thereby to the earth after its lifelessness and dispersing therein every [kind of] moving creature, and [His] directing of the winds and the clouds controlled between the heaven and earth are signs for a people who use reason.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002164.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1326,20 +1490,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 165,
         "ayah_ar": "وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ أَندَادٗا يُحِبُّونَهُمۡ كَحُبِّ ٱللَّهِۖ وَٱلَّذِينَ ءَامَنُوٓاْ أَشَدُّ حُبّٗا لِّلَّهِۗ وَلَوۡ يَرَى ٱلَّذِينَ ظَلَمُوٓاْ إِذۡ يَرَوۡنَ ٱلۡعَذَابَ أَنَّ ٱلۡقُوَّةَ لِلَّهِ جَمِيعٗا وَأَنَّ ٱللَّهَ شَدِيدُ ٱلۡعَذَابِ",
-        "ayah_en": "Still there are some who take others as Allah’s equal—they love them as they should love Allah—but the ˹true˺ believers love Allah even more. If only the wrongdoers could see the ˹horrible˺ punishment ˹awaiting them˺, they would certainly realize that all power belongs to Allah and that Allah is indeed severe in punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002165.mp3"
+        "ayah_en": "And [yet], among the people are those who take other than Allāh as equals [to Him]. They love them as they [should] love Allāh. But those who believe are stronger in love for Allāh. And if only they who have wronged would consider [that] when they see the punishment, [they will be certain] that all power belongs to Allāh and that Allāh is severe in punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002165.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 166,
         "ayah_ar": "إِذۡ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُواْ مِنَ ٱلَّذِينَ ٱتَّبَعُواْ وَرَأَوُاْ ٱلۡعَذَابَ وَتَقَطَّعَتۡ بِهِمُ ٱلۡأَسۡبَابُ",
-        "ayah_en": "˹Consider the Day˺ when those who misled others will disown their followers—when they face the torment—and the bonds that united them will be cut off",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002166.mp3"
+        "ayah_en": "[And they should consider that] when those who have been followed disassociate themselves from those who followed [them], and they [all] see the punishment, and cut off from them are the ties [of relationship],",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002166.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 167,
         "ayah_ar": "وَقَالَ ٱلَّذِينَ ٱتَّبَعُواْ لَوۡ أَنَّ لَنَا كَرَّةٗ فَنَتَبَرَّأَ مِنۡهُمۡ كَمَا تَبَرَّءُواْ مِنَّاۗ كَذَٰلِكَ يُرِيهِمُ ٱللَّهُ أَعۡمَٰلَهُمۡ حَسَرَٰتٍ عَلَيۡهِمۡۖ وَمَا هُم بِخَٰرِجِينَ مِنَ ٱلنَّارِ",
-        "ayah_en": "The ˹misled˺ followers will cry, “If only we could have a second chance, we would disown them as they disowned us.” And so Allah will make them remorseful of their misdeeds. And they will never ˹be able to˺ leave the Fire",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002167.mp3"
+        "ayah_en": "Those who followed will say, \"If only we had another turn [at worldly life] so we could disassociate ourselves from them as they have disassociated themselves from us.\" Thus will Allāh show them their deeds as regrets upon them. And they are never to emerge from the Fire.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002167.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1350,26 +1517,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 168,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلنَّاسُ كُلُواْ مِمَّا فِي ٱلۡأَرۡضِ حَلَٰلٗا طَيِّبٗا وَلَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٌ",
-        "ayah_en": "O humanity! Eat from what is lawful and good on the earth and do not follow Satan’s footsteps. He is truly your sworn enemy",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002168.mp3"
+        "ayah_en": "O mankind, eat from whatever is on earth [that is] lawful and good and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002168.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 169,
         "ayah_ar": "إِنَّمَا يَأۡمُرُكُم بِٱلسُّوٓءِ وَٱلۡفَحۡشَآءِ وَأَن تَقُولُواْ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ",
-        "ayah_en": "He only incites you to commit evil and indecency, and to claim against Allah what you do not know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002169.mp3"
+        "ayah_en": "He only orders you to evil and immorality and to say about Allāh what you do not know.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002169.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 170,
         "ayah_ar": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُواْ مَآ أَنزَلَ ٱللَّهُ قَالُواْ بَلۡ نَتَّبِعُ مَآ أَلۡفَيۡنَا عَلَيۡهِ ءَابَآءَنَآۚ أَوَلَوۡ كَانَ ءَابَآؤُهُمۡ لَا يَعۡقِلُونَ شَيۡـٔٗا وَلَا يَهۡتَدُونَ",
-        "ayah_en": "When it is said to them, “Follow what Allah has revealed,” they reply, “No! We ˹only˺ follow what we found our forefathers practicing.” ˹Would they still do so,˺ even if their forefathers had ˹absolutely˺ no understanding or guidance",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002170.mp3"
+        "ayah_en": "And when it is said to them, \"Follow what Allāh has revealed,\" they say, \"Rather, we will follow that which we found our fathers doing.\" Even though their fathers understood nothing, nor were they guided?",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002170.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 171,
         "ayah_ar": "وَمَثَلُ ٱلَّذِينَ كَفَرُواْ كَمَثَلِ ٱلَّذِي يَنۡعِقُ بِمَا لَا يَسۡمَعُ إِلَّا دُعَآءٗ وَنِدَآءٗۚ صُمُّۢ بُكۡمٌ عُمۡيٞ فَهُمۡ لَا يَعۡقِلُونَ",
-        "ayah_en": "The example of the disbelievers ˹not responding to the Messenger’s warning˺ is like a flock not comprehending the calls and cries of the shepherd. ˹They are wilfully˺ deaf, dumb and blind so they have no understanding",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002171.mp3"
+        "ayah_en": "The example of those who disbelieve is like that of one who shouts at what hears nothing but calls and cries [i.e., cattle or sheep] - deaf, dumb and blind, so they do not understand.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002171.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1380,14 +1551,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 172,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُلُواْ مِن طَيِّبَٰتِ مَا رَزَقۡنَٰكُمۡ وَٱشۡكُرُواْ لِلَّهِ إِن كُنتُمۡ إِيَّاهُ تَعۡبُدُونَ",
-        "ayah_en": "O believers! Eat from the good things We have provided for you. And give thanks to Allah if you ˹truly˺ worship Him ˹alone˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002172.mp3"
+        "ayah_en": "O you who have believed, eat from the good [i.e., lawful] things which We have provided for you and be grateful to Allāh if it is [indeed] Him that you worship.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002172.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 173,
         "ayah_ar": "إِنَّمَا حَرَّمَ عَلَيۡكُمُ ٱلۡمَيۡتَةَ وَٱلدَّمَ وَلَحۡمَ ٱلۡخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيۡرِ ٱللَّهِۖ فَمَنِ ٱضۡطُرَّ غَيۡرَ بَاغٖ وَلَا عَادٖ فَلَآ إِثۡمَ عَلَيۡهِۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٌ",
-        "ayah_en": "He has only forbidden you ˹to eat˺ carrion, blood, swine, and what is slaughtered in the name of any other than Allah. But if someone is compelled by necessity—neither driven by desire nor exceeding immediate need—they will not be sinful. Surely Allah is All-Forgiving, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002173.mp3"
+        "ayah_en": "He has only forbidden to you dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allāh. But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit], there is no sin upon him. Indeed, Allāh is Forgiving and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002173.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1398,20 +1571,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 174,
         "ayah_ar": "إِنَّ ٱلَّذِينَ يَكۡتُمُونَ مَآ أَنزَلَ ٱللَّهُ مِنَ ٱلۡكِتَٰبِ وَيَشۡتَرُونَ بِهِۦ ثَمَنٗا قَلِيلًا أُوْلَٰٓئِكَ مَا يَأۡكُلُونَ فِي بُطُونِهِمۡ إِلَّا ٱلنَّارَ وَلَا يُكَلِّمُهُمُ ٱللَّهُ يَوۡمَ ٱلۡقِيَٰمَةِ وَلَا يُزَكِّيهِمۡ وَلَهُمۡ عَذَابٌ أَلِيمٌ",
-        "ayah_en": "Indeed, those who hide Allah’s revelations, trading them for a fleeting gain consume nothing but fire into their bellies. Allah will neither speak to them on the Day of Judgment, nor will He purify them. And they will suffer a painful punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002174.mp3"
+        "ayah_en": "Indeed, they who conceal what Allāh has sent down of the Book and exchange it for a small price - those consume not into their bellies except the Fire. And Allāh will not speak to them on the Day of Resurrection, nor will He purify them. And they will have a painful punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002174.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 175,
         "ayah_ar": "أُوْلَٰٓئِكَ ٱلَّذِينَ ٱشۡتَرَوُاْ ٱلضَّلَٰلَةَ بِٱلۡهُدَىٰ وَٱلۡعَذَابَ بِٱلۡمَغۡفِرَةِۚ فَمَآ أَصۡبَرَهُمۡ عَلَى ٱلنَّارِ",
-        "ayah_en": "They are the ones who trade guidance for misguidance and forgiveness for punishment. How persistent are they in pursuit of the Fire",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002175.mp3"
+        "ayah_en": "Those are the ones who have exchanged guidance for error and forgiveness for punishment. How patient they are for [i.e., in pursuit of] the Fire!",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002175.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 176,
         "ayah_ar": "ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلۡكِتَٰبَ بِٱلۡحَقِّۗ وَإِنَّ ٱلَّذِينَ ٱخۡتَلَفُواْ فِي ٱلۡكِتَٰبِ لَفِي شِقَاقِۭ بَعِيدٖ",
-        "ayah_en": "That is because Allah has revealed the Book in truth. And surely those who differ regarding it are totally engrossed in opposition",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002176.mp3"
+        "ayah_en": "That is [deserved by them] because Allāh has sent down the Book in truth. And indeed, those who differ over the Book are in extreme dissension.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002176.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1422,8 +1598,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 177,
         "ayah_ar": "۞ لَّيۡسَ ٱلۡبِرَّ أَن تُوَلُّواْ وُجُوهَكُمۡ قِبَلَ ٱلۡمَشۡرِقِ وَٱلۡمَغۡرِبِ وَلَٰكِنَّ ٱلۡبِرَّ مَنۡ ءَامَنَ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِ وَٱلۡمَلَٰٓئِكَةِ وَٱلۡكِتَٰبِ وَٱلنَّبِيِّـۧنَ وَءَاتَى ٱلۡمَالَ عَلَىٰ حُبِّهِۦ ذَوِي ٱلۡقُرۡبَىٰ وَٱلۡيَتَٰمَىٰ وَٱلۡمَسَٰكِينَ وَٱبۡنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِي ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلۡمُوفُونَ بِعَهۡدِهِمۡ إِذَا عَٰهَدُواْۖ وَٱلصَّٰبِرِينَ فِي ٱلۡبَأۡسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلۡبَأۡسِۗ أُوْلَٰٓئِكَ ٱلَّذِينَ صَدَقُواْۖ وَأُوْلَٰٓئِكَ هُمُ ٱلۡمُتَّقُونَ",
-        "ayah_en": "Righteousness is not in turning your faces towards the east or the west. Rather, the righteous are those who believe in Allah, the Last Day, the angels, the Books, and the prophets; who give charity out of their cherished wealth to relatives, orphans, the poor, ˹needy˺ travellers, beggars, and for freeing captives; who establish prayer, pay alms-tax, and keep the pledges they make; and who are patient in times of suffering, adversity, and in ˹the heat of˺ battle. It is they who are true ˹in faith˺, and it is they who are mindful ˹of Allah˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002177.mp3"
+        "ayah_en": "Righteousness is not that you turn your faces toward the east or the west, but [true] righteousness is [in] one who believes in Allāh, the Last Day, the angels, the Book, and the prophets and gives wealth, in spite of love for it, to relatives, orphans, the needy, the traveler, those who ask [for help], and for freeing slaves; [and who] establishes prayer and gives zakāh; [those who] fulfill their promise when they promise; and [those who] are patient in poverty and hardship and during battle. Those are the ones who have been true, and it is those who are the righteous.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002177.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1434,14 +1611,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 178,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلۡقِصَاصُ فِي ٱلۡقَتۡلَىۖ ٱلۡحُرُّ بِٱلۡحُرِّ وَٱلۡعَبۡدُ بِٱلۡعَبۡدِ وَٱلۡأُنثَىٰ بِٱلۡأُنثَىٰۚ فَمَنۡ عُفِيَ لَهُۥ مِنۡ أَخِيهِ شَيۡءٞ فَٱتِّبَاعُۢ بِٱلۡمَعۡرُوفِ وَأَدَآءٌ إِلَيۡهِ بِإِحۡسَٰنٖۗ ذَٰلِكَ تَخۡفِيفٞ مِّن رَّبِّكُمۡ وَرَحۡمَةٞۗ فَمَنِ ٱعۡتَدَىٰ بَعۡدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٞ",
-        "ayah_en": "O believers! ˹The law of˺ retaliation is set for you in cases of murder—a free man for a free man, a slave for a slave, and a female for a female. But if the offender is pardoned by the victim’s guardian, then blood-money should be decided fairly and payment should be made courteously. This is a concession and a mercy from your Lord. But whoever transgresses after that will suffer a painful punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002178.mp3"
+        "ayah_en": "O you who have believed, prescribed for you is legal retribution for those murdered - the free for the free, the slave for the slave, and the female for the female. But whoever overlooks from his brother [i.e., the killer] anything, then there should be a suitable follow-up and payment to him [i.e., the deceased's heir or legal representative] with good conduct. This is an alleviation from your Lord and a mercy. But whoever transgresses after that will have a painful punishment.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002178.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 179,
         "ayah_ar": "وَلَكُمۡ فِي ٱلۡقِصَاصِ حَيَوٰةٞ يَٰٓأُوْلِي ٱلۡأَلۡبَٰبِ لَعَلَّكُمۡ تَتَّقُونَ",
-        "ayah_en": "There is ˹security of˺ life for you in ˹the law of˺ retaliation, O people of reason, so that you may become mindful ˹of Allah˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002179.mp3"
+        "ayah_en": "And there is for you in legal retribution [saving of] life, O you [people] of understanding, that you may become righteous.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002179.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1452,20 +1631,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 180,
         "ayah_ar": "كُتِبَ عَلَيۡكُمۡ إِذَا حَضَرَ أَحَدَكُمُ ٱلۡمَوۡتُ إِن تَرَكَ خَيۡرًا ٱلۡوَصِيَّةُ لِلۡوَٰلِدَيۡنِ وَٱلۡأَقۡرَبِينَ بِٱلۡمَعۡرُوفِۖ حَقًّا عَلَى ٱلۡمُتَّقِينَ",
-        "ayah_en": "It is prescribed that when death approaches any of you—if they leave something of value—a will should be made in favour of parents and immediate family with fairness. ˹This is˺ an obligation on those who are mindful ˹of Allah˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002180.mp3"
+        "ayah_en": "Prescribed for you when death approaches [any] one of you if he leaves wealth [is that he should make] a bequest for the parents and near relatives according to what is acceptable - a duty upon the righteous.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002180.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 181,
         "ayah_ar": "فَمَنۢ بَدَّلَهُۥ بَعۡدَ مَا سَمِعَهُۥ فَإِنَّمَآ إِثۡمُهُۥ عَلَى ٱلَّذِينَ يُبَدِّلُونَهُۥٓۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٞ",
-        "ayah_en": "But whoever changes the will after hearing it, the blame will only be on those who made the change. Indeed, Allah is All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002181.mp3"
+        "ayah_en": "Then whoever alters it [i.e., the bequest] after he has heard it - the sin is only upon those who have altered it. Indeed, Allāh is Hearing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002181.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 182,
         "ayah_ar": "فَمَنۡ خَافَ مِن مُّوصٖ جَنَفًا أَوۡ إِثۡمٗا فَأَصۡلَحَ بَيۡنَهُمۡ فَلَآ إِثۡمَ عَلَيۡهِۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
-        "ayah_en": "Whoever suspects an error or an injustice in the will and brings about a ˹fair˺ settlement among the parties will not be sinful. Surely Allah is All-Forgiving, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002182.mp3"
+        "ayah_en": "But if one fears from the bequeather [some] error or sin and corrects that which is between them [i.e., the concerned parties], there is no sin upon him. Indeed, Allāh is Forgiving and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002182.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1476,20 +1658,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 183,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
-        "ayah_en": "O believers! Fasting is prescribed for you—as it was for those before you—so perhaps you will become mindful ˹of Allah˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002183.mp3"
+        "ayah_en": "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous -",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002183.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 184,
         "ayah_ar": "أَيَّامٗا مَّعۡدُودَٰتٖۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدۡيَةٞ طَعَامُ مِسۡكِينٖۖ فَمَن تَطَوَّعَ خَيۡرٗا فَهُوَ خَيۡرٞ لَّهُۥۚ وَأَن تَصُومُواْ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
-        "ayah_en": "˹Fast a˺ prescribed number of days. But whoever of you is ill or on a journey, then ˹let them fast˺ an equal number of days ˹after Ramaḍân˺. For those who can only fast with extreme difficulty, compensation can be made by feeding a needy person ˹for every day not fasted˺. But whoever volunteers to give more, it is better for them. And to fast is better for you, if only you knew",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002184.mp3"
+        "ayah_en": "[Fasting for] a limited number of days. So whoever among you is ill or on a journey [during them] - then an equal number of other days [are to be made up]. And upon those who are able [to fast, but with hardship] - a ransom [as substitute] of feeding a poor person [each day]. And whoever volunteers good [i.e., excess] - it is better for him. But to fast is best for you, if you only knew.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002184.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 185,
         "ayah_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
-        "ayah_en": "Ramaḍân is the month in which the Quran was revealed as a guide for humanity with clear proofs of guidance and the standard ˹to distinguish between right and wrong˺. So whoever is present this month, let them fast. But whoever is ill or on a journey, then ˹let them fast˺ an equal number of days ˹after Ramaḍân˺. Allah intends ease for you, not hardship, so that you may complete the prescribed period and proclaim the greatness of Allah for guiding you, and perhaps you will be grateful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002185.mp3"
+        "ayah_en": "The month of Ramaḍān [is that] in which was revealed the Qur’ān, a guidance for the people and clear proofs of guidance and criterion. So whoever sights [the crescent of] the month, let him fast it; and whoever is ill or on a journey - then an equal number of other days. Allāh intends for you ease and does not intend for you hardship and [wants] for you to complete the period and to glorify Allāh for that [to] which He has guided you; and perhaps you will be grateful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002185.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1500,8 +1685,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 186,
         "ayah_ar": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌۖ أُجِيبُ دَعۡوَةَ ٱلدَّاعِ إِذَا دَعَانِۖ فَلۡيَسۡتَجِيبُواْ لِي وَلۡيُؤۡمِنُواْ بِي لَعَلَّهُمۡ يَرۡشُدُونَ",
-        "ayah_en": "When My servants ask you ˹O Prophet˺ about Me: I am truly near. I respond to one’s prayer when they call upon Me. So let them respond ˹with obedience˺ to Me and believe in Me, perhaps they will be guided ˹to the Right Way˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002186.mp3"
+        "ayah_en": "And when My servants ask you, [O Muḥammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002186.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1512,8 +1698,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 187,
         "ayah_ar": "أُحِلَّ لَكُمۡ لَيۡلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمۡۚ هُنَّ لِبَاسٞ لَّكُمۡ وَأَنتُمۡ لِبَاسٞ لَّهُنَّۗ عَلِمَ ٱللَّهُ أَنَّكُمۡ كُنتُمۡ تَخۡتَانُونَ أَنفُسَكُمۡ فَتَابَ عَلَيۡكُمۡ وَعَفَا عَنكُمۡۖ فَٱلۡـَٰٔنَ بَٰشِرُوهُنَّ وَٱبۡتَغُواْ مَا كَتَبَ ٱللَّهُ لَكُمۡۚ وَكُلُواْ وَٱشۡرَبُواْ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلۡخَيۡطُ ٱلۡأَبۡيَضُ مِنَ ٱلۡخَيۡطِ ٱلۡأَسۡوَدِ مِنَ ٱلۡفَجۡرِۖ ثُمَّ أَتِمُّواْ ٱلصِّيَامَ إِلَى ٱلَّيۡلِۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمۡ عَٰكِفُونَ فِي ٱلۡمَسَٰجِدِۗ تِلۡكَ حُدُودُ ٱللَّهِ فَلَا تَقۡرَبُوهَاۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمۡ يَتَّقُونَ",
-        "ayah_en": "It has been made permissible for you to be intimate with your wives during the nights preceding the fast. Your spouses are a garment for you as you are for them. Allah knows that you were deceiving yourselves. So He has accepted your repentance and pardoned you. So now you may be intimate with them and seek what Allah has prescribed for you. ˹You may˺ eat and drink until you see the light of dawn breaking the darkness of night, then complete the fast until nightfall. Do not be intimate with your spouses while you are meditating in the mosques. These are the limits set by Allah, so do not exceed them. This is how Allah makes His revelations clear to people, so they may become mindful ˹of Him˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002187.mp3"
+        "ayah_en": "It has been made permissible for you the night preceding fasting to go to your wives [for sexual relations]. They are a clothing for you and you are a clothing for them. Allāh knows that you used to deceive yourselves, so He accepted your repentance and forgave you. So now, have relations with them and seek that which Allāh has decreed for you [i.e., offspring]. And eat and drink until the white thread of dawn becomes distinct to you from the black thread [of night]. Then complete the fast until the night [i.e., sunset]. And do not have relations with them as long as you are staying for worship in the mosques. These are the limits [set by] Allāh, so do not approach them. Thus does Allāh make clear His verses [i.e., ordinances] to the people that they may become righteous.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002187.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1524,8 +1711,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 188,
         "ayah_ar": "وَلَا تَأۡكُلُوٓاْ أَمۡوَٰلَكُم بَيۡنَكُم بِٱلۡبَٰطِلِ وَتُدۡلُواْ بِهَآ إِلَى ٱلۡحُكَّامِ لِتَأۡكُلُواْ فَرِيقٗا مِّنۡ أَمۡوَٰلِ ٱلنَّاسِ بِٱلۡإِثۡمِ وَأَنتُمۡ تَعۡلَمُونَ",
-        "ayah_en": "Do not consume one another’s wealth unjustly, nor deliberately bribe authorities in order to devour a portion of others’ property, knowing that it is a sin",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002188.mp3"
+        "ayah_en": "And do not consume one another's wealth unjustly or send it [in bribery] to the rulers in order that [they might aid] you [to] consume a portion of the wealth of the people in sin, while you know [it is unlawful].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002188.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1536,8 +1724,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 189,
         "ayah_ar": "۞ يَسۡـَٔلُونَكَ عَنِ ٱلۡأَهِلَّةِۖ قُلۡ هِيَ مَوَٰقِيتُ لِلنَّاسِ وَٱلۡحَجِّۗ وَلَيۡسَ ٱلۡبِرُّ بِأَن تَأۡتُواْ ٱلۡبُيُوتَ مِن ظُهُورِهَا وَلَٰكِنَّ ٱلۡبِرَّ مَنِ ٱتَّقَىٰۗ وَأۡتُواْ ٱلۡبُيُوتَ مِنۡ أَبۡوَٰبِهَاۚ وَٱتَّقُواْ ٱللَّهَ لَعَلَّكُمۡ تُفۡلِحُونَ",
-        "ayah_en": "They ask you ˹O Prophet˺ about the phases of the moon. Say, “They are a means for people to determine time and pilgrimage.” Righteousness is not in entering your houses from the back doors. Rather, righteousness is to be mindful ˹of Allah˺. So enter your homes through their ˹proper˺ doors, and be mindful of Allah so you may be successful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002189.mp3"
+        "ayah_en": "They ask you, [O Muḥammad], about the crescent moons. Say, \"They are measurements of time for the people and for ḥajj [pilgrimage].\" And it is not righteousness to enter houses from the back, but righteousness is [in] one who fears Allāh. And enter houses from their doors. And fear Allāh that you may succeed.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002189.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1548,20 +1737,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 190,
         "ayah_ar": "وَقَٰتِلُواْ فِي سَبِيلِ ٱللَّهِ ٱلَّذِينَ يُقَٰتِلُونَكُمۡ وَلَا تَعۡتَدُوٓاْۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلۡمُعۡتَدِينَ",
-        "ayah_en": "Fight in the cause of Allah ˹only˺ against those who wage war against you, but do not exceed the limits. Allah does not like transgressors",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002190.mp3"
+        "ayah_en": "Fight in the way of Allāh those who fight against you but do not transgress. Indeed, Allāh does not like transgressors.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002190.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 191,
         "ayah_ar": "وَٱقۡتُلُوهُمۡ حَيۡثُ ثَقِفۡتُمُوهُمۡ وَأَخۡرِجُوهُم مِّنۡ حَيۡثُ أَخۡرَجُوكُمۡۚ وَٱلۡفِتۡنَةُ أَشَدُّ مِنَ ٱلۡقَتۡلِۚ وَلَا تُقَٰتِلُوهُمۡ عِندَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ حَتَّىٰ يُقَٰتِلُوكُمۡ فِيهِۖ فَإِن قَٰتَلُوكُمۡ فَٱقۡتُلُوهُمۡۗ كَذَٰلِكَ جَزَآءُ ٱلۡكَٰفِرِينَ",
-        "ayah_en": "Kill them wherever you come upon them and drive them out of the places from which they have driven you out. For persecution is far worse than killing. And do not fight them at the Sacred Mosque unless they attack you there. If they do so, then fight them—that is the reward of the disbelievers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002191.mp3"
+        "ayah_en": "And kill them [in battle] wherever you overtake them and expel them from wherever they have expelled you, and fitnah is worse than killing. And do not fight them at al-Masjid al-Ḥarām until they fight you there. But if they fight you, then kill them. Such is the recompense of the disbelievers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002191.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 192,
         "ayah_ar": "فَإِنِ ٱنتَهَوۡاْ فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
-        "ayah_en": "But if they cease, then surely Allah is All-Forgiving, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002192.mp3"
+        "ayah_en": "And if they cease, then indeed, Allāh is Forgiving and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002192.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1572,20 +1764,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 193,
         "ayah_ar": "وَقَٰتِلُوهُمۡ حَتَّىٰ لَا تَكُونَ فِتۡنَةٞ وَيَكُونَ ٱلدِّينُ لِلَّهِۖ فَإِنِ ٱنتَهَوۡاْ فَلَا عُدۡوَٰنَ إِلَّا عَلَى ٱلظَّٰلِمِينَ",
-        "ayah_en": "Fight against them ˹if they persecute you˺ until there is no more persecution, and ˹your˺ devotion will be to Allah ˹alone˺. If they stop ˹persecuting you˺, let there be no hostility except against the aggressors",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002193.mp3"
+        "ayah_en": "Fight them until there is no [more] fitnah and [until] religion [i.e., worship] is [acknowledged to be] for Allāh. But if they cease, then there is to be no aggression [i.e., assault] except against the oppressors.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002193.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 194,
         "ayah_ar": "ٱلشَّهۡرُ ٱلۡحَرَامُ بِٱلشَّهۡرِ ٱلۡحَرَامِ وَٱلۡحُرُمَٰتُ قِصَاصٞۚ فَمَنِ ٱعۡتَدَىٰ عَلَيۡكُمۡ فَٱعۡتَدُواْ عَلَيۡهِ بِمِثۡلِ مَا ٱعۡتَدَىٰ عَلَيۡكُمۡۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ مَعَ ٱلۡمُتَّقِينَ",
-        "ayah_en": "˹There will be retaliation in˺ a sacred month for ˹an offence in˺ a sacred month, and all violations will bring about retaliation. So, if anyone attacks you, retaliate in the same manner. ˹But˺ be mindful of Allah, and know that Allah is with those mindful ˹of Him˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002194.mp3"
+        "ayah_en": "[Battle in] the sacred month is for [aggression committed in] the sacred month, and for [all] violations is legal retribution. So whoever has assaulted you, then assault him in the same way that he has assaulted you. And fear Allāh and know that Allāh is with those who fear Him.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002194.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 195,
         "ayah_ar": "وَأَنفِقُواْ فِي سَبِيلِ ٱللَّهِ وَلَا تُلۡقُواْ بِأَيۡدِيكُمۡ إِلَى ٱلتَّهۡلُكَةِ وَأَحۡسِنُوٓاْۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلۡمُحۡسِنِينَ",
-        "ayah_en": "Spend in the cause of Allah and do not let your own hands throw you into destruction ˹by withholding˺. And do good, for Allah certainly loves the good-doers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002195.mp3"
+        "ayah_en": "And spend in the way of Allāh and do not throw [yourselves] with your [own] hands into destruction [by refraining]. And do good; indeed, Allāh loves the doers of good.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002195.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1596,26 +1791,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 196,
         "ayah_ar": "وَأَتِمُّواْ ٱلۡحَجَّ وَٱلۡعُمۡرَةَ لِلَّهِۚ فَإِنۡ أُحۡصِرۡتُمۡ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۖ وَلَا تَحۡلِقُواْ رُءُوسَكُمۡ حَتَّىٰ يَبۡلُغَ ٱلۡهَدۡيُ مَحِلَّهُۥۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ بِهِۦٓ أَذٗى مِّن رَّأۡسِهِۦ فَفِدۡيَةٞ مِّن صِيَامٍ أَوۡ صَدَقَةٍ أَوۡ نُسُكٖۚ فَإِذَآ أَمِنتُمۡ فَمَن تَمَتَّعَ بِٱلۡعُمۡرَةِ إِلَى ٱلۡحَجِّ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۚ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ ثَلَٰثَةِ أَيَّامٖ فِي ٱلۡحَجِّ وَسَبۡعَةٍ إِذَا رَجَعۡتُمۡۗ تِلۡكَ عَشَرَةٞ كَامِلَةٞۗ ذَٰلِكَ لِمَن لَّمۡ يَكُنۡ أَهۡلُهُۥ حَاضِرِي ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
-        "ayah_en": "Complete the pilgrimage and minor pilgrimage for Allah. But if prevented ˹from proceeding˺, then ˹offer˺ whatever sacrificial animals you can afford. And do not shave your heads until the sacrificial animal reaches its destination. But if any of you is ill or has a scalp ailment ˹requiring shaving˺, then compensate either by fasting, charity, or a sacrificial offering. In times of peace, you may combine the pilgrimage and minor pilgrimage then make the sacrificial offering you can afford. Whoever cannot afford that ˹offering˺, let them fast three days during pilgrimage and seven after returning ˹home˺—completing ten. These offerings are for those who do not live near the Sacred House. And be mindful of Allah, and know that Allah is severe in punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002196.mp3"
+        "ayah_en": "And complete the ḥajj and ʿumrah for Allāh. But if you are prevented, then [offer] what can be obtained with ease of sacrificial animals. And do not shave your heads until the sacrificial animal has reached its place of slaughter. And whoever among you is ill or has an ailment of the head [making shaving necessary must offer] a ransom of fasting [three days] or charity or sacrifice. And when you are secure, then whoever performs ʿumrah [during the ḥajj months] followed by ḥajj [offers] what can be obtained with ease of sacrificial animals. And whoever cannot find [or afford such an animal] - then a fast of three days during ḥajj and of seven when you have returned [home]. Those are ten complete [days]. This is for those whose family is not in the area of al-Masjid al-Ḥarām. And fear Allāh and know that Allāh is severe in penalty.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002196.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 197,
         "ayah_ar": "ٱلۡحَجُّ أَشۡهُرٞ مَّعۡلُومَٰتٞۚ فَمَن فَرَضَ فِيهِنَّ ٱلۡحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي ٱلۡحَجِّۗ وَمَا تَفۡعَلُواْ مِنۡ خَيۡرٖ يَعۡلَمۡهُ ٱللَّهُۗ وَتَزَوَّدُواْ فَإِنَّ خَيۡرَ ٱلزَّادِ ٱلتَّقۡوَىٰۖ وَٱتَّقُونِ يَٰٓأُوْلِي ٱلۡأَلۡبَٰبِ",
-        "ayah_en": "˹Commitment to˺ pilgrimage is made in appointed months. Whoever commits to ˹performing˺ pilgrimage, let them stay away from intimate relations, foul language, and arguments during pilgrimage. Whatever good you do, Allah ˹fully˺ knows of it. Take ˹necessary˺ provisions ˹for the journey˺—surely the best provision is righteousness. And be mindful of Me, O people of reason",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002197.mp3"
+        "ayah_en": "Ḥajj is [during] well-known months, so whoever has made ḥajj obligatory upon himself therein [by entering the state of iḥrām], there is [to be for him] no sexual relations and no disobedience and no disputing during ḥajj. And whatever good you do - Allāh knows it. And take provisions, but indeed, the best provision is fear of Allāh. And fear Me, O you of understanding.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002197.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 198,
         "ayah_ar": "لَيۡسَ عَلَيۡكُمۡ جُنَاحٌ أَن تَبۡتَغُواْ فَضۡلٗا مِّن رَّبِّكُمۡۚ فَإِذَآ أَفَضۡتُم مِّنۡ عَرَفَٰتٖ فَٱذۡكُرُواْ ٱللَّهَ عِندَ ٱلۡمَشۡعَرِ ٱلۡحَرَامِۖ وَٱذۡكُرُوهُ كَمَا هَدَىٰكُمۡ وَإِن كُنتُم مِّن قَبۡلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
-        "ayah_en": "There is no blame on you for seeking the bounty of your Lord ˹during this journey˺. When you return from ’Arafât, praise Allah near the sacred place and praise Him for having guided you, for surely before this ˹guidance˺ you were astray",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002198.mp3"
+        "ayah_en": "There is no blame upon you for seeking bounty from your Lord [during ḥajj]. But when you depart from ʿArafāt, remember Allāh at al-Mashʿar al-Ḥarām. And remember Him, as He has guided you, for indeed, you were before that among those astray.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002198.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 199,
         "ayah_ar": "ثُمَّ أَفِيضُواْ مِنۡ حَيۡثُ أَفَاضَ ٱلنَّاسُ وَٱسۡتَغۡفِرُواْ ٱللَّهَۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
-        "ayah_en": "Then go forth with the rest of the pilgrims. And seek Allah’s forgiveness. Surely Allah is All-Forgiving, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002199.mp3"
+        "ayah_en": "Then depart from the place from where [all] the people depart and ask forgiveness of Allāh. Indeed, Allāh is Forgiving and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002199.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1626,26 +1825,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 200,
         "ayah_ar": "فَإِذَا قَضَيۡتُم مَّنَٰسِكَكُمۡ فَٱذۡكُرُواْ ٱللَّهَ كَذِكۡرِكُمۡ ءَابَآءَكُمۡ أَوۡ أَشَدَّ ذِكۡرٗاۗ فَمِنَ ٱلنَّاسِ مَن يَقُولُ رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا وَمَا لَهُۥ فِي ٱلۡأٓخِرَةِ مِنۡ خَلَٰقٖ",
-        "ayah_en": "When you have fulfilled your sacred rites, praise Allah as you used to praise your forefathers ˹before Islam˺, or even more passionately. There are some who say, “Our Lord! Grant us ˹Your bounties˺ in this world,” but they will have no share in the Hereafter",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002200.mp3"
+        "ayah_en": "And when you have completed your rites, remember Allāh like your [previous] remembrance of your fathers or with [much] greater remembrance. And among the people is he who says, \"Our Lord, give us in this world,\" and he will have in the Hereafter no share.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002200.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 201,
         "ayah_ar": "وَمِنۡهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةٗ وَفِي ٱلۡأٓخِرَةِ حَسَنَةٗ وَقِنَا عَذَابَ ٱلنَّارِ",
-        "ayah_en": "Yet there are others who say, “Our Lord! Grant us the good of this world and the Hereafter, and protect us from the torment of the Fire.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002201.mp3"
+        "ayah_en": "But among them is he who says, \"Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002201.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 202,
         "ayah_ar": "أُوْلَٰٓئِكَ لَهُمۡ نَصِيبٞ مِّمَّا كَسَبُواْۚ وَٱللَّهُ سَرِيعُ ٱلۡحِسَابِ",
-        "ayah_en": "It is they who will receive a ˹heavenly˺ reward for the good they have done. Surely Allah is swift in reckoning",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002202.mp3"
+        "ayah_en": "Those will have a share of what they have earned, and Allāh is swift in account.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002202.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 203,
         "ayah_ar": "۞ وَٱذۡكُرُواْ ٱللَّهَ فِيٓ أَيَّامٖ مَّعۡدُودَٰتٖۚ فَمَن تَعَجَّلَ فِي يَوۡمَيۡنِ فَلَآ إِثۡمَ عَلَيۡهِ وَمَن تَأَخَّرَ فَلَآ إِثۡمَ عَلَيۡهِۖ لِمَنِ ٱتَّقَىٰۗ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّكُمۡ إِلَيۡهِ تُحۡشَرُونَ",
-        "ayah_en": "And remember Allah during ˹these˺ appointed days. Whoever departs swiftly on the second day is not sinful, neither are those who stay behind ˹till the third—seeking additional reward˺, so long as they are mindful ˹of their Lord˺. And be mindful of Allah, and know that to Him you will ˹all˺ be gathered",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002203.mp3"
+        "ayah_en": "And remember Allāh during [specific] numbered days. Then whoever hastens [his departure] in two days - there is no sin upon him; and whoever delays [until the third] - there is no sin upon him - for him who fears Allāh. And fear Allāh and know that unto Him you will be gathered.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002203.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1656,26 +1859,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 204,
         "ayah_ar": "وَمِنَ ٱلنَّاسِ مَن يُعۡجِبُكَ قَوۡلُهُۥ فِي ٱلۡحَيَوٰةِ ٱلدُّنۡيَا وَيُشۡهِدُ ٱللَّهَ عَلَىٰ مَا فِي قَلۡبِهِۦ وَهُوَ أَلَدُّ ٱلۡخِصَامِ",
-        "ayah_en": "There are some ˹hypocrites˺ who impress you with their views regarding worldly affairs and openly call upon Allah to witness what is in their hearts, yet they are your worst adversaries",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002204.mp3"
+        "ayah_en": "And of the people is he whose speech pleases you in worldly life, and he calls Allāh to witness as to what is in his heart, yet he is the fiercest of opponents.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002204.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 205,
         "ayah_ar": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِي ٱلۡأَرۡضِ لِيُفۡسِدَ فِيهَا وَيُهۡلِكَ ٱلۡحَرۡثَ وَٱلنَّسۡلَۚ وَٱللَّهُ لَا يُحِبُّ ٱلۡفَسَادَ",
-        "ayah_en": "And when they leave ˹you˺, they strive throughout the land to spread mischief in it and destroy crops and cattle. Allah does not like mischief",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002205.mp3"
+        "ayah_en": "And when he goes away, he strives throughout the land to cause corruption therein and destroy crops and animals. And Allāh does not like corruption.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002205.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 206,
         "ayah_ar": "وَإِذَا قِيلَ لَهُ ٱتَّقِ ٱللَّهَ أَخَذَتۡهُ ٱلۡعِزَّةُ بِٱلۡإِثۡمِۚ فَحَسۡبُهُۥ جَهَنَّمُۖ وَلَبِئۡسَ ٱلۡمِهَادُ",
-        "ayah_en": "When it is said to them, “Fear Allah,” pride carries them off to sin. Hell will be their proper place. What an evil place to rest",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002206.mp3"
+        "ayah_en": "And when it is said to him, \"Fear Allāh,\" pride in the sin takes hold of him. Sufficient for him is Hellfire, and how wretched is the resting place.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002206.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 207,
         "ayah_ar": "وَمِنَ ٱلنَّاسِ مَن يَشۡرِي نَفۡسَهُ ٱبۡتِغَآءَ مَرۡضَاتِ ٱللَّهِۚ وَٱللَّهُ رَءُوفُۢ بِٱلۡعِبَادِ",
-        "ayah_en": "And there are those who would dedicate their lives to Allah’s pleasure. And Allah is Ever Gracious to ˹His˺ servants",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002207.mp3"
+        "ayah_en": "And of the people is he who sells himself, seeking means to the approval of Allāh. And Allāh is Kind to [His] servants.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002207.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1686,14 +1893,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 208,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱدۡخُلُواْ فِي ٱلسِّلۡمِ كَآفَّةٗ وَلَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٞ",
-        "ayah_en": "O believers! Enter into Islam wholeheartedly and do not follow Satan’s footsteps. Surely he is your sworn enemy",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002208.mp3"
+        "ayah_en": "O you who have believed, enter into Islām completely [and perfectly] and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002208.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 209,
         "ayah_ar": "فَإِن زَلَلۡتُم مِّنۢ بَعۡدِ مَا جَآءَتۡكُمُ ٱلۡبَيِّنَٰتُ فَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
-        "ayah_en": "If you falter after receiving the clear proofs, then know that Allah is indeed Almighty, All-Wise",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002209.mp3"
+        "ayah_en": "But if you slip [i.e., deviate] after clear proofs have come to you, then know that Allāh is Exalted in Might and Wise.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002209.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1704,20 +1913,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 210,
         "ayah_ar": "هَلۡ يَنظُرُونَ إِلَّآ أَن يَأۡتِيَهُمُ ٱللَّهُ فِي ظُلَلٖ مِّنَ ٱلۡغَمَامِ وَٱلۡمَلَٰٓئِكَةُ وَقُضِيَ ٱلۡأَمۡرُۚ وَإِلَى ٱللَّهِ تُرۡجَعُ ٱلۡأُمُورُ",
-        "ayah_en": "Are they waiting for Allah ˹Himself˺ to come to them in the shade of clouds, along with the angels? ˹If He did˺, then the matter would be settled ˹at once˺. And to Allah ˹all˺ matters will be returned ˹for judgment˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002210.mp3"
+        "ayah_en": "Do they await but that Allāh should come to them in covers of clouds and the angels [as well] and the matter is [then] decided? And to Allāh [all] matters are returned.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002210.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 211,
         "ayah_ar": "سَلۡ بَنِيٓ إِسۡرَٰٓءِيلَ كَمۡ ءَاتَيۡنَٰهُم مِّنۡ ءَايَةِۭ بَيِّنَةٖۗ وَمَن يُبَدِّلۡ نِعۡمَةَ ٱللَّهِ مِنۢ بَعۡدِ مَا جَآءَتۡهُ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
-        "ayah_en": "Ask the Children of Israel how many clear signs We have given them. And whoever trades Allah’s favour—after receiving it—˹for disbelief˺ should know that Allah is indeed severe in punishment",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002211.mp3"
+        "ayah_en": "Ask the Children of Israel how many a sign of evidence We have given them. And whoever exchanges the favor of Allāh [for disbelief] after it has come to him - then indeed, Allāh is severe in penalty.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002211.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 212,
         "ayah_ar": "زُيِّنَ لِلَّذِينَ كَفَرُواْ ٱلۡحَيَوٰةُ ٱلدُّنۡيَا وَيَسۡخَرُونَ مِنَ ٱلَّذِينَ ءَامَنُواْۘ وَٱلَّذِينَ ٱتَّقَوۡاْ فَوۡقَهُمۡ يَوۡمَ ٱلۡقِيَٰمَةِۗ وَٱللَّهُ يَرۡزُقُ مَن يَشَآءُ بِغَيۡرِ حِسَابٖ",
-        "ayah_en": "The life of this world has been made appealing to the disbelievers, and they mock the believers. Those who are mindful ˹of Allah˺ will rank above them on the Day of Judgment. And Allah provides for whoever He wills without limit",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002212.mp3"
+        "ayah_en": "Beautified for those who disbelieve is the life of this world, and they ridicule those who believe. But those who fear Allāh are above them on the Day of Resurrection. And Allāh gives provision to whom He wills without account.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002212.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1728,14 +1940,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 213,
         "ayah_ar": "كَانَ ٱلنَّاسُ أُمَّةٗ وَٰحِدَةٗ فَبَعَثَ ٱللَّهُ ٱلنَّبِيِّـۧنَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ ٱلۡكِتَٰبَ بِٱلۡحَقِّ لِيَحۡكُمَ بَيۡنَ ٱلنَّاسِ فِيمَا ٱخۡتَلَفُواْ فِيهِۚ وَمَا ٱخۡتَلَفَ فِيهِ إِلَّا ٱلَّذِينَ أُوتُوهُ مِنۢ بَعۡدِ مَا جَآءَتۡهُمُ ٱلۡبَيِّنَٰتُ بَغۡيَۢا بَيۡنَهُمۡۖ فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُواْ لِمَا ٱخۡتَلَفُواْ فِيهِ مِنَ ٱلۡحَقِّ بِإِذۡنِهِۦۗ وَٱللَّهُ يَهۡدِي مَن يَشَآءُ إِلَىٰ صِرَٰطٖ مُّسۡتَقِيمٍ",
-        "ayah_en": "Humanity had once been one community ˹of believers before they lost faith˺. Then Allah raised prophets as deliverers of good news and as warners, and revealed to them the Scriptures in truth to judge among people regarding their disputes. And no one disputed the Scriptures except the very people who received them after clear proofs had come to them—out of jealousy. Then Allah, by His grace, has guided the believers to the truth regarding those disputes. And Allah guides whoever He wills to the Straight Path",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002213.mp3"
+        "ayah_en": "Mankind was [of] one religion [before their deviation]; then Allāh sent the prophets as bringers of good tidings and warners and sent down with them the Scripture in truth to judge between the people concerning that in which they differed. And none differed over it [i.e., the Scripture] except those who were given it - after the clear proofs came to them - out of jealous animosity among themselves. And Allāh guided those who believed to the truth concerning that over which they had differed, by His permission. And Allāh guides whom He wills to a straight path.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002213.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 214,
         "ayah_ar": "أَمۡ حَسِبۡتُمۡ أَن تَدۡخُلُواْ ٱلۡجَنَّةَ وَلَمَّا يَأۡتِكُم مَّثَلُ ٱلَّذِينَ خَلَوۡاْ مِن قَبۡلِكُمۖ مَّسَّتۡهُمُ ٱلۡبَأۡسَآءُ وَٱلضَّرَّآءُ وَزُلۡزِلُواْ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُواْ مَعَهُۥ مَتَىٰ نَصۡرُ ٱللَّهِۗ أَلَآ إِنَّ نَصۡرَ ٱللَّهِ قَرِيبٞ",
-        "ayah_en": "Do you think you will be admitted into Paradise without being tested like those before you? They were afflicted with suffering and adversity and were so ˹violently˺ shaken that ˹even˺ the Messenger and the believers with him cried out, “When will Allah’s help come?” Indeed, Allah’s help is ˹always˺ near",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002214.mp3"
+        "ayah_en": "Or do you think that you will enter Paradise while such [trial] has not yet come to you as came to those who passed on before you? They were touched by poverty and hardship and were shaken until [even their] messenger and those who believed with him said, \"When is the help of Allāh?\" Unquestionably, the help of Allāh is near.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002214.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1746,14 +1960,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 215,
         "ayah_ar": "يَسۡـَٔلُونَكَ مَاذَا يُنفِقُونَۖ قُلۡ مَآ أَنفَقۡتُم مِّنۡ خَيۡرٖ فَلِلۡوَٰلِدَيۡنِ وَٱلۡأَقۡرَبِينَ وَٱلۡيَتَٰمَىٰ وَٱلۡمَسَٰكِينِ وَٱبۡنِ ٱلسَّبِيلِۗ وَمَا تَفۡعَلُواْ مِنۡ خَيۡرٖ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٞ",
-        "ayah_en": "They ask you ˹O Prophet in˺ what ˹way˺ they should donate. Say, “Whatever donations you give are for parents, relatives, orphans, the poor, and ˹needy˺ travellers. Whatever good you do is certainly well known to Allah.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002215.mp3"
+        "ayah_en": "They ask you, [O Muḥammad], what they should spend. Say, \"Whatever you spend of good is [to be] for parents and relatives and orphans and the needy and the traveler. And whatever you do of good - indeed, Allāh is Knowing of it.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002215.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 216,
         "ayah_ar": "كُتِبَ عَلَيۡكُمُ ٱلۡقِتَالُ وَهُوَ كُرۡهٞ لَّكُمۡۖ وَعَسَىٰٓ أَن تَكۡرَهُواْ شَيۡـٔٗا وَهُوَ خَيۡرٞ لَّكُمۡۖ وَعَسَىٰٓ أَن تُحِبُّواْ شَيۡـٔٗا وَهُوَ شَرّٞ لَّكُمۡۚ وَٱللَّهُ يَعۡلَمُ وَأَنتُمۡ لَا تَعۡلَمُونَ",
-        "ayah_en": "Fighting has been made obligatory upon you ˹believers˺, though you dislike it. Perhaps you dislike something which is good for you and like something which is bad for you. Allah knows and you do not know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002216.mp3"
+        "ayah_en": "Battle has been enjoined upon you while it is hateful to you. But perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you. And Allāh knows, while you know not.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002216.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1764,14 +1980,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 217,
         "ayah_ar": "يَسۡـَٔلُونَكَ عَنِ ٱلشَّهۡرِ ٱلۡحَرَامِ قِتَالٖ فِيهِۖ قُلۡ قِتَالٞ فِيهِ كَبِيرٞۚ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفۡرُۢ بِهِۦ وَٱلۡمَسۡجِدِ ٱلۡحَرَامِ وَإِخۡرَاجُ أَهۡلِهِۦ مِنۡهُ أَكۡبَرُ عِندَ ٱللَّهِۚ وَٱلۡفِتۡنَةُ أَكۡبَرُ مِنَ ٱلۡقَتۡلِۗ وَلَا يَزَالُونَ يُقَٰتِلُونَكُمۡ حَتَّىٰ يَرُدُّوكُمۡ عَن دِينِكُمۡ إِنِ ٱسۡتَطَٰعُواْۚ وَمَن يَرۡتَدِدۡ مِنكُمۡ عَن دِينِهِۦ فَيَمُتۡ وَهُوَ كَافِرٞ فَأُوْلَٰٓئِكَ حَبِطَتۡ أَعۡمَٰلُهُمۡ فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِۖ وَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
-        "ayah_en": "They ask you ˹O Prophet˺ about fighting in the sacred months. Say, “Fighting during these months is a great sin. But hindering ˹others˺ from the Path of Allah, rejecting Him, and expelling the worshippers from the Sacred Mosque is ˹a˺ greater ˹sin˺ in the sight of Allah. For persecution is far worse than killing. And they will not stop fighting you until they turn you away from your faith—if they can. And whoever among you renounces their own faith and dies a disbeliever, their deeds will become void in this life and in the Hereafter. It is they who will be the residents of the Fire. They will be there forever.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002217.mp3"
+        "ayah_en": "They ask you about the sacred month - about fighting therein. Say, \"Fighting therein is great [sin], but averting [people] from the way of Allāh and disbelief in Him and [preventing access to] al-Masjid al-Ḥarām and the expulsion of its people therefrom are greater [evil] in the sight of Allāh. And fitnah is greater than killing.\" And they will continue to fight you until they turn you back from your religion if they are able. And whoever of you reverts from his religion [to disbelief] and dies while he is a disbeliever - for those, their deeds have become worthless in this world and the Hereafter, and those are the companions of the Fire; they will abide therein eternally.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002217.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 218,
         "ayah_ar": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَٱلَّذِينَ هَاجَرُواْ وَجَٰهَدُواْ فِي سَبِيلِ ٱللَّهِ أُوْلَٰٓئِكَ يَرۡجُونَ رَحۡمَتَ ٱللَّهِۚ وَٱللَّهُ غَفُورٞ رَّحِيمٞ",
-        "ayah_en": "Surely those who have believed, emigrated, and struggled in the Way of Allah—they can hope for Allah’s mercy. And Allah is All-Forgiving, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002218.mp3"
+        "ayah_en": "Indeed, those who have believed and those who have emigrated and fought in the cause of Allāh - those expect the mercy of Allāh. And Allāh is Forgiving and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002218.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1782,14 +2000,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 219,
         "ayah_ar": "۞ يَسۡـَٔلُونَكَ عَنِ ٱلۡخَمۡرِ وَٱلۡمَيۡسِرِۖ قُلۡ فِيهِمَآ إِثۡمٞ كَبِيرٞ وَمَنَٰفِعُ لِلنَّاسِ وَإِثۡمُهُمَآ أَكۡبَرُ مِن نَّفۡعِهِمَاۗ وَيَسۡـَٔلُونَكَ مَاذَا يُنفِقُونَۖ قُلِ ٱلۡعَفۡوَۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَتَفَكَّرُونَ",
-        "ayah_en": "They ask you ˹O Prophet˺ about intoxicants and gambling. Say, “There is great evil in both, as well as some benefit for people—but the evil outweighs the benefit.” They ˹also˺ ask you ˹O Prophet˺ what they should donate. Say, “Whatever you can spare.” This is how Allah makes His revelations clear to you ˹believers˺, so perhaps you may reflect",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002219.mp3"
+        "ayah_en": "They ask you about wine and gambling. Say, \"In them is great sin and [yet, some] benefit for people. But their sin is greater than their benefit.\" And they ask you what they should spend. Say, \"The excess [beyond needs].\" Thus Allāh makes clear to you the verses [of revelation] that you might give thought",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002219.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 220,
         "ayah_ar": "فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِۗ وَيَسۡـَٔلُونَكَ عَنِ ٱلۡيَتَٰمَىٰۖ قُلۡ إِصۡلَاحٞ لَّهُمۡ خَيۡرٞۖ وَإِن تُخَالِطُوهُمۡ فَإِخۡوَٰنُكُمۡۚ وَٱللَّهُ يَعۡلَمُ ٱلۡمُفۡسِدَ مِنَ ٱلۡمُصۡلِحِۚ وَلَوۡ شَآءَ ٱللَّهُ لَأَعۡنَتَكُمۡۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٞ",
-        "ayah_en": "upon this world and the Hereafter. And they ask you ˹O Prophet˺ concerning orphans. Say, “Improving their condition is best. And if you partner with them, they are bonded with you ˹in faith˺. And Allah knows who intends harm and who intends good. Had Allah willed, He could have made it difficult for you. Surely Allah is Almighty, All-Wise.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002220.mp3"
+        "ayah_en": "To this world and the Hereafter. And they ask you about orphans. Say, \"Improvement for them is best. And if you mix your affairs with theirs - they are your brothers. And Allāh knows the corrupter from the amender. And if Allāh had willed, He could have put you in difficulty. Indeed, Allāh is Exalted in Might and Wise.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002220.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1800,8 +2020,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 221,
         "ayah_ar": "وَلَا تَنكِحُواْ ٱلۡمُشۡرِكَٰتِ حَتَّىٰ يُؤۡمِنَّۚ وَلَأَمَةٞ مُّؤۡمِنَةٌ خَيۡرٞ مِّن مُّشۡرِكَةٖ وَلَوۡ أَعۡجَبَتۡكُمۡۗ وَلَا تُنكِحُواْ ٱلۡمُشۡرِكِينَ حَتَّىٰ يُؤۡمِنُواْۚ وَلَعَبۡدٞ مُّؤۡمِنٌ خَيۡرٞ مِّن مُّشۡرِكٖ وَلَوۡ أَعۡجَبَكُمۡۗ أُوْلَٰٓئِكَ يَدۡعُونَ إِلَى ٱلنَّارِۖ وَٱللَّهُ يَدۡعُوٓاْ إِلَى ٱلۡجَنَّةِ وَٱلۡمَغۡفِرَةِ بِإِذۡنِهِۦۖ وَيُبَيِّنُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمۡ يَتَذَكَّرُونَ",
-        "ayah_en": "Do not marry polytheistic women until they believe; for a believing slave-woman is better than a free polytheist, even though she may look pleasant to you. And do not marry your women to polytheistic men until they believe, for a believing slave-man is better than a free polytheist, even though he may look pleasant to you. They invite ˹you˺ to the Fire while Allah invites ˹you˺ to Paradise and forgiveness by His grace. He makes His revelations clear to the people so perhaps they will be mindful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002221.mp3"
+        "ayah_en": "And do not marry polytheistic women until they believe. And a believing slave woman is better than a polytheist, even though she might please you. And do not marry polytheistic men [to your women] until they believe. And a believing slave is better than a polytheist, even though he might please you. Those invite [you] to the Fire, but Allāh invites to Paradise and to forgiveness, by His permission. And He makes clear His verses [i.e., ordinances] to the people that perhaps they may remember.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002221.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1812,14 +2033,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 222,
         "ayah_ar": "وَيَسۡـَٔلُونَكَ عَنِ ٱلۡمَحِيضِۖ قُلۡ هُوَ أَذٗى فَٱعۡتَزِلُواْ ٱلنِّسَآءَ فِي ٱلۡمَحِيضِ وَلَا تَقۡرَبُوهُنَّ حَتَّىٰ يَطۡهُرۡنَۖ فَإِذَا تَطَهَّرۡنَ فَأۡتُوهُنَّ مِنۡ حَيۡثُ أَمَرَكُمُ ٱللَّهُۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلۡمُتَطَهِّرِينَ",
-        "ayah_en": "They ask you ˹O Prophet˺ about menstruation. Say, “Beware of its harm! So keep away, and do not have intercourse with your wives during their monthly cycles until they are purified. When they purify themselves, then you may approach them in the manner specified by Allah. Surely Allah loves those who always turn to Him in repentance and those who purify themselves.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002222.mp3"
+        "ayah_en": "And they ask you about menstruation. Say, \"It is harm, so keep away from wives during menstruation. And do not approach them until they are pure. And when they have purified themselves, then come to them from where Allāh has ordained for you. Indeed, Allāh loves those who are constantly repentant and loves those who purify themselves.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002222.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 223,
         "ayah_ar": "نِسَآؤُكُمۡ حَرۡثٞ لَّكُمۡ فَأۡتُواْ حَرۡثَكُمۡ أَنَّىٰ شِئۡتُمۡۖ وَقَدِّمُواْ لِأَنفُسِكُمۡۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّكُم مُّلَٰقُوهُۗ وَبَشِّرِ ٱلۡمُؤۡمِنِينَ",
-        "ayah_en": "Your wives are like farmland for you, so approach them ˹consensually˺ as you please. And send forth something good for yourselves. Be mindful of Allah, and know that you will meet Him. And give good news to the believers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002223.mp3"
+        "ayah_en": "Your wives are a place of cultivation [i.e., sowing of seed] for you, so come to your place of cultivation however you wish and put forth [righteousness] for yourselves. And fear Allāh and know that you will meet Him. And give good tidings to the believers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002223.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1830,26 +2053,30 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 224,
         "ayah_ar": "وَلَا تَجۡعَلُواْ ٱللَّهَ عُرۡضَةٗ لِّأَيۡمَٰنِكُمۡ أَن تَبَرُّواْ وَتَتَّقُواْ وَتُصۡلِحُواْ بَيۡنَ ٱلنَّاسِۚ وَٱللَّهُ سَمِيعٌ عَلِيمٞ",
-        "ayah_en": "Do not use Allah’s Name in your oaths as an excuse for not doing good, not guarding against evil, or not making peace between people. And Allah is All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002224.mp3"
+        "ayah_en": "And do not make [your oath by] Allāh an excuse against being righteous and fearing Allāh and making peace among people. And Allāh is Hearing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002224.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 225,
         "ayah_ar": "لَّا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغۡوِ فِيٓ أَيۡمَٰنِكُمۡ وَلَٰكِن يُؤَاخِذُكُم بِمَا كَسَبَتۡ قُلُوبُكُمۡۗ وَٱللَّهُ غَفُورٌ حَلِيمٞ",
-        "ayah_en": "Allah will not hold you accountable for unintentional oaths, but for what you intended in your hearts. And Allah is All-Forgiving, Most Forbearing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002225.mp3"
+        "ayah_en": "Allāh does not impose blame upon you for what is unintentional in your oaths, but He imposes blame upon you for what your hearts have earned. And Allāh is Forgiving and Forbearing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002225.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 226,
         "ayah_ar": "لِّلَّذِينَ يُؤۡلُونَ مِن نِّسَآئِهِمۡ تَرَبُّصُ أَرۡبَعَةِ أَشۡهُرٖۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
-        "ayah_en": "Those who swear not to have intercourse with their wives must wait for four months. If they change their mind, then Allah is certainly All-Forgiving, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002226.mp3"
+        "ayah_en": "For those who swear not to have sexual relations with their wives is a waiting time of four months, but if they return [to normal relations] - then indeed, Allāh is Forgiving and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002226.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 227,
         "ayah_ar": "وَإِنۡ عَزَمُواْ ٱلطَّلَٰقَ فَإِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٞ",
-        "ayah_en": "But if they settle on divorce, then Allah is indeed All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002227.mp3"
+        "ayah_en": "And if they decide on divorce - then indeed, Allāh is Hearing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002227.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1860,8 +2087,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 228,
         "ayah_ar": "وَٱلۡمُطَلَّقَٰتُ يَتَرَبَّصۡنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٖۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكۡتُمۡنَ مَا خَلَقَ ٱللَّهُ فِيٓ أَرۡحَامِهِنَّ إِن كُنَّ يُؤۡمِنَّ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِي ذَٰلِكَ إِنۡ أَرَادُوٓاْ إِصۡلَٰحٗاۚ وَلَهُنَّ مِثۡلُ ٱلَّذِي عَلَيۡهِنَّ بِٱلۡمَعۡرُوفِۚ وَلِلرِّجَالِ عَلَيۡهِنَّ دَرَجَةٞۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
-        "ayah_en": "Divorced women must wait three monthly cycles ˹before they can re-marry˺. It is not lawful for them to conceal what Allah has created in their wombs, if they ˹truly˺ believe in Allah and the Last Day. And their husbands reserve the right to take them back within that period if they desire reconciliation. Women have rights similar to those of men equitably, although men have a degree ˹of responsibility˺ above them. And Allah is Almighty, All-Wise",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002228.mp3"
+        "ayah_en": "Divorced women remain in waiting [i.e., do not remarry] for three periods, and it is not lawful for them to conceal what Allāh has created in their wombs if they believe in Allāh and the Last Day. And their husbands have more right to take them back in this [period] if they want reconciliation. And due to them [i.e., the wives] is similar to what is expected of them, according to what is reasonable. But the men [i.e., husbands] have a degree over them [in responsibility and authority]. And Allāh is Exalted in Might and Wise.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002228.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1872,14 +2100,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 229,
         "ayah_ar": "ٱلطَّلَٰقُ مَرَّتَانِۖ فَإِمۡسَاكُۢ بِمَعۡرُوفٍ أَوۡ تَسۡرِيحُۢ بِإِحۡسَٰنٖۗ وَلَا يَحِلُّ لَكُمۡ أَن تَأۡخُذُواْ مِمَّآ ءَاتَيۡتُمُوهُنَّ شَيۡـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِۖ فَإِنۡ خِفۡتُمۡ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيۡهِمَا فِيمَا ٱفۡتَدَتۡ بِهِۦۗ تِلۡكَ حُدُودُ ٱللَّهِ فَلَا تَعۡتَدُوهَاۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُوْلَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
-        "ayah_en": "Divorce may be retracted twice, then the husband must retain ˹his wife˺ with honour or separate ˹from her˺ with grace. It is not lawful for husbands to take back anything of the dowry given to their wives, unless the couple fears not being able to keep within the limits of Allah. So if you fear they will not be able to keep within the limits of Allah, there is no blame if the wife compensates the husband to obtain divorce. These are the limits set by Allah, so do not transgress them. And whoever transgresses the limits of Allah, they are the ˹true˺ wrongdoers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002229.mp3"
+        "ayah_en": "Divorce is twice. Then [after that], either keep [her] in an acceptable manner or release [her] with good treatment. And it is not lawful for you to take anything of what you have given them unless both fear that they will not be able to keep [within] the limits of Allāh. But if you fear that they will not keep [within] the limits of Allāh, then there is no blame upon either of them concerning that by which she ransoms herself. These are the limits of Allāh, so do not transgress them. And whoever transgresses the limits of Allāh - it is those who are the wrongdoers [i.e., the unjust].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002229.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 230,
         "ayah_ar": "فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعۡدُ حَتَّىٰ تَنكِحَ زَوۡجًا غَيۡرَهُۥۗ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيۡهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِۗ وَتِلۡكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوۡمٖ يَعۡلَمُونَ",
-        "ayah_en": "So if a husband divorces his wife ˹three times˺, then it is not lawful for him to remarry her until after she has married another man and then is divorced. Then it is permissible for them to reunite, as long as they feel they are able to maintain the limits of Allah. These are the limits set by Allah, which He makes clear for people of knowledge",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002230.mp3"
+        "ayah_en": "And if he has divorced her [for the third time], then she is not lawful to him afterward until [after] she marries a husband other than him. And if he [i.e., the latter husband] divorces her [or dies], there is no blame upon them [i.e., the woman and her former husband] for returning to each other if they think that they can keep [within] the limits of Allāh. These are the limits of Allāh, which He makes clear to a people who know [i.e.,understand].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002230.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1890,14 +2120,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 231,
         "ayah_ar": "وَإِذَا طَلَّقۡتُمُ ٱلنِّسَآءَ فَبَلَغۡنَ أَجَلَهُنَّ فَأَمۡسِكُوهُنَّ بِمَعۡرُوفٍ أَوۡ سَرِّحُوهُنَّ بِمَعۡرُوفٖۚ وَلَا تُمۡسِكُوهُنَّ ضِرَارٗا لِّتَعۡتَدُواْۚ وَمَن يَفۡعَلۡ ذَٰلِكَ فَقَدۡ ظَلَمَ نَفۡسَهُۥۚ وَلَا تَتَّخِذُوٓاْ ءَايَٰتِ ٱللَّهِ هُزُوٗاۚ وَٱذۡكُرُواْ نِعۡمَتَ ٱللَّهِ عَلَيۡكُمۡ وَمَآ أَنزَلَ عَلَيۡكُم مِّنَ ٱلۡكِتَٰبِ وَٱلۡحِكۡمَةِ يَعِظُكُم بِهِۦۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ بِكُلِّ شَيۡءٍ عَلِيمٞ",
-        "ayah_en": "When you divorce women and they have ˹almost˺ reached the end of their waiting period, either retain them honourably or let them go honourably. But do not retain them ˹only˺ to harm them ˹or˺ to take advantage ˹of them˺. Whoever does that surely wrongs his own soul. Do not take Allah’s revelations lightly. Remember Allah’s favours upon you as well as the Book and wisdom He has sent down for your guidance. Be mindful of Allah, and know that Allah has ˹perfect˺ knowledge of all things",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002231.mp3"
+        "ayah_en": "And when you divorce women and they have [nearly] fulfilled their term, either retain them according to acceptable terms or release them according to acceptable terms, and do not keep them, intending harm, to transgress [against them]. And whoever does that has certainly wronged himself. And do not take the verses of Allāh in jest. And remember the favor of Allāh upon you and what has been revealed to you of the Book [i.e., the Qur’ān] and wisdom [i.e., the Prophet's sunnah] by which He instructs you. And fear Allāh and know that Allāh is Knowing of all things.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002231.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 232,
         "ayah_ar": "وَإِذَا طَلَّقۡتُمُ ٱلنِّسَآءَ فَبَلَغۡنَ أَجَلَهُنَّ فَلَا تَعۡضُلُوهُنَّ أَن يَنكِحۡنَ أَزۡوَٰجَهُنَّ إِذَا تَرَٰضَوۡاْ بَيۡنَهُم بِٱلۡمَعۡرُوفِۗ ذَٰلِكَ يُوعَظُ بِهِۦ مَن كَانَ مِنكُمۡ يُؤۡمِنُ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِۗ ذَٰلِكُمۡ أَزۡكَىٰ لَكُمۡ وَأَطۡهَرُۚ وَٱللَّهُ يَعۡلَمُ وَأَنتُمۡ لَا تَعۡلَمُونَ",
-        "ayah_en": "When you have divorced women and they have reached the end of their waiting period, do not prevent them from re-marrying their ex-husbands if they come to an honourable agreement. This is enjoined on whoever has faith in Allah and the Last Day. This is purer and more dignifying for you. Allah knows and you do not know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002232.mp3"
+        "ayah_en": "And when you divorce women and they have fulfilled their term, do not prevent them from remarrying their [former] husbands if they [i.e., all parties] agree among themselves on an acceptable basis. That is instructed to whoever of you believes in Allāh and the Last Day. That is better for you and purer, and Allāh knows and you know not.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002232.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1908,32 +2140,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 233,
         "ayah_ar": "۞ وَٱلۡوَٰلِدَٰتُ يُرۡضِعۡنَ أَوۡلَٰدَهُنَّ حَوۡلَيۡنِ كَامِلَيۡنِۖ لِمَنۡ أَرَادَ أَن يُتِمَّ ٱلرَّضَاعَةَۚ وَعَلَى ٱلۡمَوۡلُودِ لَهُۥ رِزۡقُهُنَّ وَكِسۡوَتُهُنَّ بِٱلۡمَعۡرُوفِۚ لَا تُكَلَّفُ نَفۡسٌ إِلَّا وُسۡعَهَاۚ لَا تُضَآرَّ وَٰلِدَةُۢ بِوَلَدِهَا وَلَا مَوۡلُودٞ لَّهُۥ بِوَلَدِهِۦۚ وَعَلَى ٱلۡوَارِثِ مِثۡلُ ذَٰلِكَۗ فَإِنۡ أَرَادَا فِصَالًا عَن تَرَاضٖ مِّنۡهُمَا وَتَشَاوُرٖ فَلَا جُنَاحَ عَلَيۡهِمَاۗ وَإِنۡ أَرَدتُّمۡ أَن تَسۡتَرۡضِعُوٓاْ أَوۡلَٰدَكُمۡ فَلَا جُنَاحَ عَلَيۡكُمۡ إِذَا سَلَّمۡتُم مَّآ ءَاتَيۡتُم بِٱلۡمَعۡرُوفِۗ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ بِمَا تَعۡمَلُونَ بَصِيرٞ",
-        "ayah_en": "˹Divorced˺ mothers will breastfeed their offspring for two whole years, for those who wish to complete the nursing ˹of their child˺. The child’s father will provide reasonable maintenance and clothing for the mother ˹during that period˺. No one will be charged with more than they can bear. No mother or father should be made to suffer for their child. The ˹father’s˺ heirs are under the same obligation. But if both sides decide—after mutual consultation and consent—to wean a child, then there is no blame on them. If you decide to have your children nursed by a wet-nurse, it is permissible as long as you pay fairly. Be mindful of Allah, and know that Allah is All-Seeing of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002233.mp3"
+        "ayah_en": "Mothers may nurse [i.e., breastfeed] their children two complete years for whoever wishes to complete the nursing [period]. Upon the father is their [i.e., the mothers'] provision and their clothing according to what is acceptable. No person is charged with more than his capacity. No mother should be harmed through her child, and no father through his child. And upon the [father's] heir is [a duty] like that [of the father]. And if they both desire weaning through mutual consent from both of them and consultation, there is no blame upon either of them. And if you wish to have your children nursed by a substitute, there is no blame upon you as long as you give payment according to what is acceptable. And fear Allāh and know that Allāh is Seeing of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002233.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 234,
         "ayah_ar": "وَٱلَّذِينَ يُتَوَفَّوۡنَ مِنكُمۡ وَيَذَرُونَ أَزۡوَٰجٗا يَتَرَبَّصۡنَ بِأَنفُسِهِنَّ أَرۡبَعَةَ أَشۡهُرٖ وَعَشۡرٗاۖ فَإِذَا بَلَغۡنَ أَجَلَهُنَّ فَلَا جُنَاحَ عَلَيۡكُمۡ فِيمَا فَعَلۡنَ فِيٓ أَنفُسِهِنَّ بِٱلۡمَعۡرُوفِۗ وَٱللَّهُ بِمَا تَعۡمَلُونَ خَبِيرٞ",
-        "ayah_en": "As for those of you who die and leave widows behind, let them observe a waiting period of four months and ten days. When they have reached the end of this period, then you are not accountable for what they decide for themselves in a reasonable manner. And Allah is All-Aware of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002234.mp3"
+        "ayah_en": "And those who are taken in death among you and leave wives behind - they, [the wives, shall] wait four months and ten [days]. And when they have fulfilled their term, then there is no blame upon you for what they do with themselves in an acceptable manner. And Allāh is [fully] Aware of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002234.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 235,
         "ayah_ar": "وَلَا جُنَاحَ عَلَيۡكُمۡ فِيمَا عَرَّضۡتُم بِهِۦ مِنۡ خِطۡبَةِ ٱلنِّسَآءِ أَوۡ أَكۡنَنتُمۡ فِيٓ أَنفُسِكُمۡۚ عَلِمَ ٱللَّهُ أَنَّكُمۡ سَتَذۡكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُواْ قَوۡلٗا مَّعۡرُوفٗاۚ وَلَا تَعۡزِمُواْ عُقۡدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبۡلُغَ ٱلۡكِتَٰبُ أَجَلَهُۥۚ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ يَعۡلَمُ مَا فِيٓ أَنفُسِكُمۡ فَٱحۡذَرُوهُۚ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٞ",
-        "ayah_en": "There is no blame on you for subtly showing interest in ˹divorced or widowed˺ women or for hiding ˹the intention˺ in your hearts. Allah knows that you are considering them ˹for marriage˺. But do not make a secret commitment with them—you can only show interest in them appropriately. Do not commit to the bond of marriage until the waiting period expires. Know that Allah is aware of what is in your hearts, so beware of Him. And know that Allah is All-Forgiving, Most Forbearing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002235.mp3"
+        "ayah_en": "There is no blame upon you for that to which you [indirectly] allude concerning a proposal to women or for what you conceal within yourselves. Allāh knows that you will have them in mind. But do not promise them secretly except for saying a proper saying. And do not determine to undertake a marriage contract until the decreed period reaches its end. And know that Allāh knows what is within yourselves, so beware of Him. And know that Allāh is Forgiving and Forbearing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002235.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 236,
         "ayah_ar": "لَّا جُنَاحَ عَلَيۡكُمۡ إِن طَلَّقۡتُمُ ٱلنِّسَآءَ مَا لَمۡ تَمَسُّوهُنَّ أَوۡ تَفۡرِضُواْ لَهُنَّ فَرِيضَةٗۚ وَمَتِّعُوهُنَّ عَلَى ٱلۡمُوسِعِ قَدَرُهُۥ وَعَلَى ٱلۡمُقۡتِرِ قَدَرُهُۥ مَتَٰعَۢا بِٱلۡمَعۡرُوفِۖ حَقًّا عَلَى ٱلۡمُحۡسِنِينَ",
-        "ayah_en": "There is no blame if you divorce women before the marriage is consummated or the dowry is settled. But give them a ˹suitable˺ compensation—the rich according to his means and the poor according to his. A reasonable compensation is an obligation on the good-doers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002236.mp3"
+        "ayah_en": "There is no blame upon you if you divorce women you have not touched nor specified for them an obligation. But give them [a gift of] compensation - the wealthy according to his capability and the poor according to his capability - a provision according to what is acceptable, a duty upon the doers of good.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002236.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 237,
         "ayah_ar": "وَإِن طَلَّقۡتُمُوهُنَّ مِن قَبۡلِ أَن تَمَسُّوهُنَّ وَقَدۡ فَرَضۡتُمۡ لَهُنَّ فَرِيضَةٗ فَنِصۡفُ مَا فَرَضۡتُمۡ إِلَّآ أَن يَعۡفُونَ أَوۡ يَعۡفُوَاْ ٱلَّذِي بِيَدِهِۦ عُقۡدَةُ ٱلنِّكَاحِۚ وَأَن تَعۡفُوٓاْ أَقۡرَبُ لِلتَّقۡوَىٰۚ وَلَا تَنسَوُاْ ٱلۡفَضۡلَ بَيۡنَكُمۡۚ إِنَّ ٱللَّهَ بِمَا تَعۡمَلُونَ بَصِيرٌ",
-        "ayah_en": "And if you divorce them before consummating the marriage but after deciding on a dowry, pay half of the dowry, unless the wife graciously waives it or the husband graciously pays in full. Graciousness is closer to righteousness. And do not forget kindness among yourselves. Surely Allah is All-Seeing of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002237.mp3"
+        "ayah_en": "And if you divorce them before you have touched them and you have already specified for them an obligation, then [give] half of what you specified - unless they forego the right or the one in whose hand is the marriage contract foregoes it. And to forego it is nearer to righteousness. And do not forget graciousness between you. Indeed Allāh, of whatever you do, is Seeing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002237.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1944,32 +2181,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 238,
         "ayah_ar": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلۡوُسۡطَىٰ وَقُومُواْ لِلَّهِ قَٰنِتِينَ",
-        "ayah_en": "Observe the ˹five obligatory˺ prayers—especially the middle prayer—and stand in true devotion to Allah",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002238.mp3"
+        "ayah_en": "Maintain with care the [obligatory] prayers and [in particular] the middle [i.e., ʿaṣr] prayer and stand before Allāh, devoutly obedient.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002238.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 239,
         "ayah_ar": "فَإِنۡ خِفۡتُمۡ فَرِجَالًا أَوۡ رُكۡبَانٗاۖ فَإِذَآ أَمِنتُمۡ فَٱذۡكُرُواْ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمۡ تَكُونُواْ تَعۡلَمُونَ",
-        "ayah_en": "If you are in danger, pray on foot or while riding. But when you are safe, ˹take time to˺ remember Allah for teaching you what you did not know",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002239.mp3"
+        "ayah_en": "And if you fear [an enemy, then pray] on foot or riding. But when you are secure, then remember Allāh [in prayer], as He has taught you that which you did not [previously] know.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002239.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 240,
         "ayah_ar": "وَٱلَّذِينَ يُتَوَفَّوۡنَ مِنكُمۡ وَيَذَرُونَ أَزۡوَٰجٗا وَصِيَّةٗ لِّأَزۡوَٰجِهِم مَّتَٰعًا إِلَى ٱلۡحَوۡلِ غَيۡرَ إِخۡرَاجٖۚ فَإِنۡ خَرَجۡنَ فَلَا جُنَاحَ عَلَيۡكُمۡ فِي مَا فَعَلۡنَ فِيٓ أَنفُسِهِنَّ مِن مَّعۡرُوفٖۗ وَٱللَّهُ عَزِيزٌ حَكِيمٞ",
-        "ayah_en": "Those of you who die leaving widows should bequeath for them a year’s maintenance without forcing them out. But if they choose to leave, you are not accountable for what they reasonably decide for themselves. And Allah is Almighty, All-Wise",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002240.mp3"
+        "ayah_en": "And those who are taken in death among you and leave wives behind - for their wives is a bequest: maintenance for one year without turning [them] out. But if they leave [of their own accord], then there is no blame upon you for what they do with themselves in an acceptable way. And Allāh is Exalted in Might and Wise.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002240.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 241,
         "ayah_ar": "وَلِلۡمُطَلَّقَٰتِ مَتَٰعُۢ بِٱلۡمَعۡرُوفِۖ حَقًّا عَلَى ٱلۡمُتَّقِينَ",
-        "ayah_en": "Reasonable provisions must be made for divorced women—a duty on those mindful ˹of Allah˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002241.mp3"
+        "ayah_en": "And for divorced women is a provision according to what is acceptable - a duty upon the righteous.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002241.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 242,
         "ayah_ar": "كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمۡ ءَايَٰتِهِۦ لَعَلَّكُمۡ تَعۡقِلُونَ",
-        "ayah_en": "This is how Allah makes His revelations clear to you, so perhaps you will understand",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002242.mp3"
+        "ayah_en": "Thus does Allāh make clear to you His verses [i.e., laws] that you might use reason.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002242.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -1980,62 +2222,72 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 243,
         "ayah_ar": "۞ أَلَمۡ تَرَ إِلَى ٱلَّذِينَ خَرَجُواْ مِن دِيَٰرِهِمۡ وَهُمۡ أُلُوفٌ حَذَرَ ٱلۡمَوۡتِ فَقَالَ لَهُمُ ٱللَّهُ مُوتُواْ ثُمَّ أَحۡيَٰهُمۡۚ إِنَّ ٱللَّهَ لَذُو فَضۡلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا يَشۡكُرُونَ",
-        "ayah_en": "Have you ˹O Prophet˺ not seen those who fled their homes in the thousands for fear of death? Allah said to them, “Die!” then He gave them life. Surely Allah is ever Bountiful to humanity, but most people are ungrateful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002243.mp3"
+        "ayah_en": "Have you not considered those who left their homes in many thousands, fearing death? Allāh said to them, \"Die\"; then He restored them to life. And Allāh is the possessor of bounty for the people, but most of the people do not show gratitude.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002243.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 244,
         "ayah_ar": "وَقَٰتِلُواْ فِي سَبِيلِ ٱللَّهِ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ سَمِيعٌ عَلِيمٞ",
-        "ayah_en": "Fight in the cause of Allah, and know that Allah is All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002244.mp3"
+        "ayah_en": "And fight in the cause of Allāh and know that Allāh is Hearing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002244.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 245,
         "ayah_ar": "مَّن ذَا ٱلَّذِي يُقۡرِضُ ٱللَّهَ قَرۡضًا حَسَنٗا فَيُضَٰعِفَهُۥ لَهُۥٓ أَضۡعَافٗا كَثِيرَةٗۚ وَٱللَّهُ يَقۡبِضُ وَيَبۡصُۜطُ وَإِلَيۡهِ تُرۡجَعُونَ",
-        "ayah_en": "Who will lend to Allah a good loan which Allah will multiply many times over? It is Allah ˹alone˺ who decreases and increases ˹wealth˺. And to Him you will ˹all˺ be returned",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002245.mp3"
+        "ayah_en": "Who is it that would loan Allāh a goodly loan so He may multiply it for him many times over? And it is Allāh who withholds and grants abundance, and to Him you will be returned.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002245.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 246,
         "ayah_ar": "أَلَمۡ تَرَ إِلَى ٱلۡمَلَإِ مِنۢ بَنِيٓ إِسۡرَٰٓءِيلَ مِنۢ بَعۡدِ مُوسَىٰٓ إِذۡ قَالُواْ لِنَبِيّٖ لَّهُمُ ٱبۡعَثۡ لَنَا مَلِكٗا نُّقَٰتِلۡ فِي سَبِيلِ ٱللَّهِۖ قَالَ هَلۡ عَسَيۡتُمۡ إِن كُتِبَ عَلَيۡكُمُ ٱلۡقِتَالُ أَلَّا تُقَٰتِلُواْۖ قَالُواْ وَمَا لَنَآ أَلَّا نُقَٰتِلَ فِي سَبِيلِ ٱللَّهِ وَقَدۡ أُخۡرِجۡنَا مِن دِيَٰرِنَا وَأَبۡنَآئِنَاۖ فَلَمَّا كُتِبَ عَلَيۡهِمُ ٱلۡقِتَالُ تَوَلَّوۡاْ إِلَّا قَلِيلٗا مِّنۡهُمۡۚ وَٱللَّهُ عَلِيمُۢ بِٱلظَّٰلِمِينَ",
-        "ayah_en": "Have you not seen those chiefs of the Children of Israel after Moses? They said to one of their prophets, “Appoint for us a king, ˹and˺ we will fight in the cause of Allah.” He said, “Are you not going to cower if ordered to fight?” They replied, “How could we refuse to fight in the cause of Allah, while we were driven out of our homes and ˹separated from˺ our children?” But when they were ordered to fight, they fled, except for a few of them. And Allah has ˹perfect˺ knowledge of the wrongdoers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002246.mp3"
+        "ayah_en": "Have you not considered the assembly of the Children of Israel after [the time of] Moses when they said to a prophet of theirs, \"Send to us a king, and we will fight in the way of Allāh\"? He said, \"Would you perhaps refrain from fighting if battle was prescribed for you?\" They said, \"And why should we not fight in the cause of Allāh when we have been driven out from our homes and from our children?\" But when battle was prescribed for them, they turned away, except for a few of them. And Allāh is Knowing of the wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002246.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 247,
         "ayah_ar": "وَقَالَ لَهُمۡ نَبِيُّهُمۡ إِنَّ ٱللَّهَ قَدۡ بَعَثَ لَكُمۡ طَالُوتَ مَلِكٗاۚ قَالُوٓاْ أَنَّىٰ يَكُونُ لَهُ ٱلۡمُلۡكُ عَلَيۡنَا وَنَحۡنُ أَحَقُّ بِٱلۡمُلۡكِ مِنۡهُ وَلَمۡ يُؤۡتَ سَعَةٗ مِّنَ ٱلۡمَالِۚ قَالَ إِنَّ ٱللَّهَ ٱصۡطَفَىٰهُ عَلَيۡكُمۡ وَزَادَهُۥ بَسۡطَةٗ فِي ٱلۡعِلۡمِ وَٱلۡجِسۡمِۖ وَٱللَّهُ يُؤۡتِي مُلۡكَهُۥ مَن يَشَآءُۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٞ",
-        "ayah_en": "Their prophet told them, “Allah has appointed Saul to be your king.” They protested, “How can he be our king when some of us are more deserving of kingship than he, and he has not been blessed with vast riches?” He replied, “Allah has chosen him over you and blessed him with knowledge and stature. Allah grants kingship to whoever He wills. And Allah is All-Bountiful, All-Knowing.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002247.mp3"
+        "ayah_en": "And their prophet said to them, \"Indeed, Allāh has sent to you Saul as a king.\" They said, \"How can he have kingship over us while we are more worthy of kingship than him and he has not been given any measure of wealth?\" He said, \"Indeed, Allāh has chosen him over you and has increased him abundantly in knowledge and stature. And Allāh gives His sovereignty to whom He wills. And Allāh is all-Encompassing [in favor] and Knowing.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002247.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 248,
         "ayah_ar": "وَقَالَ لَهُمۡ نَبِيُّهُمۡ إِنَّ ءَايَةَ مُلۡكِهِۦٓ أَن يَأۡتِيَكُمُ ٱلتَّابُوتُ فِيهِ سَكِينَةٞ مِّن رَّبِّكُمۡ وَبَقِيَّةٞ مِّمَّا تَرَكَ ءَالُ مُوسَىٰ وَءَالُ هَٰرُونَ تَحۡمِلُهُ ٱلۡمَلَٰٓئِكَةُۚ إِنَّ فِي ذَٰلِكَ لَأٓيَةٗ لَّكُمۡ إِن كُنتُم مُّؤۡمِنِينَ",
-        "ayah_en": "Their prophet further told them, “The sign of Saul’s kingship is that the Ark will come to you—containing reassurance from your Lord and relics of the family of Moses and the family of Aaron, which will be carried by the angels. Surely in this is a sign for you, if you ˹truly˺ believe.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002248.mp3"
+        "ayah_en": "And their prophet said to them, \"Indeed, a sign of his kingship is that the chest will come to you in which is assurance from your Lord and a remnant of what the family of Moses and the family of Aaron had left, carried by the angels. Indeed in that is a sign for you, if you are believers.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002248.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 249,
         "ayah_ar": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلۡجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبۡتَلِيكُم بِنَهَرٖ فَمَن شَرِبَ مِنۡهُ فَلَيۡسَ مِنِّي وَمَن لَّمۡ يَطۡعَمۡهُ فَإِنَّهُۥ مِنِّيٓ إِلَّا مَنِ ٱغۡتَرَفَ غُرۡفَةَۢ بِيَدِهِۦۚ فَشَرِبُواْ مِنۡهُ إِلَّا قَلِيلٗا مِّنۡهُمۡۚ فَلَمَّا جَاوَزَهُۥ هُوَ وَٱلَّذِينَ ءَامَنُواْ مَعَهُۥ قَالُواْ لَا طَاقَةَ لَنَا ٱلۡيَوۡمَ بِجَالُوتَ وَجُنُودِهِۦۚ قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُواْ ٱللَّهِ كَم مِّن فِئَةٖ قَلِيلَةٍ غَلَبَتۡ فِئَةٗ كَثِيرَةَۢ بِإِذۡنِ ٱللَّهِۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
-        "ayah_en": "When Saul marched forth with his army, he cautioned: “Allah will test you with a river. So whoever drinks ˹his fill˺ from it is not with me, and whoever does not taste it—except a sip from the hollow of his hands—is definitely with me.” They all drank ˹their fill˺ except for a few! When he and the ˹remaining˺ faithful with him crossed the river, they said, “Now we are no match for Goliath and his warriors.” But those ˹believers˺ who were certain they would meet Allah reasoned, “How many times has a small force vanquished a mighty army by the Will of Allah! And Allah is ˹always˺ with the steadfast.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002249.mp3"
+        "ayah_en": "And when Saul went forth with the soldiers, he said, \"Indeed, Allāh will be testing you with a river. So whoever drinks from it is not of me, and whoever does not taste it is indeed of me, excepting one who takes [from it] in the hollow of his hand.\" But they drank from it, except a [very] few of them. Then when he had crossed it along with those who believed with him, they said, \"There is no power for us today against Goliath and his soldiers.\" But those who were certain that they would meet Allāh said, \"How many a small company has overcome a large company by permission of Allāh. And Allāh is with the patient.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002249.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 250,
         "ayah_ar": "وَلَمَّا بَرَزُواْ لِجَالُوتَ وَجُنُودِهِۦ قَالُواْ رَبَّنَآ أَفۡرِغۡ عَلَيۡنَا صَبۡرٗا وَثَبِّتۡ أَقۡدَامَنَا وَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
-        "ayah_en": "When they advanced to face Goliath and his warriors, they prayed, “Our Lord! Shower us with perseverance, make our steps firm, and give us victory over the disbelieving people.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002250.mp3"
+        "ayah_en": "And when they went forth to [face] Goliath and his soldiers, they said, \"Our Lord, pour upon us patience and plant firmly our feet and give us victory over the disbelieving people.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002250.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 251,
         "ayah_ar": "فَهَزَمُوهُم بِإِذۡنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلۡمُلۡكَ وَٱلۡحِكۡمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُۗ وَلَوۡلَا دَفۡعُ ٱللَّهِ ٱلنَّاسَ بَعۡضَهُم بِبَعۡضٖ لَّفَسَدَتِ ٱلۡأَرۡضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضۡلٍ عَلَى ٱلۡعَٰلَمِينَ",
-        "ayah_en": "So they defeated them by Allah’s Will, and David killed Goliath. And Allah blessed David with kingship and wisdom and taught him what He willed. Had Allah not repelled a group of people by ˹the might of˺ another, corruption would have dominated the earth, but Allah is Gracious to all",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002251.mp3"
+        "ayah_en": "So they defeated them by permission of Allāh, and David killed Goliath, and Allāh gave him the kingship and wisdom [i.e., prophethood] and taught him from that which He willed. And if it were not for Allāh checking [some] people by means of others, the earth would have been corrupted, but Allāh is the possessor of bounty for the worlds.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002251.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 252,
         "ayah_ar": "تِلۡكَ ءَايَٰتُ ٱللَّهِ نَتۡلُوهَا عَلَيۡكَ بِٱلۡحَقِّۚ وَإِنَّكَ لَمِنَ ٱلۡمُرۡسَلِينَ",
-        "ayah_en": "These are Allah’s revelations which We recite to you ˹O Prophet˺ in truth. And you are truly one of the messengers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002252.mp3"
+        "ayah_en": "These are the verses of Allāh which We recite to you, [O Muḥammad], in truth. And indeed, you are from among the messengers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002252.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2046,8 +2298,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 253,
         "ayah_ar": "۞ تِلۡكَ ٱلرُّسُلُ فَضَّلۡنَا بَعۡضَهُمۡ عَلَىٰ بَعۡضٖۘ مِّنۡهُم مَّن كَلَّمَ ٱللَّهُۖ وَرَفَعَ بَعۡضَهُمۡ دَرَجَٰتٖۚ وَءَاتَيۡنَا عِيسَى ٱبۡنَ مَرۡيَمَ ٱلۡبَيِّنَٰتِ وَأَيَّدۡنَٰهُ بِرُوحِ ٱلۡقُدُسِۗ وَلَوۡ شَآءَ ٱللَّهُ مَا ٱقۡتَتَلَ ٱلَّذِينَ مِنۢ بَعۡدِهِم مِّنۢ بَعۡدِ مَا جَآءَتۡهُمُ ٱلۡبَيِّنَٰتُ وَلَٰكِنِ ٱخۡتَلَفُواْ فَمِنۡهُم مَّنۡ ءَامَنَ وَمِنۡهُم مَّن كَفَرَۚ وَلَوۡ شَآءَ ٱللَّهُ مَا ٱقۡتَتَلُواْ وَلَٰكِنَّ ٱللَّهَ يَفۡعَلُ مَا يُرِيدُ",
-        "ayah_en": "We have chosen some of those messengers above others. Allah spoke directly to some, and raised some high in rank. To Jesus, son of Mary, We gave clear proofs and supported him with the holy spirit. If Allah had willed, succeeding generations would not have fought ˹among themselves˺ after receiving the clear proofs. But they differed—some believed while others disbelieved. Yet if Allah had willed, they would not have fought one another. But Allah does what He wills",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002253.mp3"
+        "ayah_en": "Those messengers - some of them We caused to exceed others. Among them were those to whom Allāh spoke, and He raised some of them in degree. And We gave Jesus, the son of Mary, clear proofs, and We supported him with the Pure Spirit [i.e., Gabriel]. If Allāh had willed, those [generations] succeeding them would not have fought each other after the clear proofs had come to them. But they differed, and some of them believed and some of them disbelieved. And if Allāh had willed, they would not have fought each other, but Allāh does what He intends.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002253.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2058,8 +2311,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 254,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ أَنفِقُواْ مِمَّا رَزَقۡنَٰكُم مِّن قَبۡلِ أَن يَأۡتِيَ يَوۡمٞ لَّا بَيۡعٞ فِيهِ وَلَا خُلَّةٞ وَلَا شَفَٰعَةٞۗ وَٱلۡكَٰفِرُونَ هُمُ ٱلظَّٰلِمُونَ",
-        "ayah_en": "O believers! Donate from what We have provided for you before the arrival of a Day when there will be no bargaining, friendship, or intercession. Those who disbelieve are ˹truly˺ the wrongdoers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002254.mp3"
+        "ayah_en": "O you who have believed, spend from that which We have provided for you before there comes a Day in which there is no exchange [i.e., ransom] and no friendship and no intercession. And the disbelievers - they are the wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002254.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2070,8 +2324,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 255,
         "ayah_ar": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَـُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ",
-        "ayah_en": "Allah! There is no god ˹worthy of worship˺ except Him, the Ever-Living, All-Sustaining. Neither drowsiness nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who could possibly intercede with Him without His permission? He ˹fully˺ knows what is ahead of them and what is behind them, but no one can grasp any of His knowledge—except what He wills ˹to reveal˺. His Seat encompasses the heavens and the earth, and the preservation of both does not tire Him. For He is the Most High, the Greatest",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002255.mp3"
+        "ayah_en": "Allāh - there is no deity except Him, the Ever-Living, the Self-Sustaining. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursī extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002255.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2082,14 +2337,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 256,
         "ayah_ar": "لَآ إِكۡرَاهَ فِي ٱلدِّينِۖ قَد تَّبَيَّنَ ٱلرُّشۡدُ مِنَ ٱلۡغَيِّۚ فَمَن يَكۡفُرۡ بِٱلطَّٰغُوتِ وَيُؤۡمِنۢ بِٱللَّهِ فَقَدِ ٱسۡتَمۡسَكَ بِٱلۡعُرۡوَةِ ٱلۡوُثۡقَىٰ لَا ٱنفِصَامَ لَهَاۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
-        "ayah_en": "Let there be no compulsion in religion, for the truth stands out clearly from falsehood. So whoever renounces false gods and believes in Allah has certainly grasped the firmest, unfailing hand-hold. And Allah is All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002256.mp3"
+        "ayah_en": "There shall be no compulsion in [acceptance of] the religion. The right course has become distinct from the wrong. So whoever disbelieves in ṭāghūt and believes in Allāh has grasped the most trustworthy handhold with no break in it. And Allāh is Hearing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002256.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 257,
         "ayah_ar": "ٱللَّهُ وَلِيُّ ٱلَّذِينَ ءَامَنُواْ يُخۡرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِۖ وَٱلَّذِينَ كَفَرُوٓاْ أَوۡلِيَآؤُهُمُ ٱلطَّٰغُوتُ يُخۡرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَٰتِۗ أُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
-        "ayah_en": "Allah is the Guardian of the believers—He brings them out of darkness and into light. As for the disbelievers, their guardians are false gods who lead them out of light and into darkness. It is they who will be the residents of the Fire. They will be there forever",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002257.mp3"
+        "ayah_en": "Allāh is the Ally of those who believe. He brings them out from darknesses into the light. And those who disbelieve - their allies are ṭāghūt. They take them out of the light into darknesses. Those are the companions of the Fire; they will abide eternally therein.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002257.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2100,20 +2357,23 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 258,
         "ayah_ar": "أَلَمۡ تَرَ إِلَى ٱلَّذِي حَآجَّ إِبۡرَٰهِـۧمَ فِي رَبِّهِۦٓ أَنۡ ءَاتَىٰهُ ٱللَّهُ ٱلۡمُلۡكَ إِذۡ قَالَ إِبۡرَٰهِـۧمُ رَبِّيَ ٱلَّذِي يُحۡيِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحۡيِۦ وَأُمِيتُۖ قَالَ إِبۡرَٰهِـۧمُ فَإِنَّ ٱللَّهَ يَأۡتِي بِٱلشَّمۡسِ مِنَ ٱلۡمَشۡرِقِ فَأۡتِ بِهَا مِنَ ٱلۡمَغۡرِبِ فَبُهِتَ ٱلَّذِي كَفَرَۗ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلظَّٰلِمِينَ",
-        "ayah_en": "Are you ˹O Prophet˺ not aware of the one who argued with Abraham about his Lord because Allah had granted him kingship? ˹Remember˺ when Abraham said, “My Lord is the One Who has power to give life and cause death.” He argued, “I too have the power to give life and cause death.” Abraham challenged ˹him˺, “Allah causes the sun to rise from the east. So make it rise from the west.” And so the disbeliever was dumbstruck. And Allah does not guide the wrongdoing people",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002258.mp3"
+        "ayah_en": "Have you not considered the one who argued with Abraham about his Lord [merely] because Allāh had given him kingship? When Abraham said, \"My Lord is the one who gives life and causes death,\" he said, \"I give life and cause death.\" Abraham said, \"Indeed, Allāh brings up the sun from the east, so bring it up from the west.\" So the disbeliever was overwhelmed [by astonishment], and Allāh does not guide the wrongdoing people.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002258.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 259,
         "ayah_ar": "أَوۡ كَٱلَّذِي مَرَّ عَلَىٰ قَرۡيَةٖ وَهِيَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحۡيِۦ هَٰذِهِ ٱللَّهُ بَعۡدَ مَوۡتِهَاۖ فَأَمَاتَهُ ٱللَّهُ مِاْئَةَ عَامٖ ثُمَّ بَعَثَهُۥۖ قَالَ كَمۡ لَبِثۡتَۖ قَالَ لَبِثۡتُ يَوۡمًا أَوۡ بَعۡضَ يَوۡمٖۖ قَالَ بَل لَّبِثۡتَ مِاْئَةَ عَامٖ فَٱنظُرۡ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمۡ يَتَسَنَّهۡۖ وَٱنظُرۡ إِلَىٰ حِمَارِكَ وَلِنَجۡعَلَكَ ءَايَةٗ لِّلنَّاسِۖ وَٱنظُرۡ إِلَى ٱلۡعِظَامِ كَيۡفَ نُنشِزُهَا ثُمَّ نَكۡسُوهَا لَحۡمٗاۚ فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعۡلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
-        "ayah_en": "Or ˹are you not aware of˺ the one who passed by a city which was in ruins. He wondered, “How could Allah bring this back to life after its destruction?” So Allah caused him to die for a hundred years then brought him back to life. Allah asked, “How long have you remained ˹in this state˺?” He replied, “Perhaps a day or part of a day.” Allah said, “No! You have remained here for a hundred years! Just look at your food and drink—they have not spoiled. ˹But now˺ look at ˹the remains of˺ your donkey! And ˹so˺ We have made you into a sign for humanity. And look at the bones ˹of the donkey˺, how We bring them together then clothe them with flesh!” When this was made clear to him, he declared, “˹Now˺ I know that Allah is Most Capable of everything.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002259.mp3"
+        "ayah_en": "Or [consider such an example] as the one who passed by a township which had fallen into ruin. He said, \"How will Allāh bring this to life after its death?\" So Allāh caused him to die for a hundred years; then He revived him. He said, \"How long have you remained?\" He [the man] said, \"I have remained a day or part of a day.\" He said, \"Rather, you have remained one hundred years. Look at your food and your drink; it has not changed with time. And look at your donkey; and We will make you a sign for the people. And look at the bones [of this donkey] - how We raise them and then We cover them with flesh.\" And when it became clear to him, he said, \"I know that Allāh is over all things competent.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002259.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 260,
         "ayah_ar": "وَإِذۡ قَالَ إِبۡرَٰهِـۧمُ رَبِّ أَرِنِي كَيۡفَ تُحۡيِ ٱلۡمَوۡتَىٰۖ قَالَ أَوَلَمۡ تُؤۡمِنۖ قَالَ بَلَىٰ وَلَٰكِن لِّيَطۡمَئِنَّ قَلۡبِيۖ قَالَ فَخُذۡ أَرۡبَعَةٗ مِّنَ ٱلطَّيۡرِ فَصُرۡهُنَّ إِلَيۡكَ ثُمَّ ٱجۡعَلۡ عَلَىٰ كُلِّ جَبَلٖ مِّنۡهُنَّ جُزۡءٗا ثُمَّ ٱدۡعُهُنَّ يَأۡتِينَكَ سَعۡيٗاۚ وَٱعۡلَمۡ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٞ",
-        "ayah_en": "And ˹remember˺ when Abraham said, “My Lord! Show me how you give life to the dead.” Allah responded, “Do you not believe?” Abraham replied, “Yes I do, but just so my heart can be reassured.” Allah said, “Then bring four birds, train them to come to you, ˹then cut them into pieces,˺ and scatter them on different hilltops. Then call them back, they will fly to you in haste. And ˹so you will˺ know that Allah is Almighty, All-Wise.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002260.mp3"
+        "ayah_en": "And [mention] when Abraham said, \"My Lord, show me how You give life to the dead.\" [Allāh] said, \"Have you not believed?\" He said, \"Yes, but [I ask] only that my heart may be satisfied.\" [Allāh] said, \"Take four birds and commit them to yourself. Then [after slaughtering them] put on each hill a portion of them; then call them - they will come [flying] to you in haste. And know that Allāh is Exalted in Might and Wise.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002260.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2124,86 +2384,100 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 261,
         "ayah_ar": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُمۡ فِي سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتۡ سَبۡعَ سَنَابِلَ فِي كُلِّ سُنۢبُلَةٖ مِّاْئَةُ حَبَّةٖۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
-        "ayah_en": "The example of those who spend their wealth in the cause of Allah is that of a grain that sprouts into seven ears, each bearing one hundred grains. And Allah multiplies ˹the reward even more˺ to whoever He wills. For Allah is All-Bountiful, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002261.mp3"
+        "ayah_en": "The example of those who spend their wealth in the way of Allāh is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allāh multiplies [His reward] for whom He wills. And Allāh is all-Encompassing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002261.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 262,
         "ayah_ar": "ٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُمۡ فِي سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتۡبِعُونَ مَآ أَنفَقُواْ مَنّٗا وَلَآ أَذٗى لَّهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
-        "ayah_en": "Those who spend their wealth in the cause of Allah and do not follow their charity with reminders of their generosity or hurtful words—they will get their reward from their Lord, and there will be no fear for them, nor will they grieve",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002262.mp3"
+        "ayah_en": "Those who spend their wealth in the way of Allāh and then do not follow up what they have spent with reminders [of it] or [other] injury will have their reward with their Lord, and there will be no fear concerning them, nor will they grieve.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002262.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 263,
         "ayah_ar": "۞ قَوۡلٞ مَّعۡرُوفٞ وَمَغۡفِرَةٌ خَيۡرٞ مِّن صَدَقَةٖ يَتۡبَعُهَآ أَذٗىۗ وَٱللَّهُ غَنِيٌّ حَلِيمٞ",
-        "ayah_en": "Kind words and forgiveness are better than charity followed by injury. And Allah is Self-Sufficient, Most Forbearing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002263.mp3"
+        "ayah_en": "Kind speech and forgiveness are better than charity followed by injury. And Allāh is Free of need and Forbearing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002263.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 264,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُبۡطِلُواْ صَدَقَٰتِكُم بِٱلۡمَنِّ وَٱلۡأَذَىٰ كَٱلَّذِي يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤۡمِنُ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِۖ فَمَثَلُهُۥ كَمَثَلِ صَفۡوَانٍ عَلَيۡهِ تُرَابٞ فَأَصَابَهُۥ وَابِلٞ فَتَرَكَهُۥ صَلۡدٗاۖ لَّا يَقۡدِرُونَ عَلَىٰ شَيۡءٖ مِّمَّا كَسَبُواْۗ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلۡكَٰفِرِينَ",
-        "ayah_en": "O believers! Do not waste your charity with reminders ˹of your generosity˺ or hurtful words, like those who donate their wealth just to show off and do not believe in Allah or the Last Day. Their example is that of a hard barren rock covered with a thin layer of soil hit by a strong rain—leaving it just a bare stone. Such people are unable to preserve the reward of their charity. Allah does not guide ˹such˺ disbelieving people",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002264.mp3"
+        "ayah_en": "O you who have believed, do not invalidate your charities with reminders [of it] or injury as does one who spends his wealth [only] to be seen by the people and does not believe in Allāh and the Last Day. His example is like that of a [large] smooth stone upon which is dust and is hit by a downpour that leaves it bare. They are unable [to keep] anything of what they have earned. And Allāh does not guide the disbelieving people.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002264.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 265,
         "ayah_ar": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُمُ ٱبۡتِغَآءَ مَرۡضَاتِ ٱللَّهِ وَتَثۡبِيتٗا مِّنۡ أَنفُسِهِمۡ كَمَثَلِ جَنَّةِۭ بِرَبۡوَةٍ أَصَابَهَا وَابِلٞ فَـَٔاتَتۡ أُكُلَهَا ضِعۡفَيۡنِ فَإِن لَّمۡ يُصِبۡهَا وَابِلٞ فَطَلّٞۗ وَٱللَّهُ بِمَا تَعۡمَلُونَ بَصِيرٌ",
-        "ayah_en": "And the example of those who donate their wealth, seeking Allah’s pleasure and believing the reward is certain, is that of a garden on a fertile hill: when heavy rain falls, it yields up twice its normal produce. If no heavy rain falls, a drizzle is sufficient. And Allah is All-Seeing of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002265.mp3"
+        "ayah_en": "And the example of those who spend their wealth seeking means to the approval of Allāh and assuring [reward for] themselves is like a garden on high ground which is hit by a downpour - so it yields its fruits in double. And [even] if it is not hit by a downpour, then a drizzle [is sufficient]. And Allāh, of what you do, is Seeing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002265.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 266,
         "ayah_ar": "أَيَوَدُّ أَحَدُكُمۡ أَن تَكُونَ لَهُۥ جَنَّةٞ مِّن نَّخِيلٖ وَأَعۡنَابٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلۡكِبَرُ وَلَهُۥ ذُرِّيَّةٞ ضُعَفَآءُ فَأَصَابَهَآ إِعۡصَارٞ فِيهِ نَارٞ فَٱحۡتَرَقَتۡۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَتَفَكَّرُونَ",
-        "ayah_en": "Would any of you wish to have a garden with palm trees, grapevines, and all kinds of fruits with rivers flowing underneath and as they grow very old with dependent children, a fiery whirlwind hits the garden, burning it all up? This is how Allah makes His revelations clear to you, so perhaps you will reflect",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002266.mp3"
+        "ayah_en": "Would one of you like to have a garden of palm trees and grapevines underneath which rivers flow in which he has from every fruit? But he is afflicted with old age and has weak [i.e., immature] offspring, and it is hit by a whirlwind containing fire and is burned. Thus does Allāh make clear to you [His] verses that you might give thought.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002266.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 267,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ أَنفِقُواْ مِن طَيِّبَٰتِ مَا كَسَبۡتُمۡ وَمِمَّآ أَخۡرَجۡنَا لَكُم مِّنَ ٱلۡأَرۡضِۖ وَلَا تَيَمَّمُواْ ٱلۡخَبِيثَ مِنۡهُ تُنفِقُونَ وَلَسۡتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغۡمِضُواْ فِيهِۚ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ غَنِيٌّ حَمِيدٌ",
-        "ayah_en": "O believers! Donate from the best of what you have earned and of what We have produced for you from the earth. Do not pick out worthless things for donation, which you yourselves would only accept with closed eyes. And know that Allah is Self-Sufficient, Praiseworthy",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002267.mp3"
+        "ayah_en": "O you who have believed, spend from the good things which you have earned and from that which We have produced for you from the earth. And do not aim toward the defective therefrom, spending [from that] while you would not take it [yourself] except with closed eyes. And know that Allāh is Free of need and Praiseworthy.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002267.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 268,
         "ayah_ar": "ٱلشَّيۡطَٰنُ يَعِدُكُمُ ٱلۡفَقۡرَ وَيَأۡمُرُكُم بِٱلۡفَحۡشَآءِۖ وَٱللَّهُ يَعِدُكُم مَّغۡفِرَةٗ مِّنۡهُ وَفَضۡلٗاۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٞ",
-        "ayah_en": "The Devil threatens you with ˹the prospect of˺ poverty and bids you to the shameful deed ˹of stinginess˺, while Allah promises you forgiveness and ˹great˺ bounties from Him. And Allah is All-Bountiful, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002268.mp3"
+        "ayah_en": "Satan threatens you with poverty and orders you to immorality, while Allāh promises you forgiveness from Him and bounty. And Allāh is all-Encompassing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002268.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 269,
         "ayah_ar": "يُؤۡتِي ٱلۡحِكۡمَةَ مَن يَشَآءُۚ وَمَن يُؤۡتَ ٱلۡحِكۡمَةَ فَقَدۡ أُوتِيَ خَيۡرٗا كَثِيرٗاۗ وَمَا يَذَّكَّرُ إِلَّآ أُوْلُواْ ٱلۡأَلۡبَٰبِ",
-        "ayah_en": "Allah grants wisdom to whoever He wills. And whoever is granted wisdom is certainly blessed with a great privilege. But none will be mindful ˹of this˺ except people of reason",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002269.mp3"
+        "ayah_en": "He gives wisdom to whom He wills, and whoever has been given wisdom has certainly been given much good. And none will remember except those of understanding.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002269.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 270,
         "ayah_ar": "وَمَآ أَنفَقۡتُم مِّن نَّفَقَةٍ أَوۡ نَذَرۡتُم مِّن نَّذۡرٖ فَإِنَّ ٱللَّهَ يَعۡلَمُهُۥۗ وَمَا لِلظَّٰلِمِينَ مِنۡ أَنصَارٍ",
-        "ayah_en": "Whatever charities you give or vows you make are surely known to Allah. And the wrongdoers will have no helpers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002270.mp3"
+        "ayah_en": "And whatever you spend of expenditures or make of vows - indeed, Allāh knows of it. And for the wrongdoers there are no helpers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002270.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 271,
         "ayah_ar": "إِن تُبۡدُواْ ٱلصَّدَقَٰتِ فَنِعِمَّا هِيَۖ وَإِن تُخۡفُوهَا وَتُؤۡتُوهَا ٱلۡفُقَرَآءَ فَهُوَ خَيۡرٞ لَّكُمۡۚ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمۡۗ وَٱللَّهُ بِمَا تَعۡمَلُونَ خَبِيرٞ",
-        "ayah_en": "To give charity publicly is good, but to give to the poor privately is better for you, and will absolve you of your sins. And Allah is All-Aware of what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002271.mp3"
+        "ayah_en": "If you disclose your charitable expenditures, they are good; but if you conceal them and give them to the poor, it is better for you, and He will remove from you some of your misdeeds [thereby]. And Allāh, of what you do, is [fully] Aware.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002271.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 272,
         "ayah_ar": "۞ لَّيۡسَ عَلَيۡكَ هُدَىٰهُمۡ وَلَٰكِنَّ ٱللَّهَ يَهۡدِي مَن يَشَآءُۗ وَمَا تُنفِقُواْ مِنۡ خَيۡرٖ فَلِأَنفُسِكُمۡۚ وَمَا تُنفِقُونَ إِلَّا ٱبۡتِغَآءَ وَجۡهِ ٱللَّهِۚ وَمَا تُنفِقُواْ مِنۡ خَيۡرٖ يُوَفَّ إِلَيۡكُمۡ وَأَنتُمۡ لَا تُظۡلَمُونَ",
-        "ayah_en": "You are not responsible for people’s guidance ˹O Prophet˺—it is Allah Who guides whoever He wills. Whatever you ˹believers˺ spend in charity, it is for your own good—as long as you do so seeking the pleasure of Allah. Whatever you donate will be paid back to you in full, and you will not be wronged",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002272.mp3"
+        "ayah_en": "Not upon you, [O Muḥammad], is [responsibility for] their guidance, but Allāh guides whom He wills. And whatever good you [believers] spend is for yourselves, and you do not spend except seeking the face [i.e., approval] of Allāh. And whatever you spend of good - it will be fully repaid to you, and you will not be wronged.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002272.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 273,
         "ayah_ar": "لِلۡفُقَرَآءِ ٱلَّذِينَ أُحۡصِرُواْ فِي سَبِيلِ ٱللَّهِ لَا يَسۡتَطِيعُونَ ضَرۡبٗا فِي ٱلۡأَرۡضِ يَحۡسَبُهُمُ ٱلۡجَاهِلُ أَغۡنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعۡرِفُهُم بِسِيمَٰهُمۡ لَا يَسۡـَٔلُونَ ٱلنَّاسَ إِلۡحَافٗاۗ وَمَا تُنفِقُواْ مِنۡ خَيۡرٖ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
-        "ayah_en": "˹Charity is˺ for the needy who are too engaged in the cause of Allah to move about in the land ˹for work˺. Those unfamiliar with their situation will think they are not in need ˹of charity˺ because they do not beg. You can recognize them by their appearance. They do not beg people persistently. Whatever you give in charity is certainly well known to Allah",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002273.mp3"
+        "ayah_en": "[Charity is] for the poor who have been restricted for the cause of Allāh, unable to move about in the land. An ignorant [person] would think them self-sufficient because of their restraint, but you will know them by their [characteristic] sign. They do not ask people persistently [or at all]. And whatever you spend of good - indeed, Allāh is Knowing of it.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002273.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 274,
         "ayah_ar": "ٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُم بِٱلَّيۡلِ وَٱلنَّهَارِ سِرّٗا وَعَلَانِيَةٗ فَلَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
-        "ayah_en": "Those who spend their wealth in charity day and night, secretly and openly—their reward is with their Lord, and there will be no fear for them, nor will they grieve",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002274.mp3"
+        "ayah_en": "Those who spend their wealth [in Allāh's way] by night and by day, secretly and publicly - they will have their reward with their Lord. And no fear will there be concerning them, nor will they grieve.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002274.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2214,32 +2488,37 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 275,
         "ayah_ar": "ٱلَّذِينَ يَأۡكُلُونَ ٱلرِّبَوٰاْ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِي يَتَخَبَّطُهُ ٱلشَّيۡطَٰنُ مِنَ ٱلۡمَسِّۚ ذَٰلِكَ بِأَنَّهُمۡ قَالُوٓاْ إِنَّمَا ٱلۡبَيۡعُ مِثۡلُ ٱلرِّبَوٰاْۗ وَأَحَلَّ ٱللَّهُ ٱلۡبَيۡعَ وَحَرَّمَ ٱلرِّبَوٰاْۚ فَمَن جَآءَهُۥ مَوۡعِظَةٞ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمۡرُهُۥٓ إِلَى ٱللَّهِۖ وَمَنۡ عَادَ فَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
-        "ayah_en": "Those who consume interest will stand ˹on Judgment Day˺ like those driven to madness by Satan’s touch. That is because they say, “Trade is no different than interest.” But Allah has permitted trading and forbidden interest. Whoever refrains—after having received warning from their Lord—may keep their previous gains, and their case is left to Allah. As for those who persist, it is they who will be the residents of the Fire. They will be there forever",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002275.mp3"
+        "ayah_en": "Those who consume interest cannot stand [on the Day of Resurrection] except as one stands who is being beaten by Satan into insanity. That is because they say, \"Trade is [just] like interest.\" But Allāh has permitted trade and has forbidden interest. So whoever has received an admonition from his Lord and desists may have what is past, and his affair rests with Allāh. But whoever returns [to dealing in interest or usury] - those are the companions of the Fire; they will abide eternally therein.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002275.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 276,
         "ayah_ar": "يَمۡحَقُ ٱللَّهُ ٱلرِّبَوٰاْ وَيُرۡبِي ٱلصَّدَقَٰتِۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
-        "ayah_en": "Allah has made interest fruitless and charity fruitful. And Allah does not like any ungrateful evildoer",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002276.mp3"
+        "ayah_en": "Allāh destroys interest and gives increase for charities. And Allāh does not like every sinning disbeliever.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002276.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 277,
         "ayah_ar": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَأَقَامُواْ ٱلصَّلَوٰةَ وَءَاتَوُاْ ٱلزَّكَوٰةَ لَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
-        "ayah_en": "Indeed, those who believe, do good, establish prayer, and pay alms-tax will receive their reward from their Lord, and there will be no fear for them, nor will they grieve",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002277.mp3"
+        "ayah_en": "Indeed, those who believe and do righteous deeds and establish prayer and give zakāh will have their reward with their Lord, and there will be no fear concerning them, nor will they grieve.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002277.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 278,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱتَّقُواْ ٱللَّهَ وَذَرُواْ مَا بَقِيَ مِنَ ٱلرِّبَوٰٓاْ إِن كُنتُم مُّؤۡمِنِينَ",
-        "ayah_en": "O believers! Fear Allah, and give up outstanding interest if you are ˹true˺ believers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002278.mp3"
+        "ayah_en": "O you who have believed, fear Allāh and give up what remains [due to you] of interest, if you should be believers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002278.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 279,
         "ayah_ar": "فَإِن لَّمۡ تَفۡعَلُواْ فَأۡذَنُواْ بِحَرۡبٖ مِّنَ ٱللَّهِ وَرَسُولِهِۦۖ وَإِن تُبۡتُمۡ فَلَكُمۡ رُءُوسُ أَمۡوَٰلِكُمۡ لَا تَظۡلِمُونَ وَلَا تُظۡلَمُونَ",
-        "ayah_en": "If you do not, then beware of a war with Allah and His Messenger! But if you repent, you may retain your principal—neither inflicting nor suffering harm",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002279.mp3"
+        "ayah_en": "And if you do not, then be informed of a war [against you] from Allāh and His Messenger. But if you repent, you may have your principal - [thus] you do no wrong, nor are you wronged.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002279.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2250,14 +2529,16 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 280,
         "ayah_ar": "وَإِن كَانَ ذُو عُسۡرَةٖ فَنَظِرَةٌ إِلَىٰ مَيۡسَرَةٖۚ وَأَن تَصَدَّقُواْ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
-        "ayah_en": "If it is difficult for someone to repay a debt, postpone it until a time of ease. And if you waive it as an act of charity, it will be better for you, if only you knew",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002280.mp3"
+        "ayah_en": "And if someone is in hardship, then [let there be] postponement until [a time of] ease. But if you give [from your right as] charity, then it is better for you, if you only knew.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002280.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 281,
         "ayah_ar": "وَٱتَّقُواْ يَوۡمٗا تُرۡجَعُونَ فِيهِ إِلَى ٱللَّهِۖ ثُمَّ تُوَفَّىٰ كُلُّ نَفۡسٖ مَّا كَسَبَتۡ وَهُمۡ لَا يُظۡلَمُونَ",
-        "ayah_en": "Be mindful of the Day when you will ˹all˺ be returned to Allah, then every soul will be paid in full for what it has done, and none will be wronged",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002281.mp3"
+        "ayah_en": "And fear a Day when you will be returned to Allāh. Then every soul will be compensated for what it earned, and they will not be wronged [i.e., treated unjustly].",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002281.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2268,8 +2549,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 282,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِذَا تَدَايَنتُم بِدَيۡنٍ إِلَىٰٓ أَجَلٖ مُّسَمّٗى فَٱكۡتُبُوهُۚ وَلۡيَكۡتُب بَّيۡنَكُمۡ كَاتِبُۢ بِٱلۡعَدۡلِۚ وَلَا يَأۡبَ كَاتِبٌ أَن يَكۡتُبَ كَمَا عَلَّمَهُ ٱللَّهُۚ فَلۡيَكۡتُبۡ وَلۡيُمۡلِلِ ٱلَّذِي عَلَيۡهِ ٱلۡحَقُّ وَلۡيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبۡخَسۡ مِنۡهُ شَيۡـٔٗاۚ فَإِن كَانَ ٱلَّذِي عَلَيۡهِ ٱلۡحَقُّ سَفِيهًا أَوۡ ضَعِيفًا أَوۡ لَا يَسۡتَطِيعُ أَن يُمِلَّ هُوَ فَلۡيُمۡلِلۡ وَلِيُّهُۥ بِٱلۡعَدۡلِۚ وَٱسۡتَشۡهِدُواْ شَهِيدَيۡنِ مِن رِّجَالِكُمۡۖ فَإِن لَّمۡ يَكُونَا رَجُلَيۡنِ فَرَجُلٞ وَٱمۡرَأَتَانِ مِمَّن تَرۡضَوۡنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحۡدَىٰهُمَا فَتُذَكِّرَ إِحۡدَىٰهُمَا ٱلۡأُخۡرَىٰۚ وَلَا يَأۡبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُواْۚ وَلَا تَسۡـَٔمُوٓاْ أَن تَكۡتُبُوهُ صَغِيرًا أَوۡ كَبِيرًا إِلَىٰٓ أَجَلِهِۦۚ ذَٰلِكُمۡ أَقۡسَطُ عِندَ ٱللَّهِ وَأَقۡوَمُ لِلشَّهَٰدَةِ وَأَدۡنَىٰٓ أَلَّا تَرۡتَابُوٓاْ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةٗ تُدِيرُونَهَا بَيۡنَكُمۡ فَلَيۡسَ عَلَيۡكُمۡ جُنَاحٌ أَلَّا تَكۡتُبُوهَاۗ وَأَشۡهِدُوٓاْ إِذَا تَبَايَعۡتُمۡۚ وَلَا يُضَآرَّ كَاتِبٞ وَلَا شَهِيدٞۚ وَإِن تَفۡعَلُواْ فَإِنَّهُۥ فُسُوقُۢ بِكُمۡۗ وَٱتَّقُواْ ٱللَّهَۖ وَيُعَلِّمُكُمُ ٱللَّهُۗ وَٱللَّهُ بِكُلِّ شَيۡءٍ عَلِيمٞ",
-        "ayah_en": "O believers! When you contract a loan for a fixed period of time, commit it to writing. Let the scribe maintain justice between the parties. The scribe should not refuse to write as Allah has taught them to write. They will write what the debtor dictates, bearing Allah in mind and not defrauding the debt. If the debtor is incompetent, weak, or unable to dictate, let their guardian dictate for them with justice. Call upon two of your men to witness. If two men cannot be found, then one man and two women of your choice will witness—so if one of the women forgets the other may remind her. The witnesses must not refuse when they are summoned. You must not be against writing ˹contracts˺ for a fixed period—whether the sum is small or great. This is more just ˹for you˺ in the sight of Allah, and more convenient to establish evidence and remove doubts. However, if you conduct an immediate transaction among yourselves, then there is no need for you to record it, but call upon witnesses when a deal is finalized. Let no harm come to the scribe or witnesses. If you do, then you have gravely exceeded ˹your limits˺. Be mindful of Allah, for Allah ˹is the One Who˺ teaches you. And Allah has ˹perfect˺ knowledge of all things",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002282.mp3"
+        "ayah_en": "O you who have believed, when you contract a debt for a specified term, write it down. And let a scribe write [it] between you in justice. Let no scribe refuse to write as Allāh has taught him. So let him write and let the one who has the obligation [i.e., the debtor] dictate. And let him fear Allāh, his Lord, and not leave anything out of it. But if the one who has the obligation is of limited understanding or weak or unable to dictate himself, then let his guardian dictate in justice. And bring to witness two witnesses from among your men. And if there are not two men [available], then a man and two women from those whom you accept as witnesses - so that if one of them [i.e., the women] errs, then the other can remind her. And let not the witnesses refuse when they are called upon. And do not be [too] weary to write it, whether it is small or large, for its [specified] term. That is more just in the sight of Allāh and stronger as evidence and more likely to prevent doubt between you, except when it is an immediate transaction which you conduct among yourselves. For [then] there is no blame upon you if you do not write it. And take witnesses when you conclude a contract. Let no scribe be harmed or any witness. For if you do so, indeed, it is [grave] disobedience in you. And fear Allāh. And Allāh teaches you. And Allāh is Knowing of all things.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002282.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2280,8 +2562,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 283,
         "ayah_ar": "۞ وَإِن كُنتُمۡ عَلَىٰ سَفَرٖ وَلَمۡ تَجِدُواْ كَاتِبٗا فَرِهَٰنٞ مَّقۡبُوضَةٞۖ فَإِنۡ أَمِنَ بَعۡضُكُم بَعۡضٗا فَلۡيُؤَدِّ ٱلَّذِي ٱؤۡتُمِنَ أَمَٰنَتَهُۥ وَلۡيَتَّقِ ٱللَّهَ رَبَّهُۥۗ وَلَا تَكۡتُمُواْ ٱلشَّهَٰدَةَۚ وَمَن يَكۡتُمۡهَا فَإِنَّهُۥٓ ءَاثِمٞ قَلۡبُهُۥۗ وَٱللَّهُ بِمَا تَعۡمَلُونَ عَلِيمٞ",
-        "ayah_en": "If you are on a journey and a scribe cannot be found, then a security can be taken. If you trust one another, then ˹there is no need for a security, but˺ the debtor should honour this trust ˹by repaying the debt˺—and let them fear Allah, their Lord. And do not conceal the testimony, for whoever conceals it, their hearts are indeed sinful. And Allah ˹fully˺ knows what you do",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002283.mp3"
+        "ayah_en": "And if you are on a journey and cannot find a scribe, then a security deposit [should be] taken. And if one of you entrusts another, then let him who is entrusted discharge his trust [faithfully] and let him fear Allāh, his Lord. And do not conceal testimony, for whoever conceals it - his heart is indeed sinful, and Allāh is Knowing of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002283.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2292,8 +2575,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 284,
         "ayah_ar": "لِّلَّهِ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ وَإِن تُبۡدُواْ مَا فِيٓ أَنفُسِكُمۡ أَوۡ تُخۡفُوهُ يُحَاسِبۡكُم بِهِ ٱللَّهُۖ فَيَغۡفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُۗ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٌ",
-        "ayah_en": "To Allah ˹alone˺ belongs whatever is in the heavens and whatever is on the earth. Whether you reveal what is in your hearts or conceal it, Allah will call you to account for it. He forgives whoever He wills, and punishes whoever He wills. And Allah is Most Capable of everything",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002284.mp3"
+        "ayah_en": "To Allāh belongs whatever is in the heavens and whatever is in the earth. Whether you show what is within yourselves or conceal it, Allāh will bring you to account for it. Then He will forgive whom He wills and punish whom He wills, and Allāh is over all things competent.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002284.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2304,8 +2588,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 285,
         "ayah_ar": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيۡهِ مِن رَّبِّهِۦ وَٱلۡمُؤۡمِنُونَۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيۡنَ أَحَدٖ مِّن رُّسُلِهِۦۚ وَقَالُواْ سَمِعۡنَا وَأَطَعۡنَاۖ غُفۡرَانَكَ رَبَّنَا وَإِلَيۡكَ ٱلۡمَصِيرُ",
-        "ayah_en": "The Messenger ˹firmly˺ believes in what has been revealed to him from his Lord, and so do the believers. They ˹all˺ believe in Allah, His angels, His Books, and His messengers. ˹They proclaim,˺ “We make no distinction between any of His messengers.” And they say, “We hear and obey. ˹We seek˺ Your forgiveness, our Lord! And to You ˹alone˺ is the final return.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002285.mp3"
+        "ayah_en": "The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allāh and His angels and His books and His messengers, [saying], \"We make no distinction between any of His messengers.\" And they say, \"We hear and we obey. [We seek] Your forgiveness, our Lord, and to You is the [final] destination.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002285.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -2316,8 +2601,9 @@ var chapterData_2 = [
       {
         "ayah_no_surah": 286,
         "ayah_ar": "لَا يُكَلِّفُ ٱللَّهُ نَفۡسًا إِلَّا وُسۡعَهَاۚ لَهَا مَا كَسَبَتۡ وَعَلَيۡهَا مَا ٱكۡتَسَبَتۡۗ رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرٗا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ رَبَّنَا وَلَا تُحَمِّلۡنَا مَا لَا طَاقَةَ لَنَا بِهِۦۖ وَٱعۡفُ عَنَّا وَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَآۚ أَنتَ مَوۡلَىٰنَا فَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
-        "ayah_en": "Allah does not require of any soul more than what it can afford. All good will be for its own benefit, and all evil will be to its own loss. ˹The believers pray,˺ “Our Lord! Do not punish us if we forget or make a mistake. Our Lord! Do not place a burden on us like the one you placed on those before us. Our Lord! Do not burden us with what we cannot bear. Pardon us, forgive us, and have mercy on us. You are our ˹only˺ Guardian. So grant us victory over the disbelieving people.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/002286.mp3"
+        "ayah_en": "Allāh does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. \"Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/002286.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }

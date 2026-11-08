@@ -15,60 +15,65 @@ the verification gates and the account of how the layer was made — and it
 stops with an explanation rather than running against a corpus the reader no
 longer carries.
 
-The reader offers two separate commentary views in a switch, in this order:
+The reader offers two separate commentary views in a switch, **Simple** first:
 
-1. **Phrase by phrase** — selected first in the switch. The verse translation
-   is split into short, consecutive pieces, each followed by a substantive,
-   plain-English explanation. It is a numbered reading, not a one-line gloss.
-2. **Full commentary** — the complete Tafsīr al-Ṭabarī passage as text.
+1. **Simple** — Fī Ẓilāl al-Qurʾān by Sayyid Quṭb in Urdu, the passage he
+   writes for each run of verses. The payload is `data/qutb_NNN.json`, imported
+   from spa5k/tafsir_api by `tools/qutb/`. Upstream repeats one passage for
+   every verse it covers; the reader stores each passage once (`blocks`), names
+   the verses it covers (`ranges`), and maps them (`verses`), so a run is shown
+   in full at its first verse and the later verses point back to it rather
+   than printing the same paragraphs again.
+2. **Full commentary** — the complete Tafsīr al-Ṭabarī passage in English, with
+   the Arabic original underneath it.
 
-Only the selected view is shown; do not stack the full commentary below the
-phrase explanations. Add a related verse, quotation, context, history, or
-illustration only when it helps, and weave it naturally into the paragraph
-without a type label or formulaic lead-in.
+Only the selected view is shown; the two are never stacked.
 
-Phrase explanations are authored by hand in `tools/pairs/authored/NNN.json`
-and published as `data/pairs_NNN.json` by `tools/pairs/assemble.py`. Each
-phrase must be an exact piece of the reader's translation, phrases stay in
-order, and they cover all the verse's words. Two length policies are in force,
-declared per chapter by `split_policy`:
+`tools/pairs/` still holds the phrase-by-phrase pipeline from an earlier
+layer (hand-written `authored/NNN.json`, published as `data/pairs_NNN.json`).
+That layer is **not wired into the reader any more** — no `data/pairs_*.json`
+is shipped and the switch no longer offers it — and it is kept for the record
+only. Do not treat its rules as binding on the current views.
 
-- **`sense-v1`** (surahs 3 through 43, as first written): one paragraph of
-  45–85 words per phrase, whatever the source holds.
-- **`tabari-v2`** (surahs 1 and 2, and every chapter authored from now on): a
-  beginner's summary of what Tafsīr al-Ṭabarī discusses for that piece of the
-  verse, at the length that material deserves. Each phrase also names the piece
-  of the verse's Arabic it explains (`ar`), `tools/pairs/digest.py` measures
-  the passage against those spans, and the floor is 40 words with **no
-  ceiling**. Phrase boundaries follow Ṭabarī's own units, and a split has to be
-  worth making: a phrase must carry enough of his own discussion to stand alone,
-  so a piece he says nothing about is merged with the neighbour he discusses it
-  with. Several paragraphs are allowed once an explanation runs long.
+The authoring briefs that are binding on commentary text are: the one for
+Tafsīr al-Ṭabarī in `tools/tabari/README.md`, the payload rules in
+`tools/qutb/README.md` for the Urdu Simple view (verbatim text, verbatim
+upstream passages, no rewriting, translation or summary of the Urdu), and
+**`tools/clear/STYLE.md` for the written English entries**.
 
-Every explanation follows one house style, kept in `tools/pairs/style.py` and
-binding under both policies: plain modern English, no Arabic script, no em
-dash or en dash, no semicolon, a capital letter at the start, paragraphs
-separated by a blank line, and one voice that names no commentator,
-transmitter or companion. Under `tabari-v2` the one-voice rule is enforced by
-the gate; the `sense-v1` chapters keep the text they were written under until
-they migrate.
+`tools/clear/STYLE.md` is the authority for the English entries in
+`data/clear_NNN.json`, one per verse. Its first rule is a hard one: **every
+verse gets 420 words of prose, band 400–440, no merges and no exceptions.**
+`python3 tools/clear/verify.py` fails a payload that breaks any rule in the
+file, and `python3 -m unittest discover -s tools/clear/tests` proves the gates
+reject each violation. Do not commit a `data/clear_NNN.json` that has not
+passed both.
 
-The binding authoring rules are in `tools/pairs/RULES.md`, and the tools that
-make them executable are in `tools/pairs/authoring/`: `measure.py` reads the
-source and scores the candidate splits, `author.py` writes a batch only if it
-passes every rule, and `audit.py` reports a chapter against the curve and the
-house style.
+These entries are **not on screen at present**. `SIMPLE_VIEW_PREFERS` in
+`js/app.js` is `'ur'`, so the Simple view shows Quṭb's Urdu on all 114
+chapters; the entries stay in the repository and `'en'` prefers them in the two
+chapters that have them. The gate rules above still bind whatever is committed
+to `data/clear_NNN.json`, and a payload that has silently gone stale against a
+change of translation is a bug whether or not it is rendered.
 
-Chapters migrate one at a time and an unmigrated chapter keeps the gates it was
-written under, so `python3 tools/pairs/assemble.py --check` passes on the whole
-corpus at every commit. It checks phrase order, coverage, Arabic-span coverage,
-the house style and length under the policy in force. Surahs 1 through 43 are
-published; later chapters are not yet authored.
+To refresh the Simple payload from upstream:
+
+```
+python3 tools/qutb/importer.py --src <clone>/tafsir/tafsir-fe-zalul-quran-syed-qatab
+python3 tools/qutb/verify.py --data data
+python3 -m unittest discover -s tools/qutb/tests
+```
+
+`importer.py --check` re-derives every file and reports whether the committed
+payload still matches its source; `verify.py` is the reader-side gate (coverage
+of every verse, contiguous ranges, one block per passage, Arabic-script text).
+`.github/workflows/qutb-import.yml` runs the same steps when
+`tools/qutb/plan.json` says `run: true`.
 
 The handoff below is for the separate, withdrawn plain-English commentary
-pipeline in `tools/guidance/`, not for this phrase-by-phrase layer. If you are
-continuing that historical project, **everything you need is in
-`tools/guidance/HANDOFF.md`**. Read it completely before acting.
+pipeline in `tools/guidance/`. If you are continuing that historical project,
+**everything you need is in `tools/guidance/HANDOFF.md`**. Read it completely
+before acting.
 
 ## Chapter-number sessions
 

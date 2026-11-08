@@ -131,3 +131,7 @@ const chaptersData = [
   { number: 113, name_ar: "الفلق", name_en: "Al-Falaq", meaning: "The Daybreak", verses: 5, type: "Makkan" },
   { number: 114, name_ar: "الناس", name_en: "An-Nas", meaning: "Mankind", verses: 6, type: "Makkan" }
 ];
+
+/* A top-level `const` in a classic script is not a property of `window`,
+   so publish the list under the name the other modules look for. */
+window.chaptersData = chaptersData;

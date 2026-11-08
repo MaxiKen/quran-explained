@@ -6,8 +6,9 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 1,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُقَدِّمُواْ بَيۡنَ يَدَيِ ٱللَّهِ وَرَسُولِهِۦۖ وَٱتَّقُواْ ٱللَّهَۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٞ",
-        "ayah_en": "O believers! Do not proceed ˹in any matter˺ before ˹a decree from˺ Allah and His Messenger. And fear Allah. Surely Allah is All-Hearing, All-Knowing",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049001.mp3"
+        "ayah_en": "O you who have believed, do not put [yourselves] before Allāh and His Messenger but fear Allāh. Indeed, Allāh is Hearing and Knowing.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049001.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -18,14 +19,16 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 2,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَرۡفَعُوٓاْ أَصۡوَٰتَكُمۡ فَوۡقَ صَوۡتِ ٱلنَّبِيِّ وَلَا تَجۡهَرُواْ لَهُۥ بِٱلۡقَوۡلِ كَجَهۡرِ بَعۡضِكُمۡ لِبَعۡضٍ أَن تَحۡبَطَ أَعۡمَٰلُكُمۡ وَأَنتُمۡ لَا تَشۡعُرُونَ",
-        "ayah_en": "O believers! Do not raise your voices above the voice of the Prophet, nor speak loudly to him as you do to one another, or your deeds will become void while you are unaware",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049002.mp3"
+        "ayah_en": "O you who have believed, do not raise your voices above the voice of the Prophet or be loud to him in speech like the loudness of some of you to others, lest your deeds become worthless while you perceive not.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049002.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 3,
         "ayah_ar": "إِنَّ ٱلَّذِينَ يَغُضُّونَ أَصۡوَٰتَهُمۡ عِندَ رَسُولِ ٱللَّهِ أُوْلَٰٓئِكَ ٱلَّذِينَ ٱمۡتَحَنَ ٱللَّهُ قُلُوبَهُمۡ لِلتَّقۡوَىٰۚ لَهُم مَّغۡفِرَةٞ وَأَجۡرٌ عَظِيمٌ",
-        "ayah_en": "Indeed, those who lower their voices in the presence of Allah’s Messenger are the ones whose hearts Allah has refined for righteousness. They will have forgiveness and a great reward",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049003.mp3"
+        "ayah_en": "Indeed, those who lower their voices before the Messenger of Allāh - they are the ones whose hearts Allāh has tested for righteousness. For them is forgiveness and great reward.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049003.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -36,14 +39,16 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 4,
         "ayah_ar": "إِنَّ ٱلَّذِينَ يُنَادُونَكَ مِن وَرَآءِ ٱلۡحُجُرَٰتِ أَكۡثَرُهُمۡ لَا يَعۡقِلُونَ",
-        "ayah_en": "Indeed, most of those who call out to you ˹O Prophet˺ from outside ˹your˺ private quarters have no understanding ˹of manners˺",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049004.mp3"
+        "ayah_en": "Indeed, those who call you, [O Muḥammad], from behind the chambers - most of them do not use reason.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049004.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 5,
         "ayah_ar": "وَلَوۡ أَنَّهُمۡ صَبَرُواْ حَتَّىٰ تَخۡرُجَ إِلَيۡهِمۡ لَكَانَ خَيۡرٗا لَّهُمۡۚ وَٱللَّهُ غَفُورٞ رَّحِيمٞ",
-        "ayah_en": "Had they been patient until you could come out to them, it would have certainly been better for them. And Allah is All-Forgiving, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049005.mp3"
+        "ayah_en": "And if they had been patient until you [could] come out to them, it would have been better for them. But Allāh is Forgiving and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049005.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -54,20 +59,23 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 6,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِن جَآءَكُمۡ فَاسِقُۢ بِنَبَإٖ فَتَبَيَّنُوٓاْ أَن تُصِيبُواْ قَوۡمَۢا بِجَهَٰلَةٖ فَتُصۡبِحُواْ عَلَىٰ مَا فَعَلۡتُمۡ نَٰدِمِينَ",
-        "ayah_en": "O believers, if an evildoer brings you any news, verify ˹it˺ so you do not harm people unknowingly, becoming regretful for what you have done",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049006.mp3"
+        "ayah_en": "O you who have believed, if there comes to you a disobedient one with information, investigate, lest you harm a people out of ignorance and become, over what you have done, regretful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049006.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 7,
         "ayah_ar": "وَٱعۡلَمُوٓاْ أَنَّ فِيكُمۡ رَسُولَ ٱللَّهِۚ لَوۡ يُطِيعُكُمۡ فِي كَثِيرٖ مِّنَ ٱلۡأَمۡرِ لَعَنِتُّمۡ وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيۡكُمُ ٱلۡإِيمَٰنَ وَزَيَّنَهُۥ فِي قُلُوبِكُمۡ وَكَرَّهَ إِلَيۡكُمُ ٱلۡكُفۡرَ وَٱلۡفُسُوقَ وَٱلۡعِصۡيَانَۚ أُوْلَٰٓئِكَ هُمُ ٱلرَّٰشِدُونَ",
-        "ayah_en": "And keep in mind that Allah’s Messenger is ˹still˺ in your midst. If he were to yield to you in many matters, you would surely suffer ˹the consequences˺. But Allah has endeared faith to you, making it appealing in your hearts. And He has made disbelief, rebelliousness, and disobedience detestable to you. Those are the ones rightly guided",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049007.mp3"
+        "ayah_en": "And know that among you is the Messenger of Allāh. If he were to obey you in much of the matter, you would be in difficulty, but Allāh has endeared to you the faith and has made it pleasing in your hearts and has made hateful to you disbelief, defiance and disobedience. Those are the [rightly] guided.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049007.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 8,
         "ayah_ar": "فَضۡلٗا مِّنَ ٱللَّهِ وَنِعۡمَةٗۚ وَٱللَّهُ عَلِيمٌ حَكِيمٞ",
-        "ayah_en": "˹This is˺ a bounty and a blessing from Allah. And Allah is All-Knowing, All-Wise",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049008.mp3"
+        "ayah_en": "[It is] as bounty from Allāh and favor. And Allāh is Knowing and Wise.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049008.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -78,14 +86,16 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 9,
         "ayah_ar": "وَإِن طَآئِفَتَانِ مِنَ ٱلۡمُؤۡمِنِينَ ٱقۡتَتَلُواْ فَأَصۡلِحُواْ بَيۡنَهُمَاۖ فَإِنۢ بَغَتۡ إِحۡدَىٰهُمَا عَلَى ٱلۡأُخۡرَىٰ فَقَٰتِلُواْ ٱلَّتِي تَبۡغِي حَتَّىٰ تَفِيٓءَ إِلَىٰٓ أَمۡرِ ٱللَّهِۚ فَإِن فَآءَتۡ فَأَصۡلِحُواْ بَيۡنَهُمَا بِٱلۡعَدۡلِ وَأَقۡسِطُوٓاْۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلۡمُقۡسِطِينَ",
-        "ayah_en": "And if two groups of believers fight each other, then make peace between them. But if one of them transgresses against the other, then fight against the transgressing group until they ˹are willing to˺ submit to the rule of Allah. If they do so, then make peace between both ˹groups˺ in all fairness and act justly. Surely Allah loves those who uphold justice",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049009.mp3"
+        "ayah_en": "And if two factions among the believers should fight, then make settlement between the two. But if one of them oppresses the other, then fight against the one that oppresses until it returns to the ordinance of Allāh. And if it returns, then make settlement between them in justice and act justly. Indeed, Allāh loves those who act justly.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049009.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 10,
         "ayah_ar": "إِنَّمَا ٱلۡمُؤۡمِنُونَ إِخۡوَةٞ فَأَصۡلِحُواْ بَيۡنَ أَخَوَيۡكُمۡۚ وَٱتَّقُواْ ٱللَّهَ لَعَلَّكُمۡ تُرۡحَمُونَ",
-        "ayah_en": "The believers are but one brotherhood, so make peace between your brothers. And be mindful of Allah so you may be shown mercy",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049010.mp3"
+        "ayah_en": "The believers are but brothers, so make settlement between your brothers. And fear Allāh that you may receive mercy.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049010.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -96,14 +106,16 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 11,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا يَسۡخَرۡ قَوۡمٞ مِّن قَوۡمٍ عَسَىٰٓ أَن يَكُونُواْ خَيۡرٗا مِّنۡهُمۡ وَلَا نِسَآءٞ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيۡرٗا مِّنۡهُنَّۖ وَلَا تَلۡمِزُوٓاْ أَنفُسَكُمۡ وَلَا تَنَابَزُواْ بِٱلۡأَلۡقَٰبِۖ بِئۡسَ ٱلِٱسۡمُ ٱلۡفُسُوقُ بَعۡدَ ٱلۡإِيمَٰنِۚ وَمَن لَّمۡ يَتُبۡ فَأُوْلَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
-        "ayah_en": "O believers! Do not let some ˹men˺ ridicule others, they may be better than them, nor let ˹some˺ women ridicule other women, they may be better than them. Do not defame one another, nor call each other by offensive nicknames. How evil it is to act rebelliously after having faith! And whoever does not repent, it is they who are the ˹true˺ wrongdoers",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049011.mp3"
+        "ayah_en": "O you who have believed, let not a people ridicule [another] people; perhaps they may be better than them; nor let women ridicule [other] women; perhaps they may be better than them. And do not insult one another and do not call each other by [offensive] nicknames. Wretched is the name [i.e., mention] of disobedience after [one's] faith. And whoever does not repent - then it is those who are the wrongdoers.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049011.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 12,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱجۡتَنِبُواْ كَثِيرٗا مِّنَ ٱلظَّنِّ إِنَّ بَعۡضَ ٱلظَّنِّ إِثۡمٞۖ وَلَا تَجَسَّسُواْ وَلَا يَغۡتَب بَّعۡضُكُم بَعۡضًاۚ أَيُحِبُّ أَحَدُكُمۡ أَن يَأۡكُلَ لَحۡمَ أَخِيهِ مَيۡتٗا فَكَرِهۡتُمُوهُۚ وَٱتَّقُواْ ٱللَّهَۚ إِنَّ ٱللَّهَ تَوَّابٞ رَّحِيمٞ",
-        "ayah_en": "O believers! Avoid many suspicions, ˹for˺ indeed, some suspicions are sinful. And do not spy, nor backbite one another. Would any of you like to eat the flesh of their dead brother? You would despise that! And fear Allah. Surely Allah is ˹the˺ Accepter of Repentance, Most Merciful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049012.mp3"
+        "ayah_en": "O you who have believed, avoid much [negative] assumption. Indeed, some assumption is sin. And do not spy or backbite each other. Would one of you like to eat the flesh of his brother when dead? You would detest it. And fear Allāh; indeed, Allāh is Accepting of Repentance and Merciful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049012.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -114,8 +126,9 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 13,
         "ayah_ar": "يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقۡنَٰكُم مِّن ذَكَرٖ وَأُنثَىٰ وَجَعَلۡنَٰكُمۡ شُعُوبٗا وَقَبَآئِلَ لِتَعَارَفُوٓاْۚ إِنَّ أَكۡرَمَكُمۡ عِندَ ٱللَّهِ أَتۡقَىٰكُمۡۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٞ",
-        "ayah_en": "O humanity! Indeed, We created you from a male and a female, and made you into peoples and tribes so that you may ˹get to˺ know one another. Surely the most noble of you in the sight of Allah is the most righteous among you. Allah is truly All-Knowing, All-Aware",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049013.mp3"
+        "ayah_en": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allāh is the most righteous of you. Indeed, Allāh is Knowing and Aware.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049013.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   },
@@ -126,32 +139,37 @@ var chapterData_49 = [
       {
         "ayah_no_surah": 14,
         "ayah_ar": "۞ قَالَتِ ٱلۡأَعۡرَابُ ءَامَنَّاۖ قُل لَّمۡ تُؤۡمِنُواْ وَلَٰكِن قُولُوٓاْ أَسۡلَمۡنَا وَلَمَّا يَدۡخُلِ ٱلۡإِيمَٰنُ فِي قُلُوبِكُمۡۖ وَإِن تُطِيعُواْ ٱللَّهَ وَرَسُولَهُۥ لَا يَلِتۡكُم مِّنۡ أَعۡمَٰلِكُمۡ شَيۡـًٔاۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٌ",
-        "ayah_en": "˹Some of˺ the nomadic Arabs say, “We believe.” Say, ˹O Prophet,˺ “You have not believed. But say, ‘We have submitted,’ for faith has not yet entered your hearts. But if you obey Allah and His Messenger ˹wholeheartedly˺, He will not discount anything from ˹the reward of˺ your deeds. Allah is truly All-Forgiving, Most Merciful.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049014.mp3"
+        "ayah_en": "The bedouins say, \"We have believed.\" Say, \"You have not [yet] believed; but say [instead], 'We have submitted,' for faith has not yet entered your hearts. And if you obey Allāh and His Messenger, He will not deprive you from your deeds of anything. Indeed, Allāh is Forgiving and Merciful.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049014.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 15,
         "ayah_ar": "إِنَّمَا ٱلۡمُؤۡمِنُونَ ٱلَّذِينَ ءَامَنُواْ بِٱللَّهِ وَرَسُولِهِۦ ثُمَّ لَمۡ يَرۡتَابُواْ وَجَٰهَدُواْ بِأَمۡوَٰلِهِمۡ وَأَنفُسِهِمۡ فِي سَبِيلِ ٱللَّهِۚ أُوْلَٰٓئِكَ هُمُ ٱلصَّٰدِقُونَ",
-        "ayah_en": "The ˹true˺ believers are only those who believe in Allah and His Messenger—never doubting—and strive with their wealth and their lives in the cause of Allah. They are the ones true in faith",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049015.mp3"
+        "ayah_en": "The believers are only the ones who have believed in Allāh and His Messenger and then doubt not but strive with their properties and their lives in the cause of Allāh. It is those who are the truthful.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049015.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 16,
         "ayah_ar": "قُلۡ أَتُعَلِّمُونَ ٱللَّهَ بِدِينِكُمۡ وَٱللَّهُ يَعۡلَمُ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۚ وَٱللَّهُ بِكُلِّ شَيۡءٍ عَلِيمٞ",
-        "ayah_en": "Say, “Do you inform Allah of your faith, when Allah ˹already˺ knows whatever is in the heavens and whatever is on the earth? And Allah has ˹perfect˺ knowledge of all things.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049016.mp3"
+        "ayah_en": "Say, \"Would you acquaint Allāh with your religion while Allāh knows whatever is in the heavens and whatever is on the earth, and Allāh is Knowing of all things?\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049016.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 17,
         "ayah_ar": "يَمُنُّونَ عَلَيۡكَ أَنۡ أَسۡلَمُواْۖ قُل لَّا تَمُنُّواْ عَلَيَّ إِسۡلَٰمَكُمۖ بَلِ ٱللَّهُ يَمُنُّ عَلَيۡكُمۡ أَنۡ هَدَىٰكُمۡ لِلۡإِيمَٰنِ إِن كُنتُمۡ صَٰدِقِينَ",
-        "ayah_en": "They regard their acceptance of Islam as a favour to you. Tell ˹them, O Prophet˺, “Do not regard your Islam as a favour to me. Rather, it is Allah Who has done you a favour by guiding you to the faith, if ˹indeed˺ you are faithful",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049017.mp3"
+        "ayah_en": "They consider it a favor to you that they have accepted Islām. Say, \"Do not consider your Islām a favor to me. Rather, Allāh has conferred favor upon you that He has guided you to the faith, if you should be truthful.\"",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049017.mp3",
+        "ayah_en_source": "saheeh"
       },
       {
         "ayah_no_surah": 18,
         "ayah_ar": "إِنَّ ٱللَّهَ يَعۡلَمُ غَيۡبَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ وَٱللَّهُ بَصِيرُۢ بِمَا تَعۡمَلُونَ",
-        "ayah_en": "Surely Allah knows the unseen of the heavens and earth. And Allah is All-Seeing of what you do.”",
-        "audio": "https://everyayah.com/data/Alafasy_64kbps/049018.mp3"
+        "ayah_en": "Indeed, Allāh knows the unseen [aspects] of the heavens and the earth. And Allāh is Seeing of what you do.",
+        "audio": "https://everyayah.com/data/Alafasy_64kbps/049018.mp3",
+        "ayah_en_source": "saheeh"
       }
     ]
   }
