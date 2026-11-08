@@ -362,8 +362,15 @@ function loadSimpleData(num) {
   if (simpleLoadPromises[num]) return simpleLoadPromises[num];
 
   const pad = String(num).padStart(3, '0');
+  /* The English entries are the Simple view where a chapter has them. Asking
+     for both and preferring the English file keeps a chapter usable while the
+     entries are still being written, and means the request order cannot leave
+     an Urdu payload in place of an English one. */
   simpleLoadPromises[num] = fetchJsonOrNull(`data/clear_${pad}.json`)
-    .then(clear => (clear ? clear : fetchJsonOrNull(`data/qutb_${pad}.json`)))
+    .then(clear => {
+      if (clear && Array.isArray(clear.blocks) && clear.blocks.length) return clear;
+      return fetchJsonOrNull(`data/qutb_${pad}.json`);
+    })
     .then(data => {
       delete simpleLoadPromises[num];
       if (data) { loadedSimple[num] = data; return data; }

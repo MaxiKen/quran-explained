@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.18.0-2026-11-08';
+const CACHE_VERSION = 'quran-reader-v1.19.0-2026-11-08';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary
@@ -183,52 +183,53 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  /* THE SHELL FOLLOWS THE SERVER. app.js, the stylesheet and index.html were
+     cache-first, so a release that changed the code was invisible to every
+     browser that already held the old shell: the old worker kept serving the
+     old app.js, and the new payload was never requested. A cached copy of code
+     is as indistinguishable from a withdrawn one as a cached payload is, so
+     the same network-first rule applies. The cache remains the offline
+     fallback, which is all it has to be. */
   event.respondWith(
-    caches.match(event.request)
-      .then((cached) => {
-        if (cached) return cached;
-
-        return fetch(event.request)
-          .then((resp) => {
-            if (resp && resp.status === 200) {
-              const clone = resp.clone();
-              caches.open(CACHE_VERSION).then((c) => c.put(event.request, clone));
-            }
-            return resp;
-          })
-          .catch(() => {
-            if (event.request.mode === 'navigate') {
-              return caches.match('./index.html').then((cachedPage) => {
-                if (cachedPage) return cachedPage;
-
-                return new Response(
-                  `<!DOCTYPE html>
-                  <html>
-                  <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-                    <title>Offline</title>
-                    <style>
-                      body{font-family:sans-serif;background:#0a0f1a;color:#f1f5f9;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;text-align:center;padding:20px}
-                      h1{color:#5eead4;font-size:24px}
-                      p{color:#94a3b8;line-height:1.6}
-                      button{background:#0d9488;color:#fff;border:none;padding:12px 32px;border-radius:12px;font-size:16px;cursor:pointer;font-weight:600}
-                    </style>
-                  </head>
-                  <body>
-                    <div>
-                      <div style="font-size:64px;margin-bottom:20px">📖</div>
-                      <h1>You're Offline</h1>
-                      <p>Check your connection and try again.</p>
-                      <button onclick="location.reload()">Try Again</button>
-                    </div>
-                  </body>
-                  </html>`,
-                  { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
-                );
-              });
-            }
-          });
+    fetch(event.request)
+      .then((resp) => {
+        if (resp && resp.status === 200) {
+          const clone = resp.clone();
+          caches.open(CACHE_VERSION).then((c) => c.put(event.request, clone));
+        }
+        return resp;
       })
+      .catch(() => caches.match(event.request).then((cached) => {
+        if (cached) return cached;
+        if (event.request.mode !== 'navigate') return Response.error();
+        return caches.match('./index.html').then((cachedPage) => {
+          if (cachedPage) return cachedPage;
+          return new Response(
+            `<!DOCTYPE html>
+            <html>
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width,initial-scale=1.0">
+              <title>Offline</title>
+              <style>
+                body{font-family:sans-serif;background:#0a0f1a;color:#f1f5f9;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;text-align:center;padding:20px}
+                h1{color:#5eead4;font-size:24px}
+                p{color:#94a3b8;line-height:1.6}
+                button{background:#0d9488;color:#fff;border:none;padding:12px 32px;border-radius:12px;font-size:16px;cursor:pointer;font-weight:600}
+              </style>
+            </head>
+            <body>
+              <div>
+                <div style="font-size:64px;margin-bottom:20px">📖</div>
+                <h1>You're Offline</h1>
+                <p>Check your connection and try again.</p>
+                <button onclick="location.reload()">Try Again</button>
+              </div>
+            </body>
+            </html>`,
+            { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
+          );
+        });
+      }))
   );
 });
