@@ -67,7 +67,7 @@ from what the app displays.
 | Surah | Entries | Words | Shipped |
 |---|---|---|---|
 | 1 | 7 | 401–439 | `data/clear_001.json` |
-| 2 | 235 of 286 | 400–440 | in progress, `tools/clear/samples/002-block1.json` |
+| 2 | 250 of 286 | 400–440 | in progress, `tools/clear/samples/002-block1.json` |
 
 The reader prefers `data/clear_NNN.json` when a chapter has one and falls back
 to the Urdu `data/qutb_NNN.json` when it does not, so chapters ship one at a
