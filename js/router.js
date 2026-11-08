@@ -194,7 +194,7 @@ const Router = {
 
   _syncTitle(route) {
     const base = 'Quran Explained';
-    if (!route || route.view === 'list') { document.title = `${base} — verse by verse`; return; }
+    if (!route || route.view === 'list') { document.title = `${base} — with commentary`; return; }
     const ch = (window.chaptersData || []).find((chapter) => chapter.number === route.surah);
     const name = ch ? ch.name_en : `Surah ${route.surah}`;
     document.title = route.view === 'commentary'

@@ -13,7 +13,7 @@
    - Provide cached index fallback for navigations
 ================================================ */
 
-const CACHE_VERSION = 'quran-reader-v1.17.0-2026-11-07';
+const CACHE_VERSION = 'quran-reader-v1.18.0-2026-11-08';
 
 // ---- What an upgrade carries over from the previous cache ------------------
 // Chapter data never changes shape, so it is always carried. The commentary
@@ -23,16 +23,20 @@ const CACHE_VERSION = 'quran-reader-v1.17.0-2026-11-07';
 // underneath (v1.11.0) — a different payload, not an addition. The
 // data/guidance_NNN.json files (the plain-English commentary) were withdrawn
 // on the same day. On 2026-10-18 the old phrase pairings were cleared and
-// replaced with a new, simpler format. Neither withdrawn guidance nor old
-// pairings are carried into the new cache. Data files are fetched
-// network-first anyway; this only matters for offline reading.
+// replaced with a new, simpler format. On 2026-11-08 the Simple view's
+// data/saadi_NNN.json (Tafsīr as-Saʿdī, Arabic) was replaced with
+// data/qutb_NNN.json (Fī Ẓilāl al-Qurʾān, Urdu). None of the withdrawn
+// payloads — guidance, old pairings, Saʿdī — are carried into the new cache.
+// Data files are fetched network-first anyway; this only matters offline.
 const CARRY_FROM = {
   'chapter_': 'quran-reader-v0',
-  'tafsir_': 'quran-reader-v1.11.0'
+  'tafsir_': 'quran-reader-v1.11.0',
+  /* The Simple view's payload. Nothing older than this release carries it. */
+  'qutb_': 'quran-reader-v1.18.0'
 };
 
 function carriesPayload(cacheName, url) {
-  const m = /\/data\/(chapter_|tafsir_)/.exec(url);
+  const m = /\/data\/(chapter_|tafsir_|qutb_)/.exec(url);
   if (!m) return false;
   return cacheName.startsWith('quran-reader-v') && cacheName >= CARRY_FROM[m[1]];
 }
@@ -55,6 +59,8 @@ const CORE_ASSETS = [
   './fonts/AmiriQuran-Regular.ttf',
   './fonts/NotoNaskhArabic-Regular.woff2',
   './fonts/NotoNaskhArabic-Bold.woff2',
+  './fonts/NotoNastaliqUrdu-Regular.woff2',
+  './fonts/NotoNastaliqUrdu-SemiBold.woff2',
   './fonts/Inter-Variable.ttf'
 ];
 

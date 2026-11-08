@@ -103,15 +103,19 @@ const ReadAloud = {
     window.speechSynthesis.onvoiceschanged = refresh;
   },
 
-  /* The commentary is Tafsīr as-Saʿdī in Arabic while the verse translations
-     are English, so voice selection has to follow the language of the line
-     being spoken rather than being pinned to English. */
+  /* The commentary is Urdu while the verse translations are English, so voice
+     selection has to follow the language of the line being spoken rather than
+     being pinned to English. */
   _langMatches(voice, lang) {
     return new RegExp('^' + lang + '(?:[-_]|$)', 'i').test((voice && voice.lang) || '');
   },
 
   narrationLang() {
     const surah = this.activeSurah || this.selectedSurah;
+    if (surah && typeof getCommentaryMode === 'function' && getCommentaryMode(surah) === 'simple') {
+      const simple = typeof getSimpleData === 'function' ? getSimpleData(surah) : null;
+      if (simple && simple.lang) return simple.lang;
+    }
     const tafsir = (typeof loadedTafsir !== 'undefined' && surah) ? loadedTafsir[surah] : null;
     return typeof getTafsirLang === 'function' ? getTafsirLang(tafsir) : 'en';
   },
@@ -303,9 +307,9 @@ const ReadAloud = {
   _renderVoiceOptions() {
     const select = document.getElementById('raVoice');
     if (!select) return;
-    /* List the voices that can read the commentary itself (Arabic for
-       as-Saʿdī); fall back to the whole list when the device has none, so the
-       control is never empty. */
+    /* List the voices that can read the commentary itself (Urdu in the Simple
+       view, English in the full one); fall back to the whole list when the
+       device has none, so the control is never empty. */
     const lang = this.narrationLang();
     const matching = (this.voices || []).filter((voice) => this._langMatches(voice, lang));
     const pool = matching.length ? matching : (this.voices || []).slice(0, 24);
@@ -405,7 +409,7 @@ const ReadAloud = {
     return Promise.all([
       loadChapterData(surahNum),
       loadTafsirData(surahNum),
-      loadPairsData(surahNum),
+      loadSimpleData(surahNum),
     ]).then(() => undefined);
   },
 
@@ -418,9 +422,12 @@ const ReadAloud = {
     const cacheKey = `${surahNum}:${ayah == null ? 'intro' : ayah}`;
     if (this._unitCache[cacheKey]) return this._unitCache[cacheKey];
     const tafsir = loadedTafsir[surahNum];
-    if (!tafsir) return null;
-    const lines = [];
     const mode = typeof getCommentaryMode === 'function' ? getCommentaryMode(surahNum) : 'full';
+    const simple = typeof getSimpleData === 'function' ? getSimpleData(surahNum) : null;
+    /* The Simple view's payload is its own commentary: the full tafsir is not
+       needed to read it aloud. */
+    if (!tafsir && !(mode === 'simple' && simple)) return null;
+    const lines = [];
     if (ayah == null) {
       if (mode === 'simple') return null;
       const intro = getSurahIntro(tafsir);
@@ -434,8 +441,11 @@ const ReadAloud = {
           label: 'Introduction',
         }));
     } else {
+      const simpleBlock = mode === 'simple' && typeof getSimpleBlock === 'function'
+        ? getSimpleBlock(ayah, simple)
+        : null;
       const commentary = getVerseCommentary(tafsir, ayah);
-      if (!commentary) return null;
+      if (!commentary && !simpleBlock) return null;
       const translation = this.translationFor(surahNum, ayah);
       lines.push({
         ayah,
@@ -447,11 +457,18 @@ const ReadAloud = {
       });
 
       if (mode === 'simple') {
-        const verse = getSimpleData(surahNum)?.verses?.[String(ayah)];
-        if (verse && verse.explanation) splitSpeechText(markdownToSpeechText(verse.explanation)).forEach((text, index) => lines.push({
-          ayah, speak: text, show: text, label: `Verse ${ayah}`,
-          first: lines.length === 1 && index === 0, lang: 'ar',
-        }));
+        /* A run of verses shares one passage. Speak it at the first verse it
+           covers, and let the rest of the run stand on their translation,
+           rather than reading the same paragraphs once per verse. */
+        const startsRun = typeof simpleRunStartsAt === 'function' ? simpleRunStartsAt(ayah, simple) : true;
+        if (simpleBlock && startsRun) {
+          const lang = simple && simple.lang ? simple.lang : 'ur';
+          splitSpeechText(markdownToSpeechText(simpleBlock.text))
+            .forEach((text, index) => lines.push({
+              ayah, speak: text, show: text, label: `Verse ${ayah}`,
+              first: lines.length === 1 && index === 0, lang,
+            }));
+        }
       } else {
         /* Some source entries cover a run of verses. Speak a shared passage
            only at the first verse it covers rather than repeating it. */
